@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ThingDefs>
+
+	<!-- ==================== 5mm bullet ============================= -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_5mm_CP</defName>
+		<label>5mm caliber bullet</label>
+    <graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>6</damageAmountBase>
+			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== 6mm bullet ============================= -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_6mm_CP</defName>
+		<label>6mm bullet</label>
+    <graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>7</damageAmountBase>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== 9mm bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_9mm_CP</defName>
+    <label>9mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+	<!-- ==================== 11mm bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_11mm_CP</defName>
+    <label>18mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+	<!-- ==================== 12mm bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_12mm_CP</defName>
+    <label>12mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+	<!-- ==================== 5.56×45mm NATO bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_556_CP</defName>
+    <label>5.56mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+	<!-- ==================== 7.62 bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_762_CP</defName>
+    <label>7.62mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>38</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+	<!-- =================== Arasaka AW-65 Assault Rifle ================== -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_AAW65_CP</defName>
+    <label>Arasaka AW-65</label>
+    <description>Short, fat, and menacing is the only way to describe this rifle.  Arasaka developed this weapon with maximum kill ratio's in mind, and succeeded.  Its large suppresser keeps the noise down while it unleashes its load of 5.56 ammunition.  Comes standard with a low light telescopic sight.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AAW65</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <statBases>
+      <MarketValue>450</MarketValue>
+      <AccuracyTouch>0.98</AccuracyTouch>
+      <AccuracyShort>0.94</AccuracyShort>
+      <AccuracyMedium>0.91</AccuracyMedium>
+      <AccuracyLong>0.82</AccuracyLong>
+      <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_556_CP</projectileDef>
+        <warmupTicks>90</warmupTicks>
+        <range>40</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+	<!-- =================== Militech Ronin Light Assault Rifle ================== -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_MRLA_CP</defName>
+    <label>Militech Ronin Assault Rifle</label>
+    <description>The Militech Ronin standard edition is the classic light assault rifle of the modern battlefield. It only weighs 3 kilograms loaded.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MRLA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <statBases>
+      <MarketValue>450</MarketValue>
+      <AccuracyTouch>0.97</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.84</AccuracyMedium>
+      <AccuracyLong>0.73</AccuracyLong>
+      <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_556_CP</projectileDef>
+        <warmupTicks>90</warmupTicks>
+        <range>40</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ======================= Arasaka MAD-8 ======================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AMAD8_CP</defName>
+    <label>minigun bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>48</damageAmountBase>
+      <speed>170</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_AMAD8_CP</defName>
+    <label>Arasaka MAD-8</label>
+    <description>This rifle is an electrothermally enhanced weapon.  Highly accurate and built around the Arasaka developed 10mm rifle round, this weapon is not available for sale on any market and Arasaka has announced it has no intentions of making it available.  Issued only to Elite Arasaka Marksmen,</description>
+    <graphicData>
+      <texPath>CP/Weapon/AMAD8</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractChargeRifle</soundInteract>
+    <statBases>
+      <MarketValue>6235</MarketValue>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.97</AccuracyShort>
+      <AccuracyMedium>0.97</AccuracyMedium>
+      <AccuracyLong>0.97</AccuracyLong>
+      <RangedWeapon_Cooldown>0.90</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_AMAD8_CP</projectileDef>
+				<warmupTicks>250</warmupTicks>
+				<range>45</range>
+				<soundCast>ShotChargeRifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+    </verbs>
+  </ThingDef>
+	
+</ThingDefs>

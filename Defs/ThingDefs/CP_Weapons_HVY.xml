@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ThingDefs>
+
+  <!-- ======================= Arasaka Light 20mm ======================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AL20_CP</defName>
+    <label>minigun bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <speed>170</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_AL20_CP</defName>
+    <label>Arasaka Light 20mm</label>
+    <description>The cyberpsycho hunter's favorite. Almost 2m long, this cannon fires a depleted uranium shell at supersonic speeds.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Minigun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_AL20_CP</projectileDef>
+				<warmupTicks>250</warmupTicks>
+				<range>50</range>
+				<soundCast>ShotMinigun</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+    </verbs>
+  </ThingDef>
+	
+</ThingDefs>

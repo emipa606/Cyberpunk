@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ThingDefs>
+
+	<!-- =================== Arasaka Rapid Assault 12 ================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ARA12_CP</defName>
+    <label>12ga shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>24</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+
+
+	<ThingDef ParentName="BaseHumanGun">
+		<defName>Gun_ARA12_CP</defName>
+		<label>Arasaka Rapid Assault 12 Shotgun</label>
+		<description>The Arasaka Rapid Assault 12 Shotgun, is a high powered auto-shotgun with lethal firepower. Used by Arasaka worldwide. Another good reason to avoid the Boys in Black.</description>
+		<graphicData>
+			<texPath>CP/Weapon/ARA12</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractShotgun</soundInteract>
+		<statBases>
+			<MarketValue>900</MarketValue>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.84</AccuracyShort>
+			<AccuracyMedium>0.71</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+		</statBases>
+		
+		<destroyOnDrop>false</destroyOnDrop>
+		<weaponTags>
+			<li>CPGun</li>
+			<li>CP_ARA12</li>
+		</weaponTags>
+		<tradeTags>
+			<li>CP</li>
+		</tradeTags>
+
+		<equippedStatOffsets>
+			<MoveSpeed>-0.10</MoveSpeed>
+			<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_ARA12_CP</projectileDef>
+				<warmupTicks>90</warmupTicks>
+				<range>15</range>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>19</ticksBetweenBurstShots>
+				<soundCast>ShotShotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+        		<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- =================== Sternmeyer Stakeout 10 ================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_SS10_CP</defName>
+    <label>10ga shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>24</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+
+
+	<ThingDef ParentName="BaseHumanGun">
+		<defName>Gun_SS10_CP</defName>
+		<label>Sternmeyer Stakeout 10 Shotgun</label>
+		<description>The Sternmeyer Stakeout 10 is a light duty stakeout shotgun used by city security forces.</description>
+		<graphicData>
+			<texPath>CP/Weapon/SS10</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractShotgun</soundInteract>
+		<statBases>
+			<MarketValue>450</MarketValue>
+			<AccuracyTouch>0.94</AccuracyTouch>
+			<AccuracyShort>0.81</AccuracyShort>
+			<AccuracyMedium>0.66</AccuracyMedium>
+			<AccuracyLong>0.46</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+		</statBases>
+		
+		<destroyOnDrop>false</destroyOnDrop>
+		<weaponTags>
+			<li>CPGun</li>
+			<li>CP_ARA12</li>
+		</weaponTags>
+		<tradeTags>
+			<li>CP</li>
+		</tradeTags>
+
+		<equippedStatOffsets>
+			<MoveSpeed>-0.10</MoveSpeed>
+			<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_SS10_CP</projectileDef>
+				<warmupTicks>90</warmupTicks>
+				<range>25</range>
+				<soundCast>ShotShotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+	
+</ThingDefs>

@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ThingDefs>
+
+	<!-- ==================== 5mm bullet ============================= -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_5mm_CP</defName>
+		<label>5mm caliber bullet</label>
+    <graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>6</damageAmountBase>
+			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== 6mm bullet ============================= -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_6mm_CP</defName>
+		<label>6mm bullet</label>
+    <graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>7</damageAmountBase>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== 9mm bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_9mm_CP</defName>
+    <label>9mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+	<!-- ==================== 10mm bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_10mm_CP</defName>
+    <label>10mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+	<!-- ==================== 11mm bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_11mm_CP</defName>
+    <label>18mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+	<!-- ==================== 12mm bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_12mm_CP</defName>
+    <label>12mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+	<!-- ==================== 5.56×45mm NATO bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_556_CP</defName>
+    <label>5.56mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+	<!-- ==================== 7.62 bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_762_CP</defName>
+    <label>7.62mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>38</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+	<!-- =================== Arasaka DE-Mag ================== -->
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_ADEMAG_CP</defName>
+    <label>Arasaka DE-Mag</label>
+    <description>A very compact, but controllable submachine gun with a high ammo capacity and an above average rate of fire.</description>
+    <graphicData>
+      <texPath>CP/Weapon/ADEMAG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>380</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+	<!-- =================== BudgetArms Balta ================== -->
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_BAB_CP</defName>
+    <label>BudgetArms Balta</label>
+    <description>Third world dictators and low level crime lords love arming their men with these horribly cheap and unreliable weapons.  They jam frequently, occasionally blow up when fired full auto, and the metal is so subpar you can easily bend it with your bare hands.  But its really cheap, fires extremely common ammunition, and comes with a folding stock, and when you're on a really tight budget does anything else matter.</description>
+    <graphicData>
+      <texPath>CP/Weapon/BAB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>120</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+	<!-- =================== Dai Lung SMG ================== -->
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_DLSMG_CP</defName>
+    <label>Dai Lung SMG</label>
+    <description>For a weapon that fires caseless ammunition, this sure does tend to jam a lot.  Which can be a major pain in the ass since you have disassemble the weapon completely to free the mechanism.  Still, it's cheap, so its everywhere.</description>
+    <graphicData>
+      <texPath>CP/Weapon/BAB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>150</MarketValue>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.39</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>0.70</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+	<!-- =================== Uzi Miniauto 9 ================== -->
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_UziM9_CP</defName>
+    <label>Uzi Miniauto 9</label>
+    <description>Uzis entry into the 21st century, all plastic with a rotary electric clip and adjustable trigger. Thr choice for many security Solos.</description>
+    <graphicData>
+      <texPath>CP/Weapon/UziM9</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>475</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+	<!-- =================== Federated Arms Tech Assault II ================== -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_FATAII_CP</defName>
+    <label>Federated Arms Tech Assault II</label>
+    <description>An updated version of the venerable Tech Assault I, features larger clip, better autofire, no melting. Honest.</description>
+    <graphicData>
+      <texPath>CP/Weapon/FATAII</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_6mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+	<!-- =================== Federated Arms NT-LEP1 ================== -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_FANT_CP</defName>
+    <label>Federated Arms NT-LEP1</label>
+    <description>Slight cosmetic differences are all that distinguish this weapon from the NT-MM01.</description>
+    <graphicData>
+      <texPath>CP/Weapon/FATAII</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>410</MarketValue>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.39</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>35</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+	<!-- =================== Militech GN-808 ================== -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_MGN808_CP</defName>
+    <label>Militech GN-808</label>
+    <description>The GN-808 comes with a removable stock and front grip for decreased recoil and an ergonomic grip for long work hours, this SMG seems as common in 21th century as the Kalishnikov was in the 20th. It was originally developed by Heckler &amp; Koch, but when that company went under in 2032 Militech bought the patents and started producing it.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MGN808</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+	
+</ThingDefs>
