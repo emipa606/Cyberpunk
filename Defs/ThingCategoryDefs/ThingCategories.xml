@@ -8,14 +8,14 @@
 	</ThingCategoryDef>
 
 	<ThingCategoryDef>
-		<defName>USCMApparels</defName>
-		<label>USCM apparels</label>
+		<defName>CPApparels</defName>
+		<label>CP apparels</label>
 		<parent>Apparel</parent>
 	</ThingCategoryDef>
 
 	<ThingCategoryDef>
-		<defName>USCMHeadgears</defName>
-		<label>USCM headgears</label>
+		<defName>CPHeadgears</defName>
+		<label>CP headgears</label>
 		<parent>Headgear</parent>
 	</ThingCategoryDef>
 

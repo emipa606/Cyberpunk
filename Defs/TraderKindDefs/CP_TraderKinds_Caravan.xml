@@ -13,70 +13,32 @@
           <max>2000</max>
         </countRange>
       </li>
-	  
-	  <!-- Weapons -->
-	  
-	  <li Class="StockGenerator_SingleDef">
-        <thingDef>Gun_BAC13_CP</thingDef>
+
+      <!-- Weapons -->
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>CPWeapons</categoryDef>
         <countRange>
           <min>1</min>
           <max>8</max>
         </countRange>
       </li>
-	  <li Class="StockGenerator_SingleDef">
-        <thingDef>Gun_DLC15_CP</thingDef>
+
+      <!-- Apparels and armors -->
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>CPApparels</categoryDef>
         <countRange>
           <min>1</min>
-          <max>8</max>
+          <max>2</max>
         </countRange>
       </li>
-	  <li Class="StockGenerator_SingleDef">
-        <thingDef>Gun_FAX22_CP</thingDef>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>CPHeadgears</categoryDef>
         <countRange>
           <min>1</min>
-          <max>8</max>
-        </countRange>
-      </li>
-	  <li Class="StockGenerator_SingleDef">
-        <thingDef>Gun_ARA12_CP</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>6</max>
-        </countRange>
-      </li>
-	  <li Class="StockGenerator_SingleDef">
-        <thingDef>Gun_M41A_USCM</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>6</max>
-        </countRange>
-      </li>
-	  <li Class="StockGenerator_SingleDef">
-        <thingDef>Gun_UziM9_CP</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>6</max>
-        </countRange>
-      </li>
-	  <li Class="StockGenerator_SingleDef">
-        <thingDef>Gun_FATAII_CP</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>6</max>
-        </countRange>
-      </li>
-	  <li Class="StockGenerator_SingleDef">
-        <thingDef>Gun_SS10_CP</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>6</max>
-        </countRange>
-      </li>
-	  <li Class="StockGenerator_SingleDef">
-        <thingDef>Gun_MRLA_CP</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>6</max>
+          <max>2</max>
         </countRange>
       </li>
     </stockGenerators>

@@ -9,87 +9,31 @@
 
 	<ThingDef Name="HatMakeableBase" ParentName="ApparelMakeableBase" Abstract="True">
 		<thingCategories>
-			<li>USCMHeadgears</li>
+			<li>CPHeadgears</li>
 		</thingCategories>
 	</ThingDef>
 
 	<ThingDef Name="ArmorHelmetMakeableBase" ParentName="ArmorMakeableBase" Abstract="True">
 		<thingCategories>
-			<li>USCMHeadgears</li>
+			<li>CPHeadgears</li>
 		</thingCategories>
 	</ThingDef>
 
 	<!-- =============================== -->
-  
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
-		<defName>USCM_CamoHelmet</defName>
-		<label>M10 ballistic helmet</label>
-		<description>Marine M10 Ballistic helmet. Standard issue for Colonial Marines.</description>
-		<graphicData>
-		<texPath>Marines/Helmet/USCM_CamoHelmet</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>1000</MarketValue>
-			<WorkToMake>10000</WorkToMake>
-			<MaxHitPoints>150</MaxHitPoints>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.2</ArmorRating_Heat>
-			<ArmorRating_Electric>0.1</ArmorRating_Electric>
-			<Insulation_Cold>-4</Insulation_Cold>
-		</statBases>
-		<costList>
-			<Steel>90</Steel>
-		</costList>
-		<costStuffCount>30</costStuffCount>	
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
-		<equippedStatOffsets>
-		  <MoveSpeed>0</MoveSpeed>
-		  <ShootingAccuracy>0.05</ShootingAccuracy>
-		</equippedStatOffsets>
-		<apparel>
-			<bodyPartGroups>
-				<li>UpperHead</li>
-			</bodyPartGroups>
-			<worngraphicPath>Marines/Helmet/USCM_CamoHelmet</worngraphicPath>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<commonality>1</commonality>
-			<tags>
-				<li>Military</li>
-			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-	</ThingDef>
-
 
     <ThingDef ParentName="ArmorHelmetMakeableBase">
-		<defName>USCM_PilotHelmet</defName>
-		<label>USCM Standard pilot helmet</label>
-		<description>Standard helmet used by pilots across all USCM fleets.</description>
+		<defName>CP_MGHelmet</defName>
+		<label>MetalGear™ helmet</label>
+		<description>Helmet from the MetalGear™ armor set.</description>
 		<graphicData>
-			<texPath>Marines/Helmet/USCM_PilotHelmet</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
-			<Steel>100</Steel>
+      <Plasteel>100</Plasteel>
 		</costList>
-		<costStuffCount>40</costStuffCount>	
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
 		<statBases>
-			<MarketValue>1100</MarketValue>
-			<WorkToMake>12000</WorkToMake>
+			<MarketValue>100</MarketValue>
 			<MaxHitPoints>150</MaxHitPoints>
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
@@ -106,7 +50,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<worngraphicPath>Marines/Helmet/USCM_PilotHelmet</worngraphicPath>
+			<worngraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</worngraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

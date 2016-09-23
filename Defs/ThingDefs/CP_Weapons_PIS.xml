@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ThingDefs>
 
-
 	<ThingDef Name="BaseGun" Abstract="True">
 		<category>Item</category>
 		<thingClass>ThingWithComps</thingClass>
@@ -57,158 +56,13 @@
 		</weaponTags>
 	</ThingDef>
 
-    <!-- ============================================================== -->
-
-	<ThingDef Name="BaseBullet" Abstract="True">
-		<category>Projectile</category>
-		<tickerType>Normal</tickerType>
-		<altitudeLayer>Projectile</altitudeLayer>
-		<thingClass>Bullet</thingClass>
-		<label>bullet</label>
-		<useHitPoints>False</useHitPoints>
-		<neverMultiSelect>True</neverMultiSelect>
-		<graphicData>
-			<shaderType>Transparent</shaderType>
-		</graphicData>
-	</ThingDef>
-
-
-	<ThingDef ParentName="BaseBullet">
-		<defName>TrainingBullet</defName>
-		<label>Training bullet</label>
-		<graphicData>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<thingClass>Bullet</thingClass>
-		<projectile>
-			<flyOverhead>false</flyOverhead>
-			<damageDef>Bullet</damageDef>
-			<DamageAmountBase>0</DamageAmountBase>
-			<Speed>55</Speed>
-		</projectile>
-	</ThingDef>
-
-	<!-- ==================== 5mm bullet ============================= -->
-	<ThingDef ParentName="BaseBullet">
-		<defName>Bullet_5mm_CP</defName>
-		<label>5mm caliber bullet</label>
-    <graphicData>
-		<texPath>Things/Projectile/Bullet_Small</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-		<projectile>
-			<flyOverhead>false</flyOverhead>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>6</damageAmountBase>
-			<speed>65</speed>
-		</projectile>
-	</ThingDef>
-
-	<!-- ==================== 6mm bullet ============================= -->
-
-	<ThingDef ParentName="BaseBullet">
-		<defName>Bullet_6mm_CP</defName>
-		<label>6mm bullet</label>
-    <graphicData>
-		<texPath>Things/Projectile/Bullet_Small</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-		<projectile>
-			<flyOverhead>false</flyOverhead>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>7</damageAmountBase>
-			<speed>55</speed>
-		</projectile>
-	</ThingDef>
-
-	<!-- ==================== 9mm bullet ============================= -->
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_9mm_CP</defName>
-    <label>9mm bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>13</damageAmountBase>
-      <speed>55</speed>
-    </projectile>
-  </ThingDef>
-
-	<!-- ==================== 11mm bullet ============================= -->
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_11mm_CP</defName>
-    <label>18mm bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>18</damageAmountBase>
-      <speed>55</speed>
-    </projectile>
-  </ThingDef>
-
-	<!-- ==================== 12mm bullet ============================= -->
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_12mm_CP</defName>
-    <label>12mm bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>25</damageAmountBase>
-      <speed>55</speed>
-    </projectile>
-  </ThingDef>
-
-	<!-- ==================== 5.56×45mm NATO bullet ============================= -->
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_556_CP</defName>
-    <label>5.56mm bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>30</damageAmountBase>
-      <speed>70</speed>
-    </projectile>
-  </ThingDef>
-
-	<!-- ==================== 7.62 bullet ============================= -->
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_762_CP</defName>
-    <label>7.62mm bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>38</damageAmountBase>
-      <speed>70</speed>
-    </projectile>
-  </ThingDef>
-
 
 	<!-- ==================== BudgetArms C-13 ============================= -->
 
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_BAC13_CP</defName>
 		<label>BudgetArms C-13</label>
-		<description>A light duty autopistol used as a holdout and lady's gun</description>
+		<description>5mm pistol - A light duty autopistol used as a holdout and lady's gun</description>
 		<graphicData>
 			<texPath>CP/Weapon/BAC13</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -246,56 +100,12 @@
 		</verbs>
 	</ThingDef>
 
-
-	<!-- ==================== BudgetArms Cyberdrop 2 ============================= -->
-
-	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_BAC2_CP</defName>
-		<label>BudgetArms Cyberdrop 2</label>
-		<description>By using styling similar to much heavier firearms, Budget Arms has managed to make quite a profit selling this weapon. a fairly decent weapon, Budget Arms actually got it right for once.</description>
-		<graphicData>
-			<texPath>CP/Weapon/BAC2</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<soundInteract>InteractPistol</soundInteract>
-		<statBases>
-			<MarketValue>245</MarketValue>
-				<AccuracyTouch>0.91</AccuracyTouch>
-				<AccuracyShort>0.71</AccuracyShort>
-				<AccuracyMedium>0.50</AccuracyMedium>
-				<AccuracyLong>0.32</AccuracyLong>
-				<RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
-		</statBases>
-		
-		<destroyOnDrop>false</destroyOnDrop>
-		<weaponTags>
-			<li>CPGun</li>
-			<li>CP_BAC2</li>
-		</weaponTags>
-		<tradeTags>
-			<li>CP</li>
-		</tradeTags>
-
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_11mm_CP</projectileDef>
-				<warmupTicks>90</warmupTicks>
-				<range>25</range>
-				<soundCast>ShotPistol</soundCast>
-				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-			</li>
-		</verbs>
-	</ThingDef>
-
 	<!-- ==================== Dai Lung Cybermag 15 ============================= -->
 
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_DLC15_CP</defName>
 		<label>Dai Lung Cybermag 15</label>
-		<description>This light autopistol is a cheap Hong Kong knockoff, often used by boosters and other street trash.</description>
+		<description>6mm pistol - This light autopistol is a cheap Hong Kong knockoff, often used by boosters and other street trash.</description>
 		<graphicData>
 			<texPath>CP/Weapon/DLC15</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -338,7 +148,7 @@
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_FAX22_CP</defName>
 		<label>Federated Arms X-22</label>
-		<description>The ubiquitous Polymer-one-shot cheap plastic pistol. Available in designer colors</description>
+		<description>6mm pistol - The ubiquitous polymer-one-shot cheap plastic pistol. Available in designer colors</description>
 		<graphicData>
 			<texPath>CP/Weapon/FAX22</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -376,55 +186,100 @@
 		</verbs>
 	</ThingDef>
 
-	<!-- ==================== Federated Arms BP-24 ============================= -->
+  <!-- ==================== Arasaka R-209 ============================= -->
 
-	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_FABP24_CP</defName>
-		<label>Federated Arms BP-24</label>
-		<description>his weapon features a built in laser sight and the magazine has a large lip for easier grasping, especially in the case of cybernetic hands which sometimes slip.</description>
-		<graphicData>
-			<texPath>CP/Weapon/FABP24</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<soundInteract>InteractPistol</soundInteract>
-		<statBases>
-			<MarketValue>150</MarketValue>
-				<AccuracyTouch>0.93</AccuracyTouch>
-				<AccuracyShort>0.78</AccuracyShort>
-				<AccuracyMedium>0.63</AccuracyMedium>
-				<AccuracyLong>0.37</AccuracyLong>
-				<RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
-		</statBases>
-		
-		<destroyOnDrop>false</destroyOnDrop>
-		<weaponTags>
-			<li>CPGun</li>
-			<li>CP_FABP24</li>
-		</weaponTags>
-		<tradeTags>
-			<li>CP</li>
-		</tradeTags>
-		
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_11mm_CP</projectileDef>
-				<warmupTicks>90</warmupTicks>
-				<range>25</range>
-				<soundCast>ShotPistol</soundCast>
-				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-			</li>
-		</verbs>
-	</ThingDef>
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_AR209_CP</defName>
+    <label>Arasaka R-209</label>
+    <description>9mm pistol - This is a very large, and very heavy auto-pistol chambered in 9mm.  not very concealable, but with a large ammo capacity, and high rate of fire, its a fairly good weapon.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AR209</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>880</MarketValue>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.86</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.41</AccuracyLong>
+      <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+    </statBases>
+
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>CPGun</li>
+      <li>CP_AR209</li>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+    </tradeTags>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <warmupTicks>90</warmupTicks>
+        <range>25</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>21</ticksBetweenBurstShots>
+        <soundCast>ShotPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== Federated Arms X-9 ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_FAX9_CP</defName>
+    <label>Federated Arms X-9</label>
+    <description>9mm pistol - </description>
+    <graphicData>
+      <texPath>CP/Weapon/FAX9</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <AccuracyTouch>0.91</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
+    </statBases>
+
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>CPGun</li>
+      <li>CP_FAX9</li>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+    </tradeTags>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <warmupTicks>70</warmupTicks>
+        <range>25</range>
+        <soundCast>ShotPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
 
 	<!-- ==================== Militech Arms Avenger ============================= -->
 
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_MAA_CP</defName>
 		<label>Militech Arms Avenger</label>
-		<description>A well made autopistol with good range and accuracy. A professional's gun.</description>
+		<description>9mm pistol - A well made autopistol with good range and accuracy. A professional's gun.</description>
 		<graphicData>
 			<texPath>CP/Weapon/MAA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -462,100 +317,400 @@
 		</verbs>
 	</ThingDef>
 
-	<!-- ==================== Arasaka R-209 ============================= -->
+  <!-- ==================== Arasaka CWS-10 ============================= -->
 
-	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_AR209_CP</defName>
-		<label>Arasaka R-209</label>
-		<description>This is a very large, and very heavy auto-pistol chambered in 9mm.  not very concealable, but with a large ammo capacity, and high rate of fire, its a fairly good weapon.</description>
-		<graphicData>
-			<texPath>CP/Weapon/AR209</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<soundInteract>InteractPistol</soundInteract>
-		<statBases>
-			<MarketValue>880</MarketValue>
-				<AccuracyTouch>0.96</AccuracyTouch>
-				<AccuracyShort>0.86</AccuracyShort>
-				<AccuracyMedium>0.75</AccuracyMedium>
-				<AccuracyLong>0.41</AccuracyLong>
-				<RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
-		</statBases>
-		
-		<destroyOnDrop>false</destroyOnDrop>
-		<weaponTags>
-			<li>CPGun</li>
-			<li>CP_AR209</li>
-		</weaponTags>
-		<tradeTags>
-			<li>CP</li>
-		</tradeTags>
-		
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_9mm_CP</projectileDef>
-				<warmupTicks>90</warmupTicks>
-				<range>25</range>
-			        <burstShotCount>3</burstShotCount>
-			        <ticksBetweenBurstShots>21</ticksBetweenBurstShots>
-				<soundCast>ShotPistol</soundCast>
-				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-			</li>
-		</verbs>
-	</ThingDef>
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_ACWS10_CP</defName>
+    <label>Arasaka CWS-10</label>
+    <description>10mm pistol - Arasaka stays competitive with the CWS-10.  Accurate, extremely reliable, and stylish.</description>
+    <graphicData>
+      <texPath>CP/Weapon/ACWS10</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>680</MarketValue>
+      <AccuracyTouch>0.93</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.63</AccuracyMedium>
+      <AccuracyLong>0.37</AccuracyLong>
+      <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
+    </statBases>
 
-	<!-- ==================== Arasaka Zenith ============================= -->
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>CPGun</li>
+      <li>CP_ACWS10</li>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+    </tradeTags>
 
-	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_AZHP_CP</defName>
-		<label>Arasaka Zenith</label>
-		<description>Arasaka is the leading developer in 12 mm handguns, and as the threat of cybernetic crimes and augmented militaries becomes more prevalent its not hard to see why. The Zenith is a beautiful gun, and does not disappoint in it's performance.</description>
-		<graphicData>
-			<texPath>CP/Weapon/AZHP</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<soundInteract>InteractPistol</soundInteract>
-		<statBases>
-			<MarketValue>880</MarketValue>
-				<AccuracyTouch>0.93</AccuracyTouch>
-				<AccuracyShort>0.78</AccuracyShort>
-				<AccuracyMedium>0.63</AccuracyMedium>
-				<AccuracyLong>0.37</AccuracyLong>
-				<RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
-		</statBases>
-		
-		<destroyOnDrop>false</destroyOnDrop>
-		<weaponTags>
-			<li>CPGun</li>
-			<li>CP_AZHP</li>
-		</weaponTags>
-		<tradeTags>
-			<li>CP</li>
-		</tradeTags>
-		
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_12mm_CP</projectileDef>
-				<warmupTicks>90</warmupTicks>
-				<range>25</range>
-				<soundCast>ShotPistol</soundCast>
-				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-			</li>
-		</verbs>
-	</ThingDef>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <warmupTicks>70</warmupTicks>
+        <range>25</range>
+        <soundCast>ShotPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== Federated Arms SA-58 ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_FASA58_CP</defName>
+    <label>Federated Arms SA-58</label>
+    <description>10mm pistol - Not attractive, but effective.  Comes with a built in laser sight, and is guaranteed to stand up to abuse.</description>
+    <graphicData>
+      <texPath>CP/Weapon/FASA58</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>580</MarketValue>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.86</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.41</AccuracyLong>
+      <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
+    </statBases>
+
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>CPGun</li>
+      <li>CP_ACWS10</li>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+    </tradeTags>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <warmupTicks>70</warmupTicks>
+        <range>25</range>
+        <soundCast>ShotPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== Militech MPP-21 ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_MMPP21_CP</defName>
+    <label>Militech MPP-21</label>
+    <description>10mm pistol - Not attractive, but effective.  Comes with a built in laser sight, and is guaranteed to stand up to abuse.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MMPP21</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>435</MarketValue>
+      <AccuracyTouch>0.93</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.63</AccuracyMedium>
+      <AccuracyLong>0.37</AccuracyLong>
+      <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
+    </statBases>
+
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>CPGun</li>
+      <li>CP_MMPP21</li>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+    </tradeTags>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <warmupTicks>70</warmupTicks>
+        <range>25</range>
+        <soundCast>ShotPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== Sternmeyer Type 45 ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_ST45_CP</defName>
+    <label>Sternmeyer Type 45</label>
+    <description>10mm pistol - A simple but effective design, the Type 45 relies heavily on the M-1911 frame for inspiration.  A standard weapon, the only thing of note is that it comes with an integral laser sight.</description>
+    <graphicData>
+      <texPath>CP/Weapon/ST45</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>525</MarketValue>
+      <AccuracyTouch>0.93</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.63</AccuracyMedium>
+      <AccuracyLong>0.37</AccuracyLong>
+      <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
+    </statBases>
+
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>CPGun</li>
+      <li>CP_ST45</li>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+    </tradeTags>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <warmupTicks>70</warmupTicks>
+        <range>25</range>
+        <soundCast>ShotPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== Sternmeyer Type 82 ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_ST82_CP</defName>
+    <label>Sternmeyer Type 82</label>
+    <description>10mm pistol - While a bit larger than it needs to be, the Type 82 is a good weapon with a reliable record.  It also boasts a very high magazine capacity, and  rarely needs maintenance.</description>
+    <graphicData>
+      <texPath>CP/Weapon/ST82</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>750</MarketValue>
+      <AccuracyTouch>0.91</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
+    </statBases>
+
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>CPGun</li>
+      <li>CP_ST82</li>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+    </tradeTags>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <warmupTicks>70</warmupTicks>
+        <range>25</range>
+        <soundCast>ShotPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== Arasaka Otomo ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_AO_CP</defName>
+    <label>Arasaka Otomo</label>
+    <description>11mm pistol - A fairly normal weapon, nothing remarkable, but a good gun, with decent accuracy and ammo capacity.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AO</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>580</MarketValue>
+      <AccuracyTouch>0.93</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.63</AccuracyMedium>
+      <AccuracyLong>0.37</AccuracyLong>
+      <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+    </statBases>
+
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>CPGun</li>
+      <li>CP_AO</li>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+    </tradeTags>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <warmupTicks>90</warmupTicks>
+        <range>25</range>
+        <soundCast>ShotPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+  <!-- ==================== BudgetArms Cyberdrop 2 ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_BAC2_CP</defName>
+    <label>BudgetArms Cyberdrop 2</label>
+    <description>11mm pistol - By using styling similar to much heavier firearms, Budget Arms has managed to make quite a profit selling this pistol. A fairly decent weapon, Budget Arms actually got it right for once.</description>
+    <graphicData>
+      <texPath>CP/Weapon/BAC2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>245</MarketValue>
+      <AccuracyTouch>0.91</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+    </statBases>
+
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>CPGun</li>
+      <li>CP_BAC2</li>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+    </tradeTags>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <warmupTicks>90</warmupTicks>
+        <range>25</range>
+        <soundCast>ShotPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== Federated Arms BP-24 ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_FABP24_CP</defName>
+    <label>Federated Arms BP-24</label>
+    <description>11mm pistol - This weapon features a built in laser sight and the magazine has a large lip for easier grasping, especially in the case of cybernetic hands which sometimes slip.</description>
+    <graphicData>
+      <texPath>CP/Weapon/FABP24</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>150</MarketValue>
+      <AccuracyTouch>0.93</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.63</AccuracyMedium>
+      <AccuracyLong>0.37</AccuracyLong>
+      <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+    </statBases>
+
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>CPGun</li>
+      <li>CP_FABP24</li>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+    </tradeTags>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <warmupTicks>90</warmupTicks>
+        <range>25</range>
+        <soundCast>ShotPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== Arasaka Zenith ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_AZHP_CP</defName>
+    <label>Arasaka Zenith</label>
+    <description>12mm pistol - Arasaka is the leading developer in 12 mm handguns, and as the threat of cybernetic crimes and augmented militaries becomes more prevalent its not hard to see why. The Zenith is a beautiful gun, and does not disappoint in it's performance.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AZHP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>880</MarketValue>
+      <AccuracyTouch>0.93</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.63</AccuracyMedium>
+      <AccuracyLong>0.37</AccuracyLong>
+      <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+    </statBases>
+
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>CPGun</li>
+      <li>CP_AZHP</li>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+    </tradeTags>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_12mm_CP</projectileDef>
+        <warmupTicks>90</warmupTicks>
+        <range>25</range>
+        <soundCast>ShotPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
 
 	<!-- ==================== Militech RNA-12 ============================= -->
 
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_MRNA12_CP</defName>
 		<label>Militech RNA-12</label>
-		<description>Designed specifically for their own special forces division, this weapon is incredibly reliable, nail driving accurate right out of the box, sturdy, and features an integral laser sight.  The hammerless design and high ammo capacity are just icing on the cake for this combat beast.  Militech is hoping once again to win Military contracts, and with the rimworlds on the brink of war, they may get their chance.</description>
+		<description>12mm pistol - Designed specifically for their own special forces division, this weapon is incredibly reliable, nail driving accurate right out of the box, sturdy, and features an integral laser sight.  The hammerless design and high ammo capacity are just icing on the cake for this combat beast.  Militech is hoping once again to win Military contracts, and with the rimworlds on the brink of war, they may get their chance.</description>
 		<graphicData>
 			<texPath>CP/Weapon/MRNA12</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

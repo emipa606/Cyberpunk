@@ -21,7 +21,7 @@
 		<alwaysHaulable>True</alwaysHaulable>
 		<tickerType>Never</tickerType>
 		<thingCategories>
-			<li>USCMApparels</li>
+			<li>CPApparels</li>
 		</thingCategories>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
@@ -66,23 +66,27 @@
 	<!-- basic cloth, pants and shirt -->
 
 	<ThingDef ParentName="ApparelMakeableBase">
-		<defName>Marine_TShirt</defName>
-		<label>Marine T-Shirt</label>
-		<description>A basic T-shirt.</description>
+		<defName>CP_KevlarTShirt</defName>
+		<label>Kevlar T-Shirt</label>
+		<description>Can be worn unnoticably under most street clothes. Will stop most rounds up to a .45 ACP.</description>
 		<graphicData>
-			<texPath>Marines/Apparel/TShirt</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+    <costList>
+      <Plasteel>50</Plasteel>
+    </costList>
 		<costStuffCount>50</costStuffCount>	
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
 		<statBases>
+      <MarketValue>90</MarketValue>
 			<WorkToMake>5000</WorkToMake>
 			<MaxHitPoints>100</MaxHitPoints>
-			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.08</ArmorRating_Sharp>
 			<Insulation_Cold>-4</Insulation_Cold>
 		</statBases>
 		<apparel>
@@ -90,14 +94,14 @@
 				<li>Torso</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<worngraphicPath>Marines/Apparel/TShirt</worngraphicPath>
+			<worngraphicPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</worngraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
 			<commonality>1</commonality>
 			<tags>
 				<li>Military</li>
-				<li>USCM</li>
+				<li>CP</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -108,21 +112,18 @@
   
   
 	<ThingDef ParentName="ApparelMakeableBase">
-		<defName>USCM_Bodysuit</defName>
-		<label>USCM bodysuit</label>
-		<description>These bodysuits are made to protect most of the body of USCM footmen.</description>
+		<defName>CP_MGBodysuit</defName>
+		<label>MetalGear™ bodysuit</label>
+		<description>Laminated expoxide plate armor. Bulky and designed in modular sections, with arm coverings, torso and back clamshell.</description>
 		<graphicData>
-			<texPath>Marines/Apparel/Bodysuit</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<costStuffCount>60</costStuffCount>	
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
+    <costList>
+      <Plasteel>200</Plasteel>
+    </costList>
 		<statBases>
-			<MarketValue>300</MarketValue>
-			<WorkToMake>10000</WorkToMake>
+			<MarketValue>400</MarketValue>
 			<MaxHitPoints>200</MaxHitPoints>
 			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
@@ -135,7 +136,7 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 			</bodyPartGroups>
-			<worngraphicPath>Marines/Apparel/Bodysuit</worngraphicPath>
+			<worngraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</worngraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -152,20 +153,18 @@
 
 
 	<ThingDef ParentName="ApparelMakeableBase">
-		<defName>USCM_CamoPants</defName>
-		<label>USCM standard pants</label>
-		<description>Standard pants of USCM troopers.</description>
+		<defName>CP_MGPants</defName>
+		<label>MetalGear™ pants</label>
+		<description>Laminated expoxide plate armor for the legs.</description>
 		<graphicData>
-			<texPath>Marines/Pants/USCM_Camo_Pants</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<costStuffCount>50</costStuffCount>	
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>	
+    <costList>
+      <Plasteel>200</Plasteel>
+    </costList>	
 		<statBases>
-			<WorkToMake>7000</WorkToMake>
+      <MarketValue>200</MarketValue>
 			<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.07</ArmorRating_Sharp>
 			<Insulation_Cold>-4</Insulation_Cold>
@@ -174,7 +173,6 @@
 			<MoveSpeed>-0.02</MoveSpeed>
 		</equippedStatOffsets>
 		<apparel>
-			<worngraphicPath>Marines/Pants/USCM_Camo_Pants</worngraphicPath>
 			<bodyPartGroups>
 				<li>Legs</li>
 			</bodyPartGroups>
@@ -191,59 +189,5 @@
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 	</ThingDef>
-  
-  
-  <!-- Armors -->
-  
-	<ThingDef ParentName="ArmorMakeableBase">
-		<defName>USCM_M3_CamoArmor</defName>
-		<label>USCM M3 Armor</label>
-		<description>M3 Body armor. Standard issue for USCM troopers.</description>
-		<graphicData>
-			<texPath>Marines/Armor/M3_Armor/M3CamoArmor</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>3500</MarketValue>
-			<MaxHitPoints>300</MaxHitPoints>
-			<WorkToMake>60000</WorkToMake>
-			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.25</ArmorRating_Heat>
-			<Insulation_Cold>-5</Insulation_Cold>
-		</statBases>	
-		<costList>
-			<Steel>150</Steel>
-		</costList>
-		<costStuffCount>60</costStuffCount>	
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>		
-		<equippedStatOffsets>
-			<MoveSpeed>-0.06</MoveSpeed>
-			<WorkSpeedGlobal>-0.04</WorkSpeedGlobal>
-		</equippedStatOffsets>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Shoulders</li>
-			</bodyPartGroups>
-			<worngraphicPath>Marines/Armor/M3_Armor/M3CamoArmor</worngraphicPath>
-			<layers>
-				<li>Middle</li>
-				<li>Shell</li>
-			</layers>
-			<commonality>1</commonality>
-			<tags>
-				<li>Military</li>
-			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-	</ThingDef>
-
 
 </ThingDefs>
