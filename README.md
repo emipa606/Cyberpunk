@@ -1,2 +1,2 @@
-# RW_Cyberpunk
+# Cyberpunk
 Cyberpunk mod for Rimworld
