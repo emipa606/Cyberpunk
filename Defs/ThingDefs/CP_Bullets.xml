@@ -82,6 +82,22 @@
     </projectile>
   </ThingDef>
 
+  <!-- ==================== 10mm bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_10mm_CP</defName>
+    <label>9mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
   <!-- ==================== 11mm bullet ============================= -->
 
   <ThingDef ParentName="BaseBullet">
@@ -143,6 +159,57 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>38</damageAmountBase>
       <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ==================== 10ga shell ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_10ga_CP</defName>
+    <label>10ga shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ==================== 12ga shell ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_12ga_CP</defName>
+    <label>12ga shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>24</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ==================== 20ga shell ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_20ga_CP</defName>
+    <label>20ga shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <speed>55</speed>
     </projectile>
   </ThingDef>
   
