@@ -1,33 +1,69 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ThingDefs>
 
-	<!-- =================== Arasaka DE-Mag ================== -->
+  <!-- =================== Federated Arms Tech Assault II ================== -->
+
   <ThingDef ParentName="BaseHumanGun">
-    <defName>Gun_ADEMAG_CP</defName>
-    <label>Arasaka DE-Mag</label>
-    <description>A very compact, but controllable submachine gun with a high ammo capacity and an above average rate of fire.</description>
+    <defName>Gun_FATAII_CP</defName>
+    <label>Federated Arms Tech Assault II</label>
+    <description>An updated version of the venerable Tech Assault I, features larger clip, better autofire, no melting. Honest.</description>
     <graphicData>
-      <texPath>CP/Weapon/ADEMAG</texPath>
+      <texPath>CP/Weapon/FATAII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractSMG</soundInteract>
     <statBases>
-      <MarketValue>380</MarketValue>
-      <AccuracyTouch>0.89</AccuracyTouch>
-      <AccuracyShort>0.64</AccuracyShort>
-      <AccuracyMedium>0.41</AccuracyMedium>
-      <AccuracyLong>0.22</AccuracyLong>
+      <MarketValue>400</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
       <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <projectileDef>Bullet_6mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
         <range>30</range>
         <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- =================== Arasaka AASW-9F ================== -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_AAASW9F_CP</defName>
+    <label>Arasaka AASW-9F</label>
+    <description>9mm SMG - A light simple submachinegun, common to security forces all over the world, both private and federal.  Sleek clean lines are all that distinguish this weapon from the vast multitude of other 9mm subs around the globe.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AAASW9F</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>275</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.82</AccuracyShort>
+      <AccuracyMedium>0.46</AccuracyMedium>
+      <AccuracyLong>0.36</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -103,6 +139,76 @@
     </verbs>
   </ThingDef>
 
+  <!-- =================== Militech GN-808 ================== -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_MGN808_CP</defName>
+    <label>Militech GN-808</label>
+    <description>The GN-808 comes with a removable stock and front grip for decreased recoil and an ergonomic grip for long work hours, this SMG seems as common in 21th century as the Kalishnikov was in the 20th. It was originally developed by Heckler &amp; Koch, but when that company went under in 2032 Militech bought the patents and started producing it.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MGN808</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- =================== Sternmeyer	MS-71 ================== -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_SMS71_CP</defName>
+    <label>Sternmeyer	MS-71</label>
+    <description>A very small weapon with a very high rate of fire.  Inexpensive and concealable this is a very popular weapon among gangs and organized criminals, as well as terrorists.</description>
+    <graphicData>
+      <texPath>CP/Weapon/SMS71</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
 	<!-- =================== Uzi Miniauto 9 ================== -->
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_UziM9_CP</defName>
@@ -137,42 +243,7 @@
     </verbs>
   </ThingDef>
 
-	<!-- =================== Federated Arms Tech Assault II ================== -->
-
-  <ThingDef ParentName="BaseHumanGun">
-    <defName>Gun_FATAII_CP</defName>
-    <label>Federated Arms Tech Assault II</label>
-    <description>An updated version of the venerable Tech Assault I, features larger clip, better autofire, no melting. Honest.</description>
-    <graphicData>
-      <texPath>CP/Weapon/FATAII</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
-    <statBases>
-      <MarketValue>400</MarketValue>
-      <AccuracyTouch>0.92</AccuracyTouch>
-      <AccuracyShort>0.73</AccuracyShort>
-      <AccuracyMedium>0.43</AccuracyMedium>
-      <AccuracyLong>0.29</AccuracyLong>
-      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_6mm_CP</projectileDef>
-        <warmupTicks>45</warmupTicks>
-        <range>30</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>ShotMachinePistol</soundCast>
-        <soundCastTail>GunTail_Light</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-  </ThingDef>
-
-	<!-- =================== Federated Arms NT-LEP1 ================== -->
+  <!-- =================== Federated Arms NT-LEP1 ================== -->
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_FANT_CP</defName>
@@ -207,34 +278,33 @@
     </verbs>
   </ThingDef>
 
-	<!-- =================== Militech GN-808 ================== -->
-
+  <!-- =================== Arasaka DE-Mag ================== -->
   <ThingDef ParentName="BaseHumanGun">
-    <defName>Gun_MGN808_CP</defName>
-    <label>Militech GN-808</label>
-    <description>The GN-808 comes with a removable stock and front grip for decreased recoil and an ergonomic grip for long work hours, this SMG seems as common in 21th century as the Kalishnikov was in the 20th. It was originally developed by Heckler &amp; Koch, but when that company went under in 2032 Militech bought the patents and started producing it.</description>
+    <defName>Gun_ADEMAG_CP</defName>
+    <label>Arasaka DE-Mag</label>
+    <description>A very compact, but controllable submachine gun with a high ammo capacity and an above average rate of fire.</description>
     <graphicData>
-      <texPath>CP/Weapon/MGN808</texPath>
+      <texPath>CP/Weapon/ADEMAG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractSMG</soundInteract>
     <statBases>
-      <MarketValue>300</MarketValue>
-      <AccuracyTouch>0.92</AccuracyTouch>
-      <AccuracyShort>0.73</AccuracyShort>
-      <AccuracyMedium>0.43</AccuracyMedium>
-      <AccuracyLong>0.29</AccuracyLong>
+      <MarketValue>380</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
       <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <projectileDef>Bullet_11mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
         <range>30</range>
         <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
