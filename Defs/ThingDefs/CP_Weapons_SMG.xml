@@ -6,7 +6,7 @@
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_FATAII_CP</defName>
     <label>Federated Arms Tech Assault II</label>
-    <description>An updated version of the venerable Tech Assault I, features larger clip, better autofire, no melting. Honest.</description>
+    <description>6mm SMG - An updated version of the venerable Tech Assault I, features larger clip, better autofire, no melting. Honest.</description>
     <graphicData>
       <texPath>CP/Weapon/FATAII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -75,7 +75,7 @@
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_BAB_CP</defName>
     <label>BudgetArms Balta</label>
-    <description>Third world dictators and low level crime lords love arming their men with these horribly cheap and unreliable weapons.  They jam frequently, occasionally blow up when fired full auto, and the metal is so subpar you can easily bend it with your bare hands.  But its really cheap, fires extremely common ammunition, and comes with a folding stock, and when you're on a really tight budget does anything else matter.</description>
+    <description>9mm SMG - Third world dictators and low level crime lords love arming their men with these horribly cheap and unreliable weapons.  They jam frequently, occasionally blow up when fired full auto, and the metal is so subpar you can easily bend it with your bare hands.  But its really cheap, fires extremely common ammunition, and comes with a folding stock, and when you're on a really tight budget does anything else matter.</description>
     <graphicData>
       <texPath>CP/Weapon/BAB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -109,7 +109,7 @@
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_DLSMG_CP</defName>
     <label>Dai Lung SMG</label>
-    <description>For a weapon that fires caseless ammunition, this sure does tend to jam a lot.  Which can be a major pain in the ass since you have disassemble the weapon completely to free the mechanism.  Still, it's cheap, so its everywhere.</description>
+    <description>9mm SMG - For a weapon that fires caseless ammunition, this sure does tend to jam a lot.  Which can be a major pain in the ass since you have disassemble the weapon completely to free the mechanism.  Still, it's cheap, so its everywhere.</description>
     <graphicData>
       <texPath>CP/Weapon/BAB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -144,7 +144,7 @@
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_MGN808_CP</defName>
     <label>Militech GN-808</label>
-    <description>The GN-808 comes with a removable stock and front grip for decreased recoil and an ergonomic grip for long work hours, this SMG seems as common in 21th century as the Kalishnikov was in the 20th. It was originally developed by Heckler &amp; Koch, but when that company went under in 2032 Militech bought the patents and started producing it.</description>
+    <description>9mm SMG - The GN-808 comes with a removable stock and front grip for decreased recoil and an ergonomic grip for long work hours, this SMG seems as common in 21th century as the Kalishnikov was in the 20th. It was originally developed by Heckler &amp; Koch, but when that company went under in 2032 Militech bought the patents and started producing it.</description>
     <graphicData>
       <texPath>CP/Weapon/MGN808</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -179,7 +179,7 @@
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_SMS71_CP</defName>
     <label>Sternmeyer	MS-71</label>
-    <description>A very small weapon with a very high rate of fire.  Inexpensive and concealable this is a very popular weapon among gangs and organized criminals, as well as terrorists.</description>
+    <description>9mm SMG - A very small weapon with a very high rate of fire.  Inexpensive and concealable this is a very popular weapon among gangs and organized criminals, as well as terrorists.</description>
     <graphicData>
       <texPath>CP/Weapon/SMS71</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -213,7 +213,7 @@
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_UziM9_CP</defName>
     <label>Uzi Miniauto 9</label>
-    <description>Uzis entry into the 21st century, all plastic with a rotary electric clip and adjustable trigger. Thr choice for many security Solos.</description>
+    <description>9mm SMG - Uzis entry into the 21st century, all plastic with a rotary electric clip and adjustable trigger. Thr choice for many security Solos.</description>
     <graphicData>
       <texPath>CP/Weapon/UziM9</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -243,14 +243,84 @@
     </verbs>
   </ThingDef>
 
+  <!-- =================== Arasaka Minami 10 ================== -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_AM10_CP</defName>
+    <label>Arasaka Minami 10</label>
+    <description>10mm SMG - The standard Arasaka Security weapon, found galaxy wide. A good, all around weapon.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AM10</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>35</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- =================== BudgetArms RX-79 ================== -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_BARX79_CP</defName>
+    <label>BudgetArms RX-79</label>
+    <description>10mm SMG - Unfortunately due to the extremely low cost, high rate of fire, and large ammo capacity this weapon has become very popular among street gangs.  It is also barely concealable under most long trenchcoats.  The sad thing is this weapon has a 30 percent chance of blowing up in your face anytime is fired full auto for more than 6 seconds.  It features a folding stock, and while the rest of the weapon is crap, the unique magazine and loading design are noteworthy.</description>
+    <graphicData>
+      <texPath>CP/Weapon/BARX79</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>240</MarketValue>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.46</AccuracyShort>
+      <AccuracyMedium>0.37</AccuracyMedium>
+      <AccuracyLong>0.08</AccuracyLong>
+      <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>35</range>
+        <burstShotCount>15</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
   <!-- =================== Federated Arms NT-LEP1 ================== -->
 
   <ThingDef ParentName="BaseHumanGun">
-    <defName>Gun_FANT_CP</defName>
+    <defName>Gun_FANTLEP1_CP</defName>
     <label>Federated Arms NT-LEP1</label>
-    <description>Slight cosmetic differences are all that distinguish this weapon from the NT-MM01.</description>
+    <description>10mm SMG - Slight cosmetic differences are all that distinguish this weapon from the NT-MM01.</description>
     <graphicData>
-      <texPath>CP/Weapon/FATAII</texPath>
+      <texPath>CP/Weapon/FANTLEP1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractSMG</soundInteract>
@@ -278,11 +348,46 @@
     </verbs>
   </ThingDef>
 
+  <!-- =================== Sternmeyer	SK-VASH ================== -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_SSKVASH_CP</defName>
+    <label>Sternmeyer	SK-VASH</label>
+    <description>10mm SMG - A standard submachinegun, perfect for police and security work.  Its small size also makes it ideal for less legal activities.</description>
+    <graphicData>
+      <texPath>CP/Weapon/SSKVASH</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>325</MarketValue>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.39</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>35</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
   <!-- =================== Arasaka DE-Mag ================== -->
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_ADEMAG_CP</defName>
     <label>Arasaka DE-Mag</label>
-    <description>A very compact, but controllable submachine gun with a high ammo capacity and an above average rate of fire.</description>
+    <description>11mm SMG - A very compact, but controllable submachine gun with a high ammo capacity and an above average rate of fire.</description>
     <graphicData>
       <texPath>CP/Weapon/ADEMAG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -302,9 +407,111 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>30</range>
+        <range>35</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- =================== Federated Arms	TA-14 ================== -->
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_FATA14_CP</defName>
+    <label>Federated Arms	TA-14</label>
+    <description>11mm SMG - A commonly seen smg similar in shape and performance to the Mac-10/11 from Ingram.  Comes with retracting stock and available with either 12 or 30 round magazines.</description>
+    <graphicData>
+      <texPath>CP/Weapon/FATA14</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>565</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.53</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.78</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <warmupTicks>80</warmupTicks>
+        <range>35</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- =================== Militech DPLS-7 ================== -->
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_MDPLS7_CP</defName>
+    <label>Federated Arms	TA-14</label>
+    <description>11mm SMG - Militechs latest submachine gun, very comfortable to fire, perfect for close quarters combat.  The stock is extendable, but as you can see when it is retracted it rests seamlessly against the weapon, in fat the weapon itself has very few exterior moving parts, and the only real snag points are on the sighting system.  It also accepts a suppressor making it ideal for covert ops.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MDPLS7</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>790</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <warmupTicks>45</warmupTicks>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- =================== Sternmeyer	SMG 21 ================== -->
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_SSMG21_CP</defName>
+    <label>Sternmeyer	SMG 21</label>
+    <description>11mm SMG - Sternmeyer's best entry in the anti-terrorist category, with wide use on C-SWAT teams and Psychosquads.</description>
+    <graphicData>
+      <texPath>CP/Weapon/SSMG21</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.61</AccuracyShort>
+      <AccuracyMedium>0.21</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>0.78</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <warmupTicks>80</warmupTicks>
+        <range>35</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
