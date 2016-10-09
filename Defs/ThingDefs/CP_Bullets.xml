@@ -130,6 +130,22 @@
     </projectile>
   </ThingDef>
 
+  <!-- ==================== 14mm bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_14mm_CP</defName>
+    <label>14mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>36</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
   <!-- ==================== 5.56×45mm NATO bullet ============================= -->
 
   <ThingDef ParentName="BaseBullet">

@@ -49,9 +49,13 @@
     <Content Include="Defs\ThingDefs\CP_Bullets.xml" />
     <Content Include="Defs\ThingDefs\CP_Helmet.xml" />
     <Content Include="Defs\ThingDefs\CP_Weapons_HVY.xml" />
-    <Content Include="Defs\ThingDefs\CP_Weapons_PIS.xml" />
+    <Content Include="Defs\ThingDefs\CP_Weapons_PIS.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Defs\ThingDefs\CP_Weapons_RIF.xml" />
-    <Content Include="Defs\ThingDefs\CP_Weapons_SHT.xml" />
+    <Content Include="Defs\ThingDefs\CP_Weapons_SHT.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Defs\ThingDefs\CP_Weapons_SMG.xml" />
     <Content Include="Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml" />
     <Content Include="Defs\TraderKindDefs\CP_TraderKinds_Orbital.xml" />

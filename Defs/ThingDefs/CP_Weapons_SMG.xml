@@ -518,5 +518,175 @@
       </li>
     </verbs>
   </ThingDef>
+
+  <!-- =================== Arasaka AS-225 ================== -->
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_AAS225_CP</defName>
+    <label>Arasaka AS-225</label>
+    <description>12mm SMG - Available with a wide variety of options and configurations, the Arasaka AS-225 SMG is currently being marketed to special forces and police agencies around the world, especially to anti-cyborg teams who are interested do to its large caliber chambering of the 12mm round.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AAS225</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>940</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.37</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>0.78</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_12mm_CP</projectileDef>
+        <warmupTicks>80</warmupTicks>
+        <range>35</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- =================== Dai Lung DBDF-12 ================== -->
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_DLDBDF12_CP</defName>
+    <label>Dai Lung DBDF-12</label>
+    <description>12mm SMG - The designers at Dai Lung must be lunatics.  The DBDF-12 is an over/under double barreled SMG firing 12mm ammo.  The ammo is fed from a divided clip, front and back, each holding 30 rounds.  Firing this weapon is about as close as you can legally come to attempting suicide.... except that even owning this weapon is considered a felony in almost every civilized country in the world. Even most gangs are afraid to carry this weapon. It is so unreliable, that if fired at full auto the barrels heat up so fast and so hot that they warp each other as they alternate fire, since the barrels are so short they also tend to cook off the ammo in the breach setting off the other rounds as well.  This weapon has a 60 percent chance of blowing up in your face when fired full auto.  You would think that no one at all would use these, but there is always the lunatic fringe out there, and if Autumn Blade can sell these to a rival group through subterfuge, then it chances are they will do more damage to themselves than anyone else. Want to get rid of someone you hate, give them one of these. Oh yeah, it also features a folding stock, nifty huh.</description>
+    <graphicData>
+      <texPath>CP/Weapon/DLDBDF12</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>345</MarketValue>
+      <AccuracyTouch>0.81</AccuracyTouch>
+      <AccuracyShort>0.37</AccuracyShort>
+      <AccuracyMedium>0.09</AccuracyMedium>
+      <AccuracyLong>0.01</AccuracyLong>
+      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_12mm_CP</projectileDef>
+        <warmupTicks>80</warmupTicks>
+        <range>35</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- =================== Militech SMG-207 ================== -->
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_MSMG207_CP</defName>
+    <label>Militech SMG-207</label>
+    <description>12mm SMG - A somewhat large, but impressive submachine gun from Militech, chambered in 12mm.  The weapon comes with a removable folding stock, and insulated barrel.  This weapon was designed with hard use in mind, and can take abuse like you wouldn't believe.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MSMG207</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>1160</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.46</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.78</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_12mm_CP</projectileDef>
+        <warmupTicks>80</warmupTicks>
+        <range>35</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- =================== Arasaka	Kirin ================== -->
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_AK_CP</defName>
+    <label>Arasaka	Kirin</label>
+    <description>14mm SMG - A similar design to the old Kriss SMG, the Kirin features an updated design and is chambered in 14mm, for hard hitting action, guaranteed to put down whatever stands against you. And extended 25 round mag is available.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AK</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>3275</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.37</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_14mm_CP</projectileDef>
+        <warmupTicks>90</warmupTicks>
+        <range>40</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- =================== Militech	DSL-14 ================== -->
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_MDSL14_CP</defName>
+    <label>Militech	DSL-14</label>
+    <description>14mm SMG - A similar design to the old Kriss SMG, the Kirin features an updated design and is chambered in 14mm, for hard hitting action, guaranteed to put down whatever stands against you. And extended 25 round mag is available.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MDSL14</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractSMG</soundInteract>
+    <statBases>
+      <MarketValue>4750</MarketValue>
+      <AccuracyTouch>0.81</AccuracyTouch>
+      <AccuracyShort>0.54</AccuracyShort>
+      <AccuracyMedium>0.09</AccuracyMedium>
+      <AccuracyLong>0.01</AccuracyLong>
+      <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_14mm_CP</projectileDef>
+        <warmupTicks>90</warmupTicks>
+        <range>40</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
 	
 </ThingDefs>
