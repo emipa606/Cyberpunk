@@ -24,7 +24,7 @@
     <ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>CP_MGHelmet</defName>
 		<label>MetalGear™ helmet</label>
-		<description>Helmet from the MetalGear™ armor set.</description>
+		<description>Laminated expoxide plated helmet from the MetalGear™ armor set. </description>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
