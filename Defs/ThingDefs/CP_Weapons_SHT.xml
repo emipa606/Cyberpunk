@@ -40,7 +40,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10ga_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>25</range>
+        <range>5</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>64</ticksBetweenBurstShots>
         <soundCast>ShotShotgun</soundCast>
@@ -89,7 +89,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10ga_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>25</range>
+        <range>5</range>
         <soundCast>ShotShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -136,7 +136,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_12ga_CP</projectileDef>
 				<warmupTicks>90</warmupTicks>
-				<range>18</range>
+				<range>5</range>
 				<burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>64</ticksBetweenBurstShots>
 				<soundCast>ShotShotgun</soundCast>
@@ -185,7 +185,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12ga_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>18</range>
+        <range>5</range>
         <soundCast>ShotShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -232,7 +232,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12ga_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>18</range>
+        <range>5</range>
         <soundCast>ShotShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -279,7 +279,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12ga_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>18</range>
+        <range>5</range>
         <soundCast>ShotShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -326,7 +326,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12ga_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>18</range>
+        <range>5</range>
         <soundCast>ShotShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -373,7 +373,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12ga_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>18</range>
+        <range>5</range>
         <burstShotCount>10</burstShotCount>
         <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
         <soundCast>ShotShotgun</soundCast>
@@ -422,7 +422,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12ga_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>18</range>
+        <range>5</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>64</ticksBetweenBurstShots>
         <soundCast>ShotShotgun</soundCast>
@@ -471,7 +471,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12ga_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>18</range>
+        <range>5</range>
         <soundCast>ShotShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -514,7 +514,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_20ga_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>12</range>
+        <range>5</range>
         <soundCast>ShotShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -557,7 +557,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_20ga_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>12</range>
+        <range>5</range>
         <soundCast>ShotShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -600,7 +600,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_20ga_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>12</range>
+        <range>5</range>
         <burstShotCount>10</burstShotCount>
         <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
         <soundCast>ShotShotgun</soundCast>

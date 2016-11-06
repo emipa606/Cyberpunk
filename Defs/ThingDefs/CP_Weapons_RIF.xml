@@ -446,7 +446,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_7mmWSM_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>60</range>
+        <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
@@ -621,7 +621,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mmAR_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>100</range>
+        <range>50</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
@@ -656,7 +656,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mmAR_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>100</range>
+        <range>50</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
@@ -721,7 +721,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_MM95A1_CP</defName>
-    <label>minigun bullet</label>
+    <label>M95A1 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -772,7 +772,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_AMAD8_CP</defName>
-    <label>minigun bullet</label>
+    <label>AMAD8 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -811,7 +811,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_AMAD8_CP</projectileDef>
 				<warmupTicks>250</warmupTicks>
-				<range>45</range>
+				<range>55</range>
 				<soundCast>ShotChargeRifle</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>

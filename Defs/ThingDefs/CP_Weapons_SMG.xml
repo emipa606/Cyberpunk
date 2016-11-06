@@ -26,7 +26,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_6mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>30</range>
+        <range>15</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -61,7 +61,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>30</range>
+        <range>15</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -95,7 +95,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>30</range>
+        <range>15</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -129,7 +129,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>30</range>
+        <range>15</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -164,7 +164,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>30</range>
+        <range>15</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -199,7 +199,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>30</range>
+        <range>15</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -233,7 +233,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>30</range>
+        <range>15</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -268,7 +268,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>35</range>
+        <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -303,7 +303,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>35</range>
+        <range>20</range>
         <burstShotCount>15</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -338,7 +338,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>35</range>
+        <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -373,7 +373,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>35</range>
+        <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -407,7 +407,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>35</range>
+        <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -441,7 +441,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
         <warmupTicks>80</warmupTicks>
-        <range>35</range>
+        <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -475,7 +475,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
         <warmupTicks>45</warmupTicks>
-        <range>30</range>
+        <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -509,7 +509,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
         <warmupTicks>80</warmupTicks>
-        <range>35</range>
+        <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -543,7 +543,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12mm_CP</projectileDef>
         <warmupTicks>80</warmupTicks>
-        <range>35</range>
+        <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -577,7 +577,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12mm_CP</projectileDef>
         <warmupTicks>80</warmupTicks>
-        <range>35</range>
+        <range>20</range>
         <burstShotCount>6</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -611,7 +611,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12mm_CP</projectileDef>
         <warmupTicks>80</warmupTicks>
-        <range>35</range>
+        <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -645,7 +645,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_14mm_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>40</range>
+        <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>
@@ -679,7 +679,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_14mm_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
-        <range>40</range>
+        <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>16</ticksBetweenBurstShots>
         <soundCast>ShotMachinePistol</soundCast>

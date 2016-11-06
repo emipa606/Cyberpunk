@@ -33,6 +33,22 @@
     </projectile>
   </ThingDef>
 
+  <!-- ==================== 3.5mm FF bullet ============================= -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_35mmFF_CP</defName>
+    <label>3.5mm Frag-Flachette bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>36</damageAmountBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+
   <!-- ==================== 4.5mm bullet ============================= -->
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_45mm_CP</defName>
@@ -160,7 +176,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>48</damageAmountBase>
-      <speed>90</speed>
+      <speed>65</speed>
     </projectile>
   </ThingDef>
 
@@ -212,6 +228,22 @@
     </projectile>
   </ThingDef>
 
+  <!-- ==================== 15mm bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_15mm_CP</defName>
+    <label>15mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>43</damageAmountBase>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+
   <!-- ==================== 5.56×45mm NATO bullet ============================= -->
 
   <ThingDef ParentName="BaseBullet">
@@ -241,6 +273,22 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>38</damageAmountBase>
       <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ==================== .50 BMG bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_50BMG_CP</defName>
+    <label>.50 BMG bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>60</damageAmountBase>
+      <speed>90</speed>
     </projectile>
   </ThingDef>
 

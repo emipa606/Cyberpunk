@@ -52,11 +52,14 @@
     <Content Include="Defs\ThingDefs\CP_Weapons_PIS.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Defs\ThingDefs\CP_Weapons_RIF.xml" />
+    <Content Include="Defs\ThingDefs\CP_Weapons_RIF.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Defs\ThingDefs\CP_Weapons_SHT.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Defs\ThingDefs\CP_Weapons_SMG.xml" />
+    <Content Include="Defs\ThingDefs\CP_Weapons_SNP.xml" />
     <Content Include="Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml" />
     <Content Include="Defs\TraderKindDefs\CP_TraderKinds_Orbital.xml" />
     <Content Include="Textures\CP\Weapon\AAW65.png" />
