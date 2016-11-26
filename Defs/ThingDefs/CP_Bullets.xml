@@ -7,7 +7,7 @@
     <category>Projectile</category>
     <tickerType>Normal</tickerType>
     <altitudeLayer>Projectile</altitudeLayer>
-    <thingClass>Bullet</thingClass>
+    <thingClass>Cyberpunk.BulletCP</thingClass>
     <label>bullet</label>
     <useHitPoints>False</useHitPoints>
     <neverMultiSelect>True</neverMultiSelect>

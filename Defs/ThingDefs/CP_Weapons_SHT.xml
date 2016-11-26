@@ -601,8 +601,6 @@
         <projectileDef>Bullet_20ga_CP</projectileDef>
         <warmupTicks>90</warmupTicks>
         <range>5</range>
-        <burstShotCount>10</burstShotCount>
-        <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
         <soundCast>ShotShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>

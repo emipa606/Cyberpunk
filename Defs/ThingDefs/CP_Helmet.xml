@@ -19,7 +19,7 @@
 		</thingCategories>
 	</ThingDef>
 
-	<!-- =============================== -->
+	<!-- ============== MetalGear™ helmet ================= -->
 
     <ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>CP_MGHelmet</defName>
@@ -36,7 +36,7 @@
 			<MarketValue>100</MarketValue>
 			<MaxHitPoints>150</MaxHitPoints>
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.2</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Insulation_Cold>-4</Insulation_Cold>
@@ -54,7 +54,7 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>1</commonality>
+			<commonality>2</commonality>
 			<tags>
 				<li>Military</li>
 			</tags>
@@ -62,7 +62,284 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>10</weight>
+            <only>RGBA(0.33,0.33,0.33,1)</only>
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>RGBA(0.65,0.65,0.65,1)</only>
+          </li>
+          <li>
+            <weight>6</weight>
+            <min>RGBA(0.3,0.3,0.3,1)</min>
+            <max>RGBA(0.5,0.5,0.5,1)</max>
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>RGBA(0.9,0.9,0.9,1)</only>
+          </li>
+        </options>
+      </colorGenerator>
 	</ThingDef>
+
+  <!-- ============== Militech M88 Combat Helmet ================= -->
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>CP_MM88_Helmet</defName>
+    <label>Militech M88 Combat Helmet</label>
+    <description>
+      The M-88 is a fully enclosed infantry helmet that is currently being issued to special attack and guard units. It has an integral face shield and respirator and offers complete protection against all inhaled agents. The communications microphone and earphones are built in, as is a small, forward facing video camera array which not only provides input for night vision systems but can transmit images back to a rearechelon receiver. The face shield functions as a heads-up display which is interfaced with a belt-pack accepting chipped data, such as maps.
+    </description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Plasteel>100</Plasteel>
+    </costList>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0</MoveSpeed>
+      <ShootingAccuracy>0.10</ShootingAccuracy>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>1</commonality>
+      <tags>
+        <li>Military</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!-- ============== Militech M88A2 Combat Helmet ================= -->
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>CP_MM88A2_Helmet</defName>
+    <label>Militech M88S2 Combat Helmet</label>
+    <description>
+      The M-88A2 is an enhanced combat helmet model with greater protective and analytic capability than the M-88. It has an integral face shield and respirator and offers complete protection against all inhaled agents. The communications microphone and earphones are built in, as is a small, forward facing video camera array which not only provides input for night vision systems but can transmit images back to a rearechelon receiver. The face shield functions as a heads-up display which is interfaced with a belt-pack accepting chipped data, such as maps.
+    </description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Plasteel>100</Plasteel>
+    </costList>
+    <statBases>
+      <MarketValue>2399</MarketValue>
+      <MaxHitPoints>120</MaxHitPoints>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0</MoveSpeed>
+      <ShootingAccuracy>0.15</ShootingAccuracy>
+      <AimingDelayFactor>-0.1</AimingDelayFactor>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>0.1</commonality>
+      <tags>
+        <li>Military</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!-- ============== Arasaka Combat Helmet ================= -->
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>CP_Arasaka_Helmet</defName>
+    <label>Arasaka Combat Helmet</label>
+    <description>
+      Standard issue Arasaka Combat Helmet.
+    </description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Plasteel>100</Plasteel>
+    </costList>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>1</commonality>
+      <tags>
+        <li>Military</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!-- ============== Smart Helmet ================= -->
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>CP_Smart_Helmet</defName>
+    <label>Smart Helmet</label>
+    <description>
+      The smart helmet provides some protection as well as utilizing smart interface links for aiming assist.
+    </description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/PsychicFoilHelmet/PsychicFoilHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Plasteel>100</Plasteel>
+    </costList>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0</MoveSpeed>
+      <ShootingAccuracy>0.10</ShootingAccuracy>
+      <AimingDelayFactor>-0.05</AimingDelayFactor>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Things/Pawn/Humanlike/Apparel/PsychicFoilHelmet/PsychicFoilHelmet</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>1</commonality>
+      <tags>
+        <li>Military</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
 
 </ThingDefs>

@@ -174,11 +174,11 @@
     </verbs>
   </ThingDef>
 
-  <!-- =================== Sternmeyer	MS-71 ================== -->
+  <!-- =================== Sternmeyer MS-71 ================== -->
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_SMS71_CP</defName>
-    <label>Sternmeyer	MS-71</label>
+    <label>Sternmeyer MS-71</label>
     <description>9mm SMG - A very small weapon with a very high rate of fire.  Inexpensive and concealable this is a very popular weapon among gangs and organized criminals, as well as terrorists.</description>
     <graphicData>
       <texPath>CP/Weapon/SMS71</texPath>

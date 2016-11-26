@@ -1,0 +1,5 @@
+C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Assemblies\Cyberpunk.dll
+C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Source\obj\Release\Cyberpunk.dll
+C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Source\obj\Release\Cyberpunk.pdb
+C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Source\Cyberpunk\obj\Release\Cyberpunk.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Source\Cyberpunk\obj\Release\Cyberpunk.dll
