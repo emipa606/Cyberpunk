@@ -114,13 +114,21 @@
     <Content Include="..\..\Defs\ThingDefs\CP_Weapons_SNP.xml">
       <Link>Defs\ThingDefs\CP_Weapons_SNP.xml</Link>
     </Content>
+<<<<<<< HEAD
     <Content Include="..\..\Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml">
+=======
+    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingDefs\Weapons_Guns.xml">
+      <Link>Defs\ThingDefs\Weapons_Guns.xml</Link>
+    </Content>
+    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml">
+>>>>>>> origin/master
       <SubType>Designer</SubType>
       <Link>Defs\ThingDefs\CP_TraderKinds_Caravan.xml</Link>
     </Content>
     <Content Include="..\..\Defs\TraderKindDefs\CP_TraderKinds_Orbital.xml">
       <Link>Defs\ThingDefs\CP_TraderKinds_Orbital.xml</Link>
     </Content>
+<<<<<<< HEAD
     <Content Include="..\..\Defs\RecipeDefs\Recipes_Surgery_Implants.xml">
       <Link>Defs\RecipeDefs\Recipes_Surgery_Implants.xml</Link>
       <SubType>Designer</SubType>
@@ -129,6 +137,12 @@
       <Link>Defs\StatDefs\Stats_Weapons_Ranged.xml</Link>
     </Content>
     <Content Include="..\..\Textures\CP\Weapon\AAW65.png">
+=======
+    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\StatDefs\Stats_Weapons_Ranged.xml">
+      <Link>Defs\StatDefs\Stats_Weapons_Ranged.xml</Link>
+    </Content>
+    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\AAW65.png">
+>>>>>>> origin/master
       <Link>Textures\AAW65.png</Link>
     </Content>
     <Content Include="..\..\Textures\CP\Weapon\ACWS10.png">

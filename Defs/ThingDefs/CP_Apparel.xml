@@ -1879,7 +1879,11 @@ Endorsed by Trauma Team, Inc. and the RimWorld Search and Rescue service! MedicG
     </statBases>
     <equippedStatOffsets>
       <SurgerySuccessChance>0.20</SurgerySuccessChance>
+<<<<<<< HEAD
       <HealingQuality>0.20</HealingQuality>
+=======
+      <BaseHealingQuality>0.20</BaseHealingQuality>
+>>>>>>> origin/master
       <HealingSpeed>0.2</HealingSpeed>
       <MedicalOperationSpeed>0.2</MedicalOperationSpeed>
       <MoveSpeed>-0.30</MoveSpeed>

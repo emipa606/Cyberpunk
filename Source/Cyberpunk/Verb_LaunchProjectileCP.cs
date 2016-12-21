@@ -28,7 +28,11 @@ namespace Cyberpunk
             float jamsOn;
             StatPart_Reliability.GetReliability((ThingDef_GunCP)ownerEquipment, out reliabilityString, out jamsOn);
 
+<<<<<<< HEAD
             float jamRoll = (Rand.Range(0, 1000))/10;
+=======
+            float jamRoll = Rand.Range(0, 100);
+>>>>>>> origin/master
             if (jamRoll < jamsOn)
             {
                 string msg = string.Format("{0}'s {1} had a weapon jam. ({2}/{3})", caster.LabelCap, ownerEquipment.LabelCap, jamRoll, jamsOn);

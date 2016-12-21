@@ -29,7 +29,11 @@
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
+<<<<<<< HEAD
         <warmupTime>.94</warmupTime>
+=======
+        <warmupTicks>54</warmupTicks>
+>>>>>>> origin/master
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -57,7 +61,11 @@
       <AccuracyShort>0.87</AccuracyShort>
       <AccuracyMedium>0.77</AccuracyMedium>
       <AccuracyLong>0.64</AccuracyLong>
+<<<<<<< HEAD
       <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+=======
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+>>>>>>> origin/master
     </statBases>
     <costList>
       <Steel>90</Steel>
@@ -68,7 +76,11 @@
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12ga_CP</projectileDef>
+<<<<<<< HEAD
         <warmupTime>1.2</warmupTime>
+=======
+        <warmupTicks>90</warmupTicks>
+>>>>>>> origin/master
         <range>5</range>
         <soundCast>ShotShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -98,7 +110,11 @@
       <AccuracyShort>0.99</AccuracyShort>
       <AccuracyMedium>0.99</AccuracyMedium>
       <AccuracyLong>0.98</AccuracyLong>
+<<<<<<< HEAD
       <RangedWeapon_Cooldown>1.26</RangedWeapon_Cooldown>
+=======
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+>>>>>>> origin/master
     </statBases>
     <costList>
       <Steel>90</Steel>
@@ -109,7 +125,11 @@
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_30_06_CP</projectileDef>
+<<<<<<< HEAD
         <warmupTime>1.94</warmupTime>
+=======
+        <warmupTicks>150</warmupTicks>
+>>>>>>> origin/master
         <range>50</range>
         <soundCast>ShotSurvivalRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -137,7 +157,11 @@
       <AccuracyShort>0.94</AccuracyShort>
       <AccuracyMedium>0.91</AccuracyMedium>
       <AccuracyLong>0.82</AccuracyLong>
+<<<<<<< HEAD
       <RangedWeapon_Cooldown>1.36</RangedWeapon_Cooldown>
+=======
+      <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
+>>>>>>> origin/master
     </statBases>
     <costList>
       <Steel>100</Steel>
@@ -148,10 +172,17 @@
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_556_CP</projectileDef>
+<<<<<<< HEAD
         <warmupTime>1.46</warmupTime>
         <range>30</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+=======
+        <warmupTicks>90</warmupTicks>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+>>>>>>> origin/master
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -189,7 +220,11 @@
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_762_CP</projectileDef>
+<<<<<<< HEAD
         <warmupTime>4.07</warmupTime>
+=======
+        <warmupTicks>240</warmupTicks>
+>>>>>>> origin/master
         <range>80</range>
         <soundCast>ShotSniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -231,7 +266,11 @@
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
+<<<<<<< HEAD
         <warmupTime>2.19</warmupTime>
+=======
+        <warmupTicks>45</warmupTicks>
+>>>>>>> origin/master
         <range>15</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
@@ -261,7 +300,11 @@
       <AccuracyShort>0.61</AccuracyShort>
       <AccuracyMedium>0.21</AccuracyMedium>
       <AccuracyLong>0.15</AccuracyLong>
+<<<<<<< HEAD
       <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
+=======
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+>>>>>>> origin/master
     </statBases>
     <costList>
       <Steel>130</Steel>
@@ -272,9 +315,15 @@
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
+<<<<<<< HEAD
         <warmupTime>1</warmupTime>
         <range>10</range>
         <burstShotCount>3</burstShotCount>
+=======
+        <warmupTicks>80</warmupTicks>
+        <range>10</range>
+        <burstShotCount>2</burstShotCount>
+>>>>>>> origin/master
         <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
         <soundCast>ShotHeavySMG</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -314,8 +363,12 @@
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
     <statBases>
+<<<<<<< HEAD
       <WorkToMake>22000</WorkToMake>
       <Mass>3.4</Mass>
+=======
+      <WorkToMake>80000</WorkToMake>
+>>>>>>> origin/master
       <MarketValue>630</MarketValue>
       <AccuracyTouch>0.79</AccuracyTouch>
       <AccuracyShort>0.42</AccuracyShort>
@@ -333,7 +386,11 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_IncendiaryLauncher</projectileDef>
         <ai_IsIncendiary>true</ai_IsIncendiary>
+<<<<<<< HEAD
         <warmupTime>3.0</warmupTime>
+=======
+        <warmupTicks>370</warmupTicks>
+>>>>>>> origin/master
         <range>24</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>ShotIncendiaryLauncher</soundCast>
@@ -358,35 +415,56 @@
     <soundInteract>InteractRifle</soundInteract>
     <statBases>
       <MarketValue>1575</MarketValue>
+<<<<<<< HEAD
       <Mass>8.5</Mass>
+=======
+>>>>>>> origin/master
       <AccuracyTouch>0.50</AccuracyTouch>
       <AccuracyShort>0.64</AccuracyShort>
       <AccuracyMedium>0.41</AccuracyMedium>
       <AccuracyLong>0.22</AccuracyLong>
+<<<<<<< HEAD
       <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>75</Steel>
+=======
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>150</Steel>
+>>>>>>> origin/master
       <Component>4</Component>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
+<<<<<<< HEAD
         <projectileDef>Bullet_LMG</projectileDef>
         <warmupTime>1.4</warmupTime>
         <range>25.9</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <burstShotCount>6</burstShotCount>
+=======
+        <projectileDef>Bullet_556_CP</projectileDef>
+        <warmupTicks>120</warmupTicks>
+        <range>60</range>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
+>>>>>>> origin/master
         <soundCast>ShotMinigun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
       </li>
     </verbs>
+<<<<<<< HEAD
     <weaponTags>
       <li>EliteGun</li>
     </weaponTags>
+=======
+>>>>>>> origin/master
   </ThingDef>
 
 
@@ -415,14 +493,22 @@
     </graphicData>
     <soundInteract>InteractChargeRifle</soundInteract>
     <statBases>
+<<<<<<< HEAD
       <WorkToMake>50000</WorkToMake>
       <Mass>4.6</Mass>
+=======
+      <WorkToMake>120000</WorkToMake>
+>>>>>>> origin/master
       <MarketValue>1500</MarketValue>
       <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.83</AccuracyShort>
       <AccuracyMedium>0.68</AccuracyMedium>
       <AccuracyLong>0.53</AccuracyLong>
+<<<<<<< HEAD
       <RangedWeapon_Cooldown>1.16</RangedWeapon_Cooldown>
+=======
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+>>>>>>> origin/master
     </statBases>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
@@ -441,7 +527,11 @@
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_ChargeRifle</projectileDef>
+<<<<<<< HEAD
         <warmupTime>1.0</warmupTime>
+=======
+        <warmupTicks>90</warmupTicks>
+>>>>>>> origin/master
         <range>24</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
@@ -478,8 +568,12 @@
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
     <statBases>
+<<<<<<< HEAD
       <WorkToMake>100000</WorkToMake>
       <Mass>10</Mass>
+=======
+      <WorkToMake>220000</WorkToMake>
+>>>>>>> origin/master
       <MarketValue>2200</MarketValue>
       <AccuracyTouch>0.50</AccuracyTouch>
       <AccuracyShort>0.42</AccuracyShort>
@@ -508,7 +602,11 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_Minigun</projectileDef>
         <forcedMissRadius>2.4</forcedMissRadius>
+<<<<<<< HEAD
         <warmupTime>3.0</warmupTime>
+=======
+        <warmupTicks>240</warmupTicks>
+>>>>>>> origin/master
         <range>32</range>
         <burstShotCount>30</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
@@ -546,8 +644,12 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
+<<<<<<< HEAD
       <MarketValue>1600</MarketValue>
       <Mass>8</Mass>
+=======
+      <MarketValue>2000</MarketValue>
+>>>>>>> origin/master
       <AccuracyTouch>1.0</AccuracyTouch>
       <AccuracyShort>1.0</AccuracyShort>
       <AccuracyMedium>1.0</AccuracyMedium>
@@ -577,7 +679,11 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_DoomsdayRocket</projectileDef>
         <forcedMissRadius>0.0</forcedMissRadius>
+<<<<<<< HEAD
         <warmupTime>4.5</warmupTime>
+=======
+        <warmupTicks>270</warmupTicks>
+>>>>>>> origin/master
         <range>40</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>InfernoCannon_Fire</soundCast>
@@ -617,8 +723,12 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
+<<<<<<< HEAD
       <MarketValue>1600</MarketValue>
       <Mass>7</Mass>
+=======
+      <MarketValue>1000</MarketValue>
+>>>>>>> origin/master
       <AccuracyTouch>0.6</AccuracyTouch>
       <AccuracyShort>0.8</AccuracyShort>
       <AccuracyMedium>0.92</AccuracyMedium>
@@ -647,7 +757,11 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_Rocket</projectileDef>
         <forcedMissRadius>2.0</forcedMissRadius>
+<<<<<<< HEAD
         <warmupTime>5.0</warmupTime>
+=======
+        <warmupTicks>300</warmupTicks>
+>>>>>>> origin/master
         <range>40</range>
         <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
@@ -691,12 +805,19 @@
     </graphicData>
     <statBases>
       <MarketValue>2400</MarketValue>
+<<<<<<< HEAD
       <Mass>22</Mass>
+=======
+>>>>>>> origin/master
       <AccuracyTouch>0.60</AccuracyTouch>
       <AccuracyShort>0.77</AccuracyShort>
       <AccuracyMedium>0.59</AccuracyMedium>
       <AccuracyLong>0.42</AccuracyLong>
+<<<<<<< HEAD
       <RangedWeapon_Cooldown>7.4</RangedWeapon_Cooldown>
+=======
+      <RangedWeapon_Cooldown>7</RangedWeapon_Cooldown>
+>>>>>>> origin/master
     </statBases>
     <tradeability>Never</tradeability>
     <techLevel>Spacer</techLevel>
@@ -711,7 +832,11 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_ChargeBlasterHeavy</projectileDef>
         <forcedMissRadius>2.9</forcedMissRadius>
+<<<<<<< HEAD
         <warmupTime>1.25</warmupTime>
+=======
+        <warmupTicks>100</warmupTicks>
+>>>>>>> origin/master
         <range>27</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <burstShotCount>24</burstShotCount>
@@ -752,12 +877,19 @@
     </graphicData>
     <statBases>
       <MarketValue>2400</MarketValue>
+<<<<<<< HEAD
       <Mass>18</Mass>
+=======
+>>>>>>> origin/master
       <AccuracyTouch>0.79</AccuracyTouch>
       <AccuracyShort>0.42</AccuracyShort>
       <AccuracyMedium>0.18</AccuracyMedium>
       <AccuracyLong>0.06</AccuracyLong>
+<<<<<<< HEAD
       <RangedWeapon_Cooldown>8.4</RangedWeapon_Cooldown>
+=======
+      <RangedWeapon_Cooldown>8</RangedWeapon_Cooldown>
+>>>>>>> origin/master
     </statBases>
     <tradeability>Never</tradeability>
     <techLevel>Spacer</techLevel>
@@ -773,7 +905,11 @@
         <projectileDef>Bullet_InfernoCannon</projectileDef>
         <forcedMissRadius>3.5</forcedMissRadius>
         <ai_IsIncendiary>true</ai_IsIncendiary>
+<<<<<<< HEAD
         <warmupTime>1.25</warmupTime>
+=======
+        <warmupTicks>100</warmupTicks>
+>>>>>>> origin/master
         <range>27</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>InfernoCannon_Fire</soundCast>
@@ -809,12 +945,20 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
+<<<<<<< HEAD
       <Mass>8</Mass>
+=======
+      <MarketValue>2000</MarketValue>
+>>>>>>> origin/master
       <AccuracyTouch>0.6</AccuracyTouch>
       <AccuracyShort>0.8</AccuracyShort>
       <AccuracyMedium>0.92</AccuracyMedium>
       <AccuracyLong>0.88</AccuracyLong>
+<<<<<<< HEAD
       <RangedWeapon_Cooldown>3.3</RangedWeapon_Cooldown>
+=======
+      <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+>>>>>>> origin/master
     </statBases>
     <tradeability>Never</tradeability>
     <techLevel>Spacer</techLevel>
@@ -828,7 +972,11 @@
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_ChargeLance</projectileDef>
+<<<<<<< HEAD
         <warmupTime>1.5</warmupTime>
+=======
+        <warmupTicks>120</warmupTicks>
+>>>>>>> origin/master
         <range>37</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>ChargeLance_Fire</soundCast>
