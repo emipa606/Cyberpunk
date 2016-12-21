@@ -115,7 +115,7 @@
     <label>Kevlar Vest</label>
     <description>A light-weight vest that protects the torso. Will stop most rounds up to a .45 ACP.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</texPath>
+      <texPath>CP/Apparel/KevlarVest/KevlarVest</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
@@ -138,7 +138,7 @@
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</worngraphicPath>
+      <worngraphicPath>CP/Apparel/KevlarVest/KevlarVest</worngraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -356,7 +356,7 @@
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</texPath>
+      <texPath>CP/Apparel/Flackvest/Flackvest</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -377,7 +377,7 @@
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</worngraphicPath>
+      <worngraphicPath>CP/Apparel/Flackvest/Flackvest</worngraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
@@ -984,7 +984,7 @@
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</texPath>
+      <texPath>CP/Apparel/Trenchcoat/Trenchcoat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>80</costStuffCount>
@@ -1011,7 +1011,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</worngraphicPath>
+      <worngraphicPath>CP/Apparel/Trenchcoat/Trenchcoat</worngraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -1843,6 +1843,59 @@
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_MGCombat_Armor</defName>
+    <description>
+Utilizing the latest in computer, medical and armor technology, MedicGear by Bodyweight Systems is designed to assist medics everywhere.
+Endorsed by Trauma Team, Inc. and the RimWorld Search and Rescue service! MedicGear starts with hard-shell armor, then starts loading on the goodies. Incorporated into the structure is a Hybrid MedicWear computer, with a few additional functions. Sensors and software are added that allow it to function as a drug analyzer and techscanner, giving the medic the ability to see just what the patient is on, and what cyberware he's got! A pack on the waist also includes various pressure bandages and other supplies.
+    </description>
+    <label>MedicGear Combat Armor</label>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>60</Cloth>
+      <Medicine>2</Medicine>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>3400</MarketValue>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <Insulation_Cold>-4</Insulation_Cold>
+    </statBases>
+    <equippedStatOffsets>
+      <SurgerySuccessChance>0.20</SurgerySuccessChance>
+      <BaseHealingQuality>0.20</BaseHealingQuality>
+      <HealingSpeed>0.2</HealingSpeed>
+      <MedicalOperationSpeed>0.2</MedicalOperationSpeed>
+      <MoveSpeed>-0.30</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <worngraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</worngraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <commonality>0.1</commonality>
+      <tags>
+        <li>Outlander</li>
+        <li>Workforce</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
   </ThingDef>
 
 </ThingDefs>

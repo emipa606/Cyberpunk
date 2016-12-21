@@ -39,8 +39,8 @@
       <MoveSpeed>-0.25</MoveSpeed>
     </equippedStatOffsets>
     <verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_AL20_CP</projectileDef>
 				<warmupTicks>250</warmupTicks>
@@ -48,6 +48,7 @@
 				<soundCast>ShotMinigun</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
 			</li>
     </verbs>
   </ThingDef>

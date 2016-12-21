@@ -3,7 +3,7 @@
 
 	<ThingDef Name="HatBase" ParentName="ApparelBase" Abstract="True">
 		<thingCategories>
-			<li>USCMHeadgears</li>
+			<li>CPHeadgears</li>
 		</thingCategories>
 	</ThingDef>
 
@@ -340,6 +340,50 @@
         </li>
       </options>
     </colorGenerator>
+  </ThingDef>
+
+  <!-- ============== TTI Paramedic Helmet ================= -->
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>CP_Medic_Helmet</defName>
+    <label>TTI Paramedic Helmet</label>
+    <description>
+Worn by paramedic units, these helmets provide protection as well as an anti-dazzle visor and a two-way radio.
+    </description>
+    <graphicData>
+      <texPath>CP/Apparel/Helmet/Paramedic_Helmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Plasteel>100</Plasteel>
+    </costList>
+    <statBases>
+      <MarketValue>180</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0</MoveSpeed>
+      <ShootingAccuracy>-0.05</ShootingAccuracy>
+      <AimingDelayFactor>0.05</AimingDelayFactor>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>CP/Apparel/Helmet/Paramedic_Helmet</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>1</commonality>
+      <tags>
+        <li>Military</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
   </ThingDef>
 
 </ThingDefs>

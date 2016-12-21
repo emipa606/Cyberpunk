@@ -49,8 +49,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BulletCP.cs" />
-    <Compile Include="PojectileCP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatDefOf_CP.cs" />
+    <Compile Include="StatDrawEntry.cs" />
+    <Compile Include="StatPart_Reliability.cs" />
+    <Compile Include="StatWorker_Reliability.cs" />
+    <Compile Include="ThingDef_GunCP.cs" />
+    <Compile Include="VerbPropertiesCP.cs" />
+    <Compile Include="Verb_LaunchProjectileCP.cs" />
+    <Compile Include="Verb_ShootCP.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\About\About.xml">
@@ -96,12 +103,18 @@
     <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingDefs\CP_Weapons_SNP.xml">
       <Link>Defs\ThingDefs\CP_Weapons_SNP.xml</Link>
     </Content>
+    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingDefs\Weapons_Guns.xml">
+      <Link>Defs\ThingDefs\Weapons_Guns.xml</Link>
+    </Content>
     <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml">
       <SubType>Designer</SubType>
       <Link>Defs\ThingDefs\CP_TraderKinds_Caravan.xml</Link>
     </Content>
     <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\TraderKindDefs\CP_TraderKinds_Orbital.xml">
       <Link>Defs\ThingDefs\CP_TraderKinds_Orbital.xml</Link>
+    </Content>
+    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\StatDefs\Stats_Weapons_Ranged.xml">
+      <Link>Defs\StatDefs\Stats_Weapons_Ranged.xml</Link>
     </Content>
     <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\AAW65.png">
       <Link>Textures\AAW65.png</Link>
