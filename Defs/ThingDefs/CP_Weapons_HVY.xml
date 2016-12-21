@@ -5,7 +5,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_AL20_CP</defName>
-    <label>minigun bullet</label>
+    <label>20mm depleted uranium shell</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -39,15 +39,16 @@
       <MoveSpeed>-0.25</MoveSpeed>
     </equippedStatOffsets>
     <verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_AL20_CP</projectileDef>
-				<warmupTicks>250</warmupTicks>
+				<warmupTime>2.2</warmupTime>
 				<range>50</range>
 				<soundCast>ShotMinigun</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
 			</li>
     </verbs>
   </ThingDef>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="BodyPartBase_CP" Abstract="True">
+    <label>body part</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isBodyPartOrImplant>true</isBodyPartOrImplant>
+    <tradeTags>
+      <li>BodyPartOrImplant</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <pathCost>10</pathCost>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartBase_CP" Name="BodyPartArtificialBase_CP" Abstract="True">
+    <thingCategories>
+      <li>BodyPartsArtificial</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- neuralware -->
+
+  <ThingDef ParentName="ImplantBase">
+    <defName>Joywire</defName>
+    <label>speedware</label>
+    <description>Kicks in when desired, eliminating much of the need to adopt to one's entire life to an inhumanly fast reaction time.</description>
+    <graphicData>
+      <texPath>Things/Item/Implant/Implant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1600</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ImplantBase">
+    <defName>Painstopper</defName>
+    <label>pain editor</label>
+    <description>This coprocessor overrides the pain receptors in the brain, making the subject impervious to torture, deprivation or physical hardship. It doesn't mean he isn't getting hurt, just that he won't notice it until he collapses.</description>
+    <graphicData>
+      <texPath>Things/Item/Implant/Implant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ImplantBase">
+    <defName>SubdermalArmor_CP</defName>
+    <label>subdermal armor</label>
+    <description>This is a mesh/ballistic plasteel armor inserted under the skin.</description>
+    <graphicData>
+      <texPath>Things/Item/Implant/Implant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ImplantBase">
+    <defName>SkinWeave_CP</defName>
+    <label>skin weave</label>
+    <description>This enhancement uses nanoids to weave the top three layers of skin with a dense plasteel thread. The result is equivalent to light body armor.</description>
+    <graphicData>
+      <texPath>Things/Item/Implant/Implant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ImplantBase">
+    <defName>AdrenalBooster_CP</defName>
+    <label>adrenal booster</label>
+    <description>An artificial gland which releases adrenal hormones on command.</description>
+    <graphicData>
+      <texPath>Things/Item/Implant/Implant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1600</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartArtificialBase_CP">
+    <defName>Scratchers_CP</defName>
+    <label>scratchers</label>
+    <description>Implanted metal or plasteel fingernails. The incredible sharpness of the material makes these as deadly as razor blades.
+Scratchers cut on the bias, requireing the user to slice crossways, not rip downwards. Most people lacquer their wscratchers, making them indistinguishable from normal nails. These are not considered letahal cyberwear, and can be purchased in any local clinic.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>SpecialWeapon</li>
+    </techHediffsTags>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartArtificialBase_CP">
+    <defName>Rippers_CP</defName>
+    <label>rippers</label>
+    <description>
+      Longer, heavier version of scratchers. The top two joints of each finger are replaced with a plasteel sheath in which 3 inch carbo-glas claws are housed.
+    </description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>400</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>SpecialWeapon</li>
+    </techHediffsTags>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartArtificialBase_CP">
+    <defName>GraftedMuscle_CP</defName>
+    <label>grafted muscle</label>
+    <description>This is vat-grown muscle to be grafted onto the existing muscles.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+  
+</ThingDefs>

@@ -3,7 +3,7 @@
 
 	<ThingDef Name="BaseGun" Abstract="True">
 		<category>Item</category>
-		<thingClass>ThingWithComps</thingClass>
+		<thingClass>Cyberpunk.ThingDef_GunCP</thingClass>
 		<equipmentType>Primary</equipmentType>
 		<pathCost>10</pathCost>
 		<useHitPoints>True</useHitPoints>
@@ -17,6 +17,7 @@
 			<Flammability>0.1</Flammability>
 			<DeteriorationRate>0.2</DeteriorationRate>
 			<SellPriceFactor>0.6</SellPriceFactor>
+      <reliability>1</reliability>
 		</statBases>
 		<altitudeLayer>Item</altitudeLayer>
 		<alwaysHaulable>True</alwaysHaulable>
@@ -87,15 +88,16 @@
 		</tradeTags>
 
 		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+				<verbClass>Cyberpunk.Verb_ShootCP</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_5mm_CP</projectileDef>
-				<warmupTicks>70</warmupTicks>
+				<warmupTime>1</warmupTime>
 				<range>5</range>
 				<soundCast>ShotPistol</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
 			</li>
 		</verbs>
 	</ThingDef>
@@ -130,15 +132,16 @@
 		</tradeTags>	
 
 		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+				<verbClass>Cyberpunk.Verb_ShootCP</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_6mm_CP</projectileDef>
-				<warmupTicks>70</warmupTicks>
+				<warmupTime>1</warmupTime>
 				<range>5</range>
 				<soundCast>ShotPistol</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>UR</reliability>
 			</li>
 		</verbs>
 	</ThingDef>
@@ -173,15 +176,16 @@
 		</tradeTags>
 		
 		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_6mm_CP</projectileDef>
-				<warmupTicks>70</warmupTicks>
+				<warmupTime>1</warmupTime>
 				<range>5</range>
 				<soundCast>ShotPistol</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
 			</li>
 		</verbs>
 	</ThingDef>
@@ -216,17 +220,18 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>1.2</warmupTime>
         <range>5</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>21</ticksBetweenBurstShots>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -261,15 +266,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
-        <warmupTicks>54</warmupTicks>
+        <warmupTime>2.8</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -304,15 +310,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
-        <warmupTicks>54</warmupTicks>
+        <warmupTime>2.8</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -347,15 +354,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
-        <warmupTicks>70</warmupTicks>
+        <warmupTime>1</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -390,15 +398,16 @@
 		</tradeTags>
 		
 		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_9mm_CP</projectileDef>
-				<warmupTicks>70</warmupTicks>
+				<warmupTime>1</warmupTime>
 				<range>5</range>
 				<soundCast>ShotPistol</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
 			</li>
 		</verbs>
 	</ThingDef>
@@ -433,15 +442,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
-        <warmupTicks>54</warmupTicks>
+        <warmupTime>2.8</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -476,15 +486,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
-        <warmupTicks>70</warmupTicks>
+        <warmupTime>2.6</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -519,15 +530,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
-        <warmupTicks>70</warmupTicks>
+        <warmupTime>1</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>UR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -562,15 +574,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
-        <warmupTicks>70</warmupTicks>
+        <warmupTime>2.6</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -605,15 +618,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
-        <warmupTicks>70</warmupTicks>
+        <warmupTime>2.6</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -648,15 +662,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
-        <warmupTicks>70</warmupTicks>
+        <warmupTime>2.6</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -691,15 +706,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
-        <warmupTicks>70</warmupTicks>
+        <warmupTime>2.6</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -734,15 +750,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.4</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -778,15 +795,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.4</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -796,7 +814,7 @@
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_DLODII11_CP</defName>
-    <label>BudgetArms Cyberdrop 2</label>
+    <label>Dai Lung ODII-11</label>
     <description>11mm pistol - Made for police, this simple, somewhat oversized weapon has all the aesthetic value of lead paperweight, but it functions rather well considering the manufacturer.</description>
     <graphicData>
       <texPath>CP/Weapon/DLODII11</texPath>
@@ -822,15 +840,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.4</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -865,15 +884,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.4</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -908,15 +928,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.4</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -951,15 +972,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
-        <warmupTicks>70</warmupTicks>
+        <warmupTime>1</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -994,15 +1016,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.4</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -1037,15 +1060,16 @@
 		</tradeTags>
 		
 		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_12mm_CP</projectileDef>
-				<warmupTicks>90</warmupTicks>
+				<warmupTime>2.4</warmupTime>
 				<range>5</range>
 				<soundCast>ShotPistol</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
 			</li>
 		</verbs>
 	</ThingDef>
@@ -1080,15 +1104,16 @@
     </tradeTags>
 
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.4</warmupTime>
         <range>5</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>

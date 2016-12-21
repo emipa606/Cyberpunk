@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Implants -->
+
+  <HediffDef Name="AddedBodyPartBase_CP" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+    <defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <isBad>false</isBad>
+  </HediffDef>
+
+  <HediffDef Name="ImplantHediffBase_CP" Abstract="True">
+    <hediffClass>Hediff_Implant</hediffClass>
+    <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
+    <isBad>false</isBad>
+  </HediffDef>
+
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>Scratchers_CP</defName>
+    <label>scratchers</label>
+    <comps>
+        <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>60</defaultCooldownTime>
+            <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
+            <meleeDamageDef>Scratch</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>Scratchers_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <isBionic>true</isBionic>
+      <isSolid>true</isSolid>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>Rippers_CP</defName>
+    <label>rippers</label>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>60</defaultCooldownTime>
+            <meleeDamageBaseAmount>9</meleeDamageBaseAmount>
+            <meleeDamageDef>Scratch</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>Rippers_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <isBionic>true</isBionic>
+      <isSolid>true</isSolid>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>GraftedMuscle_CP</defName>
+    <label>grafted muscle</label>
+    <spawnThingOnRemoved>GraftedMuscle_CP</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <CarryingCapacity>10</CarryingCapacity>
+          <MaxHitPoints>10</MaxHitPoints>
+        </statOffsets>
+      </li>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.1</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>100</defaultCooldownTime>
+            <meleeDamageBaseAmount>9</meleeDamageBaseAmount>
+            <meleeDamageDef>Blunt</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <addedPartProps>
+      <partEfficiency>1.1</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>SubdermalArmor_CP</defName>
+    <label>subermal armor</label>
+    <spawnThingOnRemoved>SubdermalArmor_CP</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Blunt>.18</ArmorRating_Blunt>
+          <ArmorRating_Sharp>.18</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>SkinWeave_CP</defName>
+    <label>skin weave</label>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Blunt>.12</ArmorRating_Blunt>
+          <ArmorRating_Sharp>.12</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>SkinWeave_CP</spawnThingOnRemoved>
+  </HediffDef>
+
+<!-- Neuralware -->
+  
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>Joywire</defName>
+    <label>speedware</label>
+    <stages>
+      <li>
+        <statOffsets>
+          <AimingDelayFactor>-0.2</AimingDelayFactor>
+          <MoveSpeed>0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>Joywire</spawnThingOnRemoved>
+  </HediffDef>
+  
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>Painstopper</defName>
+    <label>pain editor</label>
+    <stages>
+      <li>
+        <painFactor>0</painFactor>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>Painstopper</spawnThingOnRemoved>
+  </HediffDef>
+
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>AdrenalBooster_CP</defName>
+    <label>adrenal booster</label>
+    <stages>
+      <li>
+        <statOffsets>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <MeleeHitChance>-0.1</MeleeHitChance>
+          <MoveSpeed>0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>AdrenalBooster_CP</spawnThingOnRemoved>
+  </HediffDef>
+
+</Defs>

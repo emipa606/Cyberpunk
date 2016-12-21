@@ -21,17 +21,18 @@
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_45mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.03</warmupTime>
         <range>30</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -56,17 +57,18 @@
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_45mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.19</warmupTime>
         <range>30</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -91,17 +93,18 @@
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_45mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.19</warmupTime>
         <range>30</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -126,17 +129,18 @@
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_556_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.03</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -161,17 +165,18 @@
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_556_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>1.55</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -196,26 +201,27 @@
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_556_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.19</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
 
-  <!-- =================== Sternmeyer	AR-892 ================== -->
+  <!-- =================== Sternmeyer AR-892 ================== -->
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_SAR892_CP</defName>
-    <label>Sternmeyer	AR-892</label>
+    <label>Sternmeyer AR-892</label>
     <description>5.56mm Assault Rifle - A light bullpup assault rifle, a fine weapon from Sternmeyer, more attractive than their usual faire.</description>
     <graphicData>
       <texPath>CP/Weapon/SAR892</texPath>
@@ -231,17 +237,18 @@
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_556_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>1.55</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -266,17 +273,18 @@
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_6x45mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.22</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -301,17 +309,18 @@
       <RangedWeapon_Cooldown>0.79</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_6x45mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.09</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>UR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -336,17 +345,18 @@
       <RangedWeapon_Cooldown>0.64</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_6x45mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.08</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -371,17 +381,18 @@
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_6x45mm_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.13</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -406,17 +417,18 @@
       <RangedWeapon_Cooldown>0.89</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_7mmWSM_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>1.99</warmupTime>
         <range>60</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -441,17 +453,18 @@
       <RangedWeapon_Cooldown>0.89</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_7mmWSM_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.13</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -460,7 +473,7 @@
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_ASA460_CP</defName>
-    <label>Arasaka SA-456</label>
+    <label>Arasaka SA-460</label>
     <description>7.62mm Assault Rifle - The big brother of the SA-456.  Chambered in 7.62mm.  A bit more accurate due to the longer barrel.</description>
     <graphicData>
       <texPath>CP/Weapon/ASA456</texPath>
@@ -476,17 +489,18 @@
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_762_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.03</warmupTime>
         <range>46</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -511,17 +525,18 @@
       <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_762_CP</projectileDef>
-        <warmupTicks>100</warmupTicks>
+        <warmupTime>2.13</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>UR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -546,17 +561,18 @@
       <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_762_CP</projectileDef>
-        <warmupTicks>100</warmupTicks>
+        <warmupTime>1.97</warmupTime>
         <range>46</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -581,17 +597,18 @@
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_762_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>1.55</warmupTime>
         <range>46</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -616,17 +633,18 @@
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mmAR_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.13</warmupTime>
         <range>50</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -651,17 +669,18 @@
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mmAR_CP</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>2.24</warmupTime>
         <range>50</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -704,15 +723,16 @@
       <MoveSpeed>-0.35</MoveSpeed>
     </equippedStatOffsets>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_AX61_CP</projectileDef>
-        <warmupTicks>120</warmupTicks>
+        <warmupTime>2.2</warmupTime>
         <range>100</range>
         <soundCast>ShotChargeRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -755,15 +775,16 @@
       <MoveSpeed>-0.35</MoveSpeed>
     </equippedStatOffsets>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_MM95A1_CP</projectileDef>
-        <warmupTicks>120</warmupTicks>
+        <warmupTime>2.2</warmupTime>
         <range>100</range>
         <soundCast>ShotChargeRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -799,22 +820,23 @@
       <AccuracyShort>0.97</AccuracyShort>
       <AccuracyMedium>0.97</AccuracyMedium>
       <AccuracyLong>0.97</AccuracyLong>
-      <RangedWeapon_Cooldown>0.90</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
     </statBases>
     <techLevel>Spacer</techLevel>
     <equippedStatOffsets>
       <MoveSpeed>-0.25</MoveSpeed>
     </equippedStatOffsets>
     <verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_AMAD8_CP</projectileDef>
-				<warmupTicks>250</warmupTicks>
+				<warmupTime>1.8</warmupTime>
 				<range>55</range>
 				<soundCast>ShotChargeRifle</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
 			</li>
     </verbs>
   </ThingDef>

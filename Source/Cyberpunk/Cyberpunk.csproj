@@ -49,172 +49,197 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BulletCP.cs" />
-    <Compile Include="PojectileCP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatDefOf_CP.cs" />
+    <Compile Include="StatDrawEntry.cs" />
+    <Compile Include="StatPart_Reliability.cs" />
+    <Compile Include="StatWorker_Reliability.cs" />
+    <Compile Include="ThingDef_GunCP.cs" />
+    <Compile Include="VerbPropertiesCP.cs" />
+    <Compile Include="Verb_LaunchProjectileCP.cs" />
+    <Compile Include="Verb_ShootCP.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\About\About.xml">
+    <Content Include="..\..\About\About.xml">
       <Link>Defs\About\About.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\About\preview.png">
+    <Content Include="..\..\About\preview.png">
       <Link>Defs\About\preview.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingCategoryDefs\ThingCategories.xml">
+    <Content Include="..\..\Defs\HediffDefs\Hediffs_Local_Implants.xml">
+      <Link>Defs\HediffDefs\Hediffs_Local_Implants.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Defs\ThingCategoryDefs\ThingCategories.xml">
       <Link>Defs\ThingDefs\ThingCategories.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingDefs\CP_Apparel.xml">
+    <Content Include="..\..\Defs\ThingDefs\CP_Apparel.xml">
       <SubType>Designer</SubType>
       <Link>Defs\ThingDefs\CP_Apparel.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingDefs\CP_Bullets.xml">
+    <Content Include="..\..\Defs\ThingDefs\CP_Bullets.xml">
       <Link>Defs\ThingDefs\CP_Bullets.xml</Link>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingDefs\CP_Helmet.xml">
+    <Content Include="..\..\Defs\ThingDefs\CP_Helmet.xml">
       <SubType>Designer</SubType>
       <Link>Defs\ThingDefs\CP_Helmet.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingDefs\CP_Weapons_HVY.xml">
+    <Content Include="..\..\Defs\ThingDefs\CP_Items_BodyParts.xml">
+      <Link>Defs\ThingDefs\CP_Items_BodyParts.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Defs\ThingDefs\Weapons_Guns.xml">
+      <Link>Defs\ThingDefs\Weapons_Guns.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\ThingDefs\CP_Weapons_HVY.xml">
       <Link>Defs\ThingDefs\CP_Weapons_HVY.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingDefs\CP_Weapons_PIS.xml">
+    <Content Include="..\..\Defs\ThingDefs\CP_Weapons_PIS.xml">
       <SubType>Designer</SubType>
       <Link>Defs\ThingDefs\CP_Weapons_PIS.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingDefs\CP_Weapons_RIF.xml">
+    <Content Include="..\..\Defs\ThingDefs\CP_Weapons_RIF.xml">
       <SubType>Designer</SubType>
       <Link>Defs\ThingDefs\CP_Weapons_RIF.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingDefs\CP_Weapons_SHT.xml">
+    <Content Include="..\..\Defs\ThingDefs\CP_Weapons_SHT.xml">
       <SubType>Designer</SubType>
       <Link>Defs\ThingDefs\CP_Weapons_SHT.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingDefs\CP_Weapons_SMG.xml">
+    <Content Include="..\..\Defs\ThingDefs\CP_Weapons_SMG.xml">
       <SubType>Designer</SubType>
       <Link>Defs\ThingDefs\CP_Weapons_SMG.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingDefs\CP_Weapons_SNP.xml">
+    <Content Include="..\..\Defs\ThingDefs\CP_Weapons_SNP.xml">
       <Link>Defs\ThingDefs\CP_Weapons_SNP.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml">
+    <Content Include="..\..\Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml">
       <SubType>Designer</SubType>
       <Link>Defs\ThingDefs\CP_TraderKinds_Caravan.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\TraderKindDefs\CP_TraderKinds_Orbital.xml">
+    <Content Include="..\..\Defs\TraderKindDefs\CP_TraderKinds_Orbital.xml">
       <Link>Defs\ThingDefs\CP_TraderKinds_Orbital.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\AAW65.png">
+    <Content Include="..\..\Defs\RecipeDefs\Recipes_Surgery_Implants.xml">
+      <Link>Defs\RecipeDefs\Recipes_Surgery_Implants.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Defs\StatDefs\Stats_Weapons_Ranged.xml">
+      <Link>Defs\StatDefs\Stats_Weapons_Ranged.xml</Link>
+    </Content>
+    <Content Include="..\..\Textures\CP\Weapon\AAW65.png">
       <Link>Textures\AAW65.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\ACWS10.png">
+    <Content Include="..\..\Textures\CP\Weapon\ACWS10.png">
       <Link>Textures\ACWS10.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\ADEMAG.png">
+    <Content Include="..\..\Textures\CP\Weapon\ADEMAG.png">
       <Link>Textures\ADEMAG.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\AMAD8.png">
+    <Content Include="..\..\Textures\CP\Weapon\AMAD8.png">
       <Link>Textures\AMAD8.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\AO.png">
+    <Content Include="..\..\Textures\CP\Weapon\AO.png">
       <Link>Textures\AO.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\AR209.png">
+    <Content Include="..\..\Textures\CP\Weapon\AR209.png">
       <Link>Textures\AR209.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\ARA12.png">
+    <Content Include="..\..\Textures\CP\Weapon\ARA12.png">
       <Link>Textures\ARA12.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\AZHP.png">
+    <Content Include="..\..\Textures\CP\Weapon\AZHP.png">
       <Link>Textures\AZHP.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\BAB.png">
+    <Content Include="..\..\Textures\CP\Weapon\BAB.png">
       <Link>Textures\BAB.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\BAC13.png">
+    <Content Include="..\..\Textures\CP\Weapon\BAC13.png">
       <Link>Textures\BAC13.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\BAC2.png">
+    <Content Include="..\..\Textures\CP\Weapon\BAC2.png">
       <Link>Textures\BAC2.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\BAP1145.png">
+    <Content Include="..\..\Textures\CP\Weapon\BAP1145.png">
       <Link>Textures\BAP1145.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\DLC15.png">
+    <Content Include="..\..\Textures\CP\Weapon\DLC15.png">
       <Link>Textures\DLC15.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\DLLP402.png">
+    <Content Include="..\..\Textures\CP\Weapon\DLLP402.png">
       <Link>Textures\DLLP402.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\DLODII11.png">
+    <Content Include="..\..\Textures\CP\Weapon\DLODII11.png">
       <Link>Textures\DLODII11.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\DLSM.png">
+    <Content Include="..\..\Textures\CP\Weapon\DLSM.png">
       <Link>Textures\DLSM.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\DLSMG.png">
+    <Content Include="..\..\Textures\CP\Weapon\DLSMG.png">
       <Link>Textures\DLSMG.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\FABP24.png">
+    <Content Include="..\..\Textures\CP\Weapon\FABP24.png">
       <Link>Textures\FABP24.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\FANT.png">
+    <Content Include="..\..\Textures\CP\Weapon\FANT.png">
       <Link>Textures\FANT.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\FASA58.png">
+    <Content Include="..\..\Textures\CP\Weapon\FASA58.png">
       <Link>Textures\FASA58.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\FATAII.png">
+    <Content Include="..\..\Textures\CP\Weapon\FATAII.png">
       <Link>Textures\FATAII.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\FAX22.png">
+    <Content Include="..\..\Textures\CP\Weapon\FAX22.png">
       <Link>Textures\FAX22.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\FAX9.png">
+    <Content Include="..\..\Textures\CP\Weapon\FAX9.png">
       <Link>Textures\FAX9.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\MAA.png">
+    <Content Include="..\..\Textures\CP\Weapon\MAA.png">
       <Link>Textures\MAA.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\MCS36.png">
+    <Content Include="..\..\Textures\CP\Weapon\MCS36.png">
       <Link>Textures\MCS36.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\MGN808.png">
+    <Content Include="..\..\Textures\CP\Weapon\MGN808.png">
       <Link>Textures\MGN808.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\MMPP21.png">
+    <Content Include="..\..\Textures\CP\Weapon\MMPP21.png">
       <Link>Textures\MMPP21.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\MMPP22.png">
+    <Content Include="..\..\Textures\CP\Weapon\MMPP22.png">
       <Link>Textures\MMPP22.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\MRLA.png">
+    <Content Include="..\..\Textures\CP\Weapon\MRLA.png">
       <Link>Textures\MRLA.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\MRNA12.png">
+    <Content Include="..\..\Textures\CP\Weapon\MRNA12.png">
       <Link>Textures\MRNA12.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\SM295.png">
+    <Content Include="..\..\Textures\CP\Weapon\SM295.png">
       <Link>Textures\SM295.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\SRS50.png">
+    <Content Include="..\..\Textures\CP\Weapon\SRS50.png">
       <Link>Textures\SRS50.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\SS10.png">
+    <Content Include="..\..\Textures\CP\Weapon\SS10.png">
       <Link>Textures\SS10.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\SSSR32.png">
+    <Content Include="..\..\Textures\CP\Weapon\SSSR32.png">
       <Link>Textures\SSSR32.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\ST35.png">
+    <Content Include="..\..\Textures\CP\Weapon\ST35.png">
       <Link>Textures\ST35.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\ST45.png">
+    <Content Include="..\..\Textures\CP\Weapon\ST45.png">
       <Link>Textures\ST45.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\ST82.png">
+    <Content Include="..\..\Textures\CP\Weapon\ST82.png">
       <Link>Textures\ST82.png</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\UziM9.png">
+    <Content Include="..\..\Textures\CP\Weapon\UziM9.png">
       <Link>Textures\UziM9.png</Link>
     </Content>
   </ItemGroup>
