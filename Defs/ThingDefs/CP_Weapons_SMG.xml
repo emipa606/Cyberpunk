@@ -432,7 +432,7 @@
   <!-- =================== Federated Arms	TA-14 ================== -->
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_FATA14_CP</defName>
-    <label>Federated Arms	TA-14</label>
+    <label>Federated Arms TA-14</label>
     <description>11mm SMG - A commonly seen smg similar in shape and performance to the Mac-10/11 from Ingram.  Comes with retracting stock and available with either 12 or 30 round magazines.</description>
     <graphicData>
       <texPath>CP/Weapon/FATA14</texPath>
@@ -502,7 +502,7 @@
   <!-- =================== Sternmeyer	SMG 21 ================== -->
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_SSMG21_CP</defName>
-    <label>Sternmeyer	SMG 21</label>
+    <label>Sternmeyer SMG 21</label>
     <description>11mm SMG - Sternmeyer's best entry in the anti-terrorist category, with wide use on C-SWAT teams and Psychosquads.</description>
     <graphicData>
       <texPath>CP/Weapon/SSMG21</texPath>

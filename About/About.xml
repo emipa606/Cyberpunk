@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Cyberpunk - Weapons</name>
+	<name>Cyberpunk</name>
 	<author>Darque</author>
 	<url></url>
 	<targetVersion>0.16.6198</targetVersion>
-	<description>This mod introduces the Cyberpunk weapons and cybernetics.
-</description>
+	<description>This mod introduces the Cyberpunk weapons and cybernetics.</description>
 </ModMetaData>

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DefPackage-TraderKindDef>
 
-
   <TraderKindDef>
     <defName>CPTraderCaravan</defName>
-    <label>Cyberpunk combat supplier</label>
+    <label>Autumn Blade trade caravan</label>
+    
     <stockGenerators>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
@@ -41,6 +41,76 @@
           <max>2</max>
         </countRange>
       </li>
+      
+      <li Class="StockGenerator_Tag">
+        <tradeTag>BodyPartOrImplant</tradeTag>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      
+    </stockGenerators>
+  </TraderKindDef>
+
+  <TraderKindDef>
+    <defName>Orbital_CPTrader</defName>
+    <label>Autumn Blade trade ship</label>
+    <orbital>true</orbital>
+
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>1200</min>
+          <max>2000</max>
+        </countRange>
+      </li>
+
+      <!-- Weapons -->
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>CPWeapons</categoryDef>
+        <countRange>
+          <min>1</min>
+          <max>8</max>
+        </countRange>
+      </li>
+
+      <!-- Apparels and armors -->
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>CPApparels</categoryDef>
+        <countRange>
+          <min>1</min>
+          <max>2</max>
+        </countRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>CPHeadgears</categoryDef>
+        <countRange>
+          <min>1</min>
+          <max>2</max>
+        </countRange>
+      </li>
+
+      <li Class="StockGenerator_Tag">
+        <tradeTag>BodyPartOrImplant</tradeTag>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+
     </stockGenerators>
   </TraderKindDef>
 

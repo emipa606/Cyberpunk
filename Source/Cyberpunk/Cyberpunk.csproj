@@ -36,6 +36,9 @@
       <HintPath>_DLLs\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Harmony">
+      <HintPath>_DLLs\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BulletCP.cs" />
+    <Compile Include="HediffCompProperties_ImplantHeal.cs" />
+    <Compile Include="HediffComp_ImplantHeal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StatDefOf_CP.cs" />
     <Compile Include="StatDrawEntry.cs" />
@@ -66,8 +71,16 @@
     <Content Include="..\..\About\preview.png">
       <Link>Defs\About\preview.png</Link>
     </Content>
-    <Content Include="..\..\Defs\HediffDefs\Hediffs_Local_Implants.xml">
-      <Link>Defs\HediffDefs\Hediffs_Local_Implants.xml</Link>
+    <Content Include="..\..\Defs\HediffDefs\Hediffs_Local_Implants_CP.xml">
+      <Link>Defs\HediffDefs\Hediffs_Local_Implants_CP.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Defs\HediffDefs\Hediffs_Local_Bioware_CP.xml">
+      <Link>Defs\HediffDefs\Hediffs_Local_Bioware_CP.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Defs\HediffDefs\Hediffs_Local_CyberLimbs_CP.xml">
+      <Link>Defs\HediffDefs\Hediffs_Local_CyberLimbs_CP.xml</Link>
       <SubType>Designer</SubType>
     </Content>
     <Content Include="..\..\Defs\ThingCategoryDefs\ThingCategories.xml">
@@ -85,12 +98,21 @@
       <SubType>Designer</SubType>
       <Link>Defs\ThingDefs\CP_Helmet.xml</Link>
     </Content>
-    <Content Include="..\..\Defs\ThingDefs\CP_Items_BodyParts.xml">
-      <Link>Defs\ThingDefs\CP_Items_BodyParts.xml</Link>
+    <Content Include="..\..\Defs\ThingDefs\CP_Items_Implants.xml">
+      <Link>Defs\ThingDefs\CP_Items_Implants.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Defs\ThingDefs\CP_Items_Bioware.xml">
+      <Link>Defs\ThingDefs\CP_Items_Bioware.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Defs\ThingDefs\CP_Items_CyberLimbs.xml">
+      <Link>Defs\ThingDefs\CP_Items_CyberLimbs.xml</Link>
       <SubType>Designer</SubType>
     </Content>
     <Content Include="..\..\Defs\ThingDefs\Weapons_Guns.xml">
       <Link>Defs\ThingDefs\Weapons_Guns.xml</Link>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="..\..\Defs\ThingDefs\CP_Weapons_HVY.xml">
       <Link>Defs\ThingDefs\CP_Weapons_HVY.xml</Link>
@@ -114,35 +136,53 @@
     <Content Include="..\..\Defs\ThingDefs\CP_Weapons_SNP.xml">
       <Link>Defs\ThingDefs\CP_Weapons_SNP.xml</Link>
     </Content>
-<<<<<<< HEAD
     <Content Include="..\..\Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml">
-=======
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\ThingDefs\Weapons_Guns.xml">
+      <Link>Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\ThingDefs\Weapons_Guns.xml">
       <Link>Defs\ThingDefs\Weapons_Guns.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml">
->>>>>>> origin/master
+    <Content Include="..\..\Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml">
       <SubType>Designer</SubType>
       <Link>Defs\ThingDefs\CP_TraderKinds_Caravan.xml</Link>
     </Content>
     <Content Include="..\..\Defs\TraderKindDefs\CP_TraderKinds_Orbital.xml">
       <Link>Defs\ThingDefs\CP_TraderKinds_Orbital.xml</Link>
     </Content>
-<<<<<<< HEAD
-    <Content Include="..\..\Defs\RecipeDefs\Recipes_Surgery_Implants.xml">
-      <Link>Defs\RecipeDefs\Recipes_Surgery_Implants.xml</Link>
+    <Content Include="..\..\Defs\RecipeDefs\Recipes_Surgery_Implants_CP.xml">
+      <Link>Defs\RecipeDefs\Recipes_Surgery_Implants_CP.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Defs\RecipeDefs\Recipes_Surgery_CyberLimbs_CP.xml">
+      <Link>Defs\RecipeDefs\Recipes_Surgery_CyberLimbs_CP.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Defs\RecipeDefs\Recipes_Surgery_Bioware_CP.xml">
+      <Link>Defs\RecipeDefs\Recipes_Surgery_Bioware_CP.xml</Link>
       <SubType>Designer</SubType>
     </Content>
     <Content Include="..\..\Defs\StatDefs\Stats_Weapons_Ranged.xml">
       <Link>Defs\StatDefs\Stats_Weapons_Ranged.xml</Link>
     </Content>
-    <Content Include="..\..\Textures\CP\Weapon\AAW65.png">
-=======
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Defs\StatDefs\Stats_Weapons_Ranged.xml">
-      <Link>Defs\StatDefs\Stats_Weapons_Ranged.xml</Link>
+    <Content Include="..\..\Defs\PawnKindDefs_Humanlikes\PawnKinds_Mercenary.xml">
+      <Link>Defs\PawnKindDefs_Humanlikes\PawnKinds_Mercenary.xml</Link>
     </Content>
-    <Content Include="C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Textures\CP\Weapon\AAW65.png">
->>>>>>> origin/master
+    <Content Include="..\..\Defs\PawnKindDefs_Humanlikes\PawnKinds_Outlander.xml">
+      <Link>Defs\PawnKindDefs_Humanlikes\PawnKinds_Outlander.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\PawnKindDefs_Humanlikes\PawnKinds_Pirate.xml">
+      <Link>Defs\PawnKindDefs_Humanlikes\PawnKinds_Pirate.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\PawnKindDefs_Humanlikes\PawnKinds_Player.xml">
+      <Link>Defs\PawnKindDefs_Humanlikes\PawnKinds_Player.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\PawnKindDefs_Humanlikes\PawnKinds_Slave.xml">
+      <Link>Defs\PawnKindDefs_Humanlikes\PawnKinds_Slave.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\PawnKindDefs_Humanlikes\PawnKinds_Spacer.xml">
+      <Link>Defs\PawnKindDefs_Humanlikes\PawnKinds_Spacer.xml</Link>
+    </Content>
+    <Content Include="..\..\Textures\CP\Weapon\AAW65.png">
       <Link>Textures\AAW65.png</Link>
     </Content>
     <Content Include="..\..\Textures\CP\Weapon\ACWS10.png">

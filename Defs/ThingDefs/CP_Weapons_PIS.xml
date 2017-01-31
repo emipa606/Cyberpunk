@@ -24,6 +24,7 @@
 		<tickerType>Never</tickerType>
 		<techLevel>Spacer</techLevel>
 		<thingCategories>
+      <li>WeaponsRanged</li>
 			<li>CPWeapons</li>
 		</thingCategories>
 		<inspectorTabs>

@@ -38,33 +38,33 @@ namespace Cyberpunk
         public override string ExplanationPart(StatRequest req)
         {
             string result = string.Empty;
-            if (req.HasThing && (req.Thing.GetType() == Type.GetType("Cyberpunk.ThingDef_GunCP")))
-            {
-                ThingDef_GunCP gun = (ThingDef_GunCP)req.Thing;
-                string reliabilityString;
-                float jamsOn;
-                GetReliability(gun, out reliabilityString, out jamsOn);
-                reliabilityString = gun.reliability.ToString();
-                switch (gun.reliability)
-                {
-                    case Reliability.UR:
-                        reliabilityString = "Unreliable";
-                        break;
-                    case Reliability.ST:
-                        reliabilityString = "Standard";
-                        break;
-                    case Reliability.VR:
-                        reliabilityString = "Very Reliable";
-                        break;
-                    default:
-                        reliabilityString = "Standard";
-                        break;
-                }
-                result = string.Format("Design Reliability: {0}\r\n\r\nChance of jam: {1}%", reliabilityString, jamsOn);
-                return result;
-            }
+            //if (req.HasThing && (req.Thing.GetType() == Type.GetType("Cyberpunk.ThingDef_GunCP")))
+            //{
+            //    ThingDef_GunCP gun = (ThingDef_GunCP)req.Thing;
+            //    string reliabilityString;
+            //    float jamsOn;
+            //    GetReliability(gun, out reliabilityString, out jamsOn);
+            //    reliabilityString = gun.reliability.ToString();
+            //    switch (gun.reliability)
+            //    {
+            //        case Reliability.UR:
+            //            reliabilityString = "Unreliable";
+            //            break;
+            //        case Reliability.ST:
+            //            reliabilityString = "Standard";
+            //            break;
+            //        case Reliability.VR:
+            //            reliabilityString = "Very Reliable";
+            //            break;
+            //        default:
+            //            reliabilityString = "Standard";
+            //            break;
+            //    }
+            //    result = string.Format("Design Reliability: {0}\r\n\r\n", reliabilityString);
+            //    return result;
+            //}
             
-            return null;
+            return result;
         }
 
         public static void GetReliability(ThingDef_GunCP gun, out string rel, out float jamsOn)

@@ -257,7 +257,7 @@
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_AKIARA_CP</defName>
-    <label>Arasaka	Kiara</label>
+    <label>Arasaka Kiara</label>
     <description>6mm Assault Rifle - This Is a stunning assault rifle with a built in 8 shot 10 gauge shotgun.</description>
     <graphicData>
       <texPath>CP/Weapon/AKIARA</texPath>
@@ -509,7 +509,7 @@
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_DLBLT24_CP</defName>
-    <label>Dai Lung	BLT-24</label>
+    <label>Dai Lung BLT-24</label>
     <description>7.62mm Assault Rifle - Someone really needs to perform a less than surgical strike on Dai-Lung, their weapons are simply to dangerous to both user and target to ever  be justified.  A prime example is this assault rifle. Among street gangs, who's philosophy seems to be "the bigger a gun the better" this weapon sells like hotcakes.  Rumor has it the weapon also has a large distribution to rebels in the rim.</description>
     <graphicData>
       <texPath>CP/Weapon/DLBLT24</texPath>
@@ -581,7 +581,7 @@
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_MM56AR_CP</defName>
-    <label>Militech	M-56AR</label>
+    <label>Militech M-56AR</label>
     <description>7.62mm Assault Rifle - This is actually a step down from the M-52AR,  whose ammunition is shorter but more powerful..  Still this weapon is more accurate, and the 7.62 ammunition is far more common.  It's also a bit cheaper, making this a far more suited to urban combat.</description>
     <graphicData>
       <texPath>CP/Weapon/MM56AR</texPath>

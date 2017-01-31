@@ -395,7 +395,7 @@
 
   <ThingDef ParentName="BaseSNPGun">
     <defName>Gun_MARBUS_CP</defName>
-    <label>Militech	Arbus</label>
+    <label>Militech Arbus</label>
     <description>7mm Sniper Rifle - This sniper rifle utilizes state of the art materials in its construction and comes smartchipped as standard.  A bit heavy, but very accurate and reliable.</description>
     <graphicData>
       <texPath>CP/Weapon/MARBUS</texPath>
@@ -429,7 +429,7 @@
 
   <ThingDef ParentName="BaseSNPGun">
     <defName>Gun_MSPW32_CP</defName>
-    <label>Militech	SPW-32</label>
+    <label>Militech SPW-32</label>
     <description>9mm Sniper Rifle - Like all survival rifles, this weapon breaks down and is stored in a regular sized briefcase.  It was developed for pilots as survival/hunting weapon in case they were downed and on their own.</description>
     <graphicData>
       <texPath>CP/Weapon/MSPW32</texPath>

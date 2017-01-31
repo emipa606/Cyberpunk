@@ -2,6 +2,9 @@
 <ThingDefs>
 
 	<ThingDef Name="HatBase" ParentName="ApparelBase" Abstract="True">
+    <statBases>
+      <Mass>1.2</Mass>
+    </statBases>
 		<thingCategories>
 			<li>CPHeadgears</li>
 		</thingCategories>
@@ -21,7 +24,7 @@
 
 	<!-- ============== MetalGear™ helmet ================= -->
 
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <ThingDef ParentName="HatBase">
 		<defName>CP_MGHelmet</defName>
 		<label>MetalGear™ helmet</label>
 		<description>Laminated expoxide plated helmet from the MetalGear™ armor set. </description>
@@ -30,7 +33,8 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
-      <Plasteel>100</Plasteel>
+      <Plasteel>50</Plasteel>
+      <Component>2</Component>
 		</costList>
 		<statBases>
 			<MarketValue>100</MarketValue>
@@ -87,7 +91,7 @@
 
   <!-- ============== Militech M88 Combat Helmet ================= -->
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="HatBase">
     <defName>CP_MM88_Helmet</defName>
     <label>Militech M88 Combat Helmet</label>
     <description>
@@ -98,7 +102,8 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>100</Plasteel>
+      <Plasteel>50</Plasteel>
+      <Component>2</Component>
     </costList>
     <statBases>
       <MarketValue>1000</MarketValue>
@@ -151,7 +156,7 @@
 
   <!-- ============== Militech M88A2 Combat Helmet ================= -->
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="HatBase">
     <defName>CP_MM88A2_Helmet</defName>
     <label>Militech M88S2 Combat Helmet</label>
     <description>
@@ -162,7 +167,8 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>100</Plasteel>
+      <Plasteel>50</Plasteel>
+      <Component>2</Component>
     </costList>
     <statBases>
       <MarketValue>2399</MarketValue>
@@ -216,7 +222,7 @@
 
   <!-- ============== Arasaka Combat Helmet ================= -->
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="HatBase">
     <defName>CP_Arasaka_Helmet</defName>
     <label>Arasaka Combat Helmet</label>
     <description>
@@ -227,7 +233,8 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>100</Plasteel>
+      <Plasteel>50</Plasteel>
+      <Component>2</Component>
     </costList>
     <statBases>
       <MarketValue>1000</MarketValue>
@@ -290,9 +297,11 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>100</Plasteel>
+      <Plasteel>50</Plasteel>
+      <Component>2</Component>
     </costList>
     <statBases>
+      <WorkToMake>9000</WorkToMake>
       <MarketValue>800</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
       <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
@@ -344,18 +353,17 @@
 
   <!-- ============== TTI Paramedic Helmet ================= -->
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="HatBase">
     <defName>CP_Medic_Helmet</defName>
     <label>TTI Paramedic Helmet</label>
-    <description>
-Worn by paramedic units, these helmets provide protection as well as an anti-dazzle visor and a two-way radio.
-    </description>
+    <description>Worn by paramedic units, these helmets provide protection as well as an anti-dazzle visor and a two-way radio.</description>
     <graphicData>
       <texPath>CP/Apparel/Helmet/Paramedic_Helmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>100</Plasteel>
+      <Steel>20</Steel>
+      <Plasteel>30</Plasteel>
     </costList>
     <statBases>
       <MarketValue>180</MarketValue>

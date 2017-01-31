@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
 
-  <RecipeDef Abstract="True" Name="SurgeryFlesh_CP">
+  <RecipeDef Abstract="True" Name="SurgeryFlesh">
     <effectWorking>Surgery</effectWorking>
     <soundWorking>Recipe_Surgery</soundWorking>
     <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
@@ -12,87 +12,7 @@
     </recipeUsers>
   </RecipeDef>
 
-  <RecipeDef ParentName="SurgeryFlesh_CP">
-    <defName>InstallScratchers_CP</defName>
-    <label>install scratchers</label>
-    <description>Installs scratchers on hands.</description>
-    <workerClass>Recipe_InstallImplant</workerClass>
-    <jobString>Installing scratchers.</jobString>
-    <workAmount>1000</workAmount>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Medicine</li>
-          </categories>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Scratchers_CP</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <categories>
-        <li>Medicine</li>
-      </categories>
-      <thingDefs>
-        <li>Scratchers_CP</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <appliedOnFixedBodyParts>
-      <li>LeftHand</li>
-      <li>RightHand</li>
-    </appliedOnFixedBodyParts>
-    <addsHediff>Scratchers_CP</addsHediff>
-  </RecipeDef>
-
-  <RecipeDef ParentName="SurgeryFlesh_CP">
-    <defName>InstallRippers_CP</defName>
-    <label>install rippers</label>
-    <description>Installs rippers on hands.</description>
-    <workerClass>Recipe_InstallImplant</workerClass>
-    <jobString>Installing rippers.</jobString>
-    <workAmount>1000</workAmount>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Medicine</li>
-          </categories>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Rippers_CP</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <categories>
-        <li>Medicine</li>
-      </categories>
-      <thingDefs>
-        <li>Rippers_CP</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <appliedOnFixedBodyParts>
-      <li>LeftHand</li>
-      <li>RightHand</li>
-    </appliedOnFixedBodyParts>
-    <addsHediff>Rippers_CP</addsHediff>
-  </RecipeDef>
-
-  <RecipeDef ParentName="SurgeryFlesh_CP">
+  <RecipeDef ParentName="SurgeryFlesh">
     <defName>InstallGraftedMuscle</defName>
     <label>install muscle graft</label>
     <description>Installs muscle graft onto the existing muscles.</description>
@@ -129,50 +49,11 @@
     <appliedOnFixedBodyParts>
       <li>Torso</li>
     </appliedOnFixedBodyParts>
+    <targetsBodyPart>false</targetsBodyPart>
     <hideBodyPartNames>true</hideBodyPartNames>
   </RecipeDef>
 
-  <RecipeDef ParentName="SurgeryFlesh_CP">
-    <defName>InstallSubdermalArmor</defName>
-    <label>install subdermal armor</label>
-    <description>Installs subdermal armor under the skin.</description>
-    <workerClass>Recipe_InstallImplant</workerClass>
-    <jobString>Installing subdermal armor.</jobString>
-    <workAmount>4000</workAmount>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Medicine</li>
-          </categories>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>SubdermalArmor_CP</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <categories>
-        <li>Medicine</li>
-      </categories>
-      <thingDefs>
-        <li>SubdermalArmor_CP</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <addsHediff>SubdermalArmor_CP</addsHediff>
-    <appliedOnFixedBodyParts>
-      <li>Torso</li>
-    </appliedOnFixedBodyParts>
-    <hideBodyPartNames>true</hideBodyPartNames>
-  </RecipeDef>
-
-  <RecipeDef ParentName="SurgeryFlesh_CP">
+  <RecipeDef ParentName="SurgeryFlesh">
     <defName>InstallSkinWeave</defName>
     <label>install skin weave</label>
     <description>Installs skin weave.</description>
@@ -209,16 +90,58 @@
     <appliedOnFixedBodyParts>
       <li>Torso</li>
     </appliedOnFixedBodyParts>
+    <targetsBodyPart>false</targetsBodyPart>
     <hideBodyPartNames>true</hideBodyPartNames>
   </RecipeDef>
 
-  <RecipeDef ParentName="SurgeryFlesh_CP">
-    <defName>InstallAdrenalBooster</defName>
-    <label>install adrenal booster</label>
-    <description>Installs adrenal booster.</description>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallThermaskin</defName>
+    <label>install thermaskin</label>
+    <description>Installs thermaskin.</description>
     <workerClass>Recipe_InstallImplant</workerClass>
-    <jobString>Installing adrenal booster.</jobString>
+    <jobString>Installing thermaskin.</jobString>
     <workAmount>4000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Thermaskin_CP</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Thermaskin_CP</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <addsHediff>Thermaskin_CP</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <targetsBodyPart>false</targetsBodyPart>
+    <hideBodyPartNames>true</hideBodyPartNames>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallAdrenalBooster</defName>
+    <label>inject adrenal booster</label>
+    <description>Injects adrenal booster.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Injecting adrenal booster.</jobString>
+    <workAmount>500</workAmount>
     <ingredients>
       <li>
         <filter>
@@ -249,7 +172,131 @@
     <appliedOnFixedBodyParts>
       <li>Torso</li>
     </appliedOnFixedBodyParts>
+    <targetsBodyPart>false</targetsBodyPart>
     <hideBodyPartNames>true</hideBodyPartNames>
   </RecipeDef>
-  
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallToxinBinders</defName>
+    <label>inject toxin binders</label>
+    <description>Injects toxin binders.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Injecting toxin binders.</jobString>
+    <workAmount>500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ToxinBinders_CP</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>ToxinBinders_CP</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <addsHediff>ToxinBinders_CP</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
+    <targetsBodyPart>false</targetsBodyPart>
+    <hideBodyPartNames>true</hideBodyPartNames>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallNanosurgeons</defName>
+    <label>inject nanosurgeons</label>
+    <description>Injects nanosurgeons.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Injecting nanosurgeons.</jobString>
+    <workAmount>500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Nanosurgeons_CP</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Nanosurgeons_CP</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <addsHediff>Nanosurgeons_CP</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts> 
+    <targetsBodyPart>false</targetsBodyPart>
+    <hideBodyPartNames>true</hideBodyPartNames>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallEnhancedAntibodies</defName>
+    <label>install enhanced antibodies</label>
+    <description>Installs enhanced antibodies.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing enhanced antibodies.</jobString>
+    <workAmount>500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EnhancedAntibodies_CP</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EnhancedAntibodies_CP</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <addsHediff>EnhancedAntibodies_CP</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
+    <targetsBodyPart>false</targetsBodyPart>
+    <hideBodyPartNames>true</hideBodyPartNames>
+  </RecipeDef>
+
 </RecipeDefs>

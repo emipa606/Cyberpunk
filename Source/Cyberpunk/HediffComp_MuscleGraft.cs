@@ -11,10 +11,15 @@ namespace Cyberpunk
             
             msg = msg + Pawn.ageTracker.CurLifeStage.bodySizeFactor;
             if (Pawn.gender == Gender.Female)
-                Pawn.story.adulthood.bodyTypeFemale = RimWorld.BodyType.Hulk;
+                Pawn.story.adulthood.bodyTypeMale = RimWorld.BodyType.Hulk;
             else
                 Pawn.story.adulthood.bodyTypeMale = RimWorld.BodyType.Hulk;
             Log.Message(msg);
+        }
+
+        public override void CompPostTick()
+        {
+            base.CompPostTick();
         }
     }
 }

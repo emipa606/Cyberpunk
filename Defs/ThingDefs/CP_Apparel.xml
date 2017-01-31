@@ -74,7 +74,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
     <costList>
-      <Plasteel>50</Plasteel>
+      <Plasteel>10</Plasteel>
     </costList>
 		<costStuffCount>50</costStuffCount>	
 		<stuffCategories>
@@ -119,7 +119,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>50</Plasteel>
+      <Plasteel>20</Plasteel>
     </costList>
     <costStuffCount>50</costStuffCount>
     <stuffCategories>
@@ -140,7 +140,7 @@
       </bodyPartGroups>
       <worngraphicPath>CP/Apparel/KevlarVest/KevlarVest</worngraphicPath>
       <layers>
-        <li>OnSkin</li>
+        <li>Middle</li>
       </layers>
       <commonality>1.2</commonality>
       <tags>
@@ -156,7 +156,7 @@
 
   <ThingDef ParentName="ArmorMakeableBase">
     <defName>CP_KevlarJL</defName>
-    <label>Kevlar Armor Jacket (lt)</label>
+    <label>Light Kevlar Armor Jacket</label>
     <description>Personal protection for the fashion conscious, these lightweight Kevlar jackets have nylon coverings that resemble normal jackets.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
@@ -165,7 +165,7 @@
     <costList>
       <Plasteel>50</Plasteel>
     </costList>
-    <costStuffCount>50</costStuffCount>
+    <costStuffCount>100</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -205,7 +205,7 @@
 
   <ThingDef ParentName="ArmorMakeableBase">
     <defName>CP_KevlarJM</defName>
-    <label>Kevlar Armor Jacket (md)</label>
+    <label>Kevlar Armor Jacket</label>
     <description>Personal protection for the fashion conscious, these medium Kevlar jackets have nylon coverings that resemble normal jackets.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
@@ -214,7 +214,7 @@
     <costList>
       <Plasteel>75</Plasteel>
     </costList>
-    <costStuffCount>75</costStuffCount>
+    <costStuffCount>150</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -254,7 +254,7 @@
 
   <ThingDef ParentName="ArmorMakeableBase">
     <defName>CP_KevlarJH</defName>
-    <label>Kevlar Armor Jacket (hv)</label>
+    <label>Heavy Kevlar Armor Jacket</label>
     <description>Personal protection for the fashion conscious, these heavy Kevlar jackets have nylon coverings that resemble normal jackets.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
@@ -263,7 +263,7 @@
     <costList>
       <Plasteel>100</Plasteel>
     </costList>
-    <costStuffCount>100</costStuffCount>
+    <costStuffCount>200</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -312,7 +312,10 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>70</costStuffCount>
+    <costList>
+      <Plasteel>50</Plasteel>
+    </costList>
+    <costStuffCount>100</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -370,8 +373,8 @@
       <MoveSpeed>-0.02</MoveSpeed>
     </equippedStatOffsets>
     <costList>
-      <Steel>120</Steel>
-      <Component>2</Component>
+      <Steel>20</Steel>
+      <Cloth>30</Cloth>
     </costList>
     <apparel>
       <bodyPartGroups>
@@ -412,7 +415,7 @@
   <ThingDef ParentName="ArmorMakeableBase">
     <defName>CP_Flack_Pants</defName>
     <label>flack pants</label>
-    <description>Standard protection for combat soldiers, the flack vest is designed to stop small arms fire, grenade shrapnel, but only slow up assault rifle rounds.</description>
+    <description>Standard protection for combat soldiers, the flack pants are designed to stop small arms fire, grenade shrapnel, but only slow up assault rifle rounds.</description>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
@@ -422,12 +425,8 @@
     </graphicData>
     <costList>
       <Steel>10</Steel>
+      <Cloth>60</Cloth>
     </costList>
-    <costStuffCount>70</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
     <statBases>
       <WorkToMake>7000</WorkToMake>
       <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
@@ -435,7 +434,7 @@
       <Insulation_Cold>-3</Insulation_Cold>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>-0.01</MoveSpeed>
+      <MoveSpeed>-0.02</MoveSpeed>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -482,11 +481,8 @@
     </equippedStatOffsets>
     <costList>
       <Steel>10</Steel>
+      <Cloth>40</Cloth>
     </costList>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -532,12 +528,8 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
     <costList>
-      <Plasteel>100</Plasteel>
+      <Plasteel>50</Plasteel>
     </costList>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
 		<statBases>
 			<MarketValue>400</MarketValue>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -580,7 +572,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
     <costList>
-      <Plasteel>200</Plasteel>
+      <Plasteel>50</Plasteel>
     </costList>	
 		<statBases>
       <MarketValue>200</MarketValue>
@@ -664,6 +656,7 @@
     </graphicData>
     <costList>
       <Plasteel>40</Plasteel>
+      <Cloth>30</Cloth>
     </costList>
     <statBases>
       <MarketValue>30</MarketValue>
@@ -703,6 +696,7 @@
     </graphicData>
     <costList>
       <Plasteel>40</Plasteel>
+      <Cloth>30</Cloth>
     </costList>
     <statBases>
       <MarketValue>125</MarketValue>
@@ -739,7 +733,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>40</Plasteel>
+      <Plasteel>20</Plasteel>
     </costList>
     <statBases>
       <MarketValue>175</MarketValue>
@@ -776,10 +770,10 @@
       <texPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>50</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-    </stuffCategories>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Cloth>30</Cloth>
+    </costList>
     <statBases>
       <MarketValue>10</MarketValue>
       <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
@@ -817,6 +811,9 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <costList>
+      <Plasteel>40</Plasteel>
+    </costList>
     <costStuffCount>70</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -1144,6 +1141,9 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <costList>
+      <Plasteel>20</Plasteel>
+    </costList>
     <costStuffCount>70</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -1204,6 +1204,10 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <costList>
+      <Plasteel>20</Plasteel>
+    </costList>
+    <costStuffCount>50</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -1413,7 +1417,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>50</Plasteel>
+      <Plasteel>20</Plasteel>
     </costList>
     <costStuffCount>50</costStuffCount>
     <stuffCategories>
@@ -1457,9 +1461,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>50</Plasteel>
+      <Plasteel>60</Plasteel>
     </costList>
-    <costStuffCount>50</costStuffCount>
+    <costStuffCount>80</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -1471,13 +1475,16 @@
       <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
       <Insulation_Cold>-4</Insulation_Cold>
     </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>-0.01</WorkSpeedGlobal>
+    </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
       <worngraphicPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</worngraphicPath>
       <layers>
-        <li>OnSkin</li>
+        <li>Middle</li>
       </layers>
       <commonality>1</commonality>
       <tags>
@@ -1500,8 +1507,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>50</Plasteel>
+      <Plasteel>70</Plasteel>
     </costList>
+    <costStuffCount>100</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -1512,6 +1520,9 @@
       <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
       <Insulation_Cold>-4</Insulation_Cold>
     </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>-0.01</WorkSpeedGlobal>
+    </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -1545,6 +1556,9 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <costList>
+      <Plasteel>70</Plasteel>
+    </costList>
     <costStuffCount>100</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -1618,6 +1632,9 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <costList>
+      <Plasteel>40</Plasteel>
+    </costList>
     <costStuffCount>70</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -1703,6 +1720,9 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <costList>
+      <Plasteel>50</Plasteel>
+    </costList>
     <costStuffCount>100</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -1776,6 +1796,9 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <costList>
+      <Plasteel>40</Plasteel>
+    </costList>
     <costStuffCount>70</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -1855,10 +1878,8 @@
 
   <ThingDef ParentName="ApparelBase">
     <defName>Apparel_MGCombat_Armor</defName>
-    <description>
-Utilizing the latest in computer, medical and armor technology, MedicGear by Bodyweight Systems is designed to assist medics everywhere.
-Endorsed by Trauma Team, Inc. and the RimWorld Search and Rescue service! MedicGear starts with hard-shell armor, then starts loading on the goodies. Incorporated into the structure is a Hybrid MedicWear computer, with a few additional functions. Sensors and software are added that allow it to function as a drug analyzer and techscanner, giving the medic the ability to see just what the patient is on, and what cyberware he's got! A pack on the waist also includes various pressure bandages and other supplies.
-    </description>
+    <description>Utilizing the latest in computer, medical and armor technology, MedicGear by Bodyweight Systems is designed to assist medics everywhere.
+Endorsed by Trauma Team, Inc. and the RimWorld Search and Rescue service! MedicGear starts with hard-shell armor, then starts loading on the goodies. Incorporated into the structure is a Hybrid MedicWear computer, with a few additional functions. Sensors and software are added that allow it to function as a drug analyzer and techscanner, giving the medic the ability to see just what the patient is on, and what cyberware he's got! A pack on the waist also includes various pressure bandages and other supplies.</description>
     <label>MedicGear Combat Armor</label>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath>
@@ -1882,7 +1903,7 @@ Endorsed by Trauma Team, Inc. and the RimWorld Search and Rescue service! MedicG
       <HealingQuality>0.20</HealingQuality>
       <HealingSpeed>0.2</HealingSpeed>
       <MedicalOperationSpeed>0.2</MedicalOperationSpeed>
-      <MoveSpeed>-0.30</MoveSpeed>
+      <MoveSpeed>-0.10</MoveSpeed>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
