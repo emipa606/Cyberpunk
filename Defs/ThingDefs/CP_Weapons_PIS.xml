@@ -94,7 +94,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_5mm_CP</projectileDef>
 				<warmupTime>1</warmupTime>
-				<range>5</range>
+				<range>8</range>
 				<soundCast>ShotPistol</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
@@ -138,7 +138,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_6mm_CP</projectileDef>
 				<warmupTime>1</warmupTime>
-				<range>5</range>
+				<range>8</range>
 				<soundCast>ShotPistol</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
@@ -182,7 +182,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_6mm_CP</projectileDef>
 				<warmupTime>1</warmupTime>
-				<range>5</range>
+				<range>8</range>
 				<soundCast>ShotPistol</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
@@ -226,7 +226,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
         <warmupTime>1.2</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>21</ticksBetweenBurstShots>
         <soundCast>ShotPistol</soundCast>
@@ -272,7 +272,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
         <warmupTime>2.8</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -316,7 +316,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
         <warmupTime>2.8</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -360,7 +360,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
         <warmupTime>1</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -404,7 +404,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_9mm_CP</projectileDef>
 				<warmupTime>1</warmupTime>
-				<range>5</range>
+        <range>8</range>
 				<soundCast>ShotPistol</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
@@ -448,7 +448,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_9mm_CP</projectileDef>
         <warmupTime>2.8</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -492,7 +492,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
         <warmupTime>2.6</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -536,7 +536,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
         <warmupTime>1</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -580,7 +580,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
         <warmupTime>2.6</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -624,7 +624,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
         <warmupTime>2.6</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -668,7 +668,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
         <warmupTime>2.6</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -712,7 +712,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_10mm_CP</projectileDef>
         <warmupTime>2.6</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -756,7 +756,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
         <warmupTime>2.4</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -801,7 +801,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
         <warmupTime>2.4</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -846,7 +846,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
         <warmupTime>2.4</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -890,7 +890,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
         <warmupTime>2.4</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -934,7 +934,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
         <warmupTime>2.4</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -978,7 +978,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_11mm_CP</projectileDef>
         <warmupTime>1</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -1022,7 +1022,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12mm_CP</projectileDef>
         <warmupTime>2.4</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -1066,7 +1066,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_12mm_CP</projectileDef>
 				<warmupTime>2.4</warmupTime>
-				<range>5</range>
+				<range>8</range>
 				<soundCast>ShotPistol</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
@@ -1110,7 +1110,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12mm_CP</projectileDef>
         <warmupTime>2.4</warmupTime>
-        <range>5</range>
+        <range>8</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>

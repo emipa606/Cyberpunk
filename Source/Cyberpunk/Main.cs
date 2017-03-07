@@ -18,7 +18,7 @@ namespace Cyberpunk
         {
             var id = "Cyberpunk";
             harmony = HarmonyInstance.Create(id);
-            harmony.PatchAll(typeof(Main).Module);
+            harmony.PatchAll(typeof(Main).Assembly);
         }
 
         static string GetHarmonyConfigFile()
@@ -33,11 +33,11 @@ namespace Cyberpunk
         }
     }
 
-    [HarmonyPatch(typeof(FloatMenuMakerMap))]
-    [HarmonyPatch("AddHumanlikeOrders")]
-    static class Patch
+    //[HarmonyPatch(typeof(FloatMenuMakerMap))]
+    //[HarmonyPatch("AddHumanlikeOrders")]
+    internal static class Patch
     {
-        static void ChangeBodyType(Pawn pawn, BodyType bt)
+        public static void ChangeBodyType(Pawn pawn, BodyType bt)
         {
             var storyTrv = Traverse.Create(pawn.story);
             var newStory = new Pawn_StoryTracker(pawn);
@@ -49,18 +49,18 @@ namespace Cyberpunk
             pawn.Drawer.renderer.graphics.ResolveAllGraphics();
         }
 
-        static void AddMenuOptions(Pawn pawn, List<FloatMenuOption> opts)
-        {
-            opts.Add(new FloatMenuOption("Make Thin", delegate () { ChangeBodyType(pawn, BodyType.Thin); },
-                MenuOptionPriority.Default, null, null, 0f, null, null));
+        //static void AddMenuOptions(Pawn pawn, List<FloatMenuOption> opts)
+        //{
+        //    opts.Add(new FloatMenuOption("Make Thin", delegate () { ChangeBodyType(pawn, BodyType.Thin); },
+        //        MenuOptionPriority.Default, null, null, 0f, null, null));
 
-            opts.Add(new FloatMenuOption("Make Hulk", delegate () { ChangeBodyType(pawn, BodyType.Hulk); },
-                MenuOptionPriority.Default, null, null, 0f, null, null));
-        }
+        //    opts.Add(new FloatMenuOption("Make Hulk", delegate () { ChangeBodyType(pawn, BodyType.Hulk); },
+        //        MenuOptionPriority.Default, null, null, 0f, null, null));
+        //}
 
-        static void Postfix(ref Vector3 clickPos, ref Pawn pawn, ref List<FloatMenuOption> opts)
-        {
-            AddMenuOptions(pawn, opts);
-        }
+        //static void Postfix(ref Vector3 clickPos, ref Pawn pawn, ref List<FloatMenuOption> opts)
+        //{
+        //    AddMenuOptions(pawn, opts);
+        //}
     }
 }

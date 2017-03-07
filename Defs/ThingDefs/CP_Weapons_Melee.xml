@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="BaseMeleeWeapon_CP" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Industrial</techLevel>
+    <smeltable>true</smeltable>
+    <weaponTags>
+      <li>Melee</li>
+    </weaponTags>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+      <li>CPWeapons</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>ArtName_WeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+   <!-- <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker> -->
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+
+
+  <ThingDef Name="BaseMeleeWeapon_Sharp_CP" ParentName="BaseMeleeWeapon_CP" Abstract="True">
+    <recipeMaker>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <exceptedThingDefs>
+          <li>Silver</li>
+          <li>Gold</li>
+          <li>WoodLog</li>
+        </exceptedThingDefs>
+      </defaultIngredientFilter>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>MeleeWeapon_Knife_CP</defName>
+    <label>combat knife</label>
+    <description>A big knife with over 30 cm of blade, supplied to most armies. It can be used for survival or many other things. It has an excellent edge, so it cuts better than the average knife. A good stab can go straight to the heart, or even through someone. Strictly a military weapon, so it's hard (but not impossible) for civilians to get.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Knife</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <Mass>0.5</Mass>
+      <MeleeWeapon_DamageAmount>9</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>1.56</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+    <defName>MeleeWeapon_AKnife_CP</defName>
+    <label>Arasaka combat knife</label>
+    <description>A simple, yet very sturdy combat knife.  Well balanced and made from a special iron heavy alloy that allows it to retain an edge even after serious abuse.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Knife</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <MarketValue>150</MarketValue>
+      <Mass>0.5</Mass>
+      <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>1.50</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+    <defName>MeleeWeapon_IMIChainknife_CP</defName>
+    <label>IMI Chainknife</label>
+    <description>The IMI Chainknife is a miniature battery powered chainsaw; shaped somewhat like a survival knife with a 2 hour charge. It has seen a great deal of use by espionage agents.</description>
+    <graphicData>
+      <texPath>CP/Weapon/Chainknife</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <MarketValue>120</MarketValue>
+      <Mass>0.5</Mass>
+      <MeleeWeapon_DamageAmount>9</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>1.56</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.1</PlantWorkSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+    <defName>MeleeWeapon_Monoknife_CP</defName>
+    <label>Kendachi Monoknife</label>
+    <description></description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Knife</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>0.5</Mass>
+      <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>1.50</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>MeleeWeapon_Chainknife_CP</defName>
+    <label>chainknife</label>
+    <description>These chainknives are hand made, similar to the chainknife produced by IMI.</description>
+    <graphicData>
+      <texPath>CP/Weapon/Chainknife</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>0.5</Mass>
+      <MeleeWeapon_DamageAmount>8</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>1.56</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.1</PlantWorkSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>MeleeWeapon_LongSword</defName>
+    <label>longsword</label>
+    <description>The ancient weapon of kings, the longsword can be used for slashing or stabbing and is deadly in the right hands.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/LongSword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>120</costStuffCount>
+    <statBases>
+      <WorkToMake>22000</WorkToMake>
+      <Mass>1.6</Mass>
+      <MeleeWeapon_DamageAmount>14</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+    <defName>MeleeWeapon_PowerSword_CP</defName>
+    <label>Kendachi Powersword</label>
+    <description>Combining elements of the popular Kendachi monoline with a powered handle, the powersword vibrates its molecular crystal blade 2000 per minute. Combined with a microscopically serrated edge, this weapon literally chews its way through anything it encounteres.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/LongSword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>120</costStuffCount>
+    <statBases>
+      <MarketValue>860</MarketValue>
+      <Mass>3</Mass>
+      <MeleeWeapon_DamageAmount>18</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.3,0.15,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.5,0.5,0.5,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>MeleeWeapon_Katana_CP</defName>
+    <label>katana</label>
+    <description>Katanas were one of the traditionally made Japanese swords that were used by the samurai of ancient and feudal Japan. Today they are popular in asian communities by those who view themselves as rimworld ronin.</description>
+    <graphicData>
+      <texPath>CP/Weapon/katana</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>120</costStuffCount>
+    <statBases>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>3</Mass>
+      <MeleeWeapon_DamageAmount>18</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+    <defName>MeleeWeapon_AKatana_CP</defName>
+    <label>Arasaka Katana</label>
+    <description>Arasaka grows their swords in orbit, their crystalline matrices aligned to make a sword that is stronger and sharper than any terrestrial metal. These swords are not sold by Arasaka, but given to their soldiers as a symbol of honor when they are prometed to officers.</description>
+    <graphicData>
+      <texPath>CP/Weapon/katana</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <Mass>3</Mass>
+      <MeleeWeapon_DamageAmount>18</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+    <defName>MeleeWeapon_MonoKatana_CP</defName>
+    <label>Kendachi Monokatana</label>
+    <description>The monokatana is an incredibally sharp. mono-molecular crystal blade in the style of a katana.</description>
+    <graphicData>
+      <texPath>CP/Weapon/katana</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>120</costStuffCount>
+    <statBases>
+      <MarketValue>600</MarketValue>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>2</Mass>
+      <MeleeWeapon_DamageAmount>24</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.8,0.9,1.0,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+    <defName>MeleeWeapon_MonoKatana2_CP</defName>
+    <label>Kendachi Mono-Two</label>
+    <description>An improved version of the original Kendachi Monoblade, favored by corporate samurai everywhere. A thicker blade cross section reinforced with Orbital crystal strengthens the weapon against parries.</description>
+    <graphicData>
+      <texPath>CP/Weapon/katana</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>120</costStuffCount>
+    <statBases>
+      <MarketValue>700</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2</Mass>
+      <MeleeWeapon_DamageAmount>24</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1,0.9,0.1,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1,0.1,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+    <defName>MeleeWeapon_IMIChainsword_CP</defName>
+    <label>IMI Chainsword</label>
+    <description>Since their chain knife sold so well, IMI decided to up the stakes and released a full scale sword.  The balance is a bit off, but this weapons will simply tear through just about anything that stands in its way.  It comes with a custom sheath.</description>
+    <graphicData>
+      <texPath>CP/Weapon/Chainsword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>540</MarketValue>
+      <Mass>3</Mass>
+      <MeleeWeapon_DamageAmount>24</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.8</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.2</PlantWorkSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+    <defName>MeleeWeapon_Chainsword_CP</defName>
+    <label>Chainsword</label>
+    <description>These swords have begun to appear at the hands of pirates and raiders. They are all handmade; powered either by combustion engine or electric.</description>
+    <graphicData>
+      <texPath>CP/Weapon/Chainsword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>3</Mass>
+      <MeleeWeapon_DamageAmount>27</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>3.0</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.2</PlantWorkSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+    <defName>MeleeWeapon_Battleglove_CP</defName>
+    <label>Gibson Battlegear SPM-1 Battleglove</label>
+    <description>This is a large gauntlet covering the hand and forearm, increasing the power of the user's punches.</description>
+    <graphicData>
+      <texPath>CP/Weapon/Battleglove</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>3</Mass>
+      <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>3.0</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-90</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+      </li>
+    </verbs>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.2</PlantWorkSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+
+</ThingDefs>

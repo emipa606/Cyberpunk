@@ -642,7 +642,7 @@
   <!-- =================== Arasaka	Kirin ================== -->
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_AK_CP</defName>
-    <label>Arasaka	Kirin</label>
+    <label>Arasaka Kirin</label>
     <description>14mm SMG - A similar design to the old Kriss SMG, the Kirin features an updated design and is chambered in 14mm, for hard hitting action, guaranteed to put down whatever stands against you. And extended 25 round mag is available.</description>
     <graphicData>
       <texPath>CP/Weapon/AK</texPath>
@@ -677,7 +677,7 @@
   <!-- =================== Militech	DSL-14 ================== -->
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_MDSL14_CP</defName>
-    <label>Militech	DSL-14</label>
+    <label>Militech DSL-14</label>
     <description>14mm SMG - A similar design to the old Kriss SMG, the Kirin features an updated design and is chambered in 14mm, for hard hitting action, guaranteed to put down whatever stands against you. And extended 25 round mag is available.</description>
     <graphicData>
       <texPath>CP/Weapon/MDSL14</texPath>

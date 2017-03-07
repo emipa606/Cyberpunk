@@ -839,4 +839,73 @@
     </verbs>
   </ThingDef>
 
+
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_KevlarHelmet</defName>
+    <label>kevlar helmet</label>
+    <description>A lightweight combat helmet.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <MarketValue>300</MarketValue>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+    </statBases>
+    <costList>
+      <Component>2</Component>
+      <Kevlar>60</Kevlar>
+      <Steel>10</Steel>
+    </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.02</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>1</commonality>
+      <tags>
+        <li>Military</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
 </ThingDefs>

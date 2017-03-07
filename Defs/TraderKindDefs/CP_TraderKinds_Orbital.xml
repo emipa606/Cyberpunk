@@ -18,9 +18,13 @@
 	  
 	  <li Class="StockGenerator_Category">
       <categoryDef>CPWeapons</categoryDef>
+      <thingDefCountRange>
+        <min>5</min>
+        <max>30</max>
+      </thingDefCountRange>
         <countRange>
-          <min>5</min>
-          <max>30</max>
+          <min>1</min>
+          <max>10</max>
         </countRange>
       </li>
 	  
@@ -28,25 +32,37 @@
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPApparels</categoryDef>
-        <countRange>
+        <thingDefCountRange>
           <min>5</min>
           <max>30</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>5</max>
         </countRange>
       </li>
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPHeadgears</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>10</max>
+        </thingDefCountRange>
         <countRange>
           <min>1</min>
-          <max>30</max>
+          <max>5</max>
         </countRange>
       </li>
 
       <li Class="StockGenerator_Category">
         <categoryDef>BodyPartsArtificial</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>10</max>
+        </thingDefCountRange>
         <countRange>
-          <min>5</min>
-          <max>30</max>
+          <min>1</min>
+          <max>10</max>
         </countRange>
       </li>
 
@@ -69,6 +85,10 @@
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPWeapons</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>20</max>
+        </thingDefCountRange>
         <countRange>
           <min>5</min>
           <max>20</max>
@@ -79,14 +99,10 @@
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPApparels</categoryDef>
-        <countRange>
+        <thingDefCountRange>
           <min>5</min>
-          <max>20</max>
-        </countRange>
-      </li>
-
-      <li Class="StockGenerator_Category">
-        <categoryDef>CPHeadgears</categoryDef>
+          <max>29</max>
+        </thingDefCountRange>
         <countRange>
           <min>1</min>
           <max>10</max>
@@ -94,10 +110,26 @@
       </li>
 
       <li Class="StockGenerator_Category">
-        <categoryDef>BodyPartsArtificial</categoryDef>
+        <categoryDef>CPHeadgears</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>5</max>
+        </thingDefCountRange>
         <countRange>
+          <min>1</min>
+          <max>5</max>
+        </countRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>BodyPartsArtificial</categoryDef>
+        <thingDefCountRange>
           <min>5</min>
           <max>10</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>5</max>
         </countRange>
       </li>
 
@@ -121,9 +153,13 @@
 
       <li Class="StockGenerator_Category">
         <categoryDef>WeaponsRanged</categoryDef>
-        <countRange>
+        <thingDefCountRange>
           <min>15</min>
-          <max>50</max>
+          <max>30</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>20</max>
         </countRange>
       </li>
 
@@ -131,17 +167,25 @@
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPApparels</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>10</max>
+        </thingDefCountRange>
         <countRange>
-          <min>5</min>
-          <max>50</max>
+          <min>1</min>
+          <max>20</max>
         </countRange>
       </li>
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPHeadgears</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>5</max>
+        </thingDefCountRange>
         <countRange>
-          <min>5</min>
-          <max>50</max>
+          <min>1</min>
+          <max>10</max>
         </countRange>
       </li>
       
@@ -185,6 +229,10 @@
 
       <li Class="StockGenerator_Category">
         <categoryDef>WeaponsRanged</categoryDef>
+        <thingDefCountRange>
+          <min>5</min>
+          <max>20</max>
+        </thingDefCountRange>
         <countRange>
           <min>5</min>
           <max>20</max>
@@ -195,17 +243,25 @@
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPApparels</categoryDef>
-        <countRange>
+        <thingDefCountRange>
           <min>5</min>
+          <max>10</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
           <max>10</max>
         </countRange>
       </li>
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPHeadgears</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>5</max>
+        </thingDefCountRange>
         <countRange>
-          <min>5</min>
-          <max>10</max>
+          <min>1</min>
+          <max>3</max>
         </countRange>
       </li>
 

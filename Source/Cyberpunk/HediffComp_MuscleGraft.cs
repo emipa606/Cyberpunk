@@ -6,15 +6,11 @@ namespace Cyberpunk
     {
         public override void CompPostMake()
         {
-            string msg = "(CompPostMake) Body Size Factor " + Pawn.ageTracker.CurLifeStage.bodySizeFactor + "->";
+            //string msg = "HediffComp_MuscleGraft(CompPostMake)";
+
+            //Log.Message(msg);
             base.CompPostMake();
-            
-            msg = msg + Pawn.ageTracker.CurLifeStage.bodySizeFactor;
-            if (Pawn.gender == Gender.Female)
-                Pawn.story.adulthood.bodyTypeMale = RimWorld.BodyType.Hulk;
-            else
-                Pawn.story.adulthood.bodyTypeMale = RimWorld.BodyType.Hulk;
-            Log.Message(msg);
+            Patch.ChangeBodyType(base.Pawn, RimWorld.BodyType.Hulk);
         }
 
         public override void CompPostTick()

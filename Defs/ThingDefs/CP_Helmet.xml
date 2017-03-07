@@ -29,11 +29,12 @@
 		<label>MetalGear™ helmet</label>
 		<description>Laminated expoxide plated helmet from the MetalGear™ armor set. </description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath>
+			<texPath>CP/Apparel/Helmet/MetalGear</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
-      <Plasteel>50</Plasteel>
+      <Kevlar>40</Kevlar>
+      <Plasteel>30</Plasteel>
       <Component>2</Component>
 		</costList>
 		<statBases>
@@ -46,7 +47,6 @@
 			<Insulation_Cold>-4</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0</MoveSpeed>
 			<ShootingAccuracy>0.05</ShootingAccuracy>
 			<AimingDelayFactor>-0.05</AimingDelayFactor>
 		</equippedStatOffsets>
@@ -54,11 +54,11 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<worngraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</worngraphicPath>
+			<worngraphicPath>CP/Apparel/Helmet/MetalGear</worngraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>2</commonality>
+			<commonality>.8</commonality>
 			<tags>
 				<li>Military</li>
 			</tags>
@@ -78,8 +78,8 @@
           </li>
           <li>
             <weight>6</weight>
-            <min>RGBA(0.3,0.3,0.3,1)</min>
-            <max>RGBA(0.5,0.5,0.5,1)</max>
+            <min>RGBA(0.2,0.2,0.2,1)</min>
+            <max>RGBA(0.6,0.6,0.6,1)</max>
           </li>
           <li>
             <weight>10</weight>
@@ -98,11 +98,12 @@
       The M-88 is a fully enclosed infantry helmet that is currently being issued to special attack and guard units. It has an integral face shield and respirator and offers complete protection against all inhaled agents. The communications microphone and earphones are built in, as is a small, forward facing video camera array which not only provides input for night vision systems but can transmit images back to a rearechelon receiver. The face shield functions as a heads-up display which is interfaced with a belt-pack accepting chipped data, such as maps.
     </description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</texPath>
+      <texPath>CP/Apparel/Militech/MM88</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>50</Plasteel>
+      <Kevlar>40</Kevlar>
+      <Plasteel>30</Plasteel>
       <Component>2</Component>
     </costList>
     <statBases>
@@ -112,14 +113,13 @@
       <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>0</MoveSpeed>
       <ShootingAccuracy>0.10</ShootingAccuracy>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</worngraphicPath>
+      <worngraphicPath>CP/Apparel/Helmet/MM88</worngraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -131,27 +131,6 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
-        </li>
-        <li>
-          <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.9,0.9,0.9,1)</only>
-        </li>
-      </options>
-    </colorGenerator>
   </ThingDef>
 
   <!-- ============== Militech M88A2 Combat Helmet ================= -->
@@ -163,11 +142,12 @@
       The M-88A2 is an enhanced combat helmet model with greater protective and analytic capability than the M-88. It has an integral face shield and respirator and offers complete protection against all inhaled agents. The communications microphone and earphones are built in, as is a small, forward facing video camera array which not only provides input for night vision systems but can transmit images back to a rearechelon receiver. The face shield functions as a heads-up display which is interfaced with a belt-pack accepting chipped data, such as maps.
     </description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</texPath>
+      <texPath>CP/Apparel/Militech/MM88</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>50</Plasteel>
+      <Kevlar>40</Kevlar>
+      <Plasteel>30</Plasteel>
       <Component>2</Component>
     </costList>
     <statBases>
@@ -177,7 +157,6 @@
       <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>0</MoveSpeed>
       <ShootingAccuracy>0.15</ShootingAccuracy>
       <AimingDelayFactor>-0.1</AimingDelayFactor>
     </equippedStatOffsets>
@@ -185,7 +164,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</worngraphicPath>
+      <worngraphicPath>CP/Apparel/Helmet/MM88</worngraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -197,27 +176,6 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
-        </li>
-        <li>
-          <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.9,0.9,0.9,1)</only>
-        </li>
-      </options>
-    </colorGenerator>
   </ThingDef>
 
   <!-- ============== Arasaka Combat Helmet ================= -->
@@ -229,11 +187,12 @@
       Standard issue Arasaka Combat Helmet.
     </description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</texPath>
+      <texPath>CP/Apparel/Helmet/ArasakaHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>50</Plasteel>
+      <Kevlar>40</Kevlar>
+      <Plasteel>30</Plasteel>
       <Component>2</Component>
     </costList>
     <statBases>
@@ -243,13 +202,14 @@
       <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>0</MoveSpeed>
+      <ShootingAccuracy>0.05</ShootingAccuracy>
+      <AimingDelayFactor>-0.05</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</worngraphicPath>
+      <worngraphicPath>CP/Apparel/Helmet/ArasakaHelmet</worngraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -293,11 +253,12 @@
       The smart helmet provides some protection as well as utilizing smart interface links for aiming assist.
     </description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/PsychicFoilHelmet/PsychicFoilHelmet</texPath>
+      <texPath>CP/Apparel/Helmet/SmartHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Plasteel>50</Plasteel>
+      <Kevlar>50</Kevlar>
+      <Plasteel>20</Plasteel>
       <Component>2</Component>
     </costList>
     <statBases>
@@ -316,7 +277,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/PsychicFoilHelmet/PsychicFoilHelmet</worngraphicPath>
+      <worngraphicPath>CP/Apparel/Helmet/SmartHelmet</worngraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -363,7 +324,7 @@
     </graphicData>
     <costList>
       <Steel>20</Steel>
-      <Plasteel>30</Plasteel>
+      <Kevlar>50</Kevlar>
     </costList>
     <statBases>
       <MarketValue>180</MarketValue>

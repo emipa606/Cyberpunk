@@ -21,12 +21,12 @@
     <invNutrition>0</invNutrition>
     <gearHealthRange>
       <min>0.2</min>
-      <max>0.6</max>
+      <max>0.7</max>
     </gearHealthRange>
     <itemQuality>Shoddy</itemQuality>
     <apparelMoney>
-      <min>90</min>
-      <max>280</max>
+      <min>290</min>
+      <max>500</max>
     </apparelMoney>
     <apparelAllowHeadwearChance>0.2</apparelAllowHeadwearChance>
     <weaponMoney>
@@ -79,7 +79,7 @@
     <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
     <apparelMoney>
       <min>300</min>
-      <max>500</max>
+      <max>600</max>
     </apparelMoney>
     <apparelAllowHeadwearChance>0.3</apparelAllowHeadwearChance>
     <weaponMoney>

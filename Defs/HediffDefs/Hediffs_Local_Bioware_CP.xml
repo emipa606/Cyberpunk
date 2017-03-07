@@ -46,6 +46,7 @@
       </li>
     </stages>
     <comps>
+      <li Class="Cyberpunk.HediffCompProperties_MuscleGraft" />
       <li Class="HediffCompProperties_VerbGiver">
         <verbs>
           <li>

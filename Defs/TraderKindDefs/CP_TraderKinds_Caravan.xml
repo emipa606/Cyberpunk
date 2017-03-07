@@ -18,6 +18,10 @@
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPWeapons</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>8</max>
+        </thingDefCountRange>
         <countRange>
           <min>1</min>
           <max>8</max>
@@ -28,6 +32,10 @@
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPApparels</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>5</max>
+        </thingDefCountRange>
         <countRange>
           <min>1</min>
           <max>2</max>
@@ -36,6 +44,10 @@
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPHeadgears</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>5</max>
+        </thingDefCountRange>
         <countRange>
           <min>1</min>
           <max>2</max>
@@ -75,9 +87,13 @@
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPWeapons</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>8</max>
+        </thingDefCountRange>
         <countRange>
           <min>1</min>
-          <max>8</max>
+          <max>10</max>
         </countRange>
       </li>
 
@@ -85,6 +101,10 @@
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPApparels</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>5</max>
+        </thingDefCountRange>
         <countRange>
           <min>1</min>
           <max>2</max>
@@ -93,6 +113,10 @@
 
       <li Class="StockGenerator_Category">
         <categoryDef>CPHeadgears</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>5</max>
+        </thingDefCountRange>
         <countRange>
           <min>1</min>
           <max>2</max>
@@ -102,7 +126,7 @@
       <li Class="StockGenerator_Tag">
         <tradeTag>BodyPartOrImplant</tradeTag>
         <thingDefCountRange>
-          <min>2</min>
+          <min>1</min>
           <max>5</max>
         </thingDefCountRange>
         <countRange>

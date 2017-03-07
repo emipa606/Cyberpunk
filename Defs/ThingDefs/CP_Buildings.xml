@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef ParentName="BenchBase">
+		<defName>Refinery</defName>
+		<label>refinery</label>
+		<description>A chemical refining plant. Used to refine wood into chemfuel and to produce kevlar fibers.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,2)</size>
+		<costList>
+			<Steel>150</Steel>
+			<Component>3</Component>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>170</basePowerConsumption>
+				<startElectricalFires>true</startElectricalFires>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<recipes>
+			<li>MakeChemfuelFromWood</li>
+			<li>MakeChemfuelFromOrganics</li>
+			<li>MakeKevlarFromChemfuel</li>
+		</recipes>
+		<castEdgeShadows>false</castEdgeShadows>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<graphicData>
+			<texPath>Things/Building/Production/Refinery</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(1.5,1,1.5)</volume>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0.1,2.4,1.8)</rect>
+			</damageData>
+		</graphicData>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Production</designationCategory>
+		<surfaceType>Item</surfaceType>
+		<researchPrerequisites>
+			<li>Refining</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+    <DefName>TableMachining</DefName>
+    <label>machining table</label>
+    <ThingClass>Building_WorkTable</ThingClass>
+    <Description>A work station for assembling and disassembling machinery such as guns or mechanoid corpses.</Description>
+    <graphicData>
+      <texPath>Things/Building/Production/TableMachining</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <CostList>
+      <Steel>150</Steel>
+      <Component>5</Component>
+    </CostList>
+    <AltitudeLayer>Building</AltitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <Size>(3,1)</Size>
+    <DesignationCategory>Production</DesignationCategory>
+    <Passability>PassThroughOnly</Passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <recipes>
+      <li>ButcherCorpseMechanoid</li>
+      <li>MakeMortarShell</li>
+      <li>MakeKevlar</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(73,123,138,0)</glowColor>
+      </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites><li>Machining</li></researchPrerequisites>
+    <designationHotKey>Misc7</designationHotKey>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+  </ThingDef>
+
+</ThingDefs>

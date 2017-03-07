@@ -149,7 +149,7 @@
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_FAMA25_CP</defName>
-    <label>Federated Arms	MA-25</label>
+    <label>Federated Arms MA-25</label>
     <description>5.56mm Assault Rifle - A cheap fairly reliable assault rifle, popular in 3rd world militaries, nomads, and urban gangs.</description>
     <graphicData>
       <texPath>CP/Weapon/FAMA25</texPath>
@@ -365,7 +365,7 @@
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_SHRO113_CP</defName>
-    <label>Sternmeyer	HRO-113</label>
+    <label>Sternmeyer HRO-113</label>
     <description>6mm Assault Rifle - A simple if effective assault rifle by Sternmeyer.</description>
     <graphicData>
       <texPath>CP/Weapon/SHRO113</texPath>
@@ -545,7 +545,7 @@
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_FABR328_CP</defName>
-    <label>Federated Arms	BR-328</label>
+    <label>Federated Arms BR-328</label>
     <description>7.62mm Assault Rifle - A decent assault rifle from Federated arms, although it falls short in the accuracy department.  A retracting stock is standard.</description>
     <graphicData>
       <texPath>CP/Weapon/FABR328</texPath>
@@ -653,7 +653,7 @@
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_MM52AR_CP</defName>
-    <label>Militech	M-52AR</label>
+    <label>Militech M-52AR</label>
     <description>10mm Assault Rifle - An assault weapon built for the urban environment. The rifle features digital ammo counter along with a retractable stock (now available with fixed stock for greater aesthetic and comfort) and the highest ammo capacity and caliber of an weapon in its class.</description>
     <graphicData>
       <texPath>CP/Weapon/MM52AR</texPath>
@@ -704,7 +704,7 @@
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_AX61_CP</defName>
     <label>Arasaka X-61</label>
-    <description>Railgun.  Arasaka has created a true man-portable railgun roughly the same size and weight as a large assault rifle.  This weapon uses a 1.5cm nickel cadmium projectile.</description>
+    <description>Railgun. Arasaka has created a true man-portable railgun roughly the same size and weight as a large assault rifle.  This weapon uses a 1.5cm nickel cadmium projectile.</description>
     <graphicData>
       <texPath>CP/Weapon/AX61</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -755,7 +755,7 @@
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_MM95A1_CP</defName>
-    <label>Militech	M95A1</label>
+    <label>Militech M95A1</label>
     <description>Railgun. In a joint venture funded by the United Military, Militech has taken the railgun conclusion another frightening step forward. 3 large electro-magnets power the weapon, and it is easily reloaded using easy to produce slugs made from ball bearings.  It's only slightly larger and more cumbersome than a heavy assault rifle, though the recoil is much more severe. How they managed to make a man portable railgun this small is anyone’s guess.</description>
     <graphicData>
       <texPath>CP/Weapon/MM95A1</texPath>
