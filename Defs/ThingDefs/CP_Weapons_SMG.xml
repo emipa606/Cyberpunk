@@ -616,10 +616,12 @@
     <soundInteract>InteractSMG</soundInteract>
     <statBases>
       <MarketValue>1160</MarketValue>
+      <MaxHitPoints>120</MaxHitPoints>
       <AccuracyTouch>0.92</AccuracyTouch>
       <AccuracyShort>0.68</AccuracyShort>
       <AccuracyMedium>0.46</AccuracyMedium>
       <AccuracyLong>0.29</AccuracyLong>
+      <DeteriorationRate>0.1</DeteriorationRate>
       <RangedWeapon_Cooldown>0.78</RangedWeapon_Cooldown>
     </statBases>
     <verbs>

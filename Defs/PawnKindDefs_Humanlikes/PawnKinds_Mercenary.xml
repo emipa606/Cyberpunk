@@ -311,12 +311,12 @@
     </apparelTags>
     <apparelMoney>
       <min>2500</min>
-      <max>4200</max>
+      <max>6200</max>
     </apparelMoney>
     <apparelAllowHeadwearChance>0.9</apparelAllowHeadwearChance>
     <weaponMoney>
       <min>1600</min>
-      <max>3000</max>
+      <max>25000</max>
     </weaponMoney>
     <weaponTags>
 			<li>EliteGun</li>
@@ -324,7 +324,7 @@
     </weaponTags>
     <techHediffsMoney>
       <min>2000</min>
-      <max>3000</max>
+      <max>15000</max>
     </techHediffsMoney>
     <combatEnhancingDrugsCount>
       <min>1</min>

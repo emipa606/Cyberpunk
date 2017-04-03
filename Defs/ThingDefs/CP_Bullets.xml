@@ -33,6 +33,22 @@
     </projectile>
   </ThingDef>
 
+  <!-- ==================== Laser Pistol Shot ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_LaserPistol</defName>
+    <label>laser pistol shot</label>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
   <!-- ==================== 3.5mm FF bullet ============================= -->
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_35mmFF_CP</defName>
@@ -293,6 +309,48 @@
     </projectile>
   </ThingDef>
 
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AMAD8_CP</defName>
+    <label>AMAD8 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>48</damageAmountBase>
+      <speed>170</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AX61_CP</defName>
+    <label>minigun bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <speed>170</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MM95A1_CP</defName>
+    <label>M95A1 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>60</damageAmountBase>
+      <speed>170</speed>
+    </projectile>
+  </ThingDef>
+
   <!-- ==================== .50 BMG bullet ============================= -->
 
   <ThingDef ParentName="BaseBullet">
@@ -359,5 +417,90 @@
       <speed>50</speed>
     </projectile>
   </ThingDef>
-  
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AL20_CP</defName>
+    <label>20mm depleted uranium shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <speed>170</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ==================== Missiles ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_40mmMissile</defName>
+    <label>rocket</label>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <explosionRadius>2.0</explosionRadius>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_70mmMissile</defName>
+    <label>rocket</label>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <explosionRadius>4.0</explosionRadius>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>Proj_RocketGrenade</defName>
+    <label>frag grenade</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Grenade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>1.0</explosionRadius>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>60</damageAmountBase>
+      <explosionDelay>50</explosionDelay>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================= 30mm Plasma ================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_30mmPlasma</defName>
+    <label>30mm Plasma</label>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>90</damageAmountBase>
+      <speed>90</speed>
+    </projectile>
+  </ThingDef>  
 </ThingDefs>

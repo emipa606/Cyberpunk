@@ -1,6 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ThingDefs>
 
+  <!-- =================== Militech Ninja Rifle ================== -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_MNINJA_CP</defName>
+    <label>Militech Ninja</label>
+    <description>.22 Rifle - A highly reliable caseless design with no moving parts and an integral silencer. A fully plastic magazing and electrical firing pin makes this assault weapon incredibly quiet. Perfect for black ops!</description>
+    <graphicData>
+      <texPath>CP/Weapon/MNINJA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <statBases>
+      <MarketValue>650</MarketValue>
+      <AccuracyTouch>0.97</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.84</AccuracyMedium>
+      <AccuracyLong>0.73</AccuracyLong>
+      <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_5mm_CP</projectileDef>
+        <warmupTime>1.45</warmupTime>
+        <range>65</range>
+        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+
   <!-- =================== Arasaka BAR-54 Assault Rifle ================== -->
 
   <ThingDef ParentName="BaseHumanGun">
@@ -687,20 +721,6 @@
 
   <!-- ======================= Arasaka X-61 ======================= -->
 
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_AX61_CP</defName>
-    <label>minigun bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>40</damageAmountBase>
-      <speed>170</speed>
-    </projectile>
-  </ThingDef>
-
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_AX61_CP</defName>
     <label>Arasaka X-61</label>
@@ -739,20 +759,6 @@
 
   <!-- ======================= Militech	M95A1 ======================= -->
 
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_MM95A1_CP</defName>
-    <label>M95A1 bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>60</damageAmountBase>
-      <speed>170</speed>
-    </projectile>
-  </ThingDef>
-
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_MM95A1_CP</defName>
     <label>Militech M95A1</label>
@@ -790,20 +796,6 @@
   </ThingDef>
 
   <!-- ======================= Arasaka MAD-8 ======================= -->
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_AMAD8_CP</defName>
-    <label>AMAD8 bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>48</damageAmountBase>
-      <speed>170</speed>
-    </projectile>
-  </ThingDef>
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_AMAD8_CP</defName>

@@ -52,6 +52,7 @@
 
 
 	<ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+    <destroyOnDrop>false</destroyOnDrop>
 		<weaponTags>
 			<li>CPGun</li>
       <li>Gun</li>
@@ -78,12 +79,7 @@
 				<AccuracyLong>0.28</AccuracyLong>
 				<RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
 		</statBases>
-		
-		<destroyOnDrop>false</destroyOnDrop>
-		<weaponTags>
-			<li>CPGun</li>
-			<li>CP_BAC13</li>
-		</weaponTags>
+    
 		<tradeTags>
 			<li>CP</li>
 		</tradeTags>
@@ -122,12 +118,7 @@
 					<AccuracyLong>0.28</AccuracyLong>
 					<RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
 			</statBases>
-			
-		<destroyOnDrop>false</destroyOnDrop>
-		<weaponTags>
-			<li>CPGun</li>
-			<li>CP_DLC15</li>
-		</weaponTags>
+    
 		<tradeTags>
 			<li>CP</li>
 		</tradeTags>	
@@ -166,12 +157,7 @@
 				<AccuracyLong>0.32</AccuracyLong>
 				<RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
 		</statBases>
-		
-		<destroyOnDrop>false</destroyOnDrop>
-		<weaponTags>
-			<li>CPGun</li>
-			<li>CP_FAX22</li>
-		</weaponTags>
+    
 		<tradeTags>
 			<li>CP</li>
 		</tradeTags>
@@ -210,12 +196,7 @@
       <AccuracyLong>0.41</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_AR209</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -256,12 +237,7 @@
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_BAP1145</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -301,11 +277,6 @@
       <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
     </statBases>
 
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_DLLP402</li>
-    </weaponTags>
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -344,12 +315,7 @@
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_FAX9</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -388,12 +354,7 @@
 				<AccuracyLong>0.32</AccuracyLong>
 				<RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
 		</statBases>
-		
-		<destroyOnDrop>false</destroyOnDrop>
-		<weaponTags>
-			<li>CPGun</li>
-			<li>CP_MAA</li>
-		</weaponTags>
+    
 		<tradeTags>
 			<li>CP</li>
 		</tradeTags>
@@ -432,12 +393,7 @@
       <AccuracyLong>0.23</AccuracyLong>
       <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_SM295</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -476,12 +432,7 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_ACWS10</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -520,12 +471,7 @@
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_DLSM</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -564,12 +510,7 @@
       <AccuracyLong>0.41</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_ACWS10</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -608,12 +549,7 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_MMPP21</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -652,12 +588,7 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_ST45</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -696,12 +627,7 @@
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_ST82</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -740,12 +666,7 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_AO</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -785,12 +706,7 @@
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_BAC2</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -830,12 +746,7 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_DLODII11</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -874,12 +785,7 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_FABP24</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -918,12 +824,7 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_MMPP22</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -962,12 +863,7 @@
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_ST35</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -1006,12 +902,7 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_AZHP</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -1050,12 +941,7 @@
 				<AccuracyLong>0.37</AccuracyLong>
 				<RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
 		</statBases>
-		
-		<destroyOnDrop>false</destroyOnDrop>
-		<weaponTags>
-			<li>CPGun</li>
-			<li>CP_MRNA12</li>
-		</weaponTags>
+    
 		<tradeTags>
 			<li>CP</li>
 		</tradeTags>
@@ -1094,12 +980,7 @@
       <AccuracyLong>0.23</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-
-    <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>CPGun</li>
-      <li>CP_SRS50</li>
-    </weaponTags>
+    
     <tradeTags>
       <li>CP</li>
     </tradeTags>
@@ -1111,6 +992,44 @@
         <projectileDef>Bullet_12mm_CP</projectileDef>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
+        <soundCast>ShotPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== ARASAKA/USAF "STARLYTE" ============================= -->
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_SRS50_CP</defName>
+    <label>Arasaka "STARLYTE"</label>
+    <description>laser pistol - The worlds first true laser pistol.  Developed jointly between the Arasaka Corporation and the United Military Air Force, the Starlyte is the top secret brainchild of years of research.  The Starlyte  uses a high capacity battery clip, which slides like a magazine into the back of the weapon, to fire a pinpoint laser.  The laser is limited to 1 second burns, and the battery holds enough juice for 20 shots before it must be replaced.  This is set to become the standard sidearm for UMAF off-world officers.</description>
+    <graphicData>
+      <texPath>CP/Weapon/starlyte</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>5650</MarketValue>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.86</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.41</AccuracyLong>
+      <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
+    </statBases>
+
+    <tradeTags>
+      <li>CP</li>
+    </tradeTags>
+
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_LaserPistol</projectileDef>
+        <warmupTime>1.4</warmupTime>
+        <range>9</range>
         <soundCast>ShotPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
