@@ -211,7 +211,7 @@
       <li>Military</li>
     </apparelTags>
     <apparelRequired>
-      <li>Apparel_PersonalShield</li>
+      <li>Apparel_ShieldBelt</li>
     </apparelRequired>
     <apparelMoney>
       <min>1000</min>

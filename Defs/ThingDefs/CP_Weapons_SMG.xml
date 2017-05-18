@@ -56,6 +56,9 @@
       <AccuracyLong>0.36</AccuracyLong>
       <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
@@ -162,6 +165,9 @@
       <AccuracyLong>0.29</AccuracyLong>
       <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
@@ -269,6 +275,9 @@
       <AccuracyLong>0.22</AccuracyLong>
       <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
@@ -412,6 +421,9 @@
       <AccuracyLong>0.22</AccuracyLong>
       <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
@@ -482,6 +494,9 @@
       <AccuracyLong>0.29</AccuracyLong>
       <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
@@ -552,6 +567,9 @@
       <AccuracyLong>0.22</AccuracyLong>
       <RangedWeapon_Cooldown>0.78</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
@@ -624,6 +642,9 @@
       <DeteriorationRate>0.1</DeteriorationRate>
       <RangedWeapon_Cooldown>0.78</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
@@ -659,6 +680,9 @@
       <AccuracyLong>0.22</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
@@ -694,6 +718,9 @@
       <AccuracyLong>0.01</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>

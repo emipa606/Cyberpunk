@@ -38,7 +38,7 @@ namespace Cyberpunk
             float jamsOn;
             StatPart_Reliability.GetReliability(this, out reliabilityString, out jamsOn);
 
-            Scribe_Values.LookValue<string>(ref reliabilityString, "reliability", "NA", false);
+            Scribe_Values.Look<string>(ref reliabilityString, "reliability", "NA", false);
         }
     }
 }

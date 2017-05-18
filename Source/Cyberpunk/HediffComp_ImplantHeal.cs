@@ -21,7 +21,7 @@ namespace Cyberpunk
 
         public override void CompExposeData()
         {
-            Scribe_Values.LookValue<int>(ref this.ticksSinceHeal, "ticksSinceHeal", 0, false);
+            Scribe_Values.Look<int>(ref this.ticksSinceHeal, "ticksSinceHeal", 0, false);
         }
 
         public override void CompPostTick()

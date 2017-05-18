@@ -200,6 +200,9 @@
     <tradeTags>
       <li>CP</li>
     </tradeTags>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -358,6 +361,9 @@
 		<tradeTags>
 			<li>CP</li>
 		</tradeTags>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
 		
 		<verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -436,6 +442,9 @@
     <tradeTags>
       <li>CP</li>
     </tradeTags>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -553,6 +562,9 @@
     <tradeTags>
       <li>CP</li>
     </tradeTags>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -670,6 +682,9 @@
     <tradeTags>
       <li>CP</li>
     </tradeTags>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -828,6 +843,9 @@
     <tradeTags>
       <li>CP</li>
     </tradeTags>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -906,6 +924,9 @@
     <tradeTags>
       <li>CP</li>
     </tradeTags>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -945,6 +966,9 @@
 		<tradeTags>
 			<li>CP</li>
 		</tradeTags>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
 		
 		<verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -1022,6 +1046,9 @@
     <tradeTags>
       <li>CP</li>
     </tradeTags>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">

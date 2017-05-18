@@ -69,7 +69,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_12ga_CP</projectileDef>
         <warmupTime>1.2</warmupTime>
-        <range>5</range>
+        <range>6</range>
         <soundCast>ShotShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -79,20 +79,62 @@
   </ThingDef>
 
 
+  <!-- ============================================================== -->
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_ChainShotgun</defName>
+    <label>shotgat</label>
+    <description>Overkill in an easy to use hand held size.  This short barreled full auto shotgun is absolutely devastating at close range, but pretty useless at long range.  In close quarters though, this thing will just destroy your opponent.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/ChainShotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractShotgun</soundInteract>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4.5</Mass>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>1.26</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>70</Steel>
+      <Component>5</Component>
+    </costList>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_12ga_CP</projectileDef>
+        <warmupTime>1.1</warmupTime>
+        <range>6</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>ShotShotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+
 
   <!-- ============================================== -->
   
   <ThingDef ParentName="BaseHumanGun">
-    <defName>Gun_SurvivalRifle</defName>
+    <defName>Gun_BoltActionRifle</defName>
     <label>Winchester Model 70</label>
     <description>30-06 rifle - The Winchester Model 70 is a bolt-action sporting rifle. It has an iconic place in American sporting culture and has been held in high regard by shooters since it was introduced in 1936, earning the moniker "The Rifleman's Rifle". The action has some design similarities to Mauser designs and it is a development of the earlier Winchester Model 54.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/SurvivalRifle</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/BoltActionRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
     <statBases>
-      <WorkToMake>50000</WorkToMake>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>3.5</Mass>
       <MarketValue>250</MarketValue>
       <AccuracyTouch>0.94</AccuracyTouch>
       <AccuracyShort>0.99</AccuracyShort>
@@ -101,7 +143,7 @@
       <RangedWeapon_Cooldown>1.26</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>90</Steel>
+      <Steel>60</Steel>
       <Component>3</Component>
     </costList>
     <verbs>
@@ -109,9 +151,9 @@
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_30_06_CP</projectileDef>
-        <warmupTime>1.94</warmupTime>
+        <warmupTime>1.9</warmupTime>
         <range>50</range>
-        <soundCast>ShotSurvivalRifle</soundCast>
+        <soundCast>ShotBoltActionRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>

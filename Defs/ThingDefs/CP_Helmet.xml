@@ -58,9 +58,11 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>.8</commonality>
+			
 			<tags>
 				<li>Military</li>
+        <li>Outlander</li>
+        <li>Spacer</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -123,9 +125,11 @@
       <layers>
         <li>Overhead</li>
       </layers>
-      <commonality>0.6</commonality>
+      
       <tags>
         <li>Military</li>
+        <li>Militech</li>
+        <li>Spacer</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -168,9 +172,11 @@
       <layers>
         <li>Overhead</li>
       </layers>
-      <commonality>0.4</commonality>
+      
       <tags>
         <li>Military</li>
+        <li>Militech</li>
+        <li>Spacer</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -213,9 +219,11 @@
       <layers>
         <li>Overhead</li>
       </layers>
-      <commonality>0.6</commonality>
+      
       <tags>
         <li>Military</li>
+        <li>Arasaka</li>
+        <li>Spacer</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -281,9 +289,10 @@
       <layers>
         <li>Overhead</li>
       </layers>
-      <commonality>0.8</commonality>
+      
       <tags>
         <li>Military</li>
+        <li>Spacer</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -345,9 +354,53 @@
       <layers>
         <li>Overhead</li>
       </layers>
-      <commonality>1</commonality>
       <tags>
         <li>Military</li>
+        <li>Outlander</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- ============== TTI Paramedic Helmet ================= -->
+
+  <ThingDef ParentName="HatBase">
+    <defName>CP_Esporma_Helmet</defName>
+    <label>Esporma Environment Helmet</label>
+    <description>Hazmat.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Esporma/EHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Steel>20</Steel>
+      <Kevlar>50</Kevlar>
+    </costList>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0</MoveSpeed>
+      <ShootingAccuracy>-0.05</ShootingAccuracy>
+      <AimingDelayFactor>0.05</AimingDelayFactor>
+      <ToxicSensitivity>-0.50</ToxicSensitivity>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>CP/Apparel/Esporma/EHelmet</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Military</li>
+        <li>Outlander</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -366,7 +419,7 @@
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/SimpleHelmet/SimpleHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -389,11 +442,10 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/KevlarHelmet/KevlarHelmet</worngraphicPath>
+      <worngraphicPath>Things/Pawn/Humanlike/Apparel/SimpleHelmet/SimpleHelmet</worngraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
-      <commonality>1.5</commonality>
       <tags>
         <li>Military</li>
       </tags>

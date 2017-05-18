@@ -98,10 +98,9 @@
 			<layers>
 				<li>OnSkin</li>
 			</layers>
-			<commonality>1</commonality>
+			
 			<tags>
 				<li>Military</li>
-				<li>CP</li>
         <li>Outlander</li>
 			</tags>
 			<defaultOutfitTags>
@@ -143,11 +142,11 @@
       <layers>
         <li>Middle</li>
       </layers>
-      <commonality>1.6</commonality>
-      <tags>
-        <li>Military</li>
-        <li>CP</li>
-      </tags>
+      
+			<tags>
+				<li>Military</li>
+        <li>Outlander</li>
+			</tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
@@ -160,7 +159,7 @@
     <label>light kevlar armor jacket</label>
     <description>Personal protection for the fashion conscious, these lightweight Kevlar jackets have nylon coverings that resemble normal jackets.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
+      <texPath>CP/Apparel/Jacket/Light</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
@@ -185,14 +184,13 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</worngraphicPath>
+      <worngraphicPath>CP/Apparel/Jacket/Light</worngraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>1.4</commonality>
+      
       <tags>
         <li>Military</li>
-        <li>CP</li>
         <li>Outlander</li>
         <li>Spacer</li>
       </tags>
@@ -209,7 +207,7 @@
     <label>kevlar armor jacket</label>
     <description>Personal protection for the fashion conscious, these medium Kevlar jackets have nylon coverings that resemble normal jackets.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
+      <texPath>CP/Apparel/Jacket/Light</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
@@ -234,14 +232,13 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</worngraphicPath>
+      <worngraphicPath>CP/Apparel/Jacket/Light</worngraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>1.2</commonality>
+      
       <tags>
         <li>Military</li>
-        <li>CP</li>
         <li>Outlander</li>
         <li>Spacer</li>
       </tags>
@@ -258,7 +255,7 @@
     <label>heavy kevlar armor jacket</label>
     <description>Personal protection for the fashion conscious, these heavy Kevlar jackets have nylon coverings that resemble normal jackets.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
+      <texPath>CP/Apparel/Jacket/HLeather</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
@@ -283,14 +280,13 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</worngraphicPath>
+      <worngraphicPath>CP/Apparel/Jacket/HLeather</worngraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>1</commonality>
+      
       <tags>
         <li>Military</li>
-        <li>CP</li>
         <li>Outlander</li>
         <li>Spacer</li>
       </tags>
@@ -338,8 +334,9 @@
       <layers>
         <li>OnSkin</li>
       </layers>
-      <commonality>1.2</commonality>
+      
       <tags>
+        <li>Military</li>
         <li>Outlander</li>
         <li>Spacer</li>
       </tags>
@@ -386,7 +383,7 @@
       <layers>
         <li>Middle</li>
       </layers>
-      <commonality>1</commonality>
+      
       <tags>
         <li>Outlander</li>
         <li>Military</li>
@@ -446,8 +443,9 @@
       <layers>
         <li>OnSkin</li>
       </layers>
-      <commonality>1</commonality>
+      
       <tags>
+        <li>Military</li>
         <li>Outlander</li>
         <li>Spacer</li>
       </tags>
@@ -494,7 +492,7 @@
       <layers>
         <li>Middle</li>
       </layers>
-      <commonality>1.2</commonality>
+      
       <tags>
         <li>Outlander</li>
         <li>Military</li>
@@ -556,7 +554,7 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<commonality>0.7</commonality>
+			
 			<tags>
 				<li>Military</li>
         <li>Outlander</li>
@@ -599,7 +597,7 @@
 			<layers>
 				<li>OnSkin</li>
 			</layers>
-			<commonality>0.7</commonality>
+			
 			<tags>
 				<li>Military</li>
         <li>Outlander</li>
@@ -644,7 +642,7 @@
       <layers>
         <li>OnSkin</li>
       </layers>
-      <commonality>1</commonality>
+      
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -685,7 +683,7 @@
       <layers>
         <li>OnSkin</li>
       </layers>
-      <commonality>1.1</commonality>
+      
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -727,7 +725,7 @@
       <layers>
         <li>OnSkin</li>
       </layers>
-      <commonality>1</commonality>
+      
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -766,9 +764,10 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>.5</commonality>
+      
       <tags>
         <li>Spacer</li>
+        <li>Outlander</li>
         <li>Military</li>
       </tags>
       <defaultOutfitTags>
@@ -813,7 +812,7 @@
       <layers>
         <li>OnSkin</li>
       </layers>
-      <commonality>.65</commonality>
+      
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -832,7 +831,7 @@
     <label>Gibson Battlegear™ armored jacket</label>
     <description>Get serious with the Gibson Battlegear™ armored jacket. This combat ready jacket has all the Edgerunner style, with the added protection of plassteel hard armor where it counts.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
+      <texPath>CP/Apparel/Jacket/Light</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
@@ -858,11 +857,11 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</worngraphicPath>
+      <worngraphicPath>CP/Apparel/Jacket/Light</worngraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>.65</commonality>
+      
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -893,7 +892,7 @@
     <label>heavy leather jacket</label>
     <description>Good for road rash, stopping knives, etc. A good .38 slug will probably rip you to bits, however.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
+      <texPath>CP/Apparel/Jacket/HLeather</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>100</costStuffCount>
@@ -917,14 +916,14 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</worngraphicPath>
+      <worngraphicPath>CP/Apparel/Jacket/HLeather</worngraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>.8</commonality>
+      
       <tags>
         <li>Outlander</li>
-        <li>Spacer</li>
+        <li>Tribal</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -990,10 +989,10 @@
       <layers>
         <li>OnSkin</li>
       </layers>
-      <commonality>.7</commonality>
+      
       <tags>
         <li>Outlander</li>
-        <li>Spacer</li>
+        <li>Tribal</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -1042,10 +1041,11 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>1.6</commonality>
+      
       <tags>
         <li>Outlander</li>
-        <li>Military</li>
+        <li>Tribal</li>
+        <li>Spacer</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -1118,7 +1118,7 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>1.6</commonality>
+      
       <tags>
         <li>Outlander</li>
         <li>Military</li>
@@ -1194,10 +1194,11 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>0.4</commonality>
+      
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
+        <li>Corp</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -1217,7 +1218,6 @@
       </options>
     </colorGenerator>
   </ThingDef>
-
 
 
   <ThingDef ParentName="ApparelBase">
@@ -1245,8 +1245,8 @@
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
       <ArmorRating_Heat>0.03</ArmorRating_Heat>
-      <Insulation_Cold>-40</Insulation_Cold>
-      <Insulation_Heat>-3</Insulation_Heat>
+      <Insulation_Cold>-10</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
       <Beauty>1</Beauty>
     </statBases>
     <equippedStatOffsets>
@@ -1263,10 +1263,11 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>0.5</commonality>
+      
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
+        <li>Corp</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -1330,10 +1331,154 @@
       <layers>
         <li>OnSkin</li>
       </layers>
-      <commonality>.8</commonality>
+      
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>CP_Takanaka_Jacket</defName>
+    <label>Takanaka jacket</label>
+    <description>Be ready for a hostile takeover with this ultra-chill suit coat from Takanaka. The coat is made from cotton, with a new Biotechnica arachni-silk lining which is as tough as leather.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Takanaka/Jacket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>90</Cloth>
+    </costList>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <MaxHitPoints>120</MaxHitPoints>
+      <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.03</ArmorRating_Heat>
+      <Insulation_Cold>-5</Insulation_Cold>
+      <Beauty>2</Beauty>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <worngraphicPath>CP/Apparel/Takanaka/Jacket</worngraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      
+      <tags>
+        <li>Outlander</li>
+        <li>Spacer</li>
+        <li>Corp</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.53,0.53,0.53,1)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.1,0.1,0.1,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_Takanaka_Shirt</defName>
+    <description>The epitome of the samurai spirit is embodied in the work of Takanaka's Executive monogram shirt. Spare and exact, it shows that the true master of business must not only follow the Way of the Sword, but also the Way of Art.</description>
+    <label>Takanaka Exec monogram shirt</label>
+    <graphicData>
+      <texPath>CP/Apparel/Takanaka/Shirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>55</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>0.3</Mass>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+      <Insulation_Cold>-4</Insulation_Cold>
+      <Beauty>2</Beauty>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <worngraphicPath>CP/Apparel/Takanaka/Shirt</worngraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      
+      <tags>
+        <li>Outlander</li>
+        <li>Spacer</li>
+        <li>Corp</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>CP_Takanaka_Pants</defName>
+    <label>Takanaka Exec Pants</label>
+    <description>No Gimmicks, no fancy syntha-cloth, nothing extraneous. There is no need for any of it in Takanaka's Exec line of clothing, and these pants are no exception.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Pants/Pants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <statBases>
+      <MarketValue>700</MarketValue>
+      <Mass>0.5</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+      <Insulation_Cold>-3</Insulation_Cold>
+      <Beauty>2</Beauty>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <worngraphicPath>CP/Apparel/Pants/Pants</worngraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      
+      <tags>
+        <li>Outlander</li>
+        <li>Spacer</li>
+        <li>Corp</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -1372,7 +1517,7 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>0.2</commonality>
+      
       <bodyPartGroups>
         <li>Torso</li>
         <li>Arms</li>
@@ -1415,7 +1560,7 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>0.2</commonality>
+      
       <bodyPartGroups>
         <li>Torso</li>
         <li>Arms</li>
@@ -1458,7 +1603,7 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>0.2</commonality>
+      
       <bodyPartGroups>
         <li>Torso</li>
         <li>Arms</li>
@@ -1503,10 +1648,11 @@
       <layers>
         <li>OnSkin</li>
       </layers>
-      <commonality>0.7</commonality>
+      
       <tags>
         <li>Military</li>
-        <li>CP</li>
+        <li>Militech</li>
+        <li>Outlander</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -1548,10 +1694,10 @@
       <layers>
         <li>Middle</li>
       </layers>
-      <commonality>1</commonality>
+      
       <tags>
         <li>Military</li>
-        <li>CP</li>
+        <li>Outlander</li>
         <li>Militech</li>
       </tags>
       <defaultOutfitTags>
@@ -1594,11 +1740,12 @@
       <layers>
         <li>Middle</li>
       </layers>
-      <commonality>0.7</commonality>
+      
       <tags>
         <li>Military</li>
-        <li>CP</li>
+        <li>Outlander</li>
         <li>Militech</li>
+        <li>Spacer</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -1641,10 +1788,9 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>0.7</commonality>
+      
       <tags>
         <li>Military</li>
-        <li>CP</li>
         <li>Outlander</li>
         <li>Spacer</li>
         <li>Militech</li>
@@ -1693,7 +1839,7 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>0.8</commonality>
+      
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -1723,13 +1869,8 @@
       <Plasteel>10</Plasteel>
       <Hyperweave>50</Hyperweave>
     </costList>
-    <costStuffCount>70</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-    </stuffCategories>
     <statBases>
       <MarketValue>1100</MarketValue>
-      <WorkToMake>7000</WorkToMake>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
       <Insulation_Cold>-3</Insulation_Cold>
@@ -1745,7 +1886,7 @@
       <layers>
         <li>OnSkin</li>
       </layers>
-      <commonality>0.8</commonality>
+      
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -1793,9 +1934,11 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>0.5</commonality>
+      
       <tags>
         <li>Military</li>
+        <li>Spacer</li>
+        <li>Outlander</li>
         <li>Militech</li>
       </tags>
       <defaultOutfitTags>
@@ -1840,7 +1983,7 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>0.6</commonality>
+      
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -1889,7 +2032,7 @@
       <layers>
         <li>OnSkin</li>
       </layers>
-      <commonality>0.6</commonality>
+      
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -1913,7 +2056,7 @@
     </graphicData>
     <costList>
       <Kevlar>10</Kevlar>
-      <MuffaloWool>50</MuffaloWool>
+      <WoolMuffalo>50</WoolMuffalo>
       <Hyperweave>30</Hyperweave>
     </costList>
     <statBases>
@@ -1938,7 +2081,7 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>.7</commonality>
+      
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -1974,9 +2117,9 @@
       <Insulation_Cold>-4</Insulation_Cold>
     </statBases>
     <equippedStatOffsets>
-      <SurgerySuccessChance>0.20</SurgerySuccessChance>
-      <HealingQuality>0.20</HealingQuality>
-      <HealingSpeed>0.2</HealingSpeed>
+      <MedicalSurgerySuccessChance>0.20</MedicalSurgerySuccessChance>
+      <MedicalTendQuality>0.20</MedicalTendQuality>
+      <MedicalTendSpeed>0.2</MedicalTendSpeed>
       <MedicalOperationSpeed>0.2</MedicalOperationSpeed>
       <MoveSpeed>-0.10</MoveSpeed>
     </equippedStatOffsets>
@@ -1991,15 +2134,64 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>0.6</commonality>
+      
       <tags>
         <li>Outlander</li>
-        <li>Workforce</li>
+        <li>Military</li>
+        <li>Spacer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>CP_Esporma_Armor</defName>
+    <label>Esporma Environment Suit</label>
+    <description>Hazmat.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Esporma/ESuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Kevlar>20</Kevlar>
+      <Hyperweave>70</Hyperweave>
+    </costList>
+    <statBases>
+      <MarketValue>725</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.6</ArmorRating_Heat>
+      <Insulation_Cold>-7</Insulation_Cold>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.20</MoveSpeed>
+      <ToxicSensitivity>-0.50</ToxicSensitivity>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <worngraphicPath>CP/Apparel/Esporma/ESuit</worngraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      
+      <tags>
+        <li>Military</li>
+        <li>Outlander</li>
+        <li>Spacer</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <!--colorGenerator Class="ColorGenerator_StandardApparel" /-->
   </ThingDef>
 
 </ThingDefs>

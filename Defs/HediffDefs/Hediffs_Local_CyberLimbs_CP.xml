@@ -228,9 +228,9 @@
       <li>
         <statOffsets>
           <MedicalOperationSpeed>0.10</MedicalOperationSpeed>
-          <SurgerySuccessChance>0.10</SurgerySuccessChance>
-          <HealingQuality>0.10</HealingQuality>
-          <HealingSpeed>0.10</HealingSpeed>
+          <MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+          <MedicalTendQuality>0.10</MedicalTendQuality>
+          <MedicalTendSpeed>0.10</MedicalTendSpeed>
         </statOffsets>
       </li>
     </stages>
@@ -365,6 +365,12 @@
           <ShootingAccuracy>0.10</ShootingAccuracy>
           <AimingDelayFactor>-0.10</AimingDelayFactor>
         </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.20</offset>
+          </li>
+        </capMods>
       </li>
     </stages>
   </HediffDef>

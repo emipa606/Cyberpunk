@@ -82,7 +82,7 @@
     </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+  <ThingDef ParentName="BaseMeleeWeapon_CP">
     <defName>MeleeWeapon_AKnife_CP</defName>
     <label>Arasaka combat knife</label>
     <description>A simple, yet very sturdy combat knife.  Well balanced and made from a special iron heavy alloy that allows it to retain an edge even after serious abuse.</description>
@@ -98,6 +98,9 @@
       <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>1.50</MeleeWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <verbs>
       <li>
@@ -108,7 +111,7 @@
     </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+  <ThingDef ParentName="BaseMeleeWeapon_CP">
     <defName>MeleeWeapon_IMIChainknife_CP</defName>
     <label>IMI Chainknife</label>
     <description>The IMI Chainknife is a miniature battery powered chainsaw; shaped somewhat like a survival knife with a 2 hour charge. It has seen a great deal of use by espionage agents.</description>
@@ -137,7 +140,7 @@
     </equippedStatOffsets>
   </ThingDef>
 
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+  <ThingDef ParentName="BaseMeleeWeapon_CP">
     <defName>MeleeWeapon_Monoknife_CP</defName>
     <label>Kendachi Monoknife</label>
     <description></description>
@@ -226,7 +229,7 @@
     </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+  <ThingDef ParentName="BaseMeleeWeapon_CP">
     <defName>MeleeWeapon_PowerSword_CP</defName>
     <label>Kendachi Powersword</label>
     <description>Combining elements of the popular Kendachi monoline with a powered handle, the powersword vibrates its molecular crystal blade 2000 per minute. Combined with a microscopically serrated edge, this weapon literally chews its way through anything it encounteres.</description>
@@ -281,7 +284,7 @@
     </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+  <ThingDef ParentName="BaseMeleeWeapon_CP">
     <defName>MeleeWeapon_AKatana_CP</defName>
     <label>Arasaka Katana</label>
     <description>Arasaka grows their swords in orbit, their crystalline matrices aligned to make a sword that is stronger and sharper than any terrestrial metal. These swords are not sold by Arasaka, but given to their soldiers as a symbol of honor when they are prometed to officers.</description>
@@ -296,6 +299,9 @@
       <MeleeWeapon_DamageAmount>18</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <verbs>
       <li>
@@ -306,7 +312,7 @@
     </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+  <ThingDef ParentName="BaseMeleeWeapon_CP">
     <defName>MeleeWeapon_MonoKatana_CP</defName>
     <label>Kendachi Monokatana</label>
     <description>The monokatana is an incredibally sharp. mono-molecular crystal blade in the style of a katana.</description>
@@ -334,7 +340,7 @@
     </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+  <ThingDef ParentName="BaseMeleeWeapon_CP">
     <defName>MeleeWeapon_MonoKatana2_CP</defName>
     <label>Kendachi Mono-Two</label>
     <description>An improved version of the original Kendachi Monoblade, favored by corporate samurai everywhere. A thicker blade cross section reinforced with Orbital crystal strengthens the weapon against parries.</description>
@@ -362,7 +368,7 @@
     </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+  <ThingDef ParentName="BaseMeleeWeapon_CP">
     <defName>MeleeWeapon_IMIChainsword_CP</defName>
     <label>IMI Chainsword</label>
     <description>Since their chain knife sold so well, IMI decided to up the stakes and released a full scale sword.  The balance is a bit off, but this weapons will simply tear through just about anything that stands in its way.  It comes with a custom sheath.</description>
@@ -418,7 +424,7 @@
     </equippedStatOffsets>
   </ThingDef>
 
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+  <ThingDef ParentName="BaseMeleeWeapon_CP">
     <defName>MeleeWeapon_Battleglove_CP</defName>
     <label>Gibson Battlegear SPM-1 Battleglove</label>
     <description>This is a large gauntlet covering the hand and forearm, increasing the power of the user's punches.</description>
