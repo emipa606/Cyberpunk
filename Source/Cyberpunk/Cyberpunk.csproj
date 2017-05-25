@@ -203,10 +203,6 @@
     <Content Include="..\..\Defs\PawnKindDefs_Humanlikes\PawnKinds_Spacer.xml">
       <Link>Defs\PawnKindDefs_Humanlikes\PawnKinds_Spacer.xml</Link>
     </Content>
-    <Content Include="..\..\Defs\FactionDefs\Factions_Corp.xml">
-      <Link>Defs\FactionDefs\Factions_Corp.xml</Link>
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="..\..\Textures\CP\Weapon\AAW65.png">
       <Link>Textures\AAW65.png</Link>
     </Content>

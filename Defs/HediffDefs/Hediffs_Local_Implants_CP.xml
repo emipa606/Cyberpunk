@@ -240,8 +240,13 @@
       <li>
         <statOffsets>
           <AimingDelayFactor>-0.2</AimingDelayFactor>
-          <MoveSpeed>0.2</MoveSpeed>
         </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.20</offset>
+          </li>
+        </capMods>
       </li>
     </stages>
     <spawnThingOnRemoved>Joywire</spawnThingOnRemoved>
