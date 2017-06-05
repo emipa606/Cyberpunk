@@ -299,4 +299,43 @@
     <hideBodyPartNames>true</hideBodyPartNames>
   </RecipeDef>
 
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallSpeedware</defName>
+    <label>install speedware</label>
+    <description>Installs speedware.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing speedware.</jobString>
+    <workAmount>2000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Speedware</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Speedware</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Speedware</addsHediff>
+  </RecipeDef>
+
 </RecipeDefs>

@@ -184,9 +184,15 @@
       <MeleeWeapon_Cooldown>1.56</MeleeWeapon_Cooldown>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
+    <costList>
+      <Component>1</Component>
+    </costList>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
+    <weaponTags>
+      <li>NeolithicMelee</li>
+    </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
@@ -220,6 +226,9 @@
       <li>Metallic</li>
       <li>Woody</li>
     </stuffCategories>
+    <weaponTags>
+      <li>NeolithicMelee</li>
+    </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
@@ -275,6 +284,9 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
+    <weaponTags>
+      <li>NeolithicMelee</li>
+    </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
@@ -396,21 +408,32 @@
     </equippedStatOffsets>
   </ThingDef>
 
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
     <defName>MeleeWeapon_Chainsword_CP</defName>
     <label>Chainsword</label>
-    <description>These swords have begun to appear at the hands of pirates and raiders. They are all handmade; powered either by combustion engine or electric.</description>
+    <description>These swords have begun to appear at the hands of nomads, pirates and raiders. They are all handmade; powered either by combustion engine or electric.</description>
     <graphicData>
       <texPath>CP/Weapon/Chainsword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>120</costStuffCount>
     <statBases>
+      <WorkToMake>35000</WorkToMake>
       <MarketValue>500</MarketValue>
       <Mass>3</Mass>
       <MeleeWeapon_DamageAmount>27</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>3.0</MeleeWeapon_Cooldown>
     </statBases>
+    <costList>
+      <Component>1</Component>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <weaponTags>
+      <li>NeolithicMelee</li>
+    </weaponTags>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <verbs>
       <li>

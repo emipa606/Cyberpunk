@@ -1,9 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ThingDefs>
 
+  <ThingDef Name="BaseHVYGun" ParentName="BaseGun" Abstract="True">
+    <statBases>
+      <Mass>3.5</Mass>
+    </statBases>
+    <smeltProducts>
+      <Steel>75</Steel>
+      <Component>4</Component>
+    </smeltProducts>
+    <generateCommonality>0.5</generateCommonality>
+  </ThingDef>
+
   <!-- ======================= Arasaka Light 20mm ======================= -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseHVYGun">
     <defName>Gun_AL20_CP</defName>
     <label>Arasaka Light 20mm</label>
     <description>The cyberpsycho hunter's favorite. Almost 2m long, this cannon fires a depleted uranium shell at supersonic speeds.</description>
@@ -41,7 +52,7 @@
 
   <!-- ======================= Arasaka G-1141 ======================= -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseHVYGun">
     <defName>Gun_AG1141_CP</defName>
     <label>Arasaka G-1141</label>
     <description>40mm Missile Launcher - A very rare micro-missile benifitting from a small turning circle and fast reaction to target movements. Ideal for use against armored targets.</description>
@@ -90,7 +101,7 @@
 
   <!-- ======================= Militech RPG-A ======================= -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseHVYGun">
     <defName>Gun_MRPGA_CP</defName>
     <label>Militech RPG-A</label>
     <description>Grenade Launcher - The old bazooka concept of the reloadable rocket launcher made a comeback with this 67mm rocket-grenade launcher.</description>

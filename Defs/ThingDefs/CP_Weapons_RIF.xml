@@ -1,9 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ThingDefs>
 
+  <ThingDef Name="BaseRIFGun" ParentName="BaseGun" Abstract="True">
+    <statBases>
+      <Mass>3.5</Mass>
+    </statBases>
+    <smeltProducts>
+      <Steel>60</Steel>
+      <Component>7</Component>
+    </smeltProducts>
+  </ThingDef>
+
   <!-- =================== Militech Ninja Rifle ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MNINJA_CP</defName>
     <label>Militech Ninja</label>
     <description>.22 Rifle - A highly reliable caseless design with no moving parts and an integral silencer. A fully plastic magazing and electrical firing pin makes this assault weapon incredibly quiet. Perfect for black ops!</description>
@@ -40,7 +50,7 @@
 
   <!-- =================== Arasaka BAR-54 Assault Rifle ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_ABAR54_CP</defName>
     <label>Arasaka BAR-54</label>
     <description>4.5mm Assault Rifle - This bullpup assault rifle is a favorite among police and SDF forces in the Asian Rim.</description>
@@ -49,6 +59,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>810</MarketValue>
       <AccuracyTouch>0.98</AccuracyTouch>
@@ -79,7 +90,7 @@
 
   <!-- =================== Dai Lung DR-40 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_DLDR40_CP</defName>
     <label>Dai Lung DR-40</label>
     <description>4.5mm Assault Rifle - An inexpensive, but not poorly designed rifle, popular with many third world militaries, police forces, and civilians worldwide.</description>
@@ -88,6 +99,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>280</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -115,7 +127,7 @@
 
   <!-- =================== Militech M31-A1 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MM31A1_CP</defName>
     <label>Militech M31-A1</label>
     <description>4.5mm Assault Rifle - An assault rifle designed for use by miltary forces around the rim.</description>
@@ -124,6 +136,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.5</generateCommonality>
     <statBases>
       <MarketValue>1695</MarketValue>
       <AccuracyTouch>0.98</AccuracyTouch>
@@ -154,7 +167,7 @@
 
 	<!-- =================== Arasaka AW-65 Assault Rifle ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_AAW65_CP</defName>
     <label>Arasaka AW-65</label>
     <description>5.56mm Assault Rifle - Short, fat, and menacing is the only way to describe this rifle.  Arasaka developed this weapon with maximum kill ratio's in mind, and succeeded.  Its large suppresser keeps the noise down while it unleashes its load of 5.56 ammunition.  Comes standard with a low light telescopic sight.</description>
@@ -163,6 +176,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1450</MarketValue>
       <AccuracyTouch>0.98</AccuracyTouch>
@@ -193,7 +207,7 @@
 
   <!-- =================== Federated Arms	MA-25 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_FAMA25_CP</defName>
     <label>Federated Arms MA-25</label>
     <description>5.56mm Assault Rifle - A cheap fairly reliable assault rifle, popular in 3rd world militaries, nomads, and urban gangs.</description>
@@ -229,7 +243,7 @@
 
 	<!-- =================== Militech Ronin Light Assault Rifle ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MRLA_CP</defName>
     <label>Militech Ronin Assault Rifle</label>
     <description>5.56mm Assault Rifle - The Militech Ronin standard edition is the classic light assault rifle of the modern battlefield. It only weighs 3 kilograms loaded.</description>
@@ -268,7 +282,7 @@
 
   <!-- =================== Sternmeyer AR-892 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_SAR892_CP</defName>
     <label>Sternmeyer AR-892</label>
     <description>5.56mm Assault Rifle - A light bullpup assault rifle, a fine weapon from Sternmeyer, more attractive than their usual faire.</description>
@@ -304,7 +318,7 @@
 
   <!-- =================== Arasaka	Kiara ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_AKIARA_CP</defName>
     <label>Arasaka Kiara</label>
     <description>6mm Assault Rifle - This Is a stunning assault rifle with a built in 8 shot 10 gauge shotgun.</description>
@@ -343,7 +357,7 @@
 
   <!-- =================== Budget Arms CLAWS ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_BACLAWS_CP</defName>
     <label>Budget Arms CLAWS</label>
     <description>6mm Assault Rifle - The CLAWS is the polymer one shot version of the H&amp;K CAWS weapon system.  While the original system was designed to accept a variety of different ammunition, the CLAWS is only chambered for 6mm rounds.  The weapon jams frequently, and has a reputation for explosively misfiring during full auto fire.</description>
@@ -352,6 +366,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>165</MarketValue>
       <AccuracyTouch>0.95</AccuracyTouch>
@@ -379,7 +394,7 @@
 
   <!-- =================== Militech M-12CC ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MM12CC_CP</defName>
     <label>Militech M-12CC</label>
     <description>6mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine.</description>
@@ -388,6 +403,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>875</MarketValue>
       <AccuracyTouch>0.95</AccuracyTouch>
@@ -418,7 +434,7 @@
 
   <!-- =================== Sternmeyer	HRO-113 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_SHRO113_CP</defName>
     <label>Sternmeyer HRO-113</label>
     <description>6mm Assault Rifle - A simple if effective assault rifle by Sternmeyer.</description>
@@ -454,7 +470,7 @@
 
   <!-- =================== Arasaka SA-456 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_ASA456_CP</defName>
     <label>Arasaka SA-456</label>
     <description>7mm Assault Rifle - Arasaka's newest assault rifle.  The 60 round drum magazine almost makes this a light squad assault weapon, but the weight, size, and versatility keep in nicely in the assault rifle realm.</description>
@@ -493,7 +509,7 @@
 
   <!-- =================== Budget Arms AR-25 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_BAAR25_CP</defName>
     <label>Budget Arms AR-25</label>
     <description>7mm Assault Rifle - Unispired and inexpensive, but at least it won't blow up in your face (we hope).</description>
@@ -502,6 +518,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>125</MarketValue>
       <AccuracyTouch>0.95</AccuracyTouch>
@@ -529,7 +546,7 @@
 
   <!-- =================== Arasaka SA-460 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_ASA460_CP</defName>
     <label>Arasaka SA-460</label>
     <description>7.62mm Assault Rifle - The big brother of the SA-456.  Chambered in 7.62mm.  A bit more accurate due to the longer barrel.</description>
@@ -568,7 +585,7 @@
 
   <!-- =================== Dai Lung	BLT-24 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_DLBLT24_CP</defName>
     <label>Dai Lung BLT-24</label>
     <description>7.62mm Assault Rifle - Someone really needs to perform a less than surgical strike on Dai-Lung, their weapons are simply to dangerous to both user and target to ever  be justified.  A prime example is this assault rifle. Among street gangs, who's philosophy seems to be "the bigger a gun the better" this weapon sells like hotcakes.  Rumor has it the weapon also has a large distribution to rebels in the rim.</description>
@@ -604,7 +621,7 @@
 
   <!-- =================== Federated Arms	BR-328 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_FABR328_CP</defName>
     <label>Federated Arms BR-328</label>
     <description>7.62mm Assault Rifle - A decent assault rifle from Federated arms, although it falls short in the accuracy department.  A retracting stock is standard.</description>
@@ -613,6 +630,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.8</generateCommonality>
     <statBases>
       <MarketValue>615</MarketValue>
       <AccuracyTouch>0.95</AccuracyTouch>
@@ -640,7 +658,7 @@
 
   <!-- =================== Militech	M-56AR ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MM56AR_CP</defName>
     <label>Militech M-56AR</label>
     <description>7.62mm Assault Rifle - This is actually a step down from the M-52AR,  whose ammunition is shorter but more powerful..  Still this weapon is more accurate, and the 7.62 ammunition is far more common.  It's also a bit cheaper, making this a far more suited to urban combat.</description>
@@ -649,6 +667,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1935</MarketValue>
       <AccuracyTouch>0.97</AccuracyTouch>
@@ -679,7 +698,7 @@
 
   <!-- =================== Arasaka Advanced Recon ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_AAR_CP</defName>
     <label>Arasaka Advanced Recon</label>
     <description>10mm Assault Rifle - The Advenced Recon is Arasaka’s latest response to the problem of Cyborg crime.</description>
@@ -688,6 +707,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1100</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -718,7 +738,7 @@
 
   <!-- =================== Militech	M-52AR ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MM52AR_CP</defName>
     <label>Militech M-52AR</label>
     <description>10mm Assault Rifle - An assault weapon built for the urban environment. The rifle features digital ammo counter along with a retractable stock (now available with fixed stock for greater aesthetic and comfort) and the highest ammo capacity and caliber of an weapon in its class.</description>
@@ -727,6 +747,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1150</MarketValue>
       <AccuracyTouch>0.98</AccuracyTouch>
@@ -757,7 +778,7 @@
 
   <!-- ======================= Arasaka X-61 ======================= -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_AX61_CP</defName>
     <label>Arasaka X-61</label>
     <description>Railgun. Arasaka has created a true man-portable railgun roughly the same size and weight as a large assault rifle.  This weapon uses a 1.5cm nickel cadmium projectile.</description>
@@ -766,6 +787,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractChargeRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>14000</MarketValue>
       <AccuracyTouch>1</AccuracyTouch>
@@ -798,7 +820,7 @@
 
   <!-- ======================= Militech	M95A1 ======================= -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MM95A1_CP</defName>
     <label>Militech M95A1</label>
     <description>Railgun. In a joint venture funded by the United Military, Militech has taken the railgun conclusion another frightening step forward. 3 large electro-magnets power the weapon, and it is easily reloaded using easy to produce slugs made from ball bearings.  It's only slightly larger and more cumbersome than a heavy assault rifle, though the recoil is much more severe. How they managed to make a man portable railgun this small is anyone’s guess.</description>
@@ -807,6 +829,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractChargeRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>8900</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -839,7 +862,7 @@
 
   <!-- ======================= Arasaka MAD-8 ======================= -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_AMAD8_CP</defName>
     <label>Arasaka MAD-8</label>
     <description>This rifle is an electrothermally enhanced weapon.  Highly accurate and built around the Arasaka developed 10mm rifle round, this weapon is not available for sale on any market and Arasaka has announced it has no intentions of making it available.  Issued only to Elite Arasaka Marksmen,</description>
@@ -848,6 +871,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractChargeRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>6235</MarketValue>
       <AccuracyTouch>0.88</AccuracyTouch>

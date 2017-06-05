@@ -4,5 +4,12 @@
 	<author>Darque</author>
 	<url></url>
 	<targetVersion>0.17.0</targetVersion>
-	<description>This mod introduces the Cyberpunk weapons and cybernetics.</description>
+	<description>This mod introduces the Cyberpunk weapons and cybernetics.
+  Change Notes
+  -----------
+  - Scratchers and Rippers damage increased to fix issue where fists were used instead of scratchers
+  - Fixed display of weapon reliability text
+  - Fixed smeltability of new guns
+  - Added craftable nomad weapons
+  </description>
 </ModMetaData>

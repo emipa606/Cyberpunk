@@ -155,6 +155,10 @@
       <Link>Defs\ThingDefs\CP_Weapons_Melee.xml</Link>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="..\..\Defs\ThingDefs\CP_Weapons_Nomad.xml">
+      <Link>Defs\ThingDefs\CP_Weapons_Nomad.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="..\..\Defs\ThingDefs\CP_Items_Resource.xml">
       <Link>Defs\ThingDefs\CP_Items_Resource.xml</Link>
       <SubType>Designer</SubType>
