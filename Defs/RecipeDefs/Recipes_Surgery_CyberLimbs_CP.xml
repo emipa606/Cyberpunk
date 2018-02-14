@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>InstallBionicArm</defName>
@@ -638,4 +638,4 @@
     <addsHediff>CyberJawK9_CP</addsHediff>
   </RecipeDef>
   
-</RecipeDefs>
+</Defs>

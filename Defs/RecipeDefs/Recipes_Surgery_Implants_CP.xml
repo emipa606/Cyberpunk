@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>InstallScratchers_CP</defName>
@@ -720,4 +720,4 @@
     <addsHediff>CyberLung2_CP</addsHediff>
   </RecipeDef>
   
-</RecipeDefs>
+</Defs>

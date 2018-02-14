@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <!-- ============================================================== -->
 
@@ -28,8 +28,8 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <DamageAmountBase>0</DamageAmountBase>
-      <Speed>55</Speed>
+      <damageAmountBase>0</damageAmountBase>
+      <speed>55</speed>
     </projectile>
   </ThingDef>
 
@@ -175,6 +175,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>13</damageAmountBase>
       <speed>40</speed>
@@ -191,9 +192,27 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>15</damageAmountBase>
       <speed>40</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ==================== 357mag bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_357mag_CP</defName>
+    <label>357mag bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>55</speed>
     </projectile>
   </ThingDef>
 
@@ -207,6 +226,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>48</damageAmountBase>
       <speed>65</speed>
@@ -223,6 +243,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>18</damageAmountBase>
       <speed>40</speed>
@@ -239,6 +260,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>25</damageAmountBase>
       <speed>47</speed>
@@ -255,6 +277,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>36</damageAmountBase>
       <speed>55</speed>
@@ -271,6 +294,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>43</damageAmountBase>
       <speed>85</speed>
@@ -287,6 +311,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>30</damageAmountBase>
       <speed>90</speed>
@@ -303,6 +328,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>38</damageAmountBase>
       <speed>80</speed>
@@ -317,6 +343,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>48</damageAmountBase>
       <speed>170</speed>
@@ -331,6 +358,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>40</damageAmountBase>
       <speed>170</speed>
@@ -345,6 +373,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>60</damageAmountBase>
       <speed>170</speed>
@@ -361,6 +390,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>60</damageAmountBase>
       <speed>90</speed>
@@ -426,6 +456,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
+      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>40</damageAmountBase>
       <speed>170</speed>
@@ -482,7 +513,7 @@
       <explosionRadius>1.0</explosionRadius>
       <damageDef>Bomb</damageDef>
       <damageAmountBase>60</damageAmountBase>
-      <explosionDelay>50</explosionDelay>
+      <speed>50</speed>
       <speed>50</speed>
     </projectile>
   </ThingDef>
@@ -503,4 +534,5 @@
       <speed>90</speed>
     </projectile>
   </ThingDef>  
-</ThingDefs>
+
+</Defs>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
   <PawnKindDef>
     <defName>SpaceRefugee</defName>
@@ -80,4 +80,4 @@
     <techHediffsChance>0.4</techHediffsChance>
   </PawnKindDef>
 
-</PawnKindDefs>
+</Defs>

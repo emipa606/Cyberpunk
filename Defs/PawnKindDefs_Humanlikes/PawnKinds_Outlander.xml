@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
   <PawnKindDef Name="OutlanderBase" Abstract="True">
     <defaultFactionType>Outlander</defaultFactionType>
@@ -127,4 +127,4 @@
     </inventoryOptions>
   </PawnKindDef>
 
-</PawnKindDefs>
+</Defs>

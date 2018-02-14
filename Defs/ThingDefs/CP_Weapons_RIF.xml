@@ -1,9 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ThingDefs>
+<Defs>
+
+  <ThingDef Name="BaseRIFGun" ParentName="BaseGun" Abstract="True">
+    <statBases>
+      <Mass>3.5</Mass>
+      <Weapon_Bulk>1.0</Weapon_Bulk>
+    </statBases>
+    <smeltProducts>
+      <Steel>60</Steel>
+      <Component>7</Component>
+    </smeltProducts>
+    <weaponTags>
+      <li>EliteGun</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
 
   <!-- =================== Militech Ninja Rifle ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MNINJA_CP</defName>
     <label>Militech Ninja</label>
     <description>.22 Rifle - A highly reliable caseless design with no moving parts and an integral silencer. A fully plastic magazing and electrical firing pin makes this assault weapon incredibly quiet. Perfect for black ops!</description>
@@ -27,7 +60,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_5mm_CP</projectileDef>
+        <defaultProjectile>Bullet_5mm_CP</defaultProjectile>
         <warmupTime>1.45</warmupTime>
         <range>65</range>
         <soundCast>ShotAssaultRifle</soundCast>
@@ -40,7 +73,7 @@
 
   <!-- =================== Arasaka BAR-54 Assault Rifle ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_ABAR54_CP</defName>
     <label>Arasaka BAR-54</label>
     <description>4.5mm Assault Rifle - This bullpup assault rifle is a favorite among police and SDF forces in the Asian Rim.</description>
@@ -49,6 +82,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>810</MarketValue>
       <AccuracyTouch>0.98</AccuracyTouch>
@@ -64,7 +98,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_45mm_CP</projectileDef>
+        <defaultProjectile>Bullet_45mm_CP</defaultProjectile>
         <warmupTime>2.03</warmupTime>
         <range>30</range>
         <burstShotCount>3</burstShotCount>
@@ -79,7 +113,7 @@
 
   <!-- =================== Dai Lung DR-40 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_DLDR40_CP</defName>
     <label>Dai Lung DR-40</label>
     <description>4.5mm Assault Rifle - An inexpensive, but not poorly designed rifle, popular with many third world militaries, police forces, and civilians worldwide.</description>
@@ -88,6 +122,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>280</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -100,7 +135,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_45mm_CP</projectileDef>
+        <defaultProjectile>Bullet_45mm_CP</defaultProjectile>
         <warmupTime>2.19</warmupTime>
         <range>30</range>
         <burstShotCount>3</burstShotCount>
@@ -115,7 +150,7 @@
 
   <!-- =================== Militech M31-A1 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MM31A1_CP</defName>
     <label>Militech M31-A1</label>
     <description>4.5mm Assault Rifle - An assault rifle designed for use by miltary forces around the rim.</description>
@@ -124,6 +159,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.5</generateCommonality>
     <statBases>
       <MarketValue>1695</MarketValue>
       <AccuracyTouch>0.98</AccuracyTouch>
@@ -139,7 +175,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_45mm_CP</projectileDef>
+        <defaultProjectile>Bullet_45mm_CP</defaultProjectile>
         <warmupTime>2.19</warmupTime>
         <range>30</range>
         <burstShotCount>3</burstShotCount>
@@ -152,9 +188,9 @@
     </verbs>
   </ThingDef>
 
-	<!-- =================== Arasaka AW-65 Assault Rifle ================== -->
+  <!-- =================== Arasaka AW-65 Assault Rifle ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_AAW65_CP</defName>
     <label>Arasaka AW-65</label>
     <description>5.56mm Assault Rifle - Short, fat, and menacing is the only way to describe this rifle.  Arasaka developed this weapon with maximum kill ratio's in mind, and succeeded.  Its large suppresser keeps the noise down while it unleashes its load of 5.56 ammunition.  Comes standard with a low light telescopic sight.</description>
@@ -163,6 +199,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1450</MarketValue>
       <AccuracyTouch>0.98</AccuracyTouch>
@@ -178,7 +215,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_556_CP</projectileDef>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>2.03</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -193,7 +230,7 @@
 
   <!-- =================== Federated Arms	MA-25 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_FAMA25_CP</defName>
     <label>Federated Arms MA-25</label>
     <description>5.56mm Assault Rifle - A cheap fairly reliable assault rifle, popular in 3rd world militaries, nomads, and urban gangs.</description>
@@ -214,7 +251,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_556_CP</projectileDef>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>1.55</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -227,9 +264,9 @@
     </verbs>
   </ThingDef>
 
-	<!-- =================== Militech Ronin Light Assault Rifle ================== -->
+  <!-- =================== Militech Ronin Light Assault Rifle ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MRLA_CP</defName>
     <label>Militech Ronin Assault Rifle</label>
     <description>5.56mm Assault Rifle - The Militech Ronin standard edition is the classic light assault rifle of the modern battlefield. It only weighs 3 kilograms loaded.</description>
@@ -253,7 +290,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_556_CP</projectileDef>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>2.19</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -268,7 +305,7 @@
 
   <!-- =================== Sternmeyer AR-892 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_SAR892_CP</defName>
     <label>Sternmeyer AR-892</label>
     <description>5.56mm Assault Rifle - A light bullpup assault rifle, a fine weapon from Sternmeyer, more attractive than their usual faire.</description>
@@ -285,11 +322,14 @@
       <AccuracyLong>0.73</AccuracyLong>
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Sternmeyer</li>
+    </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_556_CP</projectileDef>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>1.55</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -302,9 +342,46 @@
     </verbs>
   </ThingDef>
 
+  <!-- =================== Stolbovoy ST-5 ================== -->
+
+  <ThingDef ParentName="BaseRIFGun">
+    <defName>Gun_SST5_CP</defName>
+    <label>Stolbovoy ST-5</label>
+    <description>5.56mm Assault Rifle - A light, sturdy bullpup weapon. The ST-5 was designed to withstand the rugged environmental conditions in the rim. Using innovative design and special lubricants, Stolbovoy has created a weapon that can operate reliably under the most adverse conditions, including heat, cold, mud, dampness, sand and grit, lubricant contamination, and corrosive environments. One of die toughest, most reliable assault rifles in die world; troops are quoted as saying, "It never breaks!"</description>
+    <graphicData>
+      <texPath>CP/Weapon/SST5</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <statBases>
+      <MarketValue>900</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.84</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Stolbovoy</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
+        <warmupTime>2.51</warmupTime>
+        <range>40</range>
+        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+
   <!-- =================== Arasaka	Kiara ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_AKIARA_CP</defName>
     <label>Arasaka Kiara</label>
     <description>6mm Assault Rifle - This Is a stunning assault rifle with a built in 8 shot 10 gauge shotgun.</description>
@@ -328,7 +405,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_6x45mm_CP</projectileDef>
+        <defaultProjectile>Bullet_6x45mm_CP</defaultProjectile>
         <warmupTime>2.22</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -343,7 +420,7 @@
 
   <!-- =================== Budget Arms CLAWS ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_BACLAWS_CP</defName>
     <label>Budget Arms CLAWS</label>
     <description>6mm Assault Rifle - The CLAWS is the polymer one shot version of the H&amp;K CAWS weapon system.  While the original system was designed to accept a variety of different ammunition, the CLAWS is only chambered for 6mm rounds.  The weapon jams frequently, and has a reputation for explosively misfiring during full auto fire.</description>
@@ -352,6 +429,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>165</MarketValue>
       <AccuracyTouch>0.95</AccuracyTouch>
@@ -364,7 +442,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_6x45mm_CP</projectileDef>
+        <defaultProjectile>Bullet_6x45mm_CP</defaultProjectile>
         <warmupTime>2.09</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -379,7 +457,7 @@
 
   <!-- =================== Militech M-12CC ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MM12CC_CP</defName>
     <label>Militech M-12CC</label>
     <description>6mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine.</description>
@@ -388,6 +466,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>875</MarketValue>
       <AccuracyTouch>0.95</AccuracyTouch>
@@ -403,7 +482,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_6x45mm_CP</projectileDef>
+        <defaultProjectile>Bullet_6x45mm_CP</defaultProjectile>
         <warmupTime>2.08</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -416,9 +495,91 @@
     </verbs>
   </ThingDef>
 
+  <!-- =================== Militech MK IV ================== -->
+
+  <ThingDef ParentName="BaseRIFGun">
+    <defName>Gun_MMKIV_CP</defName>
+    <label>Militech MK IV</label>
+    <description>6mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MMKIV</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.9</generateCommonality>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <AccuracyTouch>0.97</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.84</AccuracyMedium>
+      <AccuracyLong>0.73</AccuracyLong>
+      <RangedWeapon_Cooldown>0.64</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+      <li>Lazarus</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_6mm_CP</defaultProjectile>
+        <warmupTime>2.26</warmupTime>
+        <range>40</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- =================== Militech DRAGON ================== -->
+
+  <ThingDef ParentName="BaseRIFGun">
+    <defName>Gun_MDRAG_CP</defName>
+    <label>Militech Dragon</label>
+    <description>6mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MDRAG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.9</generateCommonality>
+    <statBases>
+      <MarketValue>700</MarketValue>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+      <li>Lazarus</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_6mm_CP</defaultProjectile>
+        <warmupTime>2.51</warmupTime>
+        <range>40</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+
   <!-- =================== Sternmeyer	HRO-113 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_SHRO113_CP</defName>
     <label>Sternmeyer HRO-113</label>
     <description>6mm Assault Rifle - A simple if effective assault rifle by Sternmeyer.</description>
@@ -435,11 +596,14 @@
       <AccuracyLong>0.64</AccuracyLong>
       <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Sternmeyer</li>
+    </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_6x45mm_CP</projectileDef>
+        <defaultProjectile>Bullet_6x45mm_CP</defaultProjectile>
         <warmupTime>2.13</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -454,7 +618,7 @@
 
   <!-- =================== Arasaka SA-456 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_ASA456_CP</defName>
     <label>Arasaka SA-456</label>
     <description>7mm Assault Rifle - Arasaka's newest assault rifle.  The 60 round drum magazine almost makes this a light squad assault weapon, but the weight, size, and versatility keep in nicely in the assault rifle realm.</description>
@@ -478,7 +642,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_7mmWSM_CP</projectileDef>
+        <defaultProjectile>Bullet_7mmWSM_CP</defaultProjectile>
         <warmupTime>1.99</warmupTime>
         <range>60</range>
         <burstShotCount>3</burstShotCount>
@@ -493,7 +657,7 @@
 
   <!-- =================== Budget Arms AR-25 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_BAAR25_CP</defName>
     <label>Budget Arms AR-25</label>
     <description>7mm Assault Rifle - Unispired and inexpensive, but at least it won't blow up in your face (we hope).</description>
@@ -502,6 +666,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>125</MarketValue>
       <AccuracyTouch>0.95</AccuracyTouch>
@@ -514,7 +679,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_7mmWSM_CP</projectileDef>
+        <defaultProjectile>Bullet_7mmWSM_CP</defaultProjectile>
         <warmupTime>2.13</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -529,7 +694,7 @@
 
   <!-- =================== Arasaka SA-460 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_ASA460_CP</defName>
     <label>Arasaka SA-460</label>
     <description>7.62mm Assault Rifle - The big brother of the SA-456.  Chambered in 7.62mm.  A bit more accurate due to the longer barrel.</description>
@@ -553,7 +718,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_762_CP</projectileDef>
+        <defaultProjectile>Bullet_762_CP</defaultProjectile>
         <warmupTime>2.03</warmupTime>
         <range>46</range>
         <burstShotCount>3</burstShotCount>
@@ -568,7 +733,7 @@
 
   <!-- =================== Dai Lung	BLT-24 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_DLBLT24_CP</defName>
     <label>Dai Lung BLT-24</label>
     <description>7.62mm Assault Rifle - Someone really needs to perform a less than surgical strike on Dai-Lung, their weapons are simply to dangerous to both user and target to ever  be justified.  A prime example is this assault rifle. Among street gangs, who's philosophy seems to be "the bigger a gun the better" this weapon sells like hotcakes.  Rumor has it the weapon also has a large distribution to rebels in the rim.</description>
@@ -589,7 +754,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_762_CP</projectileDef>
+        <defaultProjectile>Bullet_762_CP</defaultProjectile>
         <warmupTime>2.13</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -604,7 +769,7 @@
 
   <!-- =================== Federated Arms	BR-328 ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_FABR328_CP</defName>
     <label>Federated Arms BR-328</label>
     <description>7.62mm Assault Rifle - A decent assault rifle from Federated arms, although it falls short in the accuracy department.  A retracting stock is standard.</description>
@@ -613,6 +778,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.8</generateCommonality>
     <statBases>
       <MarketValue>615</MarketValue>
       <AccuracyTouch>0.95</AccuracyTouch>
@@ -625,7 +791,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_762_CP</projectileDef>
+        <defaultProjectile>Bullet_762_CP</defaultProjectile>
         <warmupTime>1.97</warmupTime>
         <range>46</range>
         <burstShotCount>3</burstShotCount>
@@ -640,7 +806,7 @@
 
   <!-- =================== Militech	M-56AR ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MM56AR_CP</defName>
     <label>Militech M-56AR</label>
     <description>7.62mm Assault Rifle - This is actually a step down from the M-52AR,  whose ammunition is shorter but more powerful..  Still this weapon is more accurate, and the 7.62 ammunition is far more common.  It's also a bit cheaper, making this a far more suited to urban combat.</description>
@@ -649,6 +815,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1935</MarketValue>
       <AccuracyTouch>0.97</AccuracyTouch>
@@ -664,7 +831,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_762_CP</projectileDef>
+        <defaultProjectile>Bullet_762_CP</defaultProjectile>
         <warmupTime>1.55</warmupTime>
         <range>46</range>
         <burstShotCount>3</burstShotCount>
@@ -679,7 +846,7 @@
 
   <!-- =================== Arasaka Advanced Recon ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_AAR_CP</defName>
     <label>Arasaka Advanced Recon</label>
     <description>10mm Assault Rifle - The Advenced Recon is Arasaka’s latest response to the problem of Cyborg crime.</description>
@@ -688,6 +855,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1100</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -703,7 +871,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_10mmAR_CP</projectileDef>
+        <defaultProjectile>Bullet_10mmAR_CP</defaultProjectile>
         <warmupTime>2.13</warmupTime>
         <range>50</range>
         <burstShotCount>3</burstShotCount>
@@ -718,7 +886,7 @@
 
   <!-- =================== Militech	M-52AR ================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MM52AR_CP</defName>
     <label>Militech M-52AR</label>
     <description>10mm Assault Rifle - An assault weapon built for the urban environment. The rifle features digital ammo counter along with a retractable stock (now available with fixed stock for greater aesthetic and comfort) and the highest ammo capacity and caliber of an weapon in its class.</description>
@@ -727,6 +895,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1150</MarketValue>
       <AccuracyTouch>0.98</AccuracyTouch>
@@ -742,7 +911,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_10mmAR_CP</projectileDef>
+        <defaultProjectile>Bullet_10mmAR_CP</defaultProjectile>
         <warmupTime>2.24</warmupTime>
         <range>50</range>
         <burstShotCount>3</burstShotCount>
@@ -757,7 +926,7 @@
 
   <!-- ======================= Arasaka X-61 ======================= -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_AX61_CP</defName>
     <label>Arasaka X-61</label>
     <description>Railgun. Arasaka has created a true man-portable railgun roughly the same size and weight as a large assault rifle.  This weapon uses a 1.5cm nickel cadmium projectile.</description>
@@ -766,6 +935,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractChargeRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>14000</MarketValue>
       <AccuracyTouch>1</AccuracyTouch>
@@ -785,7 +955,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_AX61_CP</projectileDef>
+        <defaultProjectile>Bullet_AX61_CP</defaultProjectile>
         <warmupTime>2.2</warmupTime>
         <range>100</range>
         <soundCast>ShotChargeRifle</soundCast>
@@ -798,7 +968,7 @@
 
   <!-- ======================= Militech	M95A1 ======================= -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MM95A1_CP</defName>
     <label>Militech M95A1</label>
     <description>Railgun. In a joint venture funded by the United Military, Militech has taken the railgun conclusion another frightening step forward. 3 large electro-magnets power the weapon, and it is easily reloaded using easy to produce slugs made from ball bearings.  It's only slightly larger and more cumbersome than a heavy assault rifle, though the recoil is much more severe. How they managed to make a man portable railgun this small is anyone’s guess.</description>
@@ -807,6 +977,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractChargeRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>8900</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -826,7 +997,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_MM95A1_CP</projectileDef>
+        <defaultProjectile>Bullet_MM95A1_CP</defaultProjectile>
         <warmupTime>2.2</warmupTime>
         <range>100</range>
         <soundCast>ShotChargeRifle</soundCast>
@@ -839,7 +1010,7 @@
 
   <!-- ======================= Arasaka MAD-8 ======================= -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_AMAD8_CP</defName>
     <label>Arasaka MAD-8</label>
     <description>This rifle is an electrothermally enhanced weapon.  Highly accurate and built around the Arasaka developed 10mm rifle round, this weapon is not available for sale on any market and Arasaka has announced it has no intentions of making it available.  Issued only to Elite Arasaka Marksmen,</description>
@@ -848,6 +1019,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractChargeRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>6235</MarketValue>
       <AccuracyTouch>0.88</AccuracyTouch>
@@ -866,16 +1038,16 @@
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_AMAD8_CP</projectileDef>
-				<warmupTime>1.8</warmupTime>
-				<range>55</range>
-				<soundCast>ShotChargeRifle</soundCast>
-				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_AMAD8_CP</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>55</range>
+        <soundCast>ShotChargeRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
-			</li>
+      </li>
     </verbs>
   </ThingDef>
-	
-</ThingDefs>
+
+</Defs>

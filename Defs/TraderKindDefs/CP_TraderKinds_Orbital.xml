@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DefPackage-TraderKindDef>
+<Defs>
 
   <TraderKindDef Name="CPTrader">
 	<defName>CPTrader</defName>
@@ -202,8 +202,8 @@
         </totalPriceRange>
       </li>
 
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>MortarShell</thingDef>
+      <li Class="StockGenerator_Category">
+        <categoryDef>MortarShells</categoryDef>
         <countRange>
           <min>30</min>
           <max>60</max>
@@ -285,8 +285,8 @@
         </countRange>
       </li>
 
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>MortarShell</thingDef>
+      <li Class="StockGenerator_Category">
+        <categoryDef>MortarShells</categoryDef>
         <countRange>
           <min>1</min>
           <max>10</max>
@@ -296,4 +296,4 @@
     </stockGenerators>
   </TraderKindDef>
 
-</DefPackage-TraderKindDef>
+</Defs>

@@ -9,14 +9,15 @@ namespace Cyberpunk
 {
     public class StatWorker_Reliability : StatWorker
     {
-        public override string GetExplanation(StatRequest req, ToStringNumberSense numberSense)
+        public override string GetExplanationUnfinalized(StatRequest req, ToStringNumberSense numberSense)
         {
             
             return string.Empty;
         }
 
-        public override void FinalizeExplanation(StringBuilder sb, StatRequest req, ToStringNumberSense numberSense, float val)
+        public override string GetExplanationFinalizePart(StatRequest req, ToStringNumberSense numberSense, float finalVal)
         {
+            StringBuilder sb = new StringBuilder();
             //sb.AppendLine("FinalizeExplanation");
             if (this.stat.parts != null)
             {
@@ -30,18 +31,19 @@ namespace Cyberpunk
                     }
                 }
                 string reliabilityString = string.Empty;
-                if (val < 0.25)
+                if (finalVal < 0.25)
                     reliabilityString = "Extremely Reliable";
-                else if (val < 0.5)
+                else if (finalVal < 0.5)
                     reliabilityString = "Very Reliable";
-                else if (val < 1)
+                else if (finalVal < 1)
                     reliabilityString = "Standard";
                 else
                     reliabilityString = "Unreliable";
 
 
-                sb.AppendLine(string.Format("Reliability: {0}\r\n\r\nChance of jam: {1}%", reliabilityString, val));
+                sb.AppendLine(string.Format("  Reliability: {0}\r\n\r\nChance of jam: {1}%", reliabilityString, finalVal));
             }
+            return sb.ToString();
         }
     }
 }

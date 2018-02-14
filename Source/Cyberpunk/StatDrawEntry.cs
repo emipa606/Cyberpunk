@@ -124,8 +124,16 @@ namespace Cyberpunk
             stringBuilder.AppendLine();
             if (!optionalReq.Empty)
             {
-                stringBuilder.AppendLine(this.stat.Worker.GetExplanation(optionalReq, this.numberSense));
-                this.stat.Worker.FinalizeExplanation(stringBuilder, optionalReq, this.numberSense, this.value);
+                if (this.stat.Worker.IsDisabledFor(optionalReq.Thing))
+                {
+                    stringBuilder.AppendLine("StatsReport_PermanentlyDisabled".Translate());
+                }
+                else
+                {
+                    stringBuilder.AppendLine(this.stat.Worker.GetExplanationUnfinalized(optionalReq, this.numberSense).TrimEndNewlines());
+                    stringBuilder.AppendLine();
+                    stringBuilder.AppendLine(this.stat.Worker.GetExplanationFinalizePart(optionalReq, this.numberSense, this.value));
+                }
             }
             return stringBuilder.ToString();
         }

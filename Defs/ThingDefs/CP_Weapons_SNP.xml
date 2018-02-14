@@ -1,15 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="BaseSNPGun" ParentName="BaseGun" Abstract="True">
     <weaponTags>
-      <li>CPGun</li>
       <li>SniperRifle</li>
-      <li>Gun</li>
     </weaponTags>
     <statBases>
       <Mass>4</Mass>
+      <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
+    <smeltProducts>
+      <Steel>60</Steel>
+      <Component>8</Component>
+    </smeltProducts>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- =================== Arasaka WSSA Sniper System ================== -->
@@ -23,6 +45,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1220</MarketValue>
       <AccuracyTouch>1</AccuracyTouch>
@@ -33,12 +56,13 @@
     </statBases>
     <weaponTags>
       <li>Arasaka</li>
+      <li>ArasakaSniper</li>
     </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_35mmFF_CP</projectileDef>
+        <defaultProjectile>Bullet_35mmFF_CP</defaultProjectile>
         <warmupTime>2.5</warmupTime>
         <range>60</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -60,6 +84,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1220</MarketValue>
       <AccuracyTouch>0.88</AccuracyTouch>
@@ -70,12 +95,13 @@
     </statBases>
     <weaponTags>
       <li>Arasaka</li>
+      <li>ArasakaSniper</li>
     </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_556_CP</projectileDef>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>50</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -97,6 +123,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>200</MarketValue>
       <AccuracyTouch>0.5</AccuracyTouch>
@@ -109,7 +136,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_556_CP</projectileDef>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>40</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -144,7 +171,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_556_CP</projectileDef>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>2.5</warmupTime>
         <range>50</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -176,12 +203,13 @@
     </statBases>
     <weaponTags>
       <li>Militech</li>
+      <li>MilitechSniper</li>
     </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_556_CP</projectileDef>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>.37</warmupTime>
         <range>60</range>
         <burstShotCount>3</burstShotCount>
@@ -213,11 +241,15 @@
       <AccuracyLong>0.97</AccuracyLong>
       <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Sternmeyer</li>
+      <li>SternmeyerSniper</li>
+    </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_556_CP</projectileDef>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>60</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -239,6 +271,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>1220</MarketValue>
       <AccuracyTouch>0.63</AccuracyTouch>
@@ -249,12 +282,13 @@
     </statBases>
     <weaponTags>
       <li>Arasaka</li>
+      <li>ArasakaSniper</li>
     </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_762_CP</projectileDef>
+        <defaultProjectile>Bullet_762_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>50</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -276,6 +310,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.6</generateCommonality>
     <statBases>
       <MarketValue>1100</MarketValue>
       <AccuracyTouch>0.75</AccuracyTouch>
@@ -288,7 +323,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_762_CP</projectileDef>
+        <defaultProjectile>Bullet_762_CP</defaultProjectile>
         <warmupTime>2.5</warmupTime>
         <range>50</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -310,6 +345,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>1985</MarketValue>
       <AccuracyTouch>0.88</AccuracyTouch>
@@ -320,12 +356,13 @@
     </statBases>
     <weaponTags>
       <li>Militech</li>
+      <li>MilitechSniper</li>
     </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_762_CP</projectileDef>
+        <defaultProjectile>Bullet_762_CP</defaultProjectile>
         <warmupTime>1.42</warmupTime>
         <range>50</range>
         <burstShotCount>3</burstShotCount>
@@ -357,11 +394,15 @@
       <AccuracyLong>0.94</AccuracyLong>
       <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>Sternmeyer</li>
+      <li>SternmeyerSniper</li>
+    </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_6x45mm_CP</projectileDef>
+        <defaultProjectile>Bullet_6x45mm_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>40</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -393,12 +434,13 @@
     </statBases>
     <weaponTags>
       <li>Militech</li>
+      <li>MilitechSniper</li>
     </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_6x45mm_CP</projectileDef>
+        <defaultProjectile>Bullet_6x45mm_CP</defaultProjectile>
         <warmupTime>2.5</warmupTime>
         <range>60</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -420,6 +462,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>1650</MarketValue>
       <AccuracyTouch>0.88</AccuracyTouch>
@@ -430,12 +473,13 @@
     </statBases>
     <weaponTags>
       <li>Militech</li>
+      <li>MilitechSniper</li>
     </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_7mmWSM_CP</projectileDef>
+        <defaultProjectile>Bullet_7mmWSM_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>80</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -457,6 +501,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>125</MarketValue>
       <AccuracyTouch>0.50</AccuracyTouch>
@@ -467,15 +512,16 @@
     </statBases>
     <weaponTags>
       <li>Militech</li>
+      <li>MilitechSniper</li>
     </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>40</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotSniperRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -494,6 +540,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>11590</MarketValue>
       <AccuracyTouch>0.75</AccuracyTouch>
@@ -504,12 +551,13 @@
     </statBases>
     <weaponTags>
       <li>Militech</li>
+      <li>MilitechSniper</li>
     </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_15mm_CP</projectileDef>
+        <defaultProjectile>Bullet_15mm_CP</defaultProjectile>
         <warmupTime>3.6</warmupTime>
         <range>100</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -543,7 +591,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_50BMG_CP</projectileDef>
+        <defaultProjectile>Bullet_50BMG_CP</defaultProjectile>
         <warmupTime>2.9</warmupTime>
         <range>100</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -565,6 +613,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>3500</MarketValue>
       <AccuracyTouch>0.75</AccuracyTouch>
@@ -575,12 +624,13 @@
     </statBases>
     <weaponTags>
       <li>Arasaka</li>
+      <li>ArasakaSniper</li>
     </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_10mmAR_CP</projectileDef>
+        <defaultProjectile>Bullet_10mmAR_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>100</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -612,12 +662,13 @@
     </statBases>
     <weaponTags>
       <li>Militech</li>
+      <li>MilitechSniper</li>
     </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_10mmAR_CP</projectileDef>
+        <defaultProjectile>Bullet_10mmAR_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>100</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -627,5 +678,5 @@
       </li>
     </verbs>
   </ThingDef>
-  
-</ThingDefs>
+
+</Defs>

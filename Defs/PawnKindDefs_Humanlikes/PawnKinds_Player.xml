@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
   <PawnKindDef Abstract="True" Name="BasePlayerPawnKind">
     <race>Human</race>
@@ -61,4 +61,4 @@
   </PawnKindDef>
 
 
-</PawnKindDefs>
+</Defs>

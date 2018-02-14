@@ -1,18 +1,88 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
+  <ThingDef Name="BaseMakeableShortGun" ParentName="BaseHumanGun" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="BaseMakeableLongGun" ParentName="BaseRIFGun" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  
   <!-- ============================================================== -->
+
+  <ThingDef ParentName="BaseMakeableShortGun">
+    <defName>Gun_Revolver</defName>
+    <label>.357 revolver</label>
+    <description>A very cheap, but surprisingly reliable weapon.  The lack of any real sights whatsoever, and the hammerless design, are a bit odd, but for a back up piece, or emergency defense, it does the trick just fine.  Of course many nomads use this weapon as their main sidearm, but that is probably more due to cost than anything else.  Made by Technomancers and sold in markets everywhere.  No two are ever exactly the same.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Revolver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRevolver</soundInteract>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>1.4</Mass>
+      <AccuracyTouch>0.91</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>1.38</RangedWeapon_Cooldown>
+      <Weapon_Bulk>0.5</Weapon_Bulk>
+    </statBases>
+    <weaponTags>
+      <li>SimpleGun</li>
+    </weaponTags>
+    <costList>
+      <Steel>30</Steel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_357mag_CP</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>5</range>
+        <soundCast>ShotRevolver</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  
   <ThingDef ParentName="BaseHumanGun">
-    <defName>Gun_Pistol</defName>
+    <defName>Gun_Autopistol</defName>
     <label>Beretta M1951</label>
     <description>9mm pistol - Ancient pattern automatic pistol. Weak and short range, but quick.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Pistol</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Autopistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
-      <WorkToMake>32000</WorkToMake>
+      <WorkToMake>15000</WorkToMake>
       <MarketValue>150</MarketValue>
       <AccuracyTouch>0.91</AccuracyTouch>
       <AccuracyShort>0.71</AccuracyShort>
@@ -28,10 +98,10 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>.94</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -41,7 +111,7 @@
 
   <!-- ============================================================== -->
   
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseMakeableLongGun">
     <defName>Gun_PumpShotgun</defName>
     <label>Double Barrel Shotgun</label>
     <description>12ga shotgun - Ancient design. Deadly, but short range.</description>
@@ -67,7 +137,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_12ga_CP</projectileDef>
+        <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>6</range>
         <soundCast>ShotShotgun</soundCast>
@@ -81,7 +151,7 @@
 
   <!-- ============================================================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="BaseMakeableLongGun">
     <defName>Gun_ChainShotgun</defName>
     <label>shotgat</label>
     <description>Overkill in an easy to use hand held size.  This short barreled full auto shotgun is absolutely devastating at close range, but pretty useless at long range.  In close quarters though, this thing will just destroy your opponent.</description>
@@ -107,7 +177,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_12ga_CP</projectileDef>
+        <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
         <warmupTime>1.1</warmupTime>
         <range>6</range>
         <burstShotCount>3</burstShotCount>
@@ -123,7 +193,7 @@
 
   <!-- ============================================== -->
   
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_BoltActionRifle</defName>
     <label>Winchester Model 70</label>
     <description>30-06 rifle - The Winchester Model 70 is a bolt-action sporting rifle. It has an iconic place in American sporting culture and has been held in high regard by shooters since it was introduced in 1936, earning the moniker "The Rifleman's Rifle". The action has some design similarities to Mauser designs and it is a development of the earlier Winchester Model 54.</description>
@@ -150,7 +220,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_30_06_CP</projectileDef>
+        <defaultProjectile>Bullet_30_06_CP</defaultProjectile>
         <warmupTime>1.9</warmupTime>
         <range>50</range>
         <soundCast>ShotBoltActionRifle</soundCast>
@@ -163,7 +233,7 @@
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_AssaultRifle</defName>
     <label>M16A assault rifle</label>
     <description>5.56mm Assault Rifle - The M16 rifle, officially designated Rifle, Caliber 5.56 mm, M16, is a military adaptation of the Armalite AR-15 rifle. The original M16 was a select-fire, 5.56×45mm rifle with a 20-round magazine.</description>
@@ -189,7 +259,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_556_CP</projectileDef>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>1.46</warmupTime>
         <range>30</range>
         <burstShotCount>3</burstShotCount>
@@ -204,7 +274,7 @@
 
   <!-- ============================================== -->
   
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseSNPGun">
     <defName>Gun_SniperRifle</defName>
     <label>Heckler &amp; Koch PSG1</label>
     <description>7.62mm Sniper Rifle - The PSG1 is mechanically based on the G3 rifle and features a low-noise bolt closing device.</description>
@@ -230,7 +300,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_762_CP</projectileDef>
+        <defaultProjectile>Bullet_762_CP</defaultProjectile>
         <warmupTime>4.07</warmupTime>
         <range>80</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -246,7 +316,7 @@
 
   <!-- ============================================== -->
   
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseSMGGun">
     <defName>Gun_MachinePistol</defName>
     <label>Uzi Submachine Gun</label>
     <description>9mm SMG - The Uzi is an SMG primarily in service with the Israeli military since 1954 to present day, using the 9x19 Parabellum cartridge with a rate of fire of over 600 rounds per minute.</description>
@@ -272,7 +342,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>2.19</warmupTime>
         <range>15</range>
         <burstShotCount>3</burstShotCount>
@@ -288,7 +358,7 @@
 
   <!-- ============================================== -->
   
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseSMGGun">
     <defName>Gun_HeavySMG</defName>
     <label>Intratec TEC DC-9</label>
     <description>9mm SMG - One of the sub-machines gun most used by criminals. Can be equiped with laser aim and a magazine of 32 or 50 bullets.</description>
@@ -313,7 +383,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>10</range>
         <burstShotCount>3</burstShotCount>
@@ -343,10 +413,10 @@
       <damageAmountBase>10</damageAmountBase>
       <explosionRadius>1.1</explosionRadius>
       <preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
-      <explosionSpawnChance>0.6</explosionSpawnChance>
+      <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseHVYGun">
     <defName>Gun_IncendiaryLauncher</defName>
     <label>T-9 incendiary launcher</label>
     <description>Incendiary bolt launcher. Starts fires.</description>
@@ -373,8 +443,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_IncendiaryLauncher</projectileDef>
-        <ai_IsIncendiary>true</ai_IsIncendiary>
+        <defaultProjectile>Bullet_IncendiaryLauncher</defaultProjectile>
         <warmupTime>3.0</warmupTime>
         <range>24</range>
         <burstShotCount>1</burstShotCount>
@@ -389,7 +458,7 @@
 
   <!-- ===================== L-15 LMG ========================= -->
   
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseHVYGun">
     <defName>Gun_LMG</defName>
     <label>Militech M-77</label>
     <description>5.56mm LMG - A very standard squad support weapon from Militech, belt fed and very durable.</description>
@@ -415,7 +484,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_LMG</projectileDef>
+        <defaultProjectile>Bullet_LMG</defaultProjectile>
         <warmupTime>1.4</warmupTime>
         <range>25.9</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
@@ -428,6 +497,8 @@
     </verbs>
     <weaponTags>
       <li>EliteGun</li>
+      <li>MilitechHeavy</li>
+      <li>LazarusHeavy</li>
     </weaponTags>
   </ThingDef>
 
@@ -447,7 +518,7 @@
       <speed>70</speed>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_ChargeRifle</defName>
     <label>Arasaka-UMAF Starburst</label>
     <description>Laser Rifle - The big brother and slightly less sophisticated version of the Starlyte.  This rifle uses a much larger battery pack, which allows it to store more and slightly more powerful charges.  In all other aspects it is the same.  This weapon is to be issued exclusively to off-world United Military soldiers.</description>
@@ -482,7 +553,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_ChargeRifle</projectileDef>
+        <defaultProjectile>Bullet_ChargeRifle</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>45</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -497,7 +568,7 @@
 
   <!-- ======================= Heavy weapons ======================= -->
   
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseHVYGun">
     <defName>Gun_Minigun</defName>
     <label>Dover GA-1112 Autogun</label>
     <description>12mm machine gun - The GA-1112 is a man-portable machine gun chambered for 12mm Long Caseless ammunition. A double-barreled weapon, the GA-1112 feeds from an underside-mounted drum. Weighing about 15kg , it comes with a sling for support; an integral smartgun rig compensates for the hip-firing position. This weapon must be squeeze-cocked to start the motor (one combat round), and then it can be fired. The ultimate man-portable area-suppression weapon for cyborgs! This gun can also be mounted on a vehicle using swivel-clamp mounting, 1200-round ammo tank, and direct-from-motor power feed.</description>
@@ -518,7 +589,6 @@
     <techLevel>Industrial</techLevel>
     <weaponTags>
       <li>MechanoidGunHeavy</li>
-      <li>GunHeavy</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.25</MoveSpeed>
@@ -527,7 +597,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_12mm_CP</projectileDef>
+        <defaultProjectile>Bullet_12mm_CP</defaultProjectile>
         <forcedMissRadius>2.4</forcedMissRadius>
         <warmupTime>3.0</warmupTime>
         <range>40</range>
@@ -558,7 +628,7 @@
       <speed>50</speed>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="BaseGun">
+  <ThingDef ParentName="BaseHVYGun">
     <defName>Gun_DoomsdayRocket</defName>
     <label>doomsday rocket launcher</label>
     <description>A single-use rocket launcher for quick retribution.</description>
@@ -577,10 +647,6 @@
     </statBases>
     <techLevel>Spacer</techLevel>
     <destroyOnDrop>false</destroyOnDrop>
-    <weaponTags>
-      <li>Gun</li>
-      <li>GunHeavy</li>
-    </weaponTags>
     <tradeTags>
       <li>Exotic</li>
     </tradeTags>
@@ -588,7 +654,7 @@
       <li>
         <verbClass>Verb_ShootOneUse</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_DoomsdayRocket</projectileDef>
+        <defaultProjectile>Bullet_DoomsdayRocket</defaultProjectile>
         <forcedMissRadius>0.0</forcedMissRadius>
         <warmupTime>4.5</warmupTime>
         <range>40</range>
@@ -605,7 +671,7 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="BaseGun">
+  <ThingDef ParentName="BaseHVYGun">
     <defName>Gun_TripleRocket</defName>
     <label>Arasaka 3-Shot</label>
     <description>70mm Missile Launcher - This three shot anti-tank missile launcher fires wire guided armor piercing HEAT missiles at the target.</description>
@@ -625,9 +691,7 @@
     <techLevel>Spacer</techLevel>
     <destroyOnDrop>false</destroyOnDrop>
     <weaponTags>
-      <li>CPGun</li>
-      <li>Gun</li>
-      <li>GunHeavy</li>
+      <li>ArasakaHeavy</li>
     </weaponTags>
     <tradeTags>
       <li>Exotic</li>
@@ -636,7 +700,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_70mmMissile</projectileDef>
+        <defaultProjectile>Bullet_70mmMissile</defaultProjectile>
         <forcedMissRadius>2.0</forcedMissRadius>
         <warmupTime>5.0</warmupTime>
         <range>300</range>
@@ -672,7 +736,7 @@
       <speed>90</speed>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="BaseGun">
+  <ThingDef ParentName="BaseHVYGun">
     <defName>Gun_ChargeBlasterHeavy</defName>
     <label>Militech AM-5</label>
     <description>30mmEHI Antimatter Rifle - Merely a larger version of Militech's AM-3 anti-matter Rifle.  Aesthetically the two are the same, although since the weapon is meant for use with mechanoids and full conversion individuals the grip assembly is a bit larger.</description>
@@ -694,14 +758,13 @@
     <destroyOnDrop>False</destroyOnDrop>
     <menuHidden>False</menuHidden>
     <weaponTags>
-      <li>GunHeavy</li>
       <li>MechanoidGunHeavy</li>
     </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_ChargeBlasterHeavy</projectileDef>
+        <defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
         <warmupTime>1.25</warmupTime>
         <range>160</range>
         <soundCast>ShotChargeBlaster</soundCast>
@@ -728,10 +791,10 @@
       <speed>45</speed>
       <explosionRadius>2.4</explosionRadius >
       <preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
-      <explosionSpawnChance>0.27</explosionSpawnChance>
+      <preExplosionSpawnChance>0.27</preExplosionSpawnChance>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="BaseGun">
+  <ThingDef ParentName="BaseHVYGun">
     <defName>Gun_InfernoCannon</defName>
     <label>inferno cannon</label>
     <description>Incendiary-shot mini-artillery device. Mechanoid-built.</description>
@@ -759,9 +822,8 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_InfernoCannon</projectileDef>
+        <defaultProjectile>Bullet_InfernoCannon</defaultProjectile>
         <forcedMissRadius>3.5</forcedMissRadius>
-        <ai_IsIncendiary>true</ai_IsIncendiary>
         <warmupTime>1.25</warmupTime>
         <range>27</range>
         <burstShotCount>1</burstShotCount>
@@ -789,7 +851,7 @@
       <speed>120</speed>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="BaseGun">
+  <ThingDef ParentName="BaseHVYGun">
     <defName>Gun_ChargeLance</defName>
     <label>Arasaka Firelance Railgun</label>
     <description>The finest Railgun you can get.  Arasaka has jumped ahead of the competition with thier latest design, which has been a source of some amount of scandal when Militech accused them of stealing the plans earlier this year upon its introduction.  The weapon features a removable ammo/power pack that requires 3 rounds to change.</description>
@@ -810,16 +872,13 @@
     <destroyOnDrop>False</destroyOnDrop>
     <menuHidden>False</menuHidden>
     <weaponTags>
-      <li>CPGun</li>
-      <li>Gun</li>
-      <li>GunHeavy</li>
       <li>MechanoidGunMedium</li>
     </weaponTags>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_ChargeLance</projectileDef>
+        <defaultProjectile>Bullet_ChargeLance</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <range>150</range>
         <burstShotCount>1</burstShotCount>
@@ -831,4 +890,4 @@
     </verbs>
   </ThingDef>
   
-</ThingDefs>
+</Defs>

@@ -1,114 +1,468 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
-	<ThingDef Name="ApparelBase" Abstract="True">
-		<thingClass>Apparel</thingClass>
-		<category>Item</category>
-		<selectable>True</selectable>
-		<pathCost>10</pathCost>
-		<useHitPoints>True</useHitPoints>
-		<graphicData>
-			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-		</graphicData>
-		<drawGUIOverlay>true</drawGUIOverlay>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-			<DeteriorationRate>3</DeteriorationRate>
-			<SellPriceFactor>0.5</SellPriceFactor>
-		</statBases>
-		<altitudeLayer>Item</altitudeLayer>
-		<alwaysHaulable>True</alwaysHaulable>
-		<tickerType>Never</tickerType>
-		<thingCategories>
-			<li>CPApparels</li>
-		</thingCategories>
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-			<li>
-				<compClass>CompColorable</compClass>
-			</li>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-		</comps>
-	</ThingDef>
+  <ThingDef Name="ApparelBase" Abstract="True">
+    <thingClass>Apparel</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+      <SellPriceFactor>0.5</SellPriceFactor>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <thingCategories>
+      <li>CPApparels</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
 
-	
-	<ThingDef Name="ApparelMakeableBase" ParentName="ApparelBase" Abstract="True">
-		<recipeMaker>
-			<workSpeedStat>TailoringSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
-			<effectWorking>Tailor</effectWorking>
-			<soundWorking>Recipe_Tailor</soundWorking>
-			<recipeUsers>
-				<li>ElectricTailoringBench</li>
-				<li>HandTailoringBench</li>
-			</recipeUsers>
-			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-		</recipeMaker>
-	</ThingDef>
-	
-	<ThingDef Name="ArmorMakeableBase" ParentName="ApparelBase" Abstract="True">
-		<recipeMaker>
-			<workSpeedStat>SmithingSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
-			<effectWorking>Smith</effectWorking>
-			<soundWorking>Recipe_Machining</soundWorking>
-			<recipeUsers>
-				<li>TableMachining</li>
-			</recipeUsers>
-			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-		</recipeMaker>
-	</ThingDef>
-	
-  
-	<!-- kevlar armor -->
 
-	<ThingDef ParentName="ArmorMakeableBase">
-		<defName>CP_KevlarTShirt</defName>
-		<label>Kevlar T-Shirt</label>
-		<description>Can be worn unnoticably under most street clothes. Will stop most rounds up to a .45 ACP.</description>
-		<graphicData>
-			<texPath>CP/Apparel/Shirt/Shirt</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
+  <ThingDef Name="ApparelMakeableBase" ParentName="ApparelBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>TailoringSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="ArmorMakeableBase" ParentName="ApparelBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_Pants</defName>
+    <label>pants</label>
+    <description>A simple set of pants.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>0.5</Mass>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+      <Insulation_Cold>-3</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Pants/Pants</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Outlander</li>
+        <li>Spacer</li>
+        <li>Tribal</li>
+        <li>Corp</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+  <!-- T-shirt -->
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_BasicShirt</defName>
+    <label>T-shirt</label>
+    <description>A simple T-shirt.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.25</Mass>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+      <Insulation_Cold>-3</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Shirt/Shirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Outlander</li>
+        <li>Spacer</li>
+        <li>Tribal</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+  <!-- long sleeved shirt -->
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>CP_LShirt</defName>
+    <label>shirt</label>
+    <description>A simple long sleeved shirt.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Shirt/LShirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>55</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.27</Mass>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+      <Insulation_Cold>-3</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Shirt/Shirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Outlander</li>
+        <li>Spacer</li>
+        <li>Tribal</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+  <!-- urban camo shirt -->
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>CP_UCShirt</defName>
+    <label>urban camo tactical shirt</label>
+    <description>A long sleeved shirt with an urban camo pattern designed especially for anyone who participates in tactical activities.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Shirt/UCShirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>55</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.28</Mass>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Cold>-3</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Shirt/UCShirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Military</li>
+        <li>Outlander</li>
+        <li>Spacer</li>
+        <li>Tribal</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_White" />
+  </ThingDef>
+
+  <!-- urban camo pants -->
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>CP_UCPants</defName>
+    <label>urban camo fatigues</label>
+    <description>Fatigues with a light gray, medium gray, and black urban camo pattern.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>CP/Apparel/Pants/UCPants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Cold>-3</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Pants/UCPants</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+
+      <tags>
+        <li>Military</li>
+        <li>Outlander</li>
+        <li>Spacer</li>
+        <li>Tribal</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_White" />
+  </ThingDef>
+
+  <!-- forest camo shirt -->
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>CP_GCShirt</defName>
+    <label>forest camo tactical shirt</label>
+    <description>A long sleeved shirt with a forest camo pattern designed especially for anyone who participates in tactical activities.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Shirt/UCShirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>55</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.28</Mass>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Cold>-3</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Shirt/UCShirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Military</li>
+        <li>Outlander</li>
+        <li>Spacer</li>
+        <li>Tribal</li>
+        <li>SovoilSec</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.47,0.52,0.42,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!-- forest camo pants -->
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>CP_GCPants</defName>
+    <label>forest camo fatigues</label>
+    <description>Fatigues with a forest camo pattern.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>CP/Apparel/Pants/UCPants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Cold>-3</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Pants/UCPants</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+
+      <tags>
+        <li>Military</li>
+        <li>Outlander</li>
+        <li>Spacer</li>
+        <li>Tribal</li>
+        <li>SovoilSec</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.47,0.52,0.42,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!-- kevlar armor -->
+
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>CP_KevlarTShirt</defName>
+    <label>Kevlar T-Shirt</label>
+    <description>Can be worn unnoticably under most street clothes. Will stop most rounds up to a .45 ACP.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Shirt/Shirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <costList>
       <Kevlar>10</Kevlar>
     </costList>
-		<costStuffCount>50</costStuffCount>	
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
-		<statBases>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
       <MarketValue>90</MarketValue>
-			<WorkToMake>5000</WorkToMake>
-			<MaxHitPoints>100</MaxHitPoints>
-			<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.08</ArmorRating_Sharp>
-			<Insulation_Cold>-4</Insulation_Cold>
-		</statBases>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Shoulders</li>
-			</bodyPartGroups>
-			<worngraphicPath>CP/Apparel/Shirt/Shirt</worngraphicPath>
-			<layers>
-				<li>OnSkin</li>
-			</layers>
-			
-			<tags>
-				<li>Military</li>
+      <WorkToMake>5000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>-4</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Shirt/Shirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+
+      <tags>
+        <li>Military</li>
         <li>Outlander</li>
-			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-	</ThingDef>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.47,0.52,0.42,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
 
   <ThingDef ParentName="ArmorMakeableBase">
     <defName>CP_KevlarVest</defName>
@@ -138,15 +492,15 @@
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/KevlarVest/KevlarVest</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/KevlarVest/KevlarVest</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
-      
-			<tags>
-				<li>Military</li>
+
+      <tags>
+        <li>Military</li>
         <li>Outlander</li>
-			</tags>
+      </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
@@ -184,11 +538,11 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Jacket/Light</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Jacket/Light</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -232,11 +586,11 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Jacket/Light</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Jacket/Light</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -280,11 +634,11 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Jacket/HLeather</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Jacket/HLeather</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -330,11 +684,11 @@
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Pants/Pants</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Pants/Pants</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -347,6 +701,8 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
+
+  <!-- ============== flack ================= -->
 
   <ThingDef ParentName="ArmorMakeableBase">
     <defName>Apparel_VestPlate</defName>
@@ -379,11 +735,11 @@
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Flackvest/Flackvest</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Flackvest/Flackvest</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Military</li>
@@ -404,8 +760,8 @@
         </li>
         <li>
           <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
+          <min>RGBA(0.1,0.1,0.1,1)</min>
+          <max>RGBA(0.2,0.2,0.2,1)</max>
         </li>
       </options>
     </colorGenerator>
@@ -439,11 +795,11 @@
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Pants/Pants</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Pants/Pants</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -456,6 +812,8 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
+
+  <!-- ============== doorgunner's vest ================= -->
 
   <ThingDef ParentName="ArmorMakeableBase">
     <defName>Apparel_DoorgunnersVest</defName>
@@ -488,11 +846,11 @@
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</worngraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Military</li>
@@ -513,101 +871,185 @@
         </li>
         <li>
           <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
+          <min>RGBA(0.1,0.1,0.1,1)</min>
+          <max>RGBA(0.2,0.2,0.2,1)</max>
         </li>
       </options>
     </colorGenerator>
   </ThingDef>
-  
-	<ThingDef ParentName="ApparelBase">
-		<defName>CP_MGBodysuit</defName>
-		<label>MetalGear™ MRK-I</label>
-		<description>Laminated expoxide plate armor that is designed in modular sections, with arm coverings, torso and back clamshell. Large, bulky, and hot, it nevertheless affords excellent protection.</description>
-		<graphicData>
-			<texPath>CP/Apparel/MetalGear/MRKI</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
+
+  <!-- ============== MetalGear ================= -->
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>CP_MGBodysuit</defName>
+    <label>MetalGear™ MRK-I</label>
+    <description>Laminated expoxide plate armor that is designed in modular sections, with arm coverings, torso and back clamshell. Large, bulky, and hot, it nevertheless affords excellent protection.</description>
+    <graphicData>
+      <texPath>CP/Apparel/MetalGear/MRKI</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <generateCommonality>0.5</generateCommonality>
     <costList>
       <Kevlar>20</Kevlar>
       <Plasteel>20</Plasteel>
       <Synthread>10</Synthread>
     </costList>
-		<statBases>
-			<MarketValue>400</MarketValue>
-			<MaxHitPoints>200</MaxHitPoints>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
       <Insulation_Heat>-5</Insulation_Heat>
-			<Insulation_Cold>-5</Insulation_Cold>
-		</statBases>
+      <Insulation_Cold>-5</Insulation_Cold>
+    </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.05</MoveSpeed>
     </equippedStatOffsets>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-			</bodyPartGroups>
-			<worngraphicPath>CP/Apparel/MetalGear/MRKI</worngraphicPath>
-			<layers>
-				<li>Shell</li>
-			</layers>
-			
-			<tags>
-				<li>Military</li>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/MetalGear/MRKI</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+
+      <tags>
+        <li>Military</li>
         <li>Outlander</li>
-			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-	</ThingDef>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.17,0.21,0.17,1)</min>
+          <max>RGBA(0.21,0.33,0.25,1)</max>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.7,0.6,0.5,1)</min>
+          <max>RGBA(0.7,0.8,0.6,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.73,0.38,0.27,1)</min>
+          <max>RGBA(0.99,0.4,0.27,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.19,0.24,0.35,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
 
-
-	<ThingDef ParentName="ApparelBase">
-		<defName>CP_MGPants</defName>
-		<label>MetalGear™ pants</label>
-		<description>Laminated expoxide plate armor for the legs.</description>
-		<graphicData>
-			<texPath>CP/Apparel/Pants/Pants</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
+  <ThingDef ParentName="ApparelBase">
+    <defName>CP_MGPants</defName>
+    <label>MetalGear™ pants</label>
+    <description>Laminated expoxide plate armor for the legs.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Pants/Pants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <costList>
       <Kevlar>20</Kevlar>
       <Plasteel>20</Plasteel>
       <Synthread>10</Synthread>
-    </costList>	
-		<statBases>
+    </costList>
+    <statBases>
       <MarketValue>200</MarketValue>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
-			<Insulation_Cold>-4</Insulation_Cold>
-		</statBases>
-		<equippedStatOffsets>
-			<MoveSpeed>-0.02</MoveSpeed>
-		</equippedStatOffsets>
-		<apparel>
-			<bodyPartGroups>
-				<li>Legs</li>
-			</bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Pants/Pants</worngraphicPath>
-			<layers>
-				<li>OnSkin</li>
-			</layers>
-			
-			<tags>
-				<li>Military</li>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <Insulation_Cold>-4</Insulation_Cold>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.02</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Pants/Pants</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+
+      <tags>
+        <li>Military</li>
         <li>Outlander</li>
-			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-	</ThingDef>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.17,0.21,0.17,1)</min>
+          <max>RGBA(0.21,0.33,0.25,1)</max>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.7,0.6,0.5,1)</min>
+          <max>RGBA(0.7,0.8,0.6,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.73,0.38,0.27,1)</min>
+          <max>RGBA(0.99,0.4,0.27,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.19,0.24,0.35,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!-- ============== Gibson Battlegear ================= -->
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_GB_BodySuit</defName>
@@ -638,11 +1080,11 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Gibson/GB_Bodysuit</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Gibson/GB_Bodysuit</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -651,9 +1093,48 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.17,0.21,0.17,1)</min>
+          <max>RGBA(0.21,0.33,0.25,1)</max>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.7,0.6,0.5,1)</min>
+          <max>RGBA(0.7,0.8,0.6,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.73,0.38,0.27,1)</min>
+          <max>RGBA(0.99,0.4,0.27,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.19,0.24,0.35,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
   </ThingDef>
-
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_GBjeans</defName>
@@ -679,11 +1160,11 @@
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Pants/Pants</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Pants/Pants</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -693,9 +1174,41 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.7,0.7,0.7,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.32,0.23,0.19,1)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <min>RGBA(0.3,0.4,0.5,1)</min>
+          <max>RGBA(0.3,0.4,0.7,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.39,0.57,0.75,1)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.1,0.1,0.1,1)</min>
+          <max>RGBA(0.4,0.4,0.4,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
   </ThingDef>
-
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_GBpants</defName>
@@ -721,11 +1234,11 @@
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Pants/Pants</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Pants/Pants</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -734,9 +1247,48 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.17,0.21,0.17,1)</min>
+          <max>RGBA(0.21,0.33,0.25,1)</max>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.7,0.6,0.5,1)</min>
+          <max>RGBA(0.7,0.8,0.6,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.73,0.38,0.27,1)</min>
+          <max>RGBA(0.99,0.4,0.27,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.19,0.24,0.35,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
   </ThingDef>
-
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_GBgreaves</defName>
@@ -746,6 +1298,7 @@
       <texPath>CP/Apparel/Gibson/Greaves</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <generateCommonality>0.8</generateCommonality>
     <costList>
       <Plasteel>20</Plasteel>
       <Synthread>10</Synthread>
@@ -759,12 +1312,12 @@
     </statBases>
     <apparel>
       <bodyPartGroups>
-        <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Spacer</li>
         <li>Outlander</li>
@@ -777,9 +1330,41 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-          <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.8,0.8,0.8,1)</max>
+          <weight>15</weight>
+          <min>RGBA(0.17,0.21,0.17,1)</min>
+          <max>RGBA(0.21,0.33,0.25,1)</max>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.7,0.6,0.5,1)</min>
+          <max>RGBA(0.7,0.8,0.6,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.73,0.38,0.27,1)</min>
+          <max>RGBA(0.99,0.4,0.27,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.19,0.24,0.35,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
         </li>
       </options>
     </colorGenerator>
@@ -808,11 +1393,11 @@
         <li>Torso</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Shirt/Shirt</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Shirt/Shirt</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -823,7 +1408,47 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.17,0.21,0.17,1)</min>
+          <max>RGBA(0.21,0.33,0.25,1)</max>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.7,0.6,0.5,1)</min>
+          <max>RGBA(0.7,0.8,0.6,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.73,0.38,0.27,1)</min>
+          <max>RGBA(0.99,0.4,0.27,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.19,0.24,0.35,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
   </ThingDef>
 
   <ThingDef ParentName="ApparelBase">
@@ -857,11 +1482,11 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Jacket/Light</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Jacket/Light</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -875,17 +1500,47 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-          <weight>10</weight>
-          <only>RGBA(0.53,0.42,0.75,1)</only>
+          <weight>15</weight>
+          <min>RGBA(0.17,0.21,0.17,1)</min>
+          <max>RGBA(0.21,0.33,0.25,1)</max>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.7,0.6,0.5,1)</min>
+          <max>RGBA(0.7,0.8,0.6,1)</max>
         </li>
         <li>
           <weight>5</weight>
-          <min>RGBA(0.1,0.1,0.1,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
+          <min>RGBA(0.73,0.38,0.27,1)</min>
+          <max>RGBA(0.99,0.4,0.27,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.45,0.76,0.9,1)</min>
+          <max>RGBA(0.75,0.85,0.91,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.19,0.24,0.35,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
         </li>
       </options>
     </colorGenerator>
   </ThingDef>
+
+  <!-- ============== heavy leather ================= -->
 
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>CP_HvyLeather_Jacket</defName>
@@ -916,11 +1571,11 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Jacket/HLeather</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Jacket/HLeather</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Tribal</li>
@@ -929,34 +1584,9 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.4,0.3,0.15,1)</only>
-        </li>
-        <li>
-          <weight>15</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
-        </li>
-        <li>
-          <weight>6</weight>
-          <min>RGBA(0.5,0.5,0.5,1)</min>
-          <max>RGBA(1,1,1,1)</max>
-        </li>
-      </options>
-    </colorGenerator>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
-  
+
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>CP_HvyLeather_Pants</defName>
     <label>heavy leather pants</label>
@@ -985,11 +1615,11 @@
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Pants/Pants</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Pants/Pants</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Tribal</li>
@@ -1001,6 +1631,8 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
+
+  <!-- ============== trench coat ================= -->
 
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>CP_TrenchCoat</defName>
@@ -1025,7 +1657,7 @@
       <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
       <ArmorRating_Heat>0.07</ArmorRating_Heat>
       <Insulation_Cold>-15</Insulation_Cold>
-      <Insulation_Heat>15</Insulation_Heat>
+      <Insulation_Heat>-10</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
@@ -1037,11 +1669,11 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Trenchcoat/Trenchcoat</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Trenchcoat/Trenchcoat</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Tribal</li>
@@ -1051,33 +1683,10 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
-        </li>
-        <li>
-          <weight>30</weight>
-          <only>RGBA(0.4,0.3,0.15,1)</only>
-        </li>
-        <li>
-          <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
-        </li>
-        <li>
-          <weight>2</weight>
-          <min>RGBA(0.5,0.5,0.5,1)</min>
-          <max>RGBA(1,1,1,1)</max>
-        </li>
-      </options>
-    </colorGenerator>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
+
+  <!-- ============== great coat ================= -->
 
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>CP_GreatCoat</defName>
@@ -1102,7 +1711,7 @@
       <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
       <ArmorRating_Heat>0.07</ArmorRating_Heat>
       <Insulation_Cold>-15</Insulation_Cold>
-      <Insulation_Heat>15</Insulation_Heat>
+      <Insulation_Heat>-15</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
@@ -1114,11 +1723,11 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Greatcoat/Greatcoat</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Greatcoat/Greatcoat</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Military</li>
@@ -1129,33 +1738,76 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>CP_GreatCoatSMI</defName>
+    <description>For guards and soldiers working in cold weather conditions that aren't extreme enough to demand full combat gear, there is the SMI armored greatcoat. This item is also issued to SovOil corporate guards who are working in public situations where the Sternmeyer suit might be inappropriate. The greatcoat is good in temperatures down to -20° C, and in high winds and rain and has built in armor. When buttoned, the coat protects virtually the entire body. Webbing and gun belts can be worn over the coat, but, usually, no other armor is added. The coat is belted at the waist, and comes in olive green, brown, or black.</description>
+    <label>SMI armored greatcoat</label>
+    <graphicData>
+      <texPath>CP/Apparel/Greatcoat/Greatcoat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Kevlar>20</Kevlar>
+      <WoolMuffalo>60</WoolMuffalo>
+    </costList>
+    <generateCommonality>0.5</generateCommonality>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <MaxHitPoints>160</MaxHitPoints>
+      <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.14</ArmorRating_Heat>
+      <Insulation_Cold>-20</Insulation_Cold>
+      <Insulation_Heat>-20</Insulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.1</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Greatcoat/Greatcoat</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+
+      <tags>
+        <li>Outlander</li>
+        <li>Military</li>
+        <li>Spacer</li>
+        <li>SovoilSec</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-          <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
+          <weight>15</weight>
+          <only>RGBA(0.4,0.5,0.2,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>RGBA(0.3,0.2,0.1,1)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
-        </li>
-        <li>
-          <weight>30</weight>
-          <only>RGBA(0.4,0.3,0.15,1)</only>
-        </li>
-        <li>
-          <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
-        </li>
-        <li>
-          <weight>2</weight>
-          <min>RGBA(0.5,0.5,0.5,1)</min>
-          <max>RGBA(1,1,1,1)</max>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
         </li>
       </options>
     </colorGenerator>
   </ThingDef>
+
+  <!-- ============== Eji ================= -->
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_Eji_Jacket</defName>
@@ -1190,11 +1842,11 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Eji/Jacket</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Eji/Jacket</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -1208,12 +1860,32 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.53,0.42,0.75,1)</only>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.7,0.7,0.7,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.32,0.23,0.19,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.74,0.29,0.49,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.39,0.57,0.75,1)</only>
         </li>
         <li>
           <weight>5</weight>
           <min>RGBA(0.1,0.1,0.1,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
+          <max>RGBA(0.4,0.4,0.4,1)</max>
         </li>
       </options>
     </colorGenerator>
@@ -1259,11 +1931,11 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Eji/Cloak</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Eji/Cloak</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -1277,25 +1949,32 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.4,0.3,0.15,1)</only>
+          <only>RGBA(0.7,0.7,0.7,1)</only>
         </li>
         <li>
-          <weight>15</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
+          <weight>10</weight>
+          <only>RGBA(0.32,0.23,0.19,1)</only>
         </li>
         <li>
-          <weight>6</weight>
-          <min>RGBA(0.5,0.5,0.5,1)</min>
-          <max>RGBA(1,1,1,1)</max>
+          <weight>10</weight>
+          <only>RGBA(0.74,0.29,0.49,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.39,0.57,0.75,1)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.1,0.1,0.1,1)</min>
+          <max>RGBA(0.4,0.4,0.4,1)</max>
         </li>
       </options>
     </colorGenerator>
@@ -1327,11 +2006,11 @@
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Pants/Pants</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Pants/Pants</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -1340,8 +2019,43 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.7,0.7,0.7,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.32,0.23,0.19,1)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <min>RGBA(0.3,0.4,0.5,1)</min>
+          <max>RGBA(0.3,0.4,0.7,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.39,0.57,0.75,1)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.1,0.1,0.1,1)</min>
+          <max>RGBA(0.4,0.4,0.4,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
   </ThingDef>
+
+  <!-- ============== Takanaka Suit ================= -->
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_Takanaka_Jacket</defName>
@@ -1369,11 +2083,11 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Takanaka/Jacket</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Takanaka/Jacket</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -1428,11 +2142,11 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Takanaka/Shirt</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Takanaka/Shirt</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -1470,11 +2184,11 @@
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Pants/Pants</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Pants/Pants</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
@@ -1484,8 +2198,38 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.2,0.2,0.2,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.3,0.3,0.3,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.3,0.23,0.19,1)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.1,0.1,0.1,1)</min>
+          <max>RGBA(0.15,0.15,0.15,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
   </ThingDef>
+
+  <!-- ============== linear frames ================= -->
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_LinearFrameSigma</defName>
@@ -1513,11 +2257,11 @@
       <researchPrerequisite>PoweredArmor</researchPrerequisite>
     </recipeMaker>
     <apparel>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</worngraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <bodyPartGroups>
         <li>Torso</li>
         <li>Arms</li>
@@ -1556,11 +2300,11 @@
       <researchPrerequisite>PoweredArmor</researchPrerequisite>
     </recipeMaker>
     <apparel>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</worngraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <bodyPartGroups>
         <li>Torso</li>
         <li>Arms</li>
@@ -1599,11 +2343,11 @@
       <researchPrerequisite>PoweredArmor</researchPrerequisite>
     </recipeMaker>
     <apparel>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</worngraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <bodyPartGroups>
         <li>Torso</li>
         <li>Arms</li>
@@ -1616,8 +2360,7 @@
     </apparel>
   </ThingDef>
 
-
-  <!-- Militech M78 armor -->
+  <!-- Militech M78 shirt -->
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_MM78TShirt</defName>
@@ -1644,11 +2387,11 @@
         <li>Torso</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Shirt/Shirt</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Shirt/Shirt</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Militech</li>
@@ -1658,8 +2401,21 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.3,0.3,0.3,1)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
   </ThingDef>
+
+  <!-- ============== Militech M1 Vest ================= -->
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_MM1Vest</defName>
@@ -1690,11 +2446,11 @@
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</worngraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -1704,13 +2460,22 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
   </ThingDef>
+
+  <!-- ============== Militech M78 Vest ================= -->
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_MM78Vest</defName>
     <label>Militech M78 Combat Vest</label>
-    <description>Militech has used advanced polymer technology to create a new generation of personal armor which is not quite as tough as other armors available on the market, but which is not susceptible to standard armor-piercing rounds and edged weapons. This T-Shirt is the middle layer of the M78 Revised Personal Armor set, designed to also be worn with the M78 T-Shirt and Jacket.</description>
+    <description>Militech has used advanced polymer technology to create a new generation of personal armor which is not quite as tough as other armors available on the market, but which is not susceptible to standard armor-piercing rounds and edged weapons. This vest is the middle layer of the M78 Revised Personal Armor set, designed to also be worn with the M78 T-Shirt and Jacket.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1736,11 +2501,11 @@
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</worngraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -1751,8 +2516,17 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
   </ThingDef>
+
+  <!-- ============== Militech M78 Jacket ================= -->
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_MM78Jacket</defName>
@@ -1784,11 +2558,11 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</worngraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -1800,105 +2574,17 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.1,0.1,0.1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
   </ThingDef>
 
-  <ThingDef ParentName="ApparelBase">
-    <defName>CP_MA_Jacket</defName>
-    <label>Militech Combat Armor</label>
-    <description>Militech security force standard issue combat armor.</description>
-    <graphicData>
-      <texPath>CP/Apparel/Militech/CombatArmor</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <color>(80,80,80)</color>
-    </graphicData>
-    <costList>
-      <Kevlar>20</Kevlar>
-      <Plasteel>20</Plasteel>
-      <Synthread>60</Synthread>
-    </costList>
-    <costStuffCount>100</costStuffCount>
-    <statBases>
-      <MarketValue>1500</MarketValue>
-      <MaxHitPoints>120</MaxHitPoints>
-      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.03</ArmorRating_Heat>
-      <Insulation_Cold>-15</Insulation_Cold>
-    </statBases>
-    <equippedStatOffsets>
-      <MoveSpeed>-0.01</MoveSpeed>
-    </equippedStatOffsets>
-    <apparel>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-      </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Militech/CombatArmor</worngraphicPath>
-      <layers>
-        <li>Shell</li>
-      </layers>
-      
-      <tags>
-        <li>Outlander</li>
-        <li>Spacer</li>
-        <li>Military</li>
-        <li>Militech</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
-  </ThingDef>
-
-  <ThingDef ParentName="ApparelBase">
-    <defName>CP_MA_Pants</defName>
-    <label>Militech Armored pants</label>
-    <description>Militech security force standard issue armor pants.</description>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
-    <graphicData>
-      <texPath>CP/Apparel/Militech/Pants</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <costList>
-      <Kevlar>10</Kevlar>
-      <Plasteel>10</Plasteel>
-      <Hyperweave>50</Hyperweave>
-    </costList>
-    <statBases>
-      <MarketValue>1100</MarketValue>
-      <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
-      <Insulation_Cold>-3</Insulation_Cold>
-    </statBases>
-    <equippedStatOffsets>
-      <MoveSpeed>-0.01</MoveSpeed>
-    </equippedStatOffsets>
-    <apparel>
-      <bodyPartGroups>
-        <li>Legs</li>
-      </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Militech/Pants</worngraphicPath>
-      <layers>
-        <li>OnSkin</li>
-      </layers>
-      
-      <tags>
-        <li>Outlander</li>
-        <li>Spacer</li>
-        <li>Military</li>
-        <li>Militech</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
-  </ThingDef>
+  <!-- ============== Militech EMA-1 ================= -->
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_MEMA1_Armor</defName>
@@ -1930,11 +2616,11 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</worngraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Spacer</li>
@@ -1948,108 +2634,14 @@
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
 
-  <ThingDef ParentName="ApparelBase">
-    <defName>CP_AA_Jacket</defName>
-    <label>Arasaka Armored Jacket</label>
-    <description>Arasaka security force standard issue armor jacket.</description>
-    <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <costList>
-      <Kevlar>20</Kevlar>
-      <Plasteel>20</Plasteel>
-      <Hyperweave>60</Hyperweave>
-    </costList>
-    <costStuffCount>100</costStuffCount>
-    <statBases>
-      <MarketValue>2000</MarketValue>
-      <MaxHitPoints>120</MaxHitPoints>
-      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.03</ArmorRating_Heat>
-      <Insulation_Cold>-15</Insulation_Cold>
-    </statBases>
-    <equippedStatOffsets>
-      <MoveSpeed>-0.01</MoveSpeed>
-    </equippedStatOffsets>
-    <apparel>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-      </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</worngraphicPath>
-      <layers>
-        <li>Shell</li>
-      </layers>
-      
-      <tags>
-        <li>Outlander</li>
-        <li>Spacer</li>
-        <li>Military</li>
-        <li>Arasaka</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
-  </ThingDef>
-
-  <ThingDef ParentName="ApparelBase">
-    <defName>CP_AA_Pants</defName>
-    <label>Arasaka Armored Pants</label>
-    <description>Arasaka security force standard issue armor pants.</description>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
-    <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <costList>
-      <Kevlar>20</Kevlar>
-      <Plasteel>20</Plasteel>
-      <Hyperweave>30</Hyperweave>
-    </costList>
-    <costStuffCount>70</costStuffCount>
-    <statBases>
-      <MarketValue>1100</MarketValue>
-      <WorkToMake>7000</WorkToMake>
-      <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
-      <Insulation_Cold>-3</Insulation_Cold>
-    </statBases>
-    <equippedStatOffsets>
-      <MoveSpeed>-0.01</MoveSpeed>
-    </equippedStatOffsets>
-    <apparel>
-      <bodyPartGroups>
-        <li>Legs</li>
-      </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Pants/Pants</worngraphicPath>
-      <layers>
-        <li>OnSkin</li>
-      </layers>
-      
-      <tags>
-        <li>Outlander</li>
-        <li>Spacer</li>
-        <li>Military</li>
-        <li>Arasaka</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
-  </ThingDef>
+  <!-- ============== Sternmeyer Cold Weather combat Outfit ================= -->
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_SCWCO_Armor</defName>
     <label>Sternmeyer Cold Weather Combat Outfit</label>
-    <description>Sternmeyer Cold Weather Combat Outfit allows the soldier to operate in frigid tempteratures while offering a small amount of protection.</description>
+    <description>
+      Sternmeyer AG, a German arms corporation that supplies military organizations around the world, developed a new generation of winter combat gear using advanced insulating and armoring materials, and reactive fabrics. The most current model, G-12, has excellent insulating and wind and water repelling characteristics, yet is thin enough to breathe, and permit good mobility. The G-12 suit is made with a reactive fabric that can vent waste heat in times of exertion without compromising overall insulation. The outfits can protect soldiers in temperatures down to -70° C and in high winds, but are not recommended for use in temperatures over freezing.
+    </description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -2059,6 +2651,7 @@
       <WoolMuffalo>50</WoolMuffalo>
       <Hyperweave>30</Hyperweave>
     </costList>
+    <generateCommonality>0.3</generateCommonality>
     <statBases>
       <MarketValue>775</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
@@ -2066,6 +2659,7 @@
       <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
       <ArmorRating_Heat>0.25</ArmorRating_Heat>
       <Insulation_Cold>-70</Insulation_Cold>
+      <Insulation_Heat>-20</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
@@ -2075,13 +2669,14 @@
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Arms</li>
+        <li>Hands</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</worngraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -2092,6 +2687,8 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
+
+  <!-- ============== MedicGear Combat Armor ================= -->
 
   <ThingDef ParentName="ApparelBase">
     <defName>Apparel_MGCombat_Armor</defName>
@@ -2130,11 +2727,11 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</worngraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Outlander</li>
         <li>Military</li>
@@ -2145,6 +2742,8 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
+
+  <!-- ============== Esporma Environment Suit ================= -->
 
   <ThingDef ParentName="ApparelBase">
     <defName>CP_Esporma_Armor</defName>
@@ -2177,11 +2776,11 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>CP/Apparel/Esporma/ESuit</worngraphicPath>
+      <wornGraphicPath>CP/Apparel/Esporma/ESuit</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
-      
+
       <tags>
         <li>Military</li>
         <li>Outlander</li>
@@ -2194,4 +2793,4 @@
     <!--colorGenerator Class="ColorGenerator_StandardApparel" /-->
   </ThingDef>
 
-</ThingDefs>
+</Defs>

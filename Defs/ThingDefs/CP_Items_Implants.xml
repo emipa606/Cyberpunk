@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="ImplantBase_CP" Abstract="True">
     <label>implant</label>
@@ -402,4 +402,4 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
     </statBases>
   </ThingDef>
   
-</ThingDefs>
+</Defs>

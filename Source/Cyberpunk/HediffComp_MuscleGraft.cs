@@ -13,9 +13,9 @@ namespace Cyberpunk
             Patch.ChangeBodyType(base.Pawn, RimWorld.BodyType.Hulk);
         }
 
-        public override void CompPostTick()
+        public override void CompPostTick(ref float severityAdjustment)
         {
-            base.CompPostTick();
+            base.CompPostTick(ref severityAdjustment);
         }
     }
 }

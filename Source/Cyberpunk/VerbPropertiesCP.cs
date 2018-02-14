@@ -20,7 +20,7 @@ namespace Cyberpunk
                     "range=",
                     this.range,
                     ", projectile=",
-                    (this.projectileDef == null) ? "null" : this.projectileDef.defName,
+                    (this.defaultProjectile == null) ? "null" : this.defaultProjectile.defName,
                     ", reliability=",
                     this.reliability.ToString()
                 });

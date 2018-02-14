@@ -24,9 +24,9 @@ namespace Cyberpunk
             Scribe_Values.Look<int>(ref this.ticksSinceHeal, "ticksSinceHeal", 0, false);
         }
 
-        public override void CompPostTick()
+        public override void CompPostTick(ref float severityAdjustment)
         {
-            base.CompPostTick();
+            base.CompPostTick(ref severityAdjustment);
 
             this.ticksSinceHeal++;
             if (this.ticksSinceHeal > this.Props.healIntervalTicks)

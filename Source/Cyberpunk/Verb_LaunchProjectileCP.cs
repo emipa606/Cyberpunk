@@ -32,7 +32,7 @@ namespace Cyberpunk
             if (jamRoll < jamsOn)
             {
                 string msg = string.Format("{0}'s {1} had a weapon jam. ({2}/{3})", caster.LabelCap, ownerEquipment.LabelCap, jamRoll, jamsOn);
-                Messages.Message(msg, MessageSound.Silent);
+                Messages.Message(msg, MessageTypeDefOf.SilentInput);
                 ownerEquipment.HitPoints--;
                 return false;
             }

@@ -1,193 +1,206 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ThingDefs>
+<Defs>
 
-	<ThingDef Name="BaseGun" Abstract="True">
-		<category>Item</category>
-		<thingClass>Cyberpunk.ThingDef_GunCP</thingClass>
-		<equipmentType>Primary</equipmentType>
-		<pathCost>10</pathCost>
-		<useHitPoints>True</useHitPoints>
-		<selectable>True</selectable>
-		<graphicData>
-			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-		</graphicData>
-		<drawGUIOverlay>true</drawGUIOverlay>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Flammability>0.1</Flammability>
-			<DeteriorationRate>0.2</DeteriorationRate>
-			<SellPriceFactor>0.6</SellPriceFactor>
+  <ThingDef Name="BaseGun" Abstract="True">
+    <category>Item</category>
+    <thingClass>Cyberpunk.ThingDef_GunCP</thingClass>
+    <equipmentType>Primary</equipmentType>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <selectable>True</selectable>
+    <smeltable>true</smeltable>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <smeltProducts>
+      <Steel>30</Steel>
+      <Component>2</Component>
+    </smeltProducts>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <SellPriceFactor>0.6</SellPriceFactor>
       <reliability>1</reliability>
-		</statBases>
-		<altitudeLayer>Item</altitudeLayer>
-		<alwaysHaulable>True</alwaysHaulable>
-		<tickerType>Never</tickerType>
-		<techLevel>Spacer</techLevel>
-		<thingCategories>
+      <Weapon_Bulk>0.5</Weapon_Bulk>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <techLevel>Spacer</techLevel>
+    <thingCategories>
       <li>WeaponsRanged</li>
-			<li>CPWeapons</li>
-		</thingCategories>
-		<inspectorTabs>
-			<li>ITab_Art</li>
-		</inspectorTabs>
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-			<li>
-				<compClass>CompEquippable</compClass>
-			</li>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-			<li Class="CompProperties_Art">
-				<nameMaker>ArtName_WeaponGun</nameMaker>
-				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>
-		</comps>	
-		<smeltProducts>
-			<Steel>20</Steel>
-			<Plasteel>20</Plasteel>
-		</smeltProducts>
-	</ThingDef>
-
-
-	<ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
-    <destroyOnDrop>false</destroyOnDrop>
-		<weaponTags>
-			<li>CPGun</li>
+      <li>CPWeapons</li>
+    </thingCategories>
+    <weaponTags>
+      <li>CPGun</li>
       <li>Gun</li>
-		</weaponTags>
-	</ThingDef>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+    </tradeTags>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>ArtName_WeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
 
 
-	<!-- ==================== BudgetArms C-13 ============================= -->
+  <ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+    <destroyOnDrop>false</destroyOnDrop>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
 
-	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_BAC13_CP</defName>
-		<label>BudgetArms C-13</label>
-		<description>5mm pistol - A light duty autopistol used as a holdout and lady's gun</description>
-		<graphicData>
-			<texPath>CP/Weapon/BAC13</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<soundInteract>InteractPistol</soundInteract>
-		<statBases>
-			<MarketValue>75</MarketValue>
-				<AccuracyTouch>0.89</AccuracyTouch>
-				<AccuracyShort>0.66</AccuracyShort>
-				<AccuracyMedium>0.38</AccuracyMedium>
-				<AccuracyLong>0.28</AccuracyLong>
-				<RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
-		</statBases>
-    
-		<tradeTags>
-			<li>CP</li>
-		</tradeTags>
 
-		<verbs>
-      <li Class="Cyberpunk.VerbPropertiesCP">
-				<verbClass>Cyberpunk.Verb_ShootCP</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_5mm_CP</projectileDef>
-				<warmupTime>1</warmupTime>
-				<range>8</range>
-				<soundCast>ShotPistol</soundCast>
-				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-        <reliability>ST</reliability>
-			</li>
-		</verbs>
-	</ThingDef>
+  <!-- ==================== BudgetArms C-13 ============================= -->
 
-	<!-- ==================== Dai Lung Cybermag 15 ============================= -->
-
-	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_DLC15_CP</defName>
-		<label>Dai Lung Cybermag 15</label>
-		<description>6mm pistol - This light autopistol is a cheap Hong Kong knockoff, often used by boosters and other street trash.</description>
-		<graphicData>
-			<texPath>CP/Weapon/DLC15</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-			<soundInteract>InteractPistol</soundInteract>
-			<statBases>
-				<MarketValue>50</MarketValue>
-					<AccuracyTouch>0.89</AccuracyTouch>
-					<AccuracyShort>0.66</AccuracyShort>
-					<AccuracyMedium>0.38</AccuracyMedium>
-					<AccuracyLong>0.28</AccuracyLong>
-					<RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
-			</statBases>
-    
-		<tradeTags>
-			<li>CP</li>
-		</tradeTags>	
-
-		<verbs>
-      <li Class="Cyberpunk.VerbPropertiesCP">
-				<verbClass>Cyberpunk.Verb_ShootCP</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_6mm_CP</projectileDef>
-				<warmupTime>1</warmupTime>
-				<range>8</range>
-				<soundCast>ShotPistol</soundCast>
-				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-        <reliability>UR</reliability>
-			</li>
-		</verbs>
-	</ThingDef>
-
-	<!-- ==================== Federated Arms X-22 ============================= -->
-
-	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_FAX22_CP</defName>
-		<label>Federated Arms X-22</label>
-		<description>6mm pistol - The ubiquitous polymer-one-shot cheap plastic pistol. Available in designer colors</description>
-		<graphicData>
-			<texPath>CP/Weapon/FAX22</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<soundInteract>InteractPistol</soundInteract>
-		<statBases>
-			<MarketValue>150</MarketValue>
-				<AccuracyTouch>0.91</AccuracyTouch>
-				<AccuracyShort>0.71</AccuracyShort>
-				<AccuracyMedium>0.50</AccuracyMedium>
-				<AccuracyLong>0.32</AccuracyLong>
-				<RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
-		</statBases>
-    
-		<tradeTags>
-			<li>CP</li>
-		</tradeTags>
-		
-		<verbs>
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_BAC13_CP</defName>
+    <label>BudgetArms C-13</label>
+    <description>5mm pistol - A light duty autopistol used as a holdout and lady's gun</description>
+    <graphicData>
+      <texPath>CP/Weapon/BAC13</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>75</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.66</AccuracyShort>
+      <AccuracyMedium>0.38</AccuracyMedium>
+      <AccuracyLong>0.28</AccuracyLong>
+      <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_6mm_CP</projectileDef>
-				<warmupTime>1</warmupTime>
-				<range>8</range>
-				<soundCast>ShotPistol</soundCast>
-				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_5mm_CP</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>8</range>
+        <soundCast>ShotAutopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
-			</li>
-		</verbs>
-	</ThingDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== Dai Lung Cybermag 15 ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_DLC15_CP</defName>
+    <label>Dai Lung Cybermag 15</label>
+    <description>6mm pistol - This light autopistol is a cheap Hong Kong knockoff, often used by boosters and other street trash.</description>
+    <graphicData>
+      <texPath>CP/Weapon/DLC15</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.66</AccuracyShort>
+      <AccuracyMedium>0.38</AccuracyMedium>
+      <AccuracyLong>0.28</AccuracyLong>
+      <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_6mm_CP</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>8</range>
+        <soundCast>ShotAutopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>UR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== Federated Arms X-22 ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_FAX22_CP</defName>
+    <label>Federated Arms X-22</label>
+    <description>6mm pistol - The ubiquitous polymer-one-shot cheap plastic pistol. Available in designer colors</description>
+    <graphicData>
+      <texPath>CP/Weapon/FAX22</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>150</MarketValue>
+      <AccuracyTouch>0.91</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_6mm_CP</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>8</range>
+        <soundCast>ShotAutopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
 
   <!-- ==================== Arasaka R-209 ============================= -->
 
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_AR209_CP</defName>
     <label>Arasaka R-209</label>
-    <description>9mm pistol - This is a very large, and very heavy auto-pistol chambered in 9mm.  not very concealable, but with a large ammo capacity, and high rate of fire, its a fairly good weapon.</description>
+    <description>9mm pistol - This is a very large, and very heavy auto-pistol chambered in 9mm. It is not very concealable, but with a large ammo capacity, and high rate of fire, its a fairly good weapon.</description>
     <graphicData>
       <texPath>CP/Weapon/AR209</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>0.5</generateCommonality>
     <statBases>
       <MarketValue>880</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -196,10 +209,6 @@
       <AccuracyLong>0.41</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
     <weaponTags>
       <li>Arasaka</li>
     </weaponTags>
@@ -208,12 +217,12 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>8</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>21</ticksBetweenBurstShots>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -226,12 +235,12 @@
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_BAP1145_CP</defName>
     <label>BudgetArms P-1145</label>
-    <description>9mm pistol - While Budget Arms is by far the largest handgun manufacturer in Mexico, this is the only Budget Arms weapon issued by the government to any of its forces, in this case the weapon is issued to police and military officers.  However most choose to replace it as it doesn't have the stopping power, or the ability to penetrate any type of armor at all.  Not to mention no one really wants to carry a weapon from a company known worldwide for producing the worst of the Polymer One-Shot weapons.  The weapon is equipped with a built in laser sight.</description>
+    <description>9mm pistol - While Budget Arms is by far the largest handgun manufacturer on the Central American contininent of Warth, this is the only Budget Arms weapon issued by the governments there to any of its forces. In this case, the weapon is issued to police and military officers.  However, most choose to replace it as it doesn't have the stopping power, or the ability to penetrate any type of armor at all.  Not to mention no one really wants to carry a weapon from a company known worldwide for producing the worst of the polymer one-shot weapons.  The weapon is equipped with a built in laser sight.</description>
     <graphicData>
       <texPath>CP/Weapon/BAP1145</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
       <MarketValue>140</MarketValue>
       <AccuracyTouch>0.91</AccuracyTouch>
@@ -240,19 +249,15 @@
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -265,12 +270,13 @@
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_DLLP402_CP</defName>
     <label>Dai Lung LP-402</label>
-    <description>9mm pistol - A professional looking gun at a very reasonable price.  A nice change from a company that is known for its one-shots and junk pistols.</description>
+    <description>9mm pistol - A professional looking gun at a very reasonable price. A nice change from a company that is known for its one-shots and junk pistols.</description>
     <graphicData>
       <texPath>CP/Weapon/DLLP402</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>140</MarketValue>
       <AccuracyTouch>0.91</AccuracyTouch>
@@ -280,18 +286,14 @@
       <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
     </statBases>
 
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
-
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -309,7 +311,8 @@
       <texPath>CP/Weapon/FAX9</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>300</MarketValue>
       <AccuracyTouch>0.91</AccuracyTouch>
@@ -318,19 +321,15 @@
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -338,47 +337,44 @@
     </verbs>
   </ThingDef>
 
-	<!-- ==================== Militech Arms Avenger ============================= -->
+  <!-- ==================== Militech Arms Avenger ============================= -->
 
-	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_MAA_CP</defName>
-		<label>Militech Arms Avenger</label>
-		<description>9mm pistol - A well made autopistol with good range and accuracy. A professional's gun.</description>
-		<graphicData>
-			<texPath>CP/Weapon/MAA</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<soundInteract>InteractPistol</soundInteract>
-		<statBases>
-			<MarketValue>250</MarketValue>
-				<AccuracyTouch>0.91</AccuracyTouch>
-				<AccuracyShort>0.71</AccuracyShort>
-				<AccuracyMedium>0.50</AccuracyMedium>
-				<AccuracyLong>0.32</AccuracyLong>
-				<RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
-		</statBases>
-    
-		<tradeTags>
-			<li>CP</li>
-		</tradeTags>
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_MAA_CP</defName>
+    <label>Militech Arms Avenger</label>
+    <description>9mm pistol - A well made autopistol with good range and accuracy. A professional's gun.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MAA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <AccuracyTouch>0.91</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
+    </statBases>
     <weaponTags>
       <li>Militech</li>
     </weaponTags>
-		
-		<verbs>
+
+    <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_9mm_CP</projectileDef>
-				<warmupTime>1</warmupTime>
-        <range>8</range>
-				<soundCast>ShotPistol</soundCast>
-				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>9</range>
+        <soundCast>ShotAutopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
-			</li>
-		</verbs>
-	</ThingDef>
+      </li>
+    </verbs>
+  </ThingDef>
 
   <!-- ==================== Sternmeyer M295 ============================= -->
 
@@ -390,7 +386,8 @@
       <texPath>CP/Weapon/SM295</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>135</MarketValue>
       <AccuracyTouch>0.87</AccuracyTouch>
@@ -399,19 +396,18 @@
       <AccuracyLong>0.23</AccuracyLong>
       <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
+    <weaponTags>
+      <li>Sternmeyer</li>
+    </weaponTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -429,7 +425,7 @@
       <texPath>CP/Weapon/ACWS10</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
       <MarketValue>680</MarketValue>
       <AccuracyTouch>0.93</AccuracyTouch>
@@ -438,10 +434,6 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
     <weaponTags>
       <li>Arasaka</li>
     </weaponTags>
@@ -450,10 +442,84 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>2.6</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== Arasaka WSA ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_AWSA_CP</defName>
+    <label>Arasaka WSA</label>
+    <description> 10mm pistol - Standard issue sidearm for all Arasaka troops, as well as executives who want to pack a little punch. </description>
+    <graphicData>
+      <texPath>CP/Weapon/ACWS10</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <AccuracyTouch>0.91</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
+
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>8</range>
+        <soundCast>ShotAutopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== Colt Enforcement 10 ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_CE10_CP</defName>
+    <label>Colt Enforcement 10</label>
+    <description>10mm pistol - This is Colt Firearms latest addition to its venerable line of automatic pistols. As its name suggests, the Enforcement 10 is targeted toward the military and law enforcement markets. Like the .45 auto, the Enforcement 10 is built on a solid, heavy frame which helps to absorb the recoil of the potent 10mm round. The receiver and slide are fashioned from Sortex™, a tough, high-density ceramic composite developed by Petrochem for use in firearms manufacture.</description>
+    <graphicData>
+      <texPath>CP/Weapon/CE10</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>1.0</generateCommonality>
+    <statBases>
+      <MarketValue>550</MarketValue>
+      <AccuracyTouch>0.93</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.63</AccuracyMedium>
+      <AccuracyLong>0.37</AccuracyLong>
+      <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
+    </statBases>
+
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>8</range>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -471,7 +537,8 @@
       <texPath>CP/Weapon/DLSM</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>250</MarketValue>
       <AccuracyTouch>0.91</AccuracyTouch>
@@ -480,19 +547,15 @@
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>UR</reliability>
@@ -510,7 +573,8 @@
       <texPath>CP/Weapon/FASA58</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>580</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -519,19 +583,15 @@
       <AccuracyLong>0.41</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>2.6</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -544,12 +604,12 @@
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_MMPP21_CP</defName>
     <label>Militech MPP-21</label>
-    <description>10mm pistol - Not attractive, but effective.  Comes with a built in laser sight, and is guaranteed to stand up to abuse.</description>
+    <description>10mm pistol - Another in a long line of extremely reliable and durable handguns from Militech. Often given to pilots, officers, and bodyguards. It is an attractive, though simple looking weapon, with an incredibly smooth feel to it.</description>
     <graphicData>
       <texPath>CP/Weapon/MMPP21</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
       <MarketValue>225</MarketValue>
       <AccuracyTouch>0.93</AccuracyTouch>
@@ -558,10 +618,6 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
     <weaponTags>
       <li>Militech</li>
     </weaponTags>
@@ -570,10 +626,10 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>2.6</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -591,7 +647,8 @@
       <texPath>CP/Weapon/ST45</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>525</MarketValue>
       <AccuracyTouch>0.93</AccuracyTouch>
@@ -600,19 +657,18 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
+    <weaponTags>
+      <li>Sternmeyer</li>
+    </weaponTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>2.6</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -630,7 +686,8 @@
       <texPath>CP/Weapon/ST82</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>750</MarketValue>
       <AccuracyTouch>0.91</AccuracyTouch>
@@ -639,22 +696,60 @@
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
+    <weaponTags>
+      <li>Sternmeyer</li>
+    </weaponTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_10mm_CP</projectileDef>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>2.6</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== Stolbovoy ST-2 ============================= -->
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_SST2_CP</defName>
+    <label>Stolbovoy ST-2</label>
+    <description>10mm pistol - Continuing Stolbovoy's tradition of extremely durable and reliable weapons, the ST-2 is a handgun built with a composite slide and receiver and a patented action that virtually cleans itself of dust and grit.</description>
+    <graphicData>
+      <texPath>CP/Weapon/SST2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>0.9</generateCommonality>
+    <statBases>
+      <MarketValue>450</MarketValue>
+      <AccuracyTouch>0.91</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Stolbovoy</li>
+    </weaponTags>
+
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>8</range>
+        <soundCast>ShotAutopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
@@ -669,7 +764,8 @@
       <texPath>CP/Weapon/AO</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>580</MarketValue>
       <AccuracyTouch>0.93</AccuracyTouch>
@@ -678,10 +774,6 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
     <weaponTags>
       <li>Arasaka</li>
     </weaponTags>
@@ -690,10 +782,10 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -712,7 +804,8 @@
       <texPath>CP/Weapon/BAC2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>1.6</generateCommonality>
     <statBases>
       <MarketValue>245</MarketValue>
       <AccuracyTouch>0.91</AccuracyTouch>
@@ -721,19 +814,15 @@
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -752,7 +841,8 @@
       <texPath>CP/Weapon/DLODII11</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>470</MarketValue>
       <AccuracyTouch>0.93</AccuracyTouch>
@@ -761,19 +851,15 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -791,7 +877,7 @@
       <texPath>CP/Weapon/FABP24</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
       <MarketValue>150</MarketValue>
       <AccuracyTouch>0.93</AccuracyTouch>
@@ -800,19 +886,15 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -830,7 +912,7 @@
       <texPath>CP/Weapon/MMPP22</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
       <MarketValue>235</MarketValue>
       <AccuracyTouch>0.93</AccuracyTouch>
@@ -839,10 +921,6 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
     <weaponTags>
       <li>Militech</li>
     </weaponTags>
@@ -851,10 +929,10 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -872,7 +950,7 @@
       <texPath>CP/Weapon/ST35</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
       <MarketValue>400</MarketValue>
       <AccuracyTouch>0.91</AccuracyTouch>
@@ -881,19 +959,18 @@
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
+    <weaponTags>
+      <li>Sternmeyer</li>
+    </weaponTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_11mm_CP</projectileDef>
+        <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -911,7 +988,7 @@
       <texPath>CP/Weapon/AZHP</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
       <MarketValue>880</MarketValue>
       <AccuracyTouch>0.93</AccuracyTouch>
@@ -920,10 +997,6 @@
       <AccuracyLong>0.37</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
     <weaponTags>
       <li>Arasaka</li>
     </weaponTags>
@@ -932,10 +1005,10 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_12mm_CP</projectileDef>
+        <defaultProjectile>Bullet_12mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -943,47 +1016,44 @@
     </verbs>
   </ThingDef>
 
-	<!-- ==================== Militech RNA-12 ============================= -->
+  <!-- ==================== Militech RNA-12 ============================= -->
 
-	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_MRNA12_CP</defName>
-		<label>Militech RNA-12</label>
-		<description>12mm pistol - Designed specifically for their own special forces division, this weapon is incredibly reliable, nail driving accurate right out of the box, sturdy, and features an integral laser sight.  The hammerless design and high ammo capacity are just icing on the cake for this combat beast.  Militech is hoping once again to win Military contracts, and with the rimworlds on the brink of war, they may get their chance.</description>
-		<graphicData>
-			<texPath>CP/Weapon/MRNA12</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<soundInteract>InteractPistol</soundInteract>
-		<statBases>
-			<MarketValue>890</MarketValue>
-				<AccuracyTouch>0.93</AccuracyTouch>
-				<AccuracyShort>0.78</AccuracyShort>
-				<AccuracyMedium>0.63</AccuracyMedium>
-				<AccuracyLong>0.37</AccuracyLong>
-				<RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
-		</statBases>
-    
-		<tradeTags>
-			<li>CP</li>
-		</tradeTags>
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_MRNA12_CP</defName>
+    <label>Militech RNA-12</label>
+    <description>12mm pistol - Designed specifically for their own special forces division, this weapon is incredibly reliable, nail driving accurate right out of the box, sturdy, and features an integral laser sight.  The hammerless design and high ammo capacity are just icing on the cake for this combat beast.  Militech is hoping once again to win Military contracts, and with the rimworlds on the brink of war, they may get their chance.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MRNA12</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>0.6</generateCommonality>
+    <statBases>
+      <MarketValue>890</MarketValue>
+      <AccuracyTouch>0.93</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.63</AccuracyMedium>
+      <AccuracyLong>0.37</AccuracyLong>
+      <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+    </statBases>
     <weaponTags>
       <li>Militech</li>
     </weaponTags>
-		
-		<verbs>
+
+    <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_12mm_CP</projectileDef>
-				<warmupTime>2.4</warmupTime>
-				<range>8</range>
-				<soundCast>ShotPistol</soundCast>
-				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12mm_CP</defaultProjectile>
+        <warmupTime>2.4</warmupTime>
+        <range>8</range>
+        <soundCast>ShotAutopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
-			</li>
-		</verbs>
-	</ThingDef>
+      </li>
+    </verbs>
+  </ThingDef>
 
   <!-- ==================== Sternmeyer RS-50 ============================= -->
 
@@ -995,7 +1065,8 @@
       <texPath>CP/Weapon/SRS50</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>0.8</generateCommonality>
     <statBases>
       <MarketValue>650</MarketValue>
       <AccuracyTouch>0.87</AccuracyTouch>
@@ -1004,19 +1075,18 @@
       <AccuracyLong>0.23</AccuracyLong>
       <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
     </statBases>
-    
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
+    <weaponTags>
+      <li>Sternmeyer</li>
+    </weaponTags>
 
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_12mm_CP</projectileDef>
+        <defaultProjectile>Bullet_12mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -1033,7 +1103,8 @@
       <texPath>CP/Weapon/starlyte</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>5650</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -1042,10 +1113,6 @@
       <AccuracyLong>0.41</AccuracyLong>
       <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
     </statBases>
-
-    <tradeTags>
-      <li>CP</li>
-    </tradeTags>
     <weaponTags>
       <li>Arasaka</li>
     </weaponTags>
@@ -1054,15 +1121,15 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_LaserPistol</projectileDef>
+        <defaultProjectile>Bullet_LaserPistol</defaultProjectile>
         <warmupTime>1.4</warmupTime>
         <range>9</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>
-	
-</ThingDefs>
+
+</Defs>

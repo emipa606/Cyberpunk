@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef ParentName="BodyPartArtificialBase_CP">
     <defName>ToolHand_CP</defName>
@@ -356,4 +356,4 @@
     <tradeability>Sellable</tradeability>
   </ThingDef>
 
-</ThingDefs>
+</Defs>
