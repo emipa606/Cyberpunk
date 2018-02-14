@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="BaseNomadGun" ParentName="BaseMakeableGun" Abstract="True">
     <thingClass>Cyberpunk.ThingDef_GunCP</thingClass>
@@ -19,7 +19,7 @@
     <label>.357 Autopistol</label>
     <description>.357 pistol - Based on the Colt M1911, this pistol is sturdy and user friendly.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Pistol</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/AutoPistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractPistol</soundInteract>
@@ -43,7 +43,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_357mag_CP</projectileDef>
+        <defaultProjectile>Bullet_357mag_CP</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>8</range>
         <soundCast>ShotPistol</soundCast>
@@ -52,6 +52,25 @@
         <reliability>VR</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ==================== Nomad .357mag Revolver============================= -->
@@ -85,7 +104,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_357mag_CP</projectileDef>
+        <defaultProjectile>Bullet_357mag_CP</defaultProjectile>
         <warmupTime>2.9</warmupTime>
         <range>8</range>
         <soundCast>ShotPistol</soundCast>
@@ -94,6 +113,25 @@
         <reliability>VR</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ==================== Nomad .44mag Revolver============================= -->
@@ -127,7 +165,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_44mag_CP</projectileDef>
+        <defaultProjectile>Bullet_44mag_CP</defaultProjectile>
         <warmupTime>2.9</warmupTime>
         <range>8</range>
         <soundCast>ShotPistol</soundCast>
@@ -136,6 +174,25 @@
         <reliability>VR</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ==================== Nomad STEN ============================= -->
@@ -166,7 +223,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_357mag_CP</projectileDef>
+        <defaultProjectile>Bullet_357mag_CP</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>20</range>
         <burstShotCount>3</burstShotCount>
@@ -177,6 +234,25 @@
         <reliability>ST</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ==================== Nomad 9mm Pistol ============================= -->
@@ -207,7 +283,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>8</range>
         <soundCast>ShotPistol</soundCast>
@@ -216,6 +292,25 @@
         <reliability>VR</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ==================== Nomad Submachine Gun ============================= -->
@@ -246,7 +341,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>20</range>
         <burstShotCount>3</burstShotCount>
@@ -257,6 +352,25 @@
         <reliability>ST</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ==================== Nomad 9mm Rifle ============================= -->
@@ -287,7 +401,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_9mm_CP</projectileDef>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -298,6 +412,25 @@
         <reliability>VR</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ==================== Nomad Long Rifle ============================= -->
@@ -330,7 +463,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_15mmBMG_CP</projectileDef>
+        <defaultProjectile>Bullet_15mmBMG_CP</defaultProjectile>
         <warmupTime>4.0</warmupTime>
         <range>90</range>
         <soundCast>ShotSniperRifle</soundCast>
@@ -339,6 +472,25 @@
         <reliability>VR</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
       <li>SniperRifle</li>
     </weaponTags>
@@ -373,7 +525,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_357mag_CP</projectileDef>
+        <defaultProjectile>Bullet_357mag_CP</defaultProjectile>
         <warmupTime>1.9</warmupTime>
         <range>10</range>
         <burstShotCount>3</burstShotCount>
@@ -384,6 +536,25 @@
         <reliability>VR</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ==================== Nomad .44 Magnum Lever-Action Rifle ============================= -->
@@ -415,7 +586,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_44mag_CP</projectileDef>
+        <defaultProjectile>Bullet_44mag_CP</defaultProjectile>
         <warmupTime>1.9</warmupTime>
         <range>20</range>
         <burstShotCount>3</burstShotCount>
@@ -426,6 +597,25 @@
         <reliability>VR</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ==================== Nomad .357 Magnum Autoloader Rifle ============================= -->
@@ -457,7 +647,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_357mag_CP</projectileDef>
+        <defaultProjectile>Bullet_357mag_CP</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>10</range>
         <burstShotCount>3</burstShotCount>
@@ -468,6 +658,25 @@
         <reliability>VR</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ==================== Nomad 7.62mm Bolt Action Rifle ============================= -->
@@ -499,7 +708,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_762_CP</projectileDef>
+        <defaultProjectile>Bullet_762_CP</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -510,6 +719,25 @@
         <reliability>VR</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ==================== Nomad Scattergun ============================= -->
@@ -541,7 +769,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_12ga_CP</projectileDef>
+        <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
         <warmupTime>0.8</warmupTime>
         <range>6</range>
         <soundCast>ShotShotgun</soundCast>
@@ -550,6 +778,25 @@
         <reliability>VR</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ==================== Nomad Hand crossbow ============================= -->
@@ -587,13 +834,31 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bolt_CP</projectileDef>
+        <defaultProjectile>Bolt_CP</defaultProjectile>
         <warmupTime>1.15</warmupTime>
         <range>6</range>
         <soundCast>BowSmall</soundCast>
         <reliability>ST</reliability>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

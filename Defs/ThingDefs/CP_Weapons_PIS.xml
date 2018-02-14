@@ -399,7 +399,6 @@
     <weaponTags>
       <li>Sternmeyer</li>
     </weaponTags>
-
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
@@ -660,7 +659,6 @@
     <weaponTags>
       <li>Sternmeyer</li>
     </weaponTags>
-
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
@@ -699,7 +697,6 @@
     <weaponTags>
       <li>Sternmeyer</li>
     </weaponTags>
-
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
@@ -962,7 +959,6 @@
     <weaponTags>
       <li>Sternmeyer</li>
     </weaponTags>
-
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
@@ -1078,7 +1074,6 @@
     <weaponTags>
       <li>Sternmeyer</li>
     </weaponTags>
-
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>

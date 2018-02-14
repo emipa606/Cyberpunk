@@ -27,11 +27,7 @@ namespace Cyberpunk
             float jamsOn;
             StatPart_Reliability.GetReliability(this, out reliabilityString, out jamsOn);
 
-<<<<<<< HEAD
-            result += string.Format("  Reliability: {0}\r\nChance of jam: {1}%", reliabilityString, jamsOn);
-=======
             result += string.Format("\r\nReliability: {0}\r\nChance of jam: {1}%", reliabilityString, jamsOn);
->>>>>>> 9dde4a982fe29b36301b8f25e797ade7e263d212
             return result;
         }
 

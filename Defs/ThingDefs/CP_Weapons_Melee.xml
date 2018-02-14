@@ -274,7 +274,7 @@
       <texPath>Things/Item/Equipment/WeaponMelee/LongSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <techLevel>Medieval</techLevel>
+    <techLevel>Neolithic</techLevel>
     <weaponTags>
       <li>NonNeolithicOnlyMelee</li>
       <li>NeolithicMeleeAdvanced</li>
@@ -580,7 +580,7 @@
     </equippedStatOffsets>
   </ThingDef>
 
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_CP">
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
     <defName>MeleeWeapon_Chainsword_CP</defName>
     <label>Chainsword</label>
     <techLevel>Industrial</techLevel>
@@ -590,6 +590,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
+      <WorkToMake>35000</WorkToMake>
       <MarketValue>500</MarketValue>
       <Mass>3</Mass>
     </statBases>
@@ -600,6 +601,9 @@
     <costList>
       <Component>8</Component>
     </costList>
+    <weaponTags>
+      <li>NeolithicMelee</li>
+    </weaponTags>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <tools>
       <li>

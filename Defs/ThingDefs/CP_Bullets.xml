@@ -49,6 +49,38 @@
     </projectile>
   </ThingDef>
 
+  <!-- ==================== .357 mag bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_357mag_CP</defName>
+    <label>357 mag bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ==================== .44 mag bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_44mag_CP</defName>
+    <label>44 mag bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>24</damageAmountBase>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+
   <!-- ==================== 3.5mm FF bullet ============================= -->
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_35mmFF_CP</defName>
@@ -290,12 +322,29 @@
     <defName>Bullet_15mm_CP</defName>
     <label>15mm bullet</label>
     <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>43</damageAmountBase>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ==================== 15mm bmg bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_15mmBMG_CP</defName>
+    <label>15mm BMG bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>60</damageAmountBase>
       <speed>85</speed>
     </projectile>
   </ThingDef>
@@ -385,6 +434,7 @@
     <defName>Bullet_50BMG_CP</defName>
     <label>.50 BMG bullet</label>
     <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
@@ -531,7 +581,23 @@
       <damageAmountBase>90</damageAmountBase>
       <speed>90</speed>
     </projectile>
-<<<<<<< HEAD
-  </ThingDef>  
+  </ThingDef>
 
->>>>>>> 9dde4a982fe29b36301b8f25e797ade7e263d212
+  <!-- ==================== crossbow bolt ============================= -->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>Bolt_CP</defName>
+    <label>crossbow bolt</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef> 
+
+</Defs>

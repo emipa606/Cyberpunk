@@ -4,6 +4,7 @@
   <ThingDef Name="BaseSHTGun" ParentName="BaseGun" Abstract="True">
     <statBases>
       <Mass>3.4</Mass>
+      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <smeltProducts>
       <Steel>60</Steel>
@@ -406,7 +407,6 @@
     <weaponTags>
       <li>Sternmeyer</li>
     </weaponTags>
-
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
       <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
@@ -453,7 +453,6 @@
     <weaponTags>
       <li>Sternmeyer</li>
     </weaponTags>
-
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
       <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>

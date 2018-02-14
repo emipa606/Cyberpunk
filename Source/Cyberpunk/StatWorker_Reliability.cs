@@ -41,7 +41,7 @@ namespace Cyberpunk
                     reliabilityString = "Unreliable";
 
 
-                sb.AppendLine(string.Format("  Reliability: {0}\r\n\r\nChance of jam: {1}%", reliabilityString, finalVal));
+                sb.AppendLine(string.Format("Reliability: {0}\r\n\r\nChance of jam: {1}%", reliabilityString, finalVal));
             }
             return sb.ToString();
         }

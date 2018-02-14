@@ -2,15 +2,20 @@
 <ModMetaData>
   <name>Cyberpunk [18]</name>
   <author>Darque</author>
-  <url></url>
+  <url>https://github.com/MDarque/Cyberpunk</url>
   <targetVersion>0.18.0</targetVersion>
   <description>
     This mod introduces the Cyberpunk weapons and cybernetics.
     Change Notes
     -----------
+    v1.3.1
+    -----------
+    Bug fixes and returned missing nomad weapons
+
     v1.3
-    Update for Alpha 18
-    
+    -----------
+    Update for Beta 18
+
     v1.2
     -----------
     Added new apparel items and hats - camo shirts and pants, berets, caps, and balaclavas

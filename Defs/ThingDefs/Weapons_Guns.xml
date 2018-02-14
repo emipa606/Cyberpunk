@@ -33,8 +33,8 @@
 
   <ThingDef ParentName="BaseMakeableShortGun">
     <defName>Gun_Revolver</defName>
-    <label>.357 revolver</label>
-    <description>A very cheap, but surprisingly reliable weapon.  The lack of any real sights whatsoever, and the hammerless design, are a bit odd, but for a back up piece, or emergency defense, it does the trick just fine.  Of course many nomads use this weapon as their main sidearm, but that is probably more due to cost than anything else.  Made by Technomancers and sold in markets everywhere.  No two are ever exactly the same.</description>
+    <label>.357 special</label>
+    <description>.357 revolver - A very cheap, but surprisingly reliable weapon.  The lack of any real sights whatsoever, and the hammerless design, are a bit odd, but for a back up piece, or emergency defense, it does the trick just fine.  Of course many nomads use this weapon as their main sidearm, but that is probably more due to cost than anything else.  Made by Technomancers and sold in markets everywhere.  No two are ever exactly the same.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/Revolver</texPath>
       <graphicClass>Graphic_Single</graphicClass>

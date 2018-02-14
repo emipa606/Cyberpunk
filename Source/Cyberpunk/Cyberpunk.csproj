@@ -88,7 +88,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="..\..\Defs\ThingCategoryDefs\ThingCategories.xml">
-      <Link>Defs\ThingDefs\ThingCategories.xml</Link>
+      <Link>Defs\ThingCategoryDefs\ThingCategories.xml</Link>
     </Content>
     <Content Include="..\..\Defs\ThingDefs\CP_Apparel.xml">
       <SubType>Designer</SubType>
@@ -145,12 +145,6 @@
       <Link>Defs\ThingDefs\CP_Weapons_SNP.xml</Link>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="..\..\Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml">
-      <Link>Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml</Link>
-    </Content>
-    <Content Include="..\..\Defs\ThingDefs\Weapons_Guns.xml">
-      <Link>Defs\ThingDefs\Weapons_Guns.xml</Link>
-    </Content>
     <Content Include="..\..\Defs\ThingDefs\CP_Weapons_Melee.xml">
       <Link>Defs\ThingDefs\CP_Weapons_Melee.xml</Link>
       <SubType>Designer</SubType>
@@ -165,10 +159,10 @@
     </Content>
     <Content Include="..\..\Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml">
       <SubType>Designer</SubType>
-      <Link>Defs\ThingDefs\CP_TraderKinds_Caravan.xml</Link>
+      <Link>Defs\TraderKindDefs\CP_TraderKinds_Caravan.xml</Link>
     </Content>
     <Content Include="..\..\Defs\TraderKindDefs\CP_TraderKinds_Orbital.xml">
-      <Link>Defs\ThingDefs\CP_TraderKinds_Orbital.xml</Link>
+      <Link>Defs\TraderKindDefs\CP_TraderKinds_Orbital.xml</Link>
     </Content>
     <Content Include="..\..\Defs\RecipeDefs\Recipes_Surgery_Implants_CP.xml">
       <Link>Defs\RecipeDefs\Recipes_Surgery_Implants_CP.xml</Link>
@@ -189,6 +183,9 @@
     <Content Include="..\..\Defs\StatDefs\Stats_Weapons_Ranged.xml">
       <Link>Defs\StatDefs\Stats_Weapons_Ranged.xml</Link>
     </Content>
+    <Content Include="..\..\Defs\PawnKindDefs_Humanlikes\PawnKinds_Mechanoid.xml">
+      <Link>Defs\PawnKindDefs_Humanlikes\PawnKinds_Mechanoid.xml</Link>
+    </Content>
     <Content Include="..\..\Defs\PawnKindDefs_Humanlikes\PawnKinds_Mercenary.xml">
       <Link>Defs\PawnKindDefs_Humanlikes\PawnKinds_Mercenary.xml</Link>
     </Content>
@@ -206,6 +203,9 @@
     </Content>
     <Content Include="..\..\Defs\PawnKindDefs_Humanlikes\PawnKinds_Spacer.xml">
       <Link>Defs\PawnKindDefs_Humanlikes\PawnKinds_Spacer.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\PawnKindDefs_Humanlikes\PawnKinds_Tribal.xml">
+      <Link>Defs\PawnKindDefs_Humanlikes\PawnKinds_Tribal.xml</Link>
     </Content>
     <Content Include="..\..\Textures\CP\Weapon\AAW65.png">
       <Link>Textures\AAW65.png</Link>
