@@ -13,6 +13,7 @@
       <Steel>60</Steel>
       <Component>8</Component>
     </smeltProducts>
+<<<<<<< HEAD
     <tools>
       <li>
         <label>stock</label>
@@ -32,6 +33,8 @@
         <cooldownTime>1.9</cooldownTime>
       </li>
     </tools>
+=======
+>>>>>>> 9dde4a982fe29b36301b8f25e797ade7e263d212
   </ThingDef>
 
   <!-- =================== Arasaka WSSA Sniper System ================== -->

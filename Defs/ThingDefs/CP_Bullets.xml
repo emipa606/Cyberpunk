@@ -290,7 +290,6 @@
     <defName>Bullet_15mm_CP</defName>
     <label>15mm bullet</label>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
@@ -386,7 +385,6 @@
     <defName>Bullet_50BMG_CP</defName>
     <label>.50 BMG bullet</label>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
@@ -533,6 +531,7 @@
       <damageAmountBase>90</damageAmountBase>
       <speed>90</speed>
     </projectile>
+<<<<<<< HEAD
   </ThingDef>  
 
-</Defs>
+>>>>>>> 9dde4a982fe29b36301b8f25e797ade7e263d212

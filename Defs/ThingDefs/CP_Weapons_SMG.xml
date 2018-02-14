@@ -31,6 +31,16 @@
     </tools>
   </ThingDef>
 
+  <ThingDef Name="BaseSMGGun" ParentName="BaseGun" Abstract="True">
+    <statBases>
+      <Mass>2.5</Mass>
+    </statBases>
+    <smeltProducts>
+      <Steel>45</Steel>
+      <Component>3</Component>
+    </smeltProducts>
+  </ThingDef>
+
   <!-- =================== Federated Arms Tech Assault II ================== -->
 
   <ThingDef ParentName="BaseSMGGun">
@@ -106,7 +116,11 @@
     </verbs>
   </ThingDef>
 
+<<<<<<< HEAD
   <!-- =================== BudgetArms Balta ================== -->
+=======
+	<!-- =================== BudgetArms Balta ================== -->
+>>>>>>> 9dde4a982fe29b36301b8f25e797ade7e263d212
   <ThingDef ParentName="BaseSMGGun">
     <defName>Gun_BAB_CP</defName>
     <label>BudgetArms Balta</label>
@@ -142,7 +156,11 @@
     </verbs>
   </ThingDef>
 
+<<<<<<< HEAD
   <!-- =================== Dai Lung SMG ================== -->
+=======
+	<!-- =================== Dai Lung SMG ================== -->
+>>>>>>> 9dde4a982fe29b36301b8f25e797ade7e263d212
   <ThingDef ParentName="BaseSMGGun">
     <defName>Gun_DLSMG_CP</defName>
     <label>Dai Lung SMG</label>
@@ -257,7 +275,11 @@
     </verbs>
   </ThingDef>
 
+<<<<<<< HEAD
   <!-- =================== Uzi Miniauto 9 ================== -->
+=======
+	<!-- =================== Uzi Miniauto 9 ================== -->
+>>>>>>> 9dde4a982fe29b36301b8f25e797ade7e263d212
   <ThingDef ParentName="BaseSMGGun">
     <defName>Gun_UziM9_CP</defName>
     <label>Uzi Miniauto 9</label>

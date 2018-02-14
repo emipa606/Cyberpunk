@@ -37,7 +37,6 @@
           <li>
             <verbClass>Verb_MeleeAttack</verbClass>
             <defaultCooldownTime>0.6</defaultCooldownTime>
-            <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
             <meleeDamageDef>Scratch</meleeDamageDef>
           </li>
         </verbs>
@@ -61,7 +60,6 @@
           <li>
             <verbClass>Verb_MeleeAttack</verbClass>
             <defaultCooldownTime>0.6</defaultCooldownTime>
-            <meleeDamageBaseAmount>9</meleeDamageBaseAmount>
             <meleeDamageDef>Scratch</meleeDamageDef>
           </li>
         </verbs>
@@ -234,7 +232,6 @@
 <!-- Neuralware -->
   
   <HediffDef ParentName="ImplantHediffBase_CP">
-    <defName>Joywire</defName>
     <label>speedware</label>
     <stages>
       <li>
