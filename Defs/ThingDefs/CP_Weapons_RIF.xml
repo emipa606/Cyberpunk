@@ -500,7 +500,7 @@
   <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MMKIV_CP</defName>
     <label>Militech MK IV</label>
-    <description>6mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine.</description>
+    <description>6.5mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine.</description>
     <graphicData>
       <texPath>CP/Weapon/MMKIV</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -523,7 +523,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_6mm_CP</defaultProjectile>
+        <defaultProjectile>Bullet_65mm_CP</defaultProjectile>
         <warmupTime>2.26</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -541,7 +541,7 @@
   <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MDRAG_CP</defName>
     <label>Militech Dragon</label>
-    <description>6mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine.</description>
+    <description>6.5mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine.</description>
     <graphicData>
       <texPath>CP/Weapon/MDRAG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -564,7 +564,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_6mm_CP</defaultProjectile>
+        <defaultProjectile>Bullet_65mm_CP</defaultProjectile>
         <warmupTime>2.51</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -582,7 +582,7 @@
   <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_SHRO113_CP</defName>
     <label>Sternmeyer HRO-113</label>
-    <description>6mm Assault Rifle - A simple if effective assault rifle by Sternmeyer.</description>
+    <description>6.5mm Assault Rifle - A simple if effective assault rifle by Sternmeyer.</description>
     <graphicData>
       <texPath>CP/Weapon/SHRO113</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -603,7 +603,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_6x45mm_CP</defaultProjectile>
+        <defaultProjectile>Bullet_65mmc_CP</defaultProjectile>
         <warmupTime>2.13</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>

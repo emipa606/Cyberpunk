@@ -63,7 +63,7 @@
   <!-- neuralware -->
 
   <ThingDef ParentName="ImplantBase_CP">
-    <defName>Joywire</defName>
+    <defName>Speedware</defName>
     <label>speedware</label>
     <description>Kicks in when desired, eliminating much of the need to adopt to one's entire life to an inhumanly fast reaction time.</description>
     <graphicData>

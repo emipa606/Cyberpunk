@@ -146,6 +146,40 @@
     </projectile>
   </ThingDef>
 
+  <!-- ==================== 6.5mm hybrid bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_65mm_CP</defName>
+    <label>6.5mm hybrid bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>35</damageAmountBase>
+      <speed>35</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ==================== 6.5mm cased bullet ============================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_65mmc_CP</defName>
+    <label>6.5mm cased bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>33</damageAmountBase>
+      <speed>35</speed>
+    </projectile>
+  </ThingDef>
+
   <!-- ==================== 6x45mm bullet ============================= -->
 
   <ThingDef ParentName="BaseBullet">
