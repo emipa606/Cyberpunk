@@ -109,7 +109,7 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_6mm_CP</defaultProjectile>
+        <defaultProjectile>Bullet_65mm_CP</defaultProjectile>
         <warmupTime>0.87</warmupTime>
         <burstShotCount>10</burstShotCount>
         <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
@@ -288,6 +288,48 @@
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ======================= Militech	M95A1 ======================= -->
+
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_MM95A1_CP</defName>
+    <label>Militech M95A1</label>
+    <description>Railgun. In a joint venture funded by the United Military, Militech has taken the railgun conclusion another frightening step forward. 3 large electro-magnets power the weapon, and it is easily reloaded using easy to produce slugs made from ball bearings.  It's only slightly larger and more cumbersome than a heavy assault rifle, though the recoil is much more severe. How they managed to make a man portable railgun this small is anyone’s guess.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MM95A1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractChargeRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
+    <statBases>
+      <MarketValue>8900</MarketValue>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
+    <techLevel>Spacer</techLevel>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.35</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_eap_CP</defaultProjectile>
+        <warmupTime>2.2</warmupTime>
+        <range>100</range>
+        <soundCast>ShotChargeRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
       </li>
     </verbs>
   </ThingDef>

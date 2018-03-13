@@ -679,4 +679,46 @@
     </verbs>
   </ThingDef>
 
+  <!-- ======================= Arasaka MAD-8 ======================= -->
+
+  <ThingDef ParentName="BaseRIFGun">
+    <defName>Gun_AMAD8_CP</defName>
+    <label>Arasaka MAD-8</label>
+    <description>10mm Sniper Rifle - This rifle is an electrothermally enhanced weapon.  Highly accurate and built around the Arasaka developed 10mm rifle round, this weapon is not available for sale on any market and Arasaka has announced it has no intentions of making it available.  Issued only to Elite Arasaka Marksmen,</description>
+    <graphicData>
+      <texPath>CP/Weapon/AMAD8</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractChargeRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
+    <statBases>
+      <MarketValue>6235</MarketValue>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.97</AccuracyShort>
+      <AccuracyMedium>0.97</AccuracyMedium>
+      <AccuracyLong>0.97</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
+    <techLevel>Spacer</techLevel>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mmAR_CP</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>55</range>
+        <soundCast>ShotChargeRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+
 </Defs>

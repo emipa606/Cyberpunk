@@ -11,7 +11,7 @@
       <MaxHitPoints>50</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>2.0</DeteriorationRate>
-      <Beauty>-6</Beauty>
+      <Beauty>-4</Beauty>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <tickerType>Never</tickerType>
@@ -27,18 +27,22 @@
       <li>BodyPartsArtificial</li>
     </thingCategories>
     <pathCost>10</pathCost>
-    <tradeability>Sellable</tradeability>
+    <itemGeneratorTags>
+      <li>SpecialReward</li>
+    </itemGeneratorTags>
   </ThingDef>
 
   <ThingDef Name="BodyPartBase_CP" Abstract="True">
-    <label>body part</label>
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <useHitPoints>true</useHitPoints>
     <selectable>true</selectable>
     <statBases>
+      <MarketValue>1000</MarketValue>
       <MaxHitPoints>50</MaxHitPoints>
       <Flammability>1.0</Flammability>
+      <Beauty>-4</Beauty>
+      <DeteriorationRate>2.0</DeteriorationRate>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <tickerType>Never</tickerType>
@@ -50,14 +54,13 @@
     <comps>
       <li Class="CompProperties_Forbiddable"/>
     </comps>
-    <tradeability>Sellable</tradeability>
     <pathCost>10</pathCost>
-  </ThingDef>
-
-  <ThingDef ParentName="BodyPartBase_CP" Name="BodyPartArtificialBase_CP" Abstract="True">
     <thingCategories>
       <li>BodyPartsArtificial</li>
     </thingCategories>
+    <itemGeneratorTags>
+      <li>SpecialReward</li>
+    </itemGeneratorTags>
   </ThingDef>
 
   <!-- neuralware -->
@@ -150,7 +153,7 @@
     </techHediffsTags>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>Scratchers_CP</defName>
     <label>scratchers</label>
     <description>Implanted metal or plasteel fingernails. The incredible sharpness of the material makes these as deadly as razor blades.
@@ -167,10 +170,9 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
       <li>Weapon</li>
       <li>Simple</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>Rippers_CP</defName>
     <label>rippers</label>
     <description>Longer, heavier version of scratchers. The top two joints of each finger are replaced with a plasteel sheath in which 3 inch carbo-glas claws are housed.</description>
@@ -185,10 +187,9 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
     <techHediffsTags>
       <li>Weapon</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>Wolvers_CP</defName>
     <label>wolvers</label>
     <description>The longest and deadliest of the implant blades, wolvers are implanted along the back of the hand. When the hand is clenched in a fist, the thin, triangular blades telescope and lock into place, remaining extended a full foot until the hand is relaxed.</description>
@@ -203,10 +204,9 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
     <techHediffsTags>
       <li>Weapon</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>BigKnucks_CP</defName>
     <label>bigknucks</label>
     <description>Reinforced knucklebones, giving the fist the impact value of a brass knuckle.</description>
@@ -221,9 +221,9 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
     <techHediffsTags>
       <li>Weapon</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>GraftedMuscle_CP</defName>
     <label>grafted muscle</label>
     <description>This is vat-grown muscle to be grafted onto the existing muscles.</description>
@@ -238,10 +238,9 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>Faceplate_CP</defName>
     <label>faceplate</label>
     <description>The standard faceplate covers the entire face, with ports for eating, breathing and seeing. The armored plasteel is woven fine myomar muscle fibers and is relatively flexible. Facial nervelinks allow limited changes of expression. This modification doesn't have to be ugly; many people find the silvery contours to be quite attractive.</description>
@@ -257,10 +256,9 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
       <li>Armor</li>
       <li>Simple</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>Cowlplate_CP</defName>
     <label>cowl plate</label>
     <description>This is a body plate that covers the skull. It is anchored by minibolts to the scalp, and resembles the bad skullcaps from bad science fiction or fantasy epics.</description>
@@ -276,10 +274,9 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
       <li>Armor</li>
       <li>Simple</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>Torsoplate_CP</defName>
     <label>torso plate</label>
     <description>The torso plate covers the entire upper and lower torso, back and front, with expansion joints on the sides, groin and waist to allow free movement.</description>
@@ -295,7 +292,6 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
       <li>Armor</li>
       <li>Simple</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
   <ThingDef ParentName="ImplantBase_CP">
@@ -318,7 +314,7 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
 
   <!-- Organs -->
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>CyberLiver_CP</defName>
     <label>T-Maxx Cyberliver</label>
     <description>Party longer with the T-Maxx Cyberliver. Micropore Filter units equipped with the new T-Maxx electrochemical diffusion process can filter out alcohol and most cardio-vascular poisons and drugs.</description>
@@ -332,7 +328,7 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
     </statBases>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>CyberLiver2_CP</defName>
     <label>T-Maxx Cyberliver II</label>
     <description>The T-Maxx Cyberliber II builds on the previous version by adding in a convenient fluid rerouting system, allowing the cyberliver to be even more effective.</description>
@@ -346,7 +342,7 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
     </statBases>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>CyberHeart_CP</defName>
     <label>Pacesetter Sport Heart</label>
     <description>This rapid action turbopump heart is for the physically oriented. It is capable of increasing circulation many time over, effectively boosting physical performace.</description>
@@ -360,7 +356,7 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
     </statBases>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>CyberHeart2_CP</defName>
     <label>Pacesetter 2000 Heart</label>
     <description>The Pacesetter 2000 is the ultimate in high-performance organware. This sophisticated heart's overdrive boosts the body when needed.</description>
@@ -374,7 +370,7 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
     </statBases>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>CyberLung_CP</defName>
     <label>Enhanced Lung</label>
     <description>This lung is cyber-enhanced with synthetic filters and oxygen superchargers.</description>
@@ -388,7 +384,7 @@ Scratchers cut on the bias, requireing the user to slice crossways, not rip down
     </statBases>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>CyberLung2_CP</defName>
     <label>Enhanced Lung Series 2</label>
     <description>The ELS-2 goes beyond the original enhanced lung by replacing the entire respiratory system with an enhanced synthetics/plasteel architecture.</description>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>ToolHand_CP</defName>
     <label>tool hand</label>
     <description>This hand's four fingers conceal small tools including a screwdriver, adjustable wrench, soldering iron and a socket wrench. In addition, the lower edge of the palm is hardened to make a dandy hammer.</description>
@@ -17,10 +17,9 @@
       <li>Worker</li>
       <li>Advanced</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>BuzzHand_CP</defName>
     <label>buzz hand</label>
     <description>This hand can be pulled back to reveal small, spinning mono-wires around a plasteel hub. The high speed "weed wacker" shears through most materials like butter.</description>
@@ -36,10 +35,9 @@
       <li>Worker</li>
       <li>Advanced</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>HammerHand_CP</defName>
     <label>hammer hand</label>
     <description>This hand is made of hardened plasteel and has a powerful explosive shell-driven ram that acts like a jack-hammer. The user punches, the shell goes off, driving the fist forward with incredible velocity and power. A port in the top ejects the shell and opens to receive a new one.</description>
@@ -55,10 +53,9 @@
       <li>Worker</li>
       <li>Advanced</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>DrillHand_CP</defName>
     <label>drill hand</label>
     <description>Designed specifically for worker 'borgs, Antomation Inc's drill hand comprises of an industrial plasteel diamond tipped drill bit. The drill extends from a socket located in the center of the palm.</description>
@@ -74,10 +71,9 @@
       <li>Worker</li>
       <li>Advanced</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>MedHand_CP</defName>
     <label>modular medical hand</label>
     <description>This MedHand is the latest in modular finger technologies. It includes five instruments to use in any medical situation: monoedge scalpel, a four dose air hypo, dermal stapler dual-purpose clamp/forceps and a basic biomonitor probe.</description>
@@ -95,7 +91,7 @@
     </techHediffsTags>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>LightningFist_CP</defName>
     <label>lightning fist</label>
     <description>Designed for self defense, the lightning fist hand has an integrated taser that is set to ready mode when the user makes a fist; and delivers an electric shock when that fist makes contact with a solid object.</description>
@@ -113,7 +109,7 @@
     </techHediffsTags>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>BionicArm</defName>
     <label>standard cyberarm</label>
     <description>The standard cyberarm is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the shoulder using a metal and plasteel cuff.</description>
@@ -131,7 +127,7 @@
     </techHediffsTags>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>CyberHand_CP</defName>
     <label>standard cyberhand</label>
     <description>The standard cyberhand is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the wrist using a metal and plasteel cuff.</description>
@@ -149,7 +145,7 @@
     </techHediffsTags>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>ArmoredArm_CP</defName>
     <label>armored cyberarm</label>
     <description>The armored cyberarm is built as a standard cyberarm, but contains ballistic joints and is covered with kevlar.</description>
@@ -167,10 +163,10 @@
     </techHediffsTags>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>BionicLeg</defName>
     <label>standard cyberleg</label>
-    <description>>The standard cyberleg is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the pelvis using a metal and plasteel cuff.</description>
+    <description>The standard cyberleg is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the pelvis using a metal and plasteel cuff.</description>
     <graphicData>
       <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -185,7 +181,7 @@
     </techHediffsTags>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>CyberFoot_CP</defName>
     <label>standard cyberfoot</label>
     <description>The standard cyberfoot is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the leg using a metal and plasteel cuff.</description>
@@ -203,7 +199,7 @@
     </techHediffsTags>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>SkateFoot_CP</defName>
     <label>skate foot</label>
     <description>This motorized foot module is fitted with four chain-driven super-grip wheels which fold up behind the heel when not in use. Once activated, micro-hydrolic servers slide the wheels down below the feet and...ZOOM!</description>
@@ -220,7 +216,7 @@
     </techHediffsTags>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>ArmoredLeg_CP</defName>
     <label>armored cyberleg</label>
     <description>>The armored cyberleg is built as a standard cyberleg, but contains ballistic joints and is covered with kevlar.</description>
@@ -238,7 +234,7 @@
     </techHediffsTags>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>COTargettingScope_CP</defName>
     <label>cyberoptic targetting scope</label>
     <description>Replaces the natural eye, giving the recipient the ability to project a targetting sight onto the field of vision at will. The targetting scope will read range to specific objects, speed of movement, bearing and size, as well as providing several types of scope reticle for aligning weapons.</description>
@@ -254,10 +250,9 @@
       <li>Weapon</li>
       <li>Advanced</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>BionicEye</defName>
     <label>cyberoptic image enhancement</label>
     <description>This cyberoptic gives the recipient ultra high resolution graphics capability to enhance and refine images viewed.</description>
@@ -273,12 +268,11 @@
       <li>Standard</li>
       <li>Advanced</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
 <!-- CyberAudio -->
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>CAAmplifiedHearing_CP</defName>
     <label>cyberaudio amplified hearing</label>
     <description>This system improves hearing and sound recognition ability.</description>
@@ -294,12 +288,11 @@
       <li>Standard</li>
       <li>Advanced</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
     <!-- CyberJaw -->
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>PowerJaw_CP</defName>
     <label>powerjaw</label>
     <description>This system from Dynalar increases the viciousness of your bite! It winds plasteel through the jaw muscles, increasing the force of mastication.</description>
@@ -315,10 +308,9 @@
       <li>Standard</li>
       <li>Advanced</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>CyberJaw_CP</defName>
     <label>cyberjaw</label>
     <description>This jaw replacement rebuilds the jaw and upper mouth with stronger, more durable synthetics and micronetics. It even has realistic looking skin!</description>
@@ -334,10 +326,9 @@
       <li>Standard</li>
       <li>Advanced</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase_CP">
+  <ThingDef ParentName="BodyPartBase_CP">
     <defName>CyberJawK9_CP</defName>
     <label>cyberjaw K9</label>
     <description>This jaw replacement rebuilds the jaw and upper mouth with stronger, more durable synthetics and micronetics.</description>
@@ -353,7 +344,6 @@
       <li>Standard</li>
       <li>Advanced</li>
     </techHediffsTags>
-    <tradeability>Sellable</tradeability>
   </ThingDef>
 
 </Defs>

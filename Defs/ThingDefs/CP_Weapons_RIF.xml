@@ -39,7 +39,7 @@
   <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_MNINJA_CP</defName>
     <label>Militech Ninja</label>
-    <description>.22 Rifle - A highly reliable caseless design with no moving parts and an integral silencer. A fully plastic magazing and electrical firing pin makes this assault weapon incredibly quiet. Perfect for black ops!</description>
+    <description>5mm Rifle - A highly reliable caseless design with no moving parts and an integral silencer. A fully plastic magazing and electrical firing pin makes this assault weapon incredibly quiet. Perfect for black ops!</description>
     <graphicData>
       <texPath>CP/Weapon/MNINJA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -929,7 +929,7 @@
   <ThingDef ParentName="BaseRIFGun">
     <defName>Gun_AX61_CP</defName>
     <label>Arasaka X-61</label>
-    <description>Railgun. Arasaka has created a true man-portable railgun roughly the same size and weight as a large assault rifle.  This weapon uses a 1.5cm nickel cadmium projectile.</description>
+    <description>Railgun. Arasaka has created a true man-portable railgun roughly the same size and weight as a large assault rifle.  This weapon uses a 15mm nickel cadmium projectile.</description>
     <graphicData>
       <texPath>CP/Weapon/AX61</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -955,93 +955,9 @@
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_AX61_CP</defaultProjectile>
+        <defaultProjectile>Bullet_15mmNiCd_CP</defaultProjectile>
         <warmupTime>2.2</warmupTime>
         <range>100</range>
-        <soundCast>ShotChargeRifle</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <reliability>VR</reliability>
-      </li>
-    </verbs>
-  </ThingDef>
-
-  <!-- ======================= Militech	M95A1 ======================= -->
-
-  <ThingDef ParentName="BaseRIFGun">
-    <defName>Gun_MM95A1_CP</defName>
-    <label>Militech M95A1</label>
-    <description>Railgun. In a joint venture funded by the United Military, Militech has taken the railgun conclusion another frightening step forward. 3 large electro-magnets power the weapon, and it is easily reloaded using easy to produce slugs made from ball bearings.  It's only slightly larger and more cumbersome than a heavy assault rifle, though the recoil is much more severe. How they managed to make a man portable railgun this small is anyone’s guess.</description>
-    <graphicData>
-      <texPath>CP/Weapon/MM95A1</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <soundInteract>InteractChargeRifle</soundInteract>
-    <generateCommonality>0.4</generateCommonality>
-    <statBases>
-      <MarketValue>8900</MarketValue>
-      <AccuracyTouch>0.96</AccuracyTouch>
-      <AccuracyShort>0.87</AccuracyShort>
-      <AccuracyMedium>0.77</AccuracyMedium>
-      <AccuracyLong>0.64</AccuracyLong>
-      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
-    </statBases>
-    <weaponTags>
-      <li>Militech</li>
-    </weaponTags>
-    <techLevel>Spacer</techLevel>
-    <equippedStatOffsets>
-      <MoveSpeed>-0.35</MoveSpeed>
-    </equippedStatOffsets>
-    <verbs>
-      <li Class="Cyberpunk.VerbPropertiesCP">
-        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_MM95A1_CP</defaultProjectile>
-        <warmupTime>2.2</warmupTime>
-        <range>100</range>
-        <soundCast>ShotChargeRifle</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <reliability>VR</reliability>
-      </li>
-    </verbs>
-  </ThingDef>
-
-  <!-- ======================= Arasaka MAD-8 ======================= -->
-
-  <ThingDef ParentName="BaseRIFGun">
-    <defName>Gun_AMAD8_CP</defName>
-    <label>Arasaka MAD-8</label>
-    <description>This rifle is an electrothermally enhanced weapon.  Highly accurate and built around the Arasaka developed 10mm rifle round, this weapon is not available for sale on any market and Arasaka has announced it has no intentions of making it available.  Issued only to Elite Arasaka Marksmen,</description>
-    <graphicData>
-      <texPath>CP/Weapon/AMAD8</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <soundInteract>InteractChargeRifle</soundInteract>
-    <generateCommonality>0.4</generateCommonality>
-    <statBases>
-      <MarketValue>6235</MarketValue>
-      <AccuracyTouch>0.88</AccuracyTouch>
-      <AccuracyShort>0.97</AccuracyShort>
-      <AccuracyMedium>0.97</AccuracyMedium>
-      <AccuracyLong>0.97</AccuracyLong>
-      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
-    </statBases>
-    <weaponTags>
-      <li>Arasaka</li>
-    </weaponTags>
-    <techLevel>Spacer</techLevel>
-    <equippedStatOffsets>
-      <MoveSpeed>-0.25</MoveSpeed>
-    </equippedStatOffsets>
-    <verbs>
-      <li Class="Cyberpunk.VerbPropertiesCP">
-        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_AMAD8_CP</defaultProjectile>
-        <warmupTime>1.8</warmupTime>
-        <range>55</range>
         <soundCast>ShotChargeRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>

@@ -371,6 +371,7 @@
     <defName>CP_Esporma_Helmet</defName>
     <label>Esporma Environment Helmet</label>
     <description>The Esporma Environment Helmet is a must of any situation that may include poisonous gasses, bioweapons, or corrosive materials. This helmet includes a hood with face shield as well as an internal oxygen supply.</description>
+    <generateCommonality>.4</generateCommonality>
     <graphicData>
       <texPath>CP/Apparel/Esporma/EHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>

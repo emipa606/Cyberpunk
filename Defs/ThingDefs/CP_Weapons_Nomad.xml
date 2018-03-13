@@ -10,6 +10,17 @@
       <li>NeolithicRanged</li>
       <li>Gun</li>
     </weaponTags>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <!-- ==================== Nomad .357mag Auto pistol============================= -->
@@ -22,7 +33,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/AutoPistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutoPistol</soundInteract>
     <statBases>
       <WorkToMake>15000</WorkToMake>
       <Mass>1.2</Mass>
@@ -46,7 +57,7 @@
         <defaultProjectile>Bullet_357mag_CP</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutoPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -83,7 +94,7 @@
       <texPath>CP/Weapon/N357R</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutoPistol</soundInteract>
     <statBases>
       <WorkToMake>15000</WorkToMake>
       <Mass>1.2</Mass>
@@ -107,7 +118,7 @@
         <defaultProjectile>Bullet_357mag_CP</defaultProjectile>
         <warmupTime>2.9</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutoPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -144,7 +155,7 @@
       <texPath>CP/Weapon/N357R</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutoPistol</soundInteract>
     <statBases>
       <WorkToMake>16000</WorkToMake>
       <Mass>1.3</Mass>
@@ -168,7 +179,7 @@
         <defaultProjectile>Bullet_44mag_CP</defaultProjectile>
         <warmupTime>2.9</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutoPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -265,7 +276,7 @@
       <texPath>CP/Weapon/N9mmAP</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutoPistol</soundInteract>
     <statBases>
       <WorkToMake>25000</WorkToMake>
       <Mass>1.2</Mass>
@@ -286,7 +297,7 @@
         <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>8</range>
-        <soundCast>ShotPistol</soundCast>
+        <soundCast>ShotAutoPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -682,8 +693,8 @@
   <!-- ==================== Nomad 7.62mm Bolt Action Rifle ============================= -->
 
   <ThingDef ParentName="BaseNomadGun">
-    <defName>Gun_N357ALRifle</defName>
-    <label>.357 autoloader rifle</label>
+    <defName>Gun_N762ALRifle</defName>
+    <label>7.62mm autoloader rifle</label>
     <description>7.62mm assault rifle - A fourth or fifth generation copy of an original design, this is a time tested survivor of the 20th century, differing very little from its predecessors.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</texPath>

@@ -54,11 +54,11 @@
         </countRange>
       </li>
       
-      <li Class="StockGenerator_Tag">
-        <tradeTag>BodyPartOrImplant</tradeTag>
+      <li Class="StockGenerator_Category">
+        <categoryDef>BodyPartsArtificial</categoryDef>
         <thingDefCountRange>
           <min>2</min>
-          <max>5</max>
+          <max>10</max>
         </thingDefCountRange>
         <countRange>
           <min>1</min>
@@ -122,15 +122,15 @@
         </countRange>
       </li>
 
-      <li Class="StockGenerator_Tag">
-        <tradeTag>BodyPartOrImplant</tradeTag>
+      <li Class="StockGenerator_Category">
+        <categoryDef>BodyPartsArtificial</categoryDef>
         <thingDefCountRange>
           <min>2</min>
-          <max>5</max>
+          <max>10</max>
         </thingDefCountRange>
         <countRange>
           <min>1</min>
-          <max>1</max>
+          <max>5 </max>
         </countRange>
       </li>
 
@@ -147,7 +147,7 @@
         <thingDef>Silver</thingDef>
         <countRange>
           <min>1200</min>
-          <max>5000</max>
+          <max>15000</max>
         </countRange>
       </li>
 
@@ -171,7 +171,7 @@
         <categoryDef>CPApparels</categoryDef>
         <thingDefCountRange>
           <min>2</min>
-          <max>10</max>
+          <max>20</max>
         </thingDefCountRange>
         <countRange>
           <min>1</min>
@@ -183,7 +183,7 @@
         <categoryDef>CPHeadgears</categoryDef>
         <thingDefCountRange>
           <min>1</min>
-          <max>5</max>
+          <max>10</max>
         </thingDefCountRange>
         <countRange>
           <min>1</min>
@@ -191,15 +191,15 @@
         </countRange>
       </li>
 
-      <li Class="StockGenerator_Tag">
-        <tradeTag>BodyPartOrImplant</tradeTag>
+      <li Class="StockGenerator_Category">
+        <categoryDef>BodyPartsArtificial</categoryDef>
         <thingDefCountRange>
-          <min>1</min>
+          <min>5</min>
           <max>10</max>
         </thingDefCountRange>
         <countRange>
           <min>1</min>
-          <max>1</max>
+          <max>10</max>
         </countRange>
       </li>
 

@@ -20,7 +20,7 @@
       <categoryDef>CPWeapons</categoryDef>
       <thingDefCountRange>
         <min>5</min>
-        <max>30</max>
+        <max>10</max>
       </thingDefCountRange>
         <countRange>
           <min>1</min>
@@ -34,7 +34,7 @@
         <categoryDef>CPApparels</categoryDef>
         <thingDefCountRange>
           <min>5</min>
-          <max>30</max>
+          <max>10</max>
         </thingDefCountRange>
         <countRange>
           <min>1</min>
@@ -58,11 +58,11 @@
         <categoryDef>BodyPartsArtificial</categoryDef>
         <thingDefCountRange>
           <min>2</min>
-          <max>10</max>
+          <max>20</max>
         </thingDefCountRange>
         <countRange>
           <min>1</min>
-          <max>10</max>
+          <max>5</max>
         </countRange>
       </li>
 
@@ -101,7 +101,7 @@
         <categoryDef>CPApparels</categoryDef>
         <thingDefCountRange>
           <min>5</min>
-          <max>29</max>
+          <max>19</max>
         </thingDefCountRange>
         <countRange>
           <min>1</min>
@@ -146,6 +146,18 @@
         <countRange>
           <min>5000</min>
           <max>20000</max>
+        </countRange>
+      </li>
+
+      <li Class="StockGenerator_Tag">
+        <tradeTag>BodyPartOrImplant</tradeTag>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>5</max>
         </countRange>
       </li>
 

@@ -303,7 +303,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_11mm_CP</defName>
-    <label>18mm bullet</label>
+    <label>11mm bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -417,24 +417,11 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_AMAD8_CP</defName>
-    <label>AMAD8 bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <flyOverhead>false</flyOverhead>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>48</damageAmountBase>
-      <speed>170</speed>
-    </projectile>
-  </ThingDef>
+  <!-- ==================== 15mm nickel cadmium projectile ============================= -->
 
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_AX61_CP</defName>
-    <label>minigun bullet</label>
+    <defName>Bullet_15mmNiCd_CP</defName>
+    <label>15mm nickel cadmium projectile</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -447,9 +434,11 @@
     </projectile>
   </ThingDef>
 
+  <!-- ==================== electrode accelerated projectile ============================= -->
+
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_MM95A1_CP</defName>
-    <label>M95A1 bullet</label>
+    <defName>Bullet_eap_CP</defName>
+    <label>electrode accelerated projectile</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>

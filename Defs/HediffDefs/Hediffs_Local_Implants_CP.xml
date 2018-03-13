@@ -343,7 +343,7 @@
 
   <HediffDef ParentName="AddedBodyPartBase_CP">
     <defName>CyberLung_CP</defName>
-    <label>Enhanced Lung </label>
+    <label>Enhanced Lung</label>
     <stages>
       <li>
         <statOffsets>

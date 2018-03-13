@@ -1055,6 +1055,7 @@
     <defName>CP_GB_BodySuit</defName>
     <label>Gibson Battlegear™ jumpsuit</label>
     <description>Edgerunner styled jumpsuit. It's all about function, with a bit of style and sex appeal thrown in.</description>
+    <generateCommonality>0.8</generateCommonality>
     <graphicData>
       <texPath>CP/Apparel/Gibson/GB_Bodysuit</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1214,6 +1215,7 @@
     <defName>CP_GBpants</defName>
     <label>Gibson Battlegear™ fatigue pants</label>
     <description>Gibson Battlegear™ Fatigue Pants are ready to serve you and feature the classic six pocket design as well as reinforced seat and knees and an adjustable tab waist. They also feature drawstring tie ankles well designed and adaptable for every situation. Remember that these pants are made for comfort and are very functional, making them the ideal choice for casual, work, or combat.</description>
+    <generateCommonality>0.8</generateCommonality>
     <graphicData>
       <texPath>CP/Apparel/Pants/Pants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1374,6 +1376,7 @@
     <defName>CP_GBTShirt</defName>
     <label>Gibson Battlegear™ armored t-shirt</label>
     <description>Gibson Battlegear armored t-shirt allows you to show that you are stylish with a professional, but casual look.</description>
+    <generateCommonality>0.8</generateCommonality>
     <graphicData>
       <texPath>CP/Apparel/Shirt/Shirt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1455,6 +1458,7 @@
     <defName>CP_GB_Jacket</defName>
     <label>Gibson Battlegear™ armored jacket</label>
     <description>Get serious with the Gibson Battlegear™ armored jacket. This combat ready jacket has all the Edgerunner style, with the added protection of plassteel hard armor where it counts.</description>
+    <generateCommonality>0.8</generateCommonality>
     <graphicData>
       <texPath>CP/Apparel/Jacket/Light</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1813,6 +1817,7 @@
     <defName>CP_Eji_Jacket</defName>
     <label>Eji armoured jacket</label>
     <description>The look is IT, and Eji captures IT in their look. This jacket shows confidence and taste.</description>
+    <generateCommonality>.7</generateCommonality>
     <graphicData>
       <texPath>CP/Apparel/Eji/Jacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1896,6 +1901,7 @@
     <defName>CP_EjiCloak</defName>
     <label>Eji armored cloak</label>
     <description>Eji's armored cloak is designed for the Edgerunner on the go.</description>
+    <generateCommonality>.7</generateCommonality>
     <graphicData>
       <texPath>CP/Apparel/Eji/Cloak</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1985,6 +1991,7 @@
     <defName>CP_EjiJeans</defName>
     <label>Eji Designer Jeans</label>
     <description>Eji designer jeans provide the hi-tech flair that edgerunners want. It is part of Eji's picture of confidence and taste.</description>
+    <generateCommonality>.7</generateCommonality>
     <graphicData>
       <texPath>CP/Apparel/Pants/Pants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -2065,6 +2072,7 @@
       <texPath>CP/Apparel/Takanaka/Jacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <generateCommonality>.6</generateCommonality>
     <costList>
       <Cloth>90</Cloth>
     </costList>
@@ -2116,6 +2124,7 @@
     <defName>Apparel_Takanaka_Shirt</defName>
     <description>The epitome of the samurai spirit is embodied in the work of Takanaka's Executive monogram shirt. Spare and exact, it shows that the true master of business must not only follow the Way of the Sword, but also the Way of Art.</description>
     <label>Takanaka Exec monogram shirt</label>
+    <generateCommonality>.6</generateCommonality>
     <graphicData>
       <texPath>CP/Apparel/Takanaka/Shirt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -2163,6 +2172,7 @@
     <defName>CP_Takanaka_Pants</defName>
     <label>Takanaka Exec Pants</label>
     <description>No Gimmicks, no fancy syntha-cloth, nothing extraneous. There is no need for any of it in Takanaka's Exec line of clothing, and these pants are no exception.</description>
+    <generateCommonality>.6</generateCommonality>
     <graphicData>
       <texPath>CP/Apparel/Pants/Pants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -2694,6 +2704,7 @@
     <defName>Apparel_MGCombat_Armor</defName>
     <description>Utilizing the latest in computer, medical and armor technology, MedicGear by Bodyweight Systems is designed to assist medics everywhere. Endorsed by Trauma Team, Inc. and the RimWorld Search and Rescue service! MedicGear starts with hard-shell armor, then starts loading on the goodies. Incorporated into the structure is a Hybrid MedicWear computer, with a few additional functions. Sensors and software are added that allow it to function as a drug analyzer and techscanner, giving the medic the ability to see just what the patient is on, and what cyberware he's got! A pack on the waist also includes various pressure bandages and other supplies.</description>
     <label>MedicGear Combat Armor</label>
+    <generateCommonality>.9</generateCommonality>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -2749,6 +2760,7 @@
     <defName>CP_Esporma_Armor</defName>
     <label>Esporma Environment Suit</label>
     <description>Hazmat.</description>
+    <generateCommonality>.4</generateCommonality>
     <graphicData>
       <texPath>CP/Apparel/Esporma/ESuit</texPath>
       <graphicClass>Graphic_Single</graphicClass>

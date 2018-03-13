@@ -208,7 +208,7 @@
     <description>Installs faceplate.</description>
     <workerClass>Recipe_InstallImplant</workerClass>
     <jobString>Installing faceplate.</jobString>
-    <workAmount>6000</workAmount>
+    <workAmount>2500</workAmount>
     <ingredients>
       <li>
         <filter>
@@ -328,7 +328,7 @@
     <description>Installs cyberoptic targetting scope.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing cyberoptic targetting scope.</jobString>
-    <workAmount>6000</workAmount>
+    <workAmount>2500</workAmount>
     <ingredients>
       <li>
         <filter>
@@ -368,7 +368,7 @@
     <description>Installs cyberoptic image enhancement.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing cyberoptic image enhancement.</jobString>
-    <workAmount>6000</workAmount>
+    <workAmount>2500</workAmount>
     <ingredients>
       <li>
         <filter>
@@ -440,6 +440,7 @@
       <li>RightEye</li>
     </appliedOnFixedBodyParts>
     <addsHediff>Optishield_CP</addsHediff>
+    <removesHediff>Scratch</removesHediff>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
@@ -448,7 +449,7 @@
     <description>Installs cyberaudio amplified hearing.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing cyberaudio amplified hearing.</jobString>
-    <workAmount>6000</workAmount>
+    <workAmount>2500</workAmount>
     <ingredients>
       <li>
         <filter>
@@ -490,7 +491,10 @@
     <description>Installs cyberliver.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing cyberliver.</jobString>
-    <workAmount>6000</workAmount>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -529,7 +533,10 @@
     <description>Installs cyberliver II.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing cyberliver II.</jobString>
-    <workAmount>6000</workAmount>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -568,7 +575,12 @@
     <description>Installs cyberheart.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing cyberheart.</jobString>
-    <workAmount>6000</workAmount>
+    <workAmount>3700</workAmount>
+    <surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.15</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -607,7 +619,12 @@
     <description>Installs cyberheart.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing cyberheart.</jobString>
-    <workAmount>6000</workAmount>
+    <workAmount>3700</workAmount>
+    <surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.15</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -646,7 +663,10 @@
     <description>Installs enhanced lung.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing enhanced lung.</jobString>
-    <workAmount>6000</workAmount>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -681,12 +701,15 @@
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
-    <defName>InstallCyberLung_CP</defName>
+    <defName>InstallCyberLung2_CP</defName>
     <label>install enhanced lung series 2</label>
     <description>Installs enhanced lung.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing enhanced lung.</jobString>
-    <workAmount>6000</workAmount>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
     <ingredients>
       <li>
         <filter>
