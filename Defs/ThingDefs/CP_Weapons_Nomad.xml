@@ -847,7 +847,7 @@
       <texPath>CP/Weapon/HXBOW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>BowSmall</soundInteract>
+    <soundInteract>Bow_Small</soundInteract>
     <generateCommonality>1.6</generateCommonality>
     <costList>
       <WoodLog>20</WoodLog>
@@ -876,7 +876,7 @@
         <defaultProjectile>Bolt_CP</defaultProjectile>
         <warmupTime>1.15</warmupTime>
         <range>6</range>
-        <soundCast>BowSmall</soundCast>
+        <soundCast>Bow_Small</soundCast>
         <reliability>ST</reliability>
       </li>
     </verbs>

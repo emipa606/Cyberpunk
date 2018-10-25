@@ -874,7 +874,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <Mass>4</Mass>
       <WorkToMake>20000</WorkToMake>
       <MaxHitPoints>140</MaxHitPoints>
       <Mass>4</Mass>
