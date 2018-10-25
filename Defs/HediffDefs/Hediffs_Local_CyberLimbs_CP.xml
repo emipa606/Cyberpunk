@@ -21,8 +21,8 @@
     <spawnThingOnRemoved>LightningFist_CP</spawnThingOnRemoved>
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -54,8 +54,8 @@
       </li>
     </stages>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -93,8 +93,8 @@
       </li>
     </stages>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -104,8 +104,8 @@
     <label>cyberhand</label>
     <spawnThingOnRemoved>CyberHand_CP</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -122,8 +122,8 @@
     </stages>
     <spawnThingOnRemoved>ToolHand_CP</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -153,8 +153,8 @@
     <spawnThingOnRemoved>BuzzHand_CP</spawnThingOnRemoved>
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -184,8 +184,8 @@
     <spawnThingOnRemoved>HammerHand_CP</spawnThingOnRemoved>
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -215,8 +215,8 @@
     <spawnThingOnRemoved>DrillHand_CP</spawnThingOnRemoved>
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -236,8 +236,8 @@
     </stages>
     <spawnThingOnRemoved>MedHand_CP</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -249,8 +249,8 @@
     <label>standard cyberleg</label>
     <spawnThingOnRemoved>BionicLeg</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
     <comps>
@@ -282,8 +282,8 @@
     <label>standard cyberfoot</label>
     <spawnThingOnRemoved>CyberFoot_CP</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -321,8 +321,8 @@
       </li>
     </stages>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -342,8 +342,8 @@
       </li>
     </stages>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -355,14 +355,14 @@
     <label>cyberoptic targetting scope</label>
     <spawnThingOnRemoved>COTargettingScope_CP</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
     <stages>
       <li>
         <statOffsets>
-          <ShootingAccuracy>0.10</ShootingAccuracy>
+          <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
           <AimingDelayFactor>-0.10</AimingDelayFactor>
         </statOffsets>
         <capMods>
@@ -380,8 +380,8 @@
     <label>cyberoptic image enhancement</label>
     <spawnThingOnRemoved>BionicEye</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
     <stages>
@@ -413,8 +413,8 @@
       </li>
     </stages>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -438,8 +438,8 @@
     </comps>
     <spawnThingOnRemoved>PowerJaw_CP</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -458,8 +458,8 @@
     </stages>
     <spawnThingOnRemoved>CyberJaw_CP</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -490,8 +490,8 @@
     </comps>
     <spawnThingOnRemoved>CyberJawK9_CP</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>

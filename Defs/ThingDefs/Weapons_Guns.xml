@@ -39,7 +39,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/Revolver</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRevolver</soundInteract>
+    <soundInteract>Interact_Revolver</soundInteract>
     <statBases>
       <WorkToMake>15000</WorkToMake>
       <Mass>1.4</Mass>
@@ -48,14 +48,13 @@
       <AccuracyMedium>0.50</AccuracyMedium>
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>1.38</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
     </weaponTags>
     <costList>
       <Steel>30</Steel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -64,7 +63,7 @@
         <defaultProjectile>Bullet_357mag_CP</defaultProjectile>
         <warmupTime>0.3</warmupTime>
         <range>5</range>
-        <soundCast>ShotRevolver</soundCast>
+        <soundCast>Shot_Revolver</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -80,7 +79,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/Autopistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <WorkToMake>15000</WorkToMake>
       <MarketValue>150</MarketValue>
@@ -92,7 +91,7 @@
     </statBases>
     <costList>
       <Steel>30</Steel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -101,7 +100,7 @@
         <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>.94</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -119,7 +118,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/Shotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractShotgun</soundInteract>
+    <soundInteract>Interact_Shotgun</soundInteract>
     <statBases>
       <WorkToMake>50000</WorkToMake>
       <MarketValue>200</MarketValue>
@@ -131,7 +130,7 @@
     </statBases>
     <costList>
       <Steel>90</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -140,7 +139,7 @@
         <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>6</range>
-        <soundCast>ShotShotgun</soundCast>
+        <soundCast>Shot_Shotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -159,7 +158,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/ChainShotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractShotgun</soundInteract>
+    <soundInteract>Interact_Shotgun</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>4.5</Mass>
@@ -171,7 +170,7 @@
     </statBases>
     <costList>
       <Steel>70</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -182,7 +181,7 @@
         <range>6</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-        <soundCast>ShotShotgun</soundCast>
+        <soundCast>Shot_Shotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -201,7 +200,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/BoltActionRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>25000</WorkToMake>
       <Mass>3.5</Mass>
@@ -214,7 +213,7 @@
     </statBases>
     <costList>
       <Steel>60</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -223,7 +222,7 @@
         <defaultProjectile>Bullet_30_06_CP</defaultProjectile>
         <warmupTime>1.9</warmupTime>
         <range>50</range>
-        <soundCast>ShotBoltActionRifle</soundCast>
+        <soundCast>Shot_BoltActionRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -241,7 +240,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>120000</WorkToMake>
       <MarketValue>650</MarketValue>
@@ -253,7 +252,7 @@
     </statBases>
     <costList>
       <Steel>100</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -264,7 +263,7 @@
         <range>30</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>UR</reliability>
@@ -282,7 +281,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/SniperRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>120000</WorkToMake>
       <MarketValue>1050</MarketValue>
@@ -294,7 +293,7 @@
     </statBases>
     <costList>
       <Steel>100</Steel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -303,7 +302,7 @@
         <defaultProjectile>Bullet_762_CP</defaultProjectile>
         <warmupTime>4.07</warmupTime>
         <range>80</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -324,7 +323,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/MachinePistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>50000</WorkToMake>
       <MarketValue>250</MarketValue>
@@ -336,7 +335,7 @@
     </statBases>
     <costList>
       <Steel>90</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -347,7 +346,7 @@
         <range>15</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>ShotMachinePistol</soundCast>
+        <soundCast>Shot_HeavySMG</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -366,7 +365,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/HeavySMG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <MarketValue>175</MarketValue>
       <AccuracyTouch>0.86</AccuracyTouch>
@@ -377,7 +376,7 @@
     </statBases>
     <costList>
       <Steel>130</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -388,7 +387,7 @@
         <range>10</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
-        <soundCast>ShotHeavySMG</soundCast>
+        <soundCast>Shot_HeavySMG</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -412,7 +411,7 @@
       <damageDef>Flame</damageDef>
       <damageAmountBase>10</damageAmountBase>
       <explosionRadius>1.1</explosionRadius>
-      <preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
     </projectile>
   </ThingDef>
@@ -424,7 +423,8 @@
       <texPath>Things/Item/Equipment/WeaponRanged/IncendiaryLauncher</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <smeltable>true</smeltable>
     <statBases>
       <WorkToMake>22000</WorkToMake>
       <Mass>3.4</Mass>
@@ -437,17 +437,18 @@
     </statBases>
     <costList>
       <Steel>140</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_IncendiaryLauncher</defaultProjectile>
-        <warmupTime>3.0</warmupTime>
-        <range>24</range>
+        <warmupTime>3.5</warmupTime>
+        <range>23.9</range>
         <burstShotCount>1</burstShotCount>
-        <soundCast>ShotIncendiaryLauncher</soundCast>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -466,7 +467,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/LMG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>1575</MarketValue>
       <Mass>8.5</Mass>
@@ -478,7 +479,7 @@
     </statBases>
     <costList>
       <Steel>75</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -489,7 +490,7 @@
         <range>25.9</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <burstShotCount>6</burstShotCount>
-        <soundCast>ShotMinigun</soundCast>
+        <soundCast>Shot_Minigun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -526,7 +527,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/ChargeRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractChargeRifle</soundInteract>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
       <WorkToMake>50000</WorkToMake>
       <Mass>4.6</Mass>
@@ -543,7 +544,7 @@
     <costList>
       <Steel>120</Steel>
       <Plasteel>30</Plasteel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <techLevel>Spacer</techLevel>
     <weaponTags>
@@ -558,7 +559,7 @@
         <range>45</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
-        <soundCast>ShotChargeRifle</soundCast>
+        <soundCast>Shot_ChargeRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -576,7 +577,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/Minigun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <Mass>10</Mass>
       <MarketValue>1100</MarketValue>
@@ -584,7 +585,7 @@
       <AccuracyShort>0.45</AccuracyShort>
       <AccuracyMedium>0.25</AccuracyMedium>
       <AccuracyLong>0.15</AccuracyLong>
-      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
     </statBases>
     <techLevel>Industrial</techLevel>
     <weaponTags>
@@ -598,12 +599,11 @@
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_12mm_CP</defaultProjectile>
-        <forcedMissRadius>2.4</forcedMissRadius>
-        <warmupTime>3.0</warmupTime>
-        <range>40</range>
-        <burstShotCount>80</burstShotCount>
-        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-        <soundCast>ShotMinigun</soundCast>
+        <warmupTime>2.5</warmupTime>
+        <range>30.9</range>
+        <burstShotCount>25</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>Shot_Minigun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -655,7 +655,8 @@
         <verbClass>Verb_ShootOneUse</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_DoomsdayRocket</defaultProjectile>
-        <forcedMissRadius>0.0</forcedMissRadius>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
         <warmupTime>4.5</warmupTime>
         <range>40</range>
         <burstShotCount>1</burstShotCount>
@@ -753,7 +754,7 @@
       <AccuracyLong>0.91</AccuracyLong>
       <RangedWeapon_Cooldown>4.4</RangedWeapon_Cooldown>
     </statBases>
-    <tradeability>Never</tradeability>
+    <tradeability>None</tradeability>
     <techLevel>Spacer</techLevel>
     <destroyOnDrop>False</destroyOnDrop>
     <menuHidden>False</menuHidden>
@@ -767,7 +768,7 @@
         <defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
         <warmupTime>1.25</warmupTime>
         <range>160</range>
-        <soundCast>ShotChargeBlaster</soundCast>
+        <soundCast>Shot_ChargeBlaster</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -790,7 +791,7 @@
       <damageAmountBase>13</damageAmountBase>
       <speed>45</speed>
       <explosionRadius>2.4</explosionRadius >
-      <preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.27</preExplosionSpawnChance>
     </projectile>
   </ThingDef>
@@ -811,7 +812,7 @@
       <AccuracyLong>0.06</AccuracyLong>
       <RangedWeapon_Cooldown>8.4</RangedWeapon_Cooldown>
     </statBases>
-    <tradeability>Never</tradeability>
+    <tradeability>None</tradeability>
     <techLevel>Spacer</techLevel>
     <destroyOnDrop>True</destroyOnDrop>
     <menuHidden>True</menuHidden>
@@ -823,7 +824,7 @@
         <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_InfernoCannon</defaultProjectile>
-        <forcedMissRadius>3.5</forcedMissRadius>
+        <forcedMissRadius>1.9</forcedMissRadius>
         <warmupTime>1.25</warmupTime>
         <range>27</range>
         <burstShotCount>1</burstShotCount>

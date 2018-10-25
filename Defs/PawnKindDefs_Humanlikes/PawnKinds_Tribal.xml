@@ -3,8 +3,10 @@
 
   <PawnKindDef Name="TribalBase" Abstract="True">
     <race>Human</race>
-    <defaultFactionType>Tribe</defaultFactionType>
-    <backstoryCategory>Tribal</backstoryCategory>
+    <defaultFactionType>TribeCivil</defaultFactionType>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
     <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <invNutrition>2.55</invNutrition>

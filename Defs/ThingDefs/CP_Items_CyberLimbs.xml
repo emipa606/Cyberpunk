@@ -6,7 +6,7 @@
     <label>tool hand</label>
     <description>This hand's four fingers conceal small tools including a screwdriver, adjustable wrench, soldering iron and a socket wrench. In addition, the lower edge of the palm is hardened to make a dandy hammer.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -24,7 +24,7 @@
     <label>buzz hand</label>
     <description>This hand can be pulled back to reveal small, spinning mono-wires around a plasteel hub. The high speed "weed wacker" shears through most materials like butter.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -42,7 +42,7 @@
     <label>hammer hand</label>
     <description>This hand is made of hardened plasteel and has a powerful explosive shell-driven ram that acts like a jack-hammer. The user punches, the shell goes off, driving the fist forward with incredible velocity and power. A port in the top ejects the shell and opens to receive a new one.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -60,7 +60,7 @@
     <label>drill hand</label>
     <description>Designed specifically for worker 'borgs, Antomation Inc's drill hand comprises of an industrial plasteel diamond tipped drill bit. The drill extends from a socket located in the center of the palm.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -78,7 +78,7 @@
     <label>modular medical hand</label>
     <description>This MedHand is the latest in modular finger technologies. It includes five instruments to use in any medical situation: monoedge scalpel, a four dose air hypo, dermal stapler dual-purpose clamp/forceps and a basic biomonitor probe.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -96,7 +96,7 @@
     <label>lightning fist</label>
     <description>Designed for self defense, the lightning fist hand has an integrated taser that is set to ready mode when the user makes a fist; and delivers an electric shock when that fist makes contact with a solid object.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -114,7 +114,7 @@
     <label>standard cyberarm</label>
     <description>The standard cyberarm is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the shoulder using a metal and plasteel cuff.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -132,7 +132,7 @@
     <label>standard cyberhand</label>
     <description>The standard cyberhand is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the wrist using a metal and plasteel cuff.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -150,7 +150,7 @@
     <label>armored cyberarm</label>
     <description>The armored cyberarm is built as a standard cyberarm, but contains ballistic joints and is covered with kevlar.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -168,7 +168,7 @@
     <label>standard cyberleg</label>
     <description>The standard cyberleg is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the pelvis using a metal and plasteel cuff.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -186,7 +186,7 @@
     <label>standard cyberfoot</label>
     <description>The standard cyberfoot is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the leg using a metal and plasteel cuff.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -204,7 +204,7 @@
     <label>skate foot</label>
     <description>This motorized foot module is fitted with four chain-driven super-grip wheels which fold up behind the heel when not in use. Once activated, micro-hydrolic servers slide the wheels down below the feet and...ZOOM!</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -221,7 +221,7 @@
     <label>armored cyberleg</label>
     <description>>The armored cyberleg is built as a standard cyberleg, but contains ballistic joints and is covered with kevlar.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -239,7 +239,7 @@
     <label>cyberoptic targetting scope</label>
     <description>Replaces the natural eye, giving the recipient the ability to project a targetting sight onto the field of vision at will. The targetting scope will read range to specific objects, speed of movement, bearing and size, as well as providing several types of scope reticle for aligning weapons.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -257,7 +257,7 @@
     <label>cyberoptic image enhancement</label>
     <description>This cyberoptic gives the recipient ultra high resolution graphics capability to enhance and refine images viewed.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -277,7 +277,7 @@
     <label>cyberaudio amplified hearing</label>
     <description>This system improves hearing and sound recognition ability.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -297,7 +297,7 @@
     <label>powerjaw</label>
     <description>This system from Dynalar increases the viciousness of your bite! It winds plasteel through the jaw muscles, increasing the force of mastication.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -315,7 +315,7 @@
     <label>cyberjaw</label>
     <description>This jaw replacement rebuilds the jaw and upper mouth with stronger, more durable synthetics and micronetics. It even has realistic looking skin!</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -333,7 +333,7 @@
     <label>cyberjaw K9</label>
     <description>This jaw replacement rebuilds the jaw and upper mouth with stronger, more durable synthetics and micronetics.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>

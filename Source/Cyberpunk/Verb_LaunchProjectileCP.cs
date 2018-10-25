@@ -10,7 +10,7 @@ namespace Cyberpunk
         {
             get
             {
-                return ownerEquipment.GetStatValue(StatDefOf_CP.reliability);
+                return base.EquipmentSource.GetStatValue(StatDefOf_CP.reliability);
             }
         }
 
@@ -26,7 +26,8 @@ namespace Cyberpunk
         {
             string reliabilityString;
             float jamsOn;
-            StatPart_Reliability.GetReliability((ThingDef_GunCP)ownerEquipment, out reliabilityString, out jamsOn);
+            ThingDef_GunCP ownerEquipment = base.EquipmentSource as ThingDef_GunCP;
+            StatPart_Reliability.GetReliability(ownerEquipment, out reliabilityString, out jamsOn);
             float jamRoll = (Rand.Range(0, 1000))/10f;
             //float jamRoll = Rand.Range(0, 100);
             if (jamRoll < jamsOn)

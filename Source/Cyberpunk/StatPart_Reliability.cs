@@ -121,8 +121,6 @@ namespace Cyberpunk
                 switch (qc)
                 {
                     case QualityCategory.Awful:
-                        return 15;
-                    case QualityCategory.Shoddy:
                         return 10;
                     case QualityCategory.Poor:
                         return 5;
@@ -132,12 +130,10 @@ namespace Cyberpunk
                         return -5;
                     case QualityCategory.Excellent:
                         return -10;
-                    case QualityCategory.Superior:
-                        return -15;
                     case QualityCategory.Masterwork:
-                        return -20;
+                        return -15;
                     case QualityCategory.Legendary:
-                        return -25;
+                        return -20;
                 }
             }
             return 0;

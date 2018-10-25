@@ -13,7 +13,7 @@
   <PawnKindDef>
     <defName>Centipede</defName>
     <label>centipede</label>
-    <race>Mechanoid_Centipede</race>
+    <race>Mech_Centipede</race>
     <combatPower>290</combatPower>
     <defaultFactionType>Mechanoid</defaultFactionType>
     <aiAvoidCover>true</aiAvoidCover>
@@ -42,7 +42,7 @@
   <PawnKindDef>
     <defName>Scyther</defName>
     <label>scyther</label>
-    <race>Mechanoid_Scyther</race>
+    <race>Mech_Scyther</race>
     <combatPower>160</combatPower>
     <defaultFactionType>Mechanoid</defaultFactionType>
     <aiAvoidCover>true</aiAvoidCover>

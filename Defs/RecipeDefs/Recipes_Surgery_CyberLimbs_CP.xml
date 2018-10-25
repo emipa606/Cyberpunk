@@ -15,7 +15,7 @@
             <li>Medicine</li>
           </categories>
         </filter>
-        <count>1</count>
+        <count>2</count>
       </li>
       <li>
         <filter>
@@ -35,8 +35,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftShoulder</li>
-      <li>RightShoulder</li>
+      <li>Shoulder</li>
     </appliedOnFixedBodyParts>
     <addsHediff>BionicArm</addsHediff>
   </RecipeDef>
@@ -75,8 +74,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftHand</li>
-      <li>RightHand</li>
+      <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>CyberHand_CP</addsHediff>
   </RecipeDef>
@@ -115,8 +113,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftShoulder</li>
-      <li>RightShoulder</li>
+      <li>Shoulder</li>
     </appliedOnFixedBodyParts>
     <addsHediff>ArmoredArm_CP</addsHediff>
   </RecipeDef>
@@ -155,8 +152,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftLeg</li>
-      <li>RightLeg</li>
+      <li>Leg</li>
     </appliedOnFixedBodyParts>
     <addsHediff>BionicLeg</addsHediff>
   </RecipeDef>
@@ -195,8 +191,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftFoot</li>
-      <li>RightFoot</li>
+      <li>Foot</li>
     </appliedOnFixedBodyParts>
     <addsHediff>CyberFoot_CP</addsHediff>
   </RecipeDef>
@@ -235,8 +230,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftLeg</li>
-      <li>RightLeg</li>
+      <li>Leg</li>
     </appliedOnFixedBodyParts>
     <addsHediff>ArmoredLeg_CP</addsHediff>
   </RecipeDef>
@@ -275,8 +269,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftLeg</li>
-      <li>RightLeg</li>
+      <li>Leg</li>
     </appliedOnFixedBodyParts>
     <addsHediff>SkateFoot_CP</addsHediff>
   </RecipeDef>
@@ -315,8 +308,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftShoulder</li>
-      <li>RightShoulder</li>
+      <li>Shoulder</li>
     </appliedOnFixedBodyParts>
     <addsHediff>ToolHand_CP</addsHediff>
   </RecipeDef>
@@ -355,8 +347,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftShoulder</li>
-      <li>RightShoulder</li>
+      <li>Shoulder</li>
     </appliedOnFixedBodyParts>
     <addsHediff>BuzzHand_CP</addsHediff>
   </RecipeDef>
@@ -395,8 +386,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftShoulder</li>
-      <li>RightShoulder</li>
+      <li>Shoulder</li>
     </appliedOnFixedBodyParts>
     <addsHediff>HammerHand_CP</addsHediff>
   </RecipeDef>
@@ -435,8 +425,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftShoulder</li>
-      <li>RightShoulder</li>
+      <li>Shoulder</li>
     </appliedOnFixedBodyParts>
     <addsHediff>DrillHand_CP</addsHediff>
   </RecipeDef>
@@ -475,8 +464,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftShoulder</li>
-      <li>RightShoulder</li>
+      <li>Shoulder</li>
     </appliedOnFixedBodyParts>
     <addsHediff>MedHand_CP</addsHediff>
   </RecipeDef>
@@ -515,8 +503,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftShoulder</li>
-      <li>RightShoulder</li>
+      <li>Shoulder</li>
     </appliedOnFixedBodyParts>
     <addsHediff>LightningFist_CP</addsHediff>
   </RecipeDef>

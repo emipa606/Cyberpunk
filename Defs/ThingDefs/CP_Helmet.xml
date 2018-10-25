@@ -2,9 +2,6 @@
 <Defs>
 
   <ThingDef Name="HatBase" ParentName="ApparelBase" Abstract="True">
-    <statBases>
-      <Mass>1.2</Mass>
-    </statBases>
     <thingCategories>
       <li>CPHeadgears</li>
     </thingCategories>
@@ -27,7 +24,7 @@
   <ThingDef ParentName="HatBase">
     <defName>CP_MGHelmet</defName>
     <label>MetalGear™ helmet</label>
-    <description>Laminated expoxide plated helmet from the MetalGear™ armor set. </description>
+    <description>Laminated expoxide plated helmet from the MetalGear™ armor set.</description>
     <graphicData>
       <texPath>CP/Apparel/Helmet/MetalGear</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -36,19 +33,19 @@
     <costList>
       <Kevlar>40</Kevlar>
       <Plasteel>30</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <statBases>
+      <Mass>1.2</Mass>
       <MarketValue>100</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
       <ArmorRating_Heat>0.2</ArmorRating_Heat>
-      <ArmorRating_Electric>0.2</ArmorRating_Electric>
       <Insulation_Cold>-4</Insulation_Cold>
     </statBases>
     <equippedStatOffsets>
-      <ShootingAccuracy>0.05</ShootingAccuracy>
+      <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
       <AimingDelayFactor>-0.05</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
@@ -97,9 +94,7 @@
   <ThingDef ParentName="HatBase">
     <defName>CP_MM88_Helmet</defName>
     <label>Militech M88 Combat Helmet</label>
-    <description>
-      The M-88 is a fully enclosed infantry helmet that is currently being issued to special attack and guard units. The communications microphone and earphones are built in, as is a small, forward facing video camera array which not only provides input for night vision systems but can transmit images back to a rearechelon receiver. The face shield functions as a heads-up display which is interfaced with a belt-pack accepting chipped data, such as maps.
-    </description>
+    <description>The M-88 is a fully enclosed infantry helmet that is currently being issued to special attack and guard units. The communications microphone and earphones are built in, as is a small, forward facing video camera array which not only provides input for night vision systems but can transmit images back to a rearechelon receiver. The face shield functions as a heads-up display which is interfaced with a belt-pack accepting chipped data, such as maps.</description>
     <graphicData>
       <texPath>CP/Apparel/Militech/MM88</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -107,16 +102,17 @@
     <costList>
       <Kevlar>40</Kevlar>
       <Plasteel>30</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <statBases>
+      <Mass>1.2</Mass>
       <MarketValue>1000</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
     </statBases>
     <equippedStatOffsets>
-      <ShootingAccuracy>0.10</ShootingAccuracy>
+      <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -143,9 +139,7 @@
   <ThingDef ParentName="HatBase">
     <defName>CP_MM88A2_Helmet</defName>
     <label>Militech M88A2 Combat Helmet</label>
-    <description>
-      The M-88A2 is an enhanced combat helmet model with greater protective and analytic capability than the M-88. It has an integral face shield and respirator and offers complete protection against all inhaled agents. The communications microphone and earphones are built in, as is a small, forward facing video camera array which not only provides input for night vision systems but can transmit images back to a rearechelon receiver. The face shield functions as a heads-up display which is interfaced with a belt-pack accepting chipped data, such as maps.
-    </description>
+    <description>The M-88A2 is an enhanced combat helmet model with greater protective and analytic capability than the M-88. It has an integral face shield and respirator and offers complete protection against all inhaled agents. The communications microphone and earphones are built in, as is a small, forward facing video camera array which not only provides input for night vision systems but can transmit images back to a rearechelon receiver. The face shield functions as a heads-up display which is interfaced with a belt-pack accepting chipped data, such as maps.</description>
     <graphicData>
       <texPath>CP/Apparel/Militech/MM88A</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -153,16 +147,17 @@
     <costList>
       <Kevlar>41</Kevlar>
       <Plasteel>31</Plasteel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <statBases>
+      <Mass>1.2</Mass>
       <MarketValue>2399</MarketValue>
       <MaxHitPoints>120</MaxHitPoints>
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
     </statBases>
     <equippedStatOffsets>
-      <ShootingAccuracy>0.15</ShootingAccuracy>
+      <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
       <AimingDelayFactor>-0.1</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
@@ -190,9 +185,7 @@
   <ThingDef ParentName="HatBase">
     <defName>CP_Arasaka_Helmet</defName>
     <label>Arasaka Combat Helmet</label>
-    <description>
-      Standard issue Arasaka Combat Helmet.
-    </description>
+    <description>Standard issue Arasaka Combat Helmet.</description>
     <graphicData>
       <texPath>CP/Apparel/Helmet/ArasakaHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -200,16 +193,17 @@
     <costList>
       <Kevlar>40</Kevlar>
       <Plasteel>30</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <statBases>
+      <Mass>1.2</Mass>
       <MarketValue>1000</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
     </statBases>
     <equippedStatOffsets>
-      <ShootingAccuracy>0.05</ShootingAccuracy>
+      <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
       <AimingDelayFactor>-0.05</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
@@ -258,9 +252,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>CP_Smart_Helmet</defName>
     <label>Smart Helmet</label>
-    <description>
-      The smart helmet provides some protection as well as utilizing smart interface links for aiming assist.
-    </description>
+    <description>The smart helmet provides some protection as well as utilizing smart interface links for aiming assist.</description>
     <graphicData>
       <texPath>CP/Apparel/Helmet/SmartHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -268,9 +260,10 @@
     <costList>
       <Kevlar>50</Kevlar>
       <Plasteel>20</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <statBases>
+      <Mass>1.2</Mass>
       <WorkToMake>9000</WorkToMake>
       <MarketValue>800</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
@@ -279,7 +272,7 @@
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>0</MoveSpeed>
-      <ShootingAccuracy>0.10</ShootingAccuracy>
+      <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
       <AimingDelayFactor>-0.05</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
@@ -337,6 +330,7 @@
       <Kevlar>50</Kevlar>
     </costList>
     <statBases>
+      <Mass>1.2</Mass>
       <MarketValue>180</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
       <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
@@ -344,7 +338,7 @@
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>0</MoveSpeed>
-      <ShootingAccuracy>-0.05</ShootingAccuracy>
+      <ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
       <AimingDelayFactor>0.05</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
@@ -381,6 +375,7 @@
       <Kevlar>50</Kevlar>
     </costList>
     <statBases>
+      <Mass>1.2</Mass>
       <MarketValue>200</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
@@ -388,7 +383,7 @@
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>0</MoveSpeed>
-      <ShootingAccuracy>-0.05</ShootingAccuracy>
+      <ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
       <AimingDelayFactor>0.05</AimingDelayFactor>
       <ToxicSensitivity>-0.50</ToxicSensitivity>
     </equippedStatOffsets>
@@ -433,7 +428,7 @@
       <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
     </statBases>
     <costList>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
       <Kevlar>60</Kevlar>
       <Steel>10</Steel>
     </costList>

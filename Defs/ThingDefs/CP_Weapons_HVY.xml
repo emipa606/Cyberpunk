@@ -4,12 +4,11 @@
   <ThingDef Name="BaseHVYGun" ParentName="BaseGun" Abstract="True">
     <statBases>
       <Mass>8.5</Mass>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
     <smeltable>true</smeltable>
     <smeltProducts>
       <Steel>75</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </smeltProducts>
     <generateCommonality>0.5</generateCommonality>
     <weaponTags>
@@ -47,7 +46,8 @@
       <texPath>CP/Weapon/AL20</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <smeltable>true</smeltable>
     <statBases>
       <MarketValue>2000</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -70,7 +70,7 @@
         <defaultProjectile>Bullet_AL20_CP</defaultProjectile>
         <warmupTime>2.2</warmupTime>
         <range>50</range>
-        <soundCast>ShotMinigun</soundCast>
+        <soundCast>Shot_Minigun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -88,7 +88,8 @@
       <texPath>CP/Weapon/MR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <smeltable>true</smeltable>
     <statBases>
       <MarketValue>1200</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -114,7 +115,7 @@
         <burstShotCount>10</burstShotCount>
         <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
         <range>40</range>
-        <soundCast>ShotMinigun</soundCast>
+        <soundCast>Shot_Minigun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -132,6 +133,7 @@
       <texPath>CP/Weapon/AG1141</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <smeltable>true</smeltable>
     <statBases>
       <MarketValue>1000</MarketValue>
       <Mass>7</Mass>
@@ -179,6 +181,7 @@
       <texPath>CP/Weapon/MRPGA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <smeltable>true</smeltable>
     <statBases>
       <MarketValue>1500</MarketValue>
       <Mass>7</Mass>
@@ -218,7 +221,7 @@
 
   <!-- ======================= Militech AM-3 ======================= -->
 
-  <ThingDef ParentName="BaseGun">
+  <ThingDef ParentName="BaseHVYGun">
     <defName>Gun_MAM3_CP</defName>
     <label>Militech AM-3</label>
     <description>30mmEHI Antimatter Rifle - This 30mm rifle uses rocket-boosted, depleted-uranium 30mm shells to smash combat `borgs, powered armor, and mechanoids. Equipped with a hydro-pneumatic recoil system, advanced muzzle brake, and shock-absorbing stock and bipod. The AM-3 comes with a cyberoptic smartgun interlock and a 2-10x variable scope w/low-light and thermal-imaging options.</description>
@@ -226,6 +229,7 @@
       <texPath>CP/Weapon/MAM3</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <smeltable>true</smeltable>
     <statBases>
       <MarketValue>6000</MarketValue>
       <Mass>25</Mass>
@@ -246,7 +250,7 @@
         <defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
         <warmupTime>1.25</warmupTime>
         <range>160</range>
-        <soundCast>ShotChargeBlaster</soundCast>
+        <soundCast>Shot_ChargeBlaster</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -256,7 +260,7 @@
 
   <!-- ======================= Militech BMFG ======================= -->
 
-  <ThingDef ParentName="BaseGun">
+  <ThingDef ParentName="BaseHVYGun">
     <defName>Gun_MBMFG_CP</defName>
     <label>Militech BMFG</label>
     <description>30mm Plasma Cannon - Advances in electrothermal propellent technology have mad a greate many guns shoot harder and faster. Militech figured why not make a big gun fire the same, but make the gun lighter? The answer is the BMFG, a truly man-portable 30mm cannon. The cannon can not be fired from the shoulder, some sort of smart chipping is highly recommended.</description>
@@ -264,6 +268,7 @@
       <texPath>CP/Weapon/MBMFG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <smeltable>true</smeltable>
     <statBases>
       <MarketValue>4500</MarketValue>
       <Mass>35</Mass>
@@ -284,7 +289,7 @@
         <defaultProjectile>Bullet_30mmPlasma</defaultProjectile>
         <warmupTime>3.0</warmupTime>
         <range>60</range>
-        <soundCast>ShotChargeBlaster</soundCast>
+        <soundCast>Shot_ChargeBlaster</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -302,8 +307,9 @@
       <texPath>CP/Weapon/MM95A1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractChargeRifle</soundInteract>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
     <generateCommonality>0.4</generateCommonality>
+    <smeltable>true</smeltable>
     <statBases>
       <MarketValue>8900</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -326,7 +332,7 @@
         <defaultProjectile>Bullet_eap_CP</defaultProjectile>
         <warmupTime>2.2</warmupTime>
         <range>100</range>
-        <soundCast>ShotChargeRifle</soundCast>
+        <soundCast>Shot_ChargeRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>

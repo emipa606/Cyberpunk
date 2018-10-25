@@ -4,12 +4,12 @@
   <ThingDef Name="BaseRIFGun" ParentName="BaseGun" Abstract="True">
     <statBases>
       <Mass>3.5</Mass>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <smeltProducts>
       <Steel>60</Steel>
-      <Component>7</Component>
+      <ComponentIndustrial>7</ComponentIndustrial>
     </smeltProducts>
+    <smeltable>true</smeltable>
     <weaponTags>
       <li>EliteGun</li>
     </weaponTags>
@@ -44,7 +44,7 @@
       <texPath>CP/Weapon/MNINJA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>650</MarketValue>
       <AccuracyTouch>0.97</AccuracyTouch>
@@ -63,7 +63,7 @@
         <defaultProjectile>Bullet_5mm_CP</defaultProjectile>
         <warmupTime>1.45</warmupTime>
         <range>65</range>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_BoltActionRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -81,7 +81,7 @@
       <texPath>CP/Weapon/ABAR54</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>810</MarketValue>
@@ -103,7 +103,7 @@
         <range>30</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -121,7 +121,7 @@
       <texPath>CP/Weapon/DLDR40</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>280</MarketValue>
@@ -140,7 +140,7 @@
         <range>30</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -158,7 +158,7 @@
       <texPath>CP/Weapon/MM31A1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.5</generateCommonality>
     <statBases>
       <MarketValue>1695</MarketValue>
@@ -180,7 +180,7 @@
         <range>30</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -198,7 +198,7 @@
       <texPath>CP/Weapon/AAW65</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1450</MarketValue>
@@ -220,7 +220,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -238,7 +238,7 @@
       <texPath>CP/Weapon/FAMA25</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>520</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -256,7 +256,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -274,7 +274,7 @@
       <texPath>CP/Weapon/MRLA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>1450</MarketValue>
       <AccuracyTouch>0.97</AccuracyTouch>
@@ -295,7 +295,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -313,7 +313,7 @@
       <texPath>CP/Weapon/SAR892</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>460</MarketValue>
       <AccuracyTouch>0.97</AccuracyTouch>
@@ -334,7 +334,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -352,7 +352,7 @@
       <texPath>CP/Weapon/SST5</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>900</MarketValue>
       <AccuracyTouch>0.95</AccuracyTouch>
@@ -371,7 +371,7 @@
         <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>2.51</warmupTime>
         <range>40</range>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -389,7 +389,7 @@
       <texPath>CP/Weapon/AKIARA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>1275</MarketValue>
       <AccuracyTouch>0.97</AccuracyTouch>
@@ -410,7 +410,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -428,7 +428,7 @@
       <texPath>CP/Weapon/BACLAWS</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>165</MarketValue>
@@ -447,7 +447,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>UR</reliability>
@@ -465,7 +465,7 @@
       <texPath>CP/Weapon/MM12CC</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>875</MarketValue>
@@ -487,7 +487,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -505,7 +505,7 @@
       <texPath>CP/Weapon/MMKIV</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.9</generateCommonality>
     <statBases>
       <MarketValue>800</MarketValue>
@@ -528,7 +528,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -546,7 +546,7 @@
       <texPath>CP/Weapon/MDRAG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.9</generateCommonality>
     <statBases>
       <MarketValue>700</MarketValue>
@@ -569,7 +569,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -587,7 +587,7 @@
       <texPath>CP/Weapon/SHRO113</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>715</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -608,7 +608,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -626,7 +626,7 @@
       <texPath>CP/Weapon/ASA456</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>865</MarketValue>
       <AccuracyTouch>0.96</AccuracyTouch>
@@ -647,7 +647,7 @@
         <range>60</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -665,7 +665,7 @@
       <texPath>CP/Weapon/BAAR25</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>125</MarketValue>
@@ -684,7 +684,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -702,7 +702,7 @@
       <texPath>CP/Weapon/ASA456</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>1025</MarketValue>
       <AccuracyTouch>0.97</AccuracyTouch>
@@ -723,7 +723,7 @@
         <range>46</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -741,7 +741,7 @@
       <texPath>CP/Weapon/DLBLT24</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>475</MarketValue>
       <AccuracyTouch>0.94</AccuracyTouch>
@@ -759,7 +759,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>UR</reliability>
@@ -777,7 +777,7 @@
       <texPath>CP/Weapon/FABR328</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.8</generateCommonality>
     <statBases>
       <MarketValue>615</MarketValue>
@@ -796,7 +796,7 @@
         <range>46</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -814,7 +814,7 @@
       <texPath>CP/Weapon/MM56AR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1935</MarketValue>
@@ -836,7 +836,7 @@
         <range>46</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -854,7 +854,7 @@
       <texPath>CP/Weapon/AAR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1100</MarketValue>
@@ -876,7 +876,7 @@
         <range>50</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -894,7 +894,7 @@
       <texPath>CP/Weapon/MM52AR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1150</MarketValue>
@@ -916,7 +916,7 @@
         <range>50</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -934,7 +934,7 @@
       <texPath>CP/Weapon/AX61</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractChargeRifle</soundInteract>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
     <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>14000</MarketValue>
@@ -958,7 +958,7 @@
         <defaultProjectile>Bullet_15mmNiCd_CP</defaultProjectile>
         <warmupTime>2.2</warmupTime>
         <range>100</range>
-        <soundCast>ShotChargeRifle</soundCast>
+        <soundCast>Shot_ChargeRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>

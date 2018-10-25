@@ -7,8 +7,9 @@
     <race>Human</race>
     <combatPower>25</combatPower>
     <baseRecruitDifficulty>0.30</baseRecruitDifficulty>
-    <backstoryCategory>Civil</backstoryCategory>
-    <defaultFactionType>Spacer</defaultFactionType>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <isFighter>false</isFighter>
@@ -29,7 +30,7 @@
       <max>3000</max>
     </techHediffsMoney>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-    <apparelAllowHeadwearChance>0.5</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
     <techHediffsTags>
       <li>Advanced</li>
       <li>Simple</li>
@@ -43,8 +44,10 @@
     <race>Human</race>
     <combatPower>100</combatPower>
     <baseRecruitDifficulty>0.30</baseRecruitDifficulty>
-    <backstoryCategory>Civil</backstoryCategory>
-    <defaultFactionType>SpacerHostile</defaultFactionType>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <defaultFactionType>AncientsHostile</defaultFactionType>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
     <maxGenerationAge>58</maxGenerationAge>
     <itemQuality>Good</itemQuality>
@@ -57,7 +60,7 @@
       <li>Spacer</li>
     </apparelTags>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-    <apparelAllowHeadwearChance>0.5</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>300</min>
       <max>2900</max>

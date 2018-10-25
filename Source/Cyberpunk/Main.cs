@@ -37,7 +37,7 @@ namespace Cyberpunk
     //[HarmonyPatch("AddHumanlikeOrders")]
     internal static class Patch
     {
-        public static void ChangeBodyType(Pawn pawn, BodyType bt)
+        public static void ChangeBodyType(Pawn pawn, BodyTypeDef bt)
         {
             var storyTrv = Traverse.Create(pawn.story);
             var newStory = new Pawn_StoryTracker(pawn);

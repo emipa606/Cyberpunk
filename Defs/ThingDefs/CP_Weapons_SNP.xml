@@ -7,11 +7,10 @@
     </weaponTags>
     <statBases>
       <Mass>4</Mass>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
     <smeltProducts>
       <Steel>60</Steel>
-      <Component>8</Component>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </smeltProducts>
     <tools>
       <li>
@@ -44,7 +43,7 @@
       <texPath>CP/Weapon/AWSSA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1220</MarketValue>
@@ -65,7 +64,7 @@
         <defaultProjectile>Bullet_35mmFF_CP</defaultProjectile>
         <warmupTime>2.5</warmupTime>
         <range>60</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -83,7 +82,7 @@
       <texPath>CP/Weapon/ACMR2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>1220</MarketValue>
@@ -104,7 +103,7 @@
         <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>50</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -122,7 +121,7 @@
       <texPath>CP/Weapon/BAR187</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>200</MarketValue>
@@ -139,7 +138,7 @@
         <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>40</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>UR</reliability>
@@ -157,7 +156,7 @@
       <texPath>CP/Weapon/DLIT</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
       <MarketValue>680</MarketValue>
@@ -174,7 +173,7 @@
         <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>2.5</warmupTime>
         <range>50</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -192,7 +191,7 @@
       <texPath>CP/Weapon/MMRS42</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>1829</MarketValue>
       <AccuracyTouch>0.88</AccuracyTouch>
@@ -214,7 +213,7 @@
         <range>60</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>64</ticksBetweenBurstShots>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -232,7 +231,7 @@
       <texPath>CP/Weapon/SASW68</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>1375</MarketValue>
       <AccuracyTouch>0.88</AccuracyTouch>
@@ -252,7 +251,7 @@
         <defaultProjectile>Bullet_556_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>60</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -270,7 +269,7 @@
       <texPath>CP/Weapon/AAXSR7</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>1220</MarketValue>
@@ -291,7 +290,7 @@
         <defaultProjectile>Bullet_762_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>50</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -309,7 +308,7 @@
       <texPath>CP/Weapon/FAC</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.6</generateCommonality>
     <statBases>
       <MarketValue>1100</MarketValue>
@@ -326,7 +325,7 @@
         <defaultProjectile>Bullet_762_CP</defaultProjectile>
         <warmupTime>2.5</warmupTime>
         <range>50</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -344,7 +343,7 @@
       <texPath>CP/Weapon/MACSO610</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>1985</MarketValue>
@@ -367,7 +366,7 @@
         <range>50</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -385,7 +384,7 @@
       <texPath>CP/Weapon/SSSR34</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>620</MarketValue>
       <AccuracyTouch>0.75</AccuracyTouch>
@@ -405,7 +404,7 @@
         <defaultProjectile>Bullet_6x45mm_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>40</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -423,7 +422,7 @@
       <texPath>CP/Weapon/SSSR34</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>830</MarketValue>
       <AccuracyTouch>0.75</AccuracyTouch>
@@ -443,7 +442,7 @@
         <defaultProjectile>Bullet_6x45mm_CP</defaultProjectile>
         <warmupTime>2.5</warmupTime>
         <range>60</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -461,7 +460,7 @@
       <texPath>CP/Weapon/MARBUS</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>1650</MarketValue>
@@ -482,7 +481,7 @@
         <defaultProjectile>Bullet_7mmWSM_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>80</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -500,7 +499,7 @@
       <texPath>CP/Weapon/MSPW32</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>125</MarketValue>
@@ -521,7 +520,7 @@
         <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>40</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -539,7 +538,7 @@
       <texPath>CP/Weapon/MATR97</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>11590</MarketValue>
@@ -560,7 +559,7 @@
         <defaultProjectile>Bullet_15mm_CP</defaultProjectile>
         <warmupTime>3.6</warmupTime>
         <range>100</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -578,7 +577,7 @@
       <texPath>CP/Weapon/DLR604</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>2520</MarketValue>
       <AccuracyTouch>0.50</AccuracyTouch>
@@ -594,7 +593,7 @@
         <defaultProjectile>Bullet_50BMG_CP</defaultProjectile>
         <warmupTime>2.9</warmupTime>
         <range>100</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -612,7 +611,7 @@
       <texPath>CP/Weapon/AMMSRL</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>3500</MarketValue>
@@ -633,7 +632,7 @@
         <defaultProjectile>Bullet_10mmAR_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>100</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -651,7 +650,7 @@
       <texPath>CP/Weapon/MER12</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <MarketValue>2800</MarketValue>
       <AccuracyTouch>0.88</AccuracyTouch>
@@ -671,7 +670,7 @@
         <defaultProjectile>Bullet_10mmAR_CP</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>100</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -689,7 +688,7 @@
       <texPath>CP/Weapon/AMAD8</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractChargeRifle</soundInteract>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
     <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>6235</MarketValue>
@@ -713,7 +712,7 @@
         <defaultProjectile>Bullet_10mmAR_CP</defaultProjectile>
         <warmupTime>1.8</warmupTime>
         <range>55</range>
-        <soundCast>ShotChargeRifle</soundCast>
+        <soundCast>Shot_ChargeRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>

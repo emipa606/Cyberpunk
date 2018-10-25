@@ -10,7 +10,7 @@ namespace Cyberpunk
 
             //Log.Message(msg);
             base.CompPostMake();
-            Patch.ChangeBodyType(base.Pawn, RimWorld.BodyType.Hulk);
+            Patch.ChangeBodyType(base.Pawn, RimWorld.BodyTypeDefOf.Hulk);
         }
 
         public override void CompPostTick(ref float severityAdjustment)

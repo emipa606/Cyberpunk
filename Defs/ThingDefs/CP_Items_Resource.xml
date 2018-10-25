@@ -28,7 +28,7 @@
     <description>Poly-para-phenylene terephthalamide fibers woven into a tough mat to make the super-strong, super-stiff finished material we know as Kevlar.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Cloth</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
       <color>(246,233,178)</color>
     </graphicData>
     <statBases>

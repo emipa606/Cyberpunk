@@ -16,7 +16,7 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponMelee</nameMaker>
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
         <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
@@ -60,7 +60,6 @@
     <statBases>
       <WorkToMake>4000</WorkToMake>
       <Mass>0.5</Mass>
-      <Weapon_Bulk>0.2</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -183,7 +182,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_CP">
     <defName>MeleeWeapon_Monoknife_CP</defName>
     <label>Kendachi Monoknife</label>
-    <description></description>
+    <description>The Kendachi Monoknife® is a melee weapon An incredibly sharp, mono-sectional crystal blade. Produced in the Japanese "tanto" style.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/Knife</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -241,7 +240,7 @@
       <li>Metallic</li>
     </stuffCategories>
     <costList>
-      <Component>8</Component>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <tools>
       <li>
@@ -264,6 +263,9 @@
     <equippedStatOffsets>
       <PlantWorkSpeed>0.1</PlantWorkSpeed>
     </equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -599,7 +601,7 @@
       <li>Metallic</li>
     </stuffCategories>
     <costList>
-      <Component>8</Component>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <weaponTags>
       <li>NeolithicMelee</li>

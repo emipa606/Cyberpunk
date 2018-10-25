@@ -8,15 +8,10 @@
     <pathCost>10</pathCost>
     <useHitPoints>True</useHitPoints>
     <selectable>True</selectable>
-    <smeltable>true</smeltable>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
     <drawGUIOverlay>true</drawGUIOverlay>
-    <smeltProducts>
-      <Steel>30</Steel>
-      <Component>2</Component>
-    </smeltProducts>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>1.2</Mass>
@@ -24,7 +19,6 @@
       <DeteriorationRate>0.2</DeteriorationRate>
       <SellPriceFactor>0.6</SellPriceFactor>
       <reliability>1</reliability>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
@@ -53,7 +47,7 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponGun</nameMaker>
+        <nameMaker>NamerArtWeaponGun</nameMaker>
         <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
@@ -63,6 +57,11 @@
 
   <ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
     <destroyOnDrop>false</destroyOnDrop>
+    <smeltProducts>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </smeltProducts>
+    <smeltable>true</smeltable>
     <tools>
       <li>
         <label>grip</label>
@@ -95,8 +94,9 @@
       <texPath>CP/Weapon/BAC13</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>1.5</generateCommonality>
+    <smeltable>true</smeltable>
     <statBases>
       <MarketValue>75</MarketValue>
       <AccuracyTouch>0.89</AccuracyTouch>
@@ -112,7 +112,7 @@
         <defaultProjectile>Bullet_5mm_CP</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -130,7 +130,7 @@
       <texPath>CP/Weapon/DLC15</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <MarketValue>50</MarketValue>
       <AccuracyTouch>0.89</AccuracyTouch>
@@ -146,7 +146,7 @@
         <defaultProjectile>Bullet_6mm_CP</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>UR</reliability>
@@ -164,7 +164,7 @@
       <texPath>CP/Weapon/FAX22</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>150</MarketValue>
@@ -181,7 +181,7 @@
         <defaultProjectile>Bullet_6mm_CP</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -199,7 +199,7 @@
       <texPath>CP/Weapon/AR209</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>0.5</generateCommonality>
     <statBases>
       <MarketValue>880</MarketValue>
@@ -222,7 +222,7 @@
         <range>8</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>21</ticksBetweenBurstShots>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -240,7 +240,7 @@
       <texPath>CP/Weapon/BAP1145</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <MarketValue>140</MarketValue>
       <AccuracyTouch>0.91</AccuracyTouch>
@@ -257,7 +257,7 @@
         <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -275,7 +275,7 @@
       <texPath>CP/Weapon/DLLP402</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>140</MarketValue>
@@ -293,7 +293,7 @@
         <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -311,7 +311,7 @@
       <texPath>CP/Weapon/FAX9</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>300</MarketValue>
@@ -329,7 +329,7 @@
         <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -347,7 +347,7 @@
       <texPath>CP/Weapon/MAA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>250</MarketValue>
@@ -368,7 +368,7 @@
         <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>9</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -386,7 +386,7 @@
       <texPath>CP/Weapon/SM295</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>135</MarketValue>
@@ -406,7 +406,7 @@
         <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -424,7 +424,7 @@
       <texPath>CP/Weapon/ACWS10</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <MarketValue>680</MarketValue>
       <AccuracyTouch>0.93</AccuracyTouch>
@@ -444,7 +444,7 @@
         <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>2.6</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -457,12 +457,13 @@
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_AWSA_CP</defName>
     <label>Arasaka WSA</label>
-    <description> 10mm pistol - Standard issue sidearm for all Arasaka troops, as well as executives who want to pack a little punch. </description>
+    <description>10mm pistol - Standard issue sidearm for all Arasaka troops, as well as executives who want to pack a little punch.</description>
     <graphicData>
       <texPath>CP/Weapon/ACWS10</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <smeltable>true</smeltable>
     <statBases>
       <MarketValue>400</MarketValue>
       <AccuracyTouch>0.91</AccuracyTouch>
@@ -482,7 +483,7 @@
         <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>1.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -500,7 +501,7 @@
       <texPath>CP/Weapon/CE10</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>1.0</generateCommonality>
     <statBases>
       <MarketValue>550</MarketValue>
@@ -518,7 +519,7 @@
         <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -536,7 +537,7 @@
       <texPath>CP/Weapon/DLSM</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>250</MarketValue>
@@ -554,7 +555,7 @@
         <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>UR</reliability>
@@ -572,7 +573,7 @@
       <texPath>CP/Weapon/FASA58</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>580</MarketValue>
@@ -590,7 +591,7 @@
         <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>2.6</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -608,7 +609,7 @@
       <texPath>CP/Weapon/MMPP21</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <MarketValue>225</MarketValue>
       <AccuracyTouch>0.93</AccuracyTouch>
@@ -628,7 +629,7 @@
         <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>2.6</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -646,7 +647,7 @@
       <texPath>CP/Weapon/ST45</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>0.7</generateCommonality>
     <statBases>
       <MarketValue>525</MarketValue>
@@ -666,7 +667,7 @@
         <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>2.6</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -684,7 +685,7 @@
       <texPath>CP/Weapon/ST82</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>750</MarketValue>
@@ -704,7 +705,7 @@
         <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>2.6</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -722,7 +723,7 @@
       <texPath>CP/Weapon/SST2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>0.9</generateCommonality>
     <statBases>
       <MarketValue>450</MarketValue>
@@ -743,7 +744,7 @@
         <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -761,7 +762,7 @@
       <texPath>CP/Weapon/AO</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>580</MarketValue>
@@ -782,7 +783,7 @@
         <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -801,7 +802,7 @@
       <texPath>CP/Weapon/BAC2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>1.6</generateCommonality>
     <statBases>
       <MarketValue>245</MarketValue>
@@ -819,7 +820,7 @@
         <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -838,7 +839,7 @@
       <texPath>CP/Weapon/DLODII11</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <MarketValue>470</MarketValue>
@@ -856,7 +857,7 @@
         <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -874,7 +875,7 @@
       <texPath>CP/Weapon/FABP24</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <MarketValue>150</MarketValue>
       <AccuracyTouch>0.93</AccuracyTouch>
@@ -891,7 +892,7 @@
         <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -909,7 +910,7 @@
       <texPath>CP/Weapon/MMPP22</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <MarketValue>235</MarketValue>
       <AccuracyTouch>0.93</AccuracyTouch>
@@ -929,7 +930,7 @@
         <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -947,7 +948,7 @@
       <texPath>CP/Weapon/ST35</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <MarketValue>400</MarketValue>
       <AccuracyTouch>0.91</AccuracyTouch>
@@ -966,7 +967,7 @@
         <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -984,7 +985,7 @@
       <texPath>CP/Weapon/AZHP</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <MarketValue>880</MarketValue>
       <AccuracyTouch>0.93</AccuracyTouch>
@@ -1004,7 +1005,7 @@
         <defaultProjectile>Bullet_12mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -1022,7 +1023,7 @@
       <texPath>CP/Weapon/MRNA12</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>0.6</generateCommonality>
     <statBases>
       <MarketValue>890</MarketValue>
@@ -1043,7 +1044,7 @@
         <defaultProjectile>Bullet_12mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -1061,7 +1062,7 @@
       <texPath>CP/Weapon/SRS50</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>0.8</generateCommonality>
     <statBases>
       <MarketValue>650</MarketValue>
@@ -1081,7 +1082,7 @@
         <defaultProjectile>Bullet_12mm_CP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -1098,7 +1099,7 @@
       <texPath>CP/Weapon/starlyte</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <generateCommonality>0.4</generateCommonality>
     <statBases>
       <MarketValue>5650</MarketValue>
@@ -1119,7 +1120,7 @@
         <defaultProjectile>Bullet_LaserPistol</defaultProjectile>
         <warmupTime>1.4</warmupTime>
         <range>9</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>

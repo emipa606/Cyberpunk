@@ -2,7 +2,7 @@
 <Defs>
 
 	<RecipeDef>
-		<defName>MakeKevlarFromChemfuel</defName>
+		<defName>Make_KevlarFromChemfuel</defName>
 		<label>make kevlar fibers from chemfuel</label>
 		<description>Produce the basic fibers from which Kevlar is made.</description>
 		<jobString>Producing kevlar fibers.</jobString>
@@ -35,7 +35,7 @@
 
 
   <RecipeDef>
-    <defName>MakeKevlar</defName>
+    <defName>Make_Kevlar</defName>
     <label>make kevlar</label>
     <description>Make kevlar sheets from kevlar fibers. \n\nMakes 20 sheets of kevlar.</description>
     <jobString>Making kevlar.</jobString>

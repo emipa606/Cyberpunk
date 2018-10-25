@@ -5,6 +5,8 @@ C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Source\
 C:\Program Files (x86)\RimWorld.Alpha.14e\RimWorld1284Win\Mods\Cyberpunk\Source\Cyberpunk\obj\Debug\Cyberpunk.pdb
 C:\Program Files (x86)\SteamLibrary\SteamApps\common\RimWorld\Mods\Cyberpunk\Assemblies\Cyberpunk.dll
 C:\Program Files (x86)\SteamLibrary\SteamApps\common\RimWorld\Mods\Cyberpunk\Assemblies\Cyberpunk.pdb
-C:\Program Files (x86)\SteamLibrary\SteamApps\common\RimWorld\Mods\Cyberpunk\Source\Cyberpunk\obj\Debug\Cyberpunk.csprojResolveAssemblyReference.cache
 C:\Program Files (x86)\SteamLibrary\SteamApps\common\RimWorld\Mods\Cyberpunk\Source\Cyberpunk\obj\Debug\Cyberpunk.dll
 C:\Program Files (x86)\SteamLibrary\SteamApps\common\RimWorld\Mods\Cyberpunk\Source\Cyberpunk\obj\Debug\Cyberpunk.pdb
+C:\Program Files (x86)\SteamLibrary\SteamApps\common\RimWorld\Mods\Cyberpunk\Source\Cyberpunk\obj\Debug\Cyberpunk.csprojAssemblyReference.cache
+C:\Program Files (x86)\SteamLibrary\SteamApps\common\RimWorld\Mods\Cyberpunk\Source\Cyberpunk\obj\Debug\Cyberpunk.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\SteamLibrary\SteamApps\common\RimWorld\Mods\Cyberpunk\Source\Cyberpunk\obj\Debug\Cyberpunk.csproj.CopyComplete

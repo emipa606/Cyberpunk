@@ -8,8 +8,8 @@
     <isBad>false</isBad>
     <scenarioCanAdd>true</scenarioCanAdd>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -46,8 +46,8 @@
     <spawnThingOnRemoved>Scratchers_CP</spawnThingOnRemoved>
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
-      <isBionic>false</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -70,8 +70,8 @@
     <spawnThingOnRemoved>Rippers_CP</spawnThingOnRemoved>
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
-      <isBionic>false</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -94,8 +94,8 @@
     <spawnThingOnRemoved>Wolvers_CP</spawnThingOnRemoved>
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
-      <isBionic>false</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -118,8 +118,8 @@
     <spawnThingOnRemoved>BigKnucks_CP</spawnThingOnRemoved>
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
-      <isBionic>false</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
   </HediffDef>
@@ -216,8 +216,8 @@
     <label>optishield</label>
     <spawnThingOnRemoved>Optishield_CP</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      
+      
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
     <stages>

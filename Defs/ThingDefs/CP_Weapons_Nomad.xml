@@ -33,7 +33,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/AutoPistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutoPistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <WorkToMake>15000</WorkToMake>
       <Mass>1.2</Mass>
@@ -45,7 +45,7 @@
     </statBases>
     <costList>
       <Steel>30</Steel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <tradeTags>
       <li>CP</li>
@@ -57,7 +57,7 @@
         <defaultProjectile>Bullet_357mag_CP</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutoPistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -82,6 +82,9 @@
         <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <!-- ==================== Nomad .357mag Revolver============================= -->
@@ -94,7 +97,7 @@
       <texPath>CP/Weapon/N357R</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutoPistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <WorkToMake>15000</WorkToMake>
       <Mass>1.2</Mass>
@@ -106,7 +109,7 @@
     </statBases>
     <costList>
       <Steel>30</Steel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <tradeTags>
       <li>CP</li>
@@ -118,7 +121,7 @@
         <defaultProjectile>Bullet_357mag_CP</defaultProjectile>
         <warmupTime>2.9</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutoPistol</soundCast>
+        <soundCast>Shot_Revolver</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -155,7 +158,7 @@
       <texPath>CP/Weapon/N357R</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutoPistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <WorkToMake>16000</WorkToMake>
       <Mass>1.3</Mass>
@@ -167,7 +170,7 @@
     </statBases>
     <costList>
       <Steel>35</Steel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <tradeTags>
       <li>CP</li>
@@ -179,7 +182,7 @@
         <defaultProjectile>Bullet_44mag_CP</defaultProjectile>
         <warmupTime>2.9</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutoPistol</soundCast>
+        <soundCast>Shot_Revolver</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -216,7 +219,7 @@
       <texPath>CP/Weapon/NSTEN</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>25000</WorkToMake>
       <Mass>2.5</Mass>
@@ -228,7 +231,7 @@
     </statBases>
     <costList>
       <Steel>45</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -239,7 +242,7 @@
         <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>ShotMachinePistol</soundCast>
+        <soundCast>Shot_HeavySMG</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -264,6 +267,9 @@
         <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <!-- ==================== Nomad 9mm Pistol ============================= -->
@@ -276,7 +282,7 @@
       <texPath>CP/Weapon/N9mmAP</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutoPistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <WorkToMake>25000</WorkToMake>
       <Mass>1.2</Mass>
@@ -288,7 +294,7 @@
     </statBases>
     <costList>
       <Steel>30</Steel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -297,7 +303,7 @@
         <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>8</range>
-        <soundCast>ShotAutoPistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -322,6 +328,9 @@
         <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <!-- ==================== Nomad Submachine Gun ============================= -->
@@ -334,7 +343,7 @@
       <texPath>CP/Weapon/NSMG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>26000</WorkToMake>
       <Mass>2.5</Mass>
@@ -346,7 +355,7 @@
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -357,7 +366,7 @@
         <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>ShotMachinePistol</soundCast>
+        <soundCast>Shot_HeavySMG</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>ST</reliability>
@@ -382,6 +391,9 @@
         <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <!-- ==================== Nomad 9mm Rifle ============================= -->
@@ -394,7 +406,7 @@
       <texPath>CP/Weapon/N9mmRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>3.5</Mass>
@@ -406,7 +418,7 @@
     </statBases>
     <costList>
       <Steel>60</Steel>
-      <Component>7</Component>
+      <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -417,7 +429,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -442,6 +454,9 @@
         <cooldownTime>1.9</cooldownTime>
       </li>
     </tools>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <!-- ==================== Nomad Long Rifle ============================= -->
@@ -454,7 +469,7 @@
       <texPath>CP/Weapon/NLongRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.8</generateCommonality>
     <statBases>
       <WorkToMake>55000</WorkToMake>
@@ -468,7 +483,7 @@
     <equippedAngleOffset>45</equippedAngleOffset>
     <costList>
       <Steel>75</Steel>
-      <Component>8</Component>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -477,7 +492,7 @@
         <defaultProjectile>Bullet_15mmBMG_CP</defaultProjectile>
         <warmupTime>4.0</warmupTime>
         <range>90</range>
-        <soundCast>ShotSniperRifle</soundCast>
+        <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -505,6 +520,9 @@
     <weaponTags>
       <li>SniperRifle</li>
     </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <!-- ==================== Nomad .357 Magnum Lever-Action Rifle ============================= -->
@@ -517,7 +535,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/BoltActionRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <WorkToMake>25000</WorkToMake>
@@ -530,7 +548,7 @@
     </statBases>
     <costList>
       <Steel>60</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -541,7 +559,7 @@
         <range>10</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
-        <soundCast>ShotBoltActionRifle</soundCast>
+        <soundCast>Shot_BoltActionRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -578,7 +596,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/BoltActionRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.5</generateCommonality>
     <statBases>
       <WorkToMake>25000</WorkToMake>
@@ -591,7 +609,7 @@
     </statBases>
     <costList>
       <Steel>60</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -602,7 +620,7 @@
         <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
-        <soundCast>ShotBoltActionRifle</soundCast>
+        <soundCast>Shot_BoltActionRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -639,7 +657,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>1.0</generateCommonality>
     <statBases>
       <WorkToMake>45000</WorkToMake>
@@ -652,7 +670,7 @@
     </statBases>
     <costList>
       <Steel>60</Steel>
-      <Component>7</Component>
+      <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -663,7 +681,7 @@
         <range>10</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -688,6 +706,9 @@
         <cooldownTime>1.9</cooldownTime>
       </li>
     </tools>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <!-- ==================== Nomad 7.62mm Bolt Action Rifle ============================= -->
@@ -700,7 +721,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.6</generateCommonality>
     <statBases>
       <WorkToMake>45000</WorkToMake>
@@ -713,7 +734,7 @@
     </statBases>
     <costList>
       <Steel>60</Steel>
-      <Component>7</Component>
+      <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -724,7 +745,7 @@
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -749,6 +770,9 @@
         <cooldownTime>1.9</cooldownTime>
       </li>
     </tools>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <!-- ==================== Nomad Scattergun ============================= -->
@@ -761,7 +785,7 @@
       <texPath>CP/Weapon/NSOSHT</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractShotgun</soundInteract>
+    <soundInteract>Interact_Shotgun</soundInteract>
     <generateCommonality>1.6</generateCommonality>
     <statBases>
       <WorkToMake>16000</WorkToMake>
@@ -774,7 +798,7 @@
     </statBases>
     <costList>
       <Steel>60</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="Cyberpunk.VerbPropertiesCP">
@@ -783,7 +807,7 @@
         <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
         <warmupTime>0.8</warmupTime>
         <range>6</range>
-        <soundCast>ShotShotgun</soundCast>
+        <soundCast>Shot_Shotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <reliability>VR</reliability>
@@ -808,6 +832,9 @@
         <cooldownTime>1.9</cooldownTime>
       </li>
     </tools>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <!-- ==================== Nomad Hand crossbow ============================= -->
@@ -836,6 +863,7 @@
       <RangedWeapon_Cooldown>1.76</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
+      <researchPrerequisite>RecurveBow</researchPrerequisite>
       <recipeUsers>
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>

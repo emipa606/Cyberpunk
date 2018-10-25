@@ -35,8 +35,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftHand</li>
-      <li>RightHand</li>
+      <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>Scratchers_CP</addsHediff>
   </RecipeDef>
@@ -75,8 +74,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftHand</li>
-      <li>RightHand</li>
+      <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>Rippers_CP</addsHediff>
   </RecipeDef>
@@ -115,8 +113,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftHand</li>
-      <li>RightHand</li>
+      <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>Wolvers_CP</addsHediff>
   </RecipeDef>
@@ -155,8 +152,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftHand</li>
-      <li>RightHand</li>
+      <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>BigKnucks_CP</addsHediff>
   </RecipeDef>
@@ -356,8 +352,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftEye</li>
-      <li>RightEye</li>
+      <li>Eye</li>
     </appliedOnFixedBodyParts>
     <addsHediff>COTargettingScope_CP</addsHediff>
   </RecipeDef>
@@ -396,8 +391,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftEye</li>
-      <li>RightEye</li>
+      <li>Eye</li>
     </appliedOnFixedBodyParts>
     <addsHediff>BionicEye</addsHediff>
   </RecipeDef>
@@ -436,8 +430,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftEye</li>
-      <li>RightEye</li>
+      <li>Eye</li>
     </appliedOnFixedBodyParts>
     <addsHediff>Optishield_CP</addsHediff>
     <removesHediff>Scratch</removesHediff>
@@ -477,8 +470,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftEar</li>
-      <li>RightEar</li>
+      <li>Ear</li>
     </appliedOnFixedBodyParts>
     <addsHediff>CAAmplifiedHearing_CP</addsHediff>
   </RecipeDef>
@@ -694,8 +686,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftLung</li>
-      <li>RightLung</li>
+      <li>Lung</li>
     </appliedOnFixedBodyParts>
     <addsHediff>CyberLung_CP</addsHediff>
   </RecipeDef>
@@ -737,8 +728,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>LeftLung</li>
-      <li>RightLung</li>
+      <li>Lung</li>
     </appliedOnFixedBodyParts>
     <addsHediff>CyberLung2_CP</addsHediff>
   </RecipeDef>
