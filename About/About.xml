@@ -8,6 +8,10 @@
     This mod introduces the Cyberpunk weapons and cybernetics.
     Change Notes
     -----------
+    v1.4.1
+    -----------
+    Fixed heat/cold insulation values on apparel
+    -----------
     v1.4
     -----------
     Updated mod for RW 1.0
@@ -17,7 +21,7 @@
     Fixed issues with traders not having cybernetic implants
     Adjusted commonality of some items
     Various minor bug fixes
-    
+
     v1.3.1
     -----------
     Bug fixes and returned missing nomad weapons
