@@ -1,20 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Cyberpunk [18]</name>
+  <name>Cyberpunk (Continued)</name>
+  <packageId>Mlie.Cyberpunk</packageId>
   <author>Darque</author>
-  <url>https://github.com/MDarque/Cyberpunk</url>
-  <targetVersion>1.0.2059</targetVersion>
-  <description>
-    This mod introduces the Cyberpunk weapons and cybernetics.
+  <url>https://github.com/emipa606/Cyberpunk18</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Darques mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1301071669
+based on Itachi x E28's updated version
+https://steamcommunity.com/sharedfiles/filedetails/?id=2129832774
+
+- All overwrites of vanilla definitions should now have been removed. If you want to play with the items of this mod instead of the vanilla ones you can use these mods:
+
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2514935266]No vanilla weapons[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2235398051]No vanilla apparel[/url]
+[/list]
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/Cyberpunk][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[h1]Overview[/h1]
+The Cyberpunk mod adds elements of the Cyberpunk 2020 RPG game to RimWorld.
+It includes the following:
+
+- New guns and melee weapons
+- New armors, helmets and apparel added, many with new graphics.
+- New cybernetic implants added
+- Gun reliability and jamming
+- Includes Pardeike's Harmony library
+
+If you like this mod, try the [url=http://steamcommunity.com/sharedfiles/filedetails/?id=1134649225]Cyberpunk Factions[/url] expansion.  It adds several corps to the game in addition to the outlanders.
+I also suggest using the [url=http://steamcommunity.com/sharedfiles/filedetails/?id=735241897]Mending[/url] Mod, which will allow you to fix and maintain your guns, as well as clean up the gear from your fallen enemies to make them usable again.
+
+[b]There is always the possibility that this mod has bugs. Please report any issues that you might run into [url=github.com/MDarque/Cyberpunk/issues]here[/url].[/b]
+
+All current and past versions of this mod can be downloaded from [url=github.com/MDarque/Cyberpunk]GitHub[/url].
+
+To discuss this mod, please visit the [url=https://ludeon.com/forums/index.php?topic=32798.0]forums[/url].
+
+[h1]Contributors[/h1]
+- Andreas Pardeike: Harmony library + help with muscle graft code
+
     Change Notes
     -----------
     v1.4.1
     -----------
-    Fixed heat/cold insulation values on apparel
+    Adjusted heat/cold insulation values on apparel
     -----------
     v1.4
     -----------
-    Updated mod for RW 1.0
+    Updated for Rimworld 1.0
+    Updated Harmony library to latest version
     -----------
     v1.3.2
     -----------
@@ -28,8 +93,8 @@
 
     v1.3
     -----------
-    Update for Beta 18
-
+    Update for Alpha 18
+    
     v1.2
     -----------
     Added new apparel items and hats - camo shirts and pants, berets, caps, and balaclavas
@@ -46,5 +111,14 @@
     - Added craftable nomad weapons
     - Kevlar Vest male back and hulk back graphics update
     - Heavy Leather Jacket graphics update
-  </description>
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
 </ModMetaData>

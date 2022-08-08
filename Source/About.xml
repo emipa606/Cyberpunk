@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Cyberpunk [18]</name>
+  <author>Darque</author>
+  <url>https://github.com/MDarque/Cyberpunk</url>
+  <targetVersion>1.0.2059</targetVersion>
+  <description>
+    This mod introduces the Cyberpunk weapons and cybernetics.
+    Change Notes
+    -----------
+    v1.4.1
+    -----------
+    Adjusted heat/cold insulation values on apparel
+    -----------
+    v1.4
+    -----------
+    Updated mod for RW 1.0
+    -----------
+    v1.3.2
+    -----------
+    Fixed issues with traders not having cybernetic implants
+    Adjusted commonality of some items
+    Various minor bug fixes
+
+    v1.3.1
+    -----------
+    Bug fixes and returned missing nomad weapons
+
+    v1.3
+    -----------
+    Update for Beta 18
+
+    v1.2
+    -----------
+    Added new apparel items and hats - camo shirts and pants, berets, caps, and balaclavas
+    Added new guns - Militech Renegade cannon, Arasaka WSA pistol, Colt Enforcement 10 pistol, Stolbovoy ST-2 pistol, Militech Dragon Rifle, Militech MK IV Rifle, Stolbovoy ST-5 Rifle, Militech Viper SMG, Mustang Arms ARS-5C SMG, Stolbovoy SSTS SMG
+    Updated color choices on apparel items
+    Fixed some item descriptions
+    Minor graphics tweaks
+
+    v1.1
+    -----------
+    - Scratchers and Rippers damage increased to fix issue where fists were used instead of scratchers
+    - Fixed display of weapon reliability text
+    - Fixed smeltability of new guns
+    - Added craftable nomad weapons
+    - Kevlar Vest male back and hulk back graphics update
+    - Heavy Leather Jacket graphics update
+  </description>
+</ModMetaData>

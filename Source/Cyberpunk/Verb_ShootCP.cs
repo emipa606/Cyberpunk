@@ -1,47 +1,36 @@
-﻿using RimWorld;
+using RimWorld;
 using Verse;
 
-namespace Cyberpunk
+namespace Cyberpunk;
+
+public class Verb_ShootCP : Verb_LaunchProjectileCP
 {
-    public class Verb_ShootCP : Verb_LaunchProjectileCP
+    protected override int ShotsPerBurst => verbProps.burstShotCount;
+
+    public override void WarmupComplete()
     {
-        protected override int ShotsPerBurst
+        base.WarmupComplete();
+        if (!base.CasterIsPawn || base.CasterPawn.skills == null)
         {
-            get
-            {
-                return this.verbProps.burstShotCount;
-            }
+            return;
         }
 
-        public override void WarmupComplete()
+        var xp = 6f;
+        if (currentTarget.Thing != null && currentTarget.Thing.def.category == ThingCategory.Pawn)
         {
-            base.WarmupComplete();
-            if (base.CasterIsPawn && base.CasterPawn.skills != null)
-            {
-                float xp = 6f;
-                if (this.currentTarget.Thing != null && this.currentTarget.Thing.def.category == ThingCategory.Pawn)
-                {
-                    if (this.currentTarget.Thing.HostileTo(this.caster))
-                    {
-                        xp = 240f;
-                    }
-                    else
-                    {
-                        xp = 50f;
-                    }
-                }
-                base.CasterPawn.skills.Learn(SkillDefOf.Shooting, xp);
-            }
+            xp = !currentTarget.Thing.HostileTo(caster) ? 50f : 240f;
         }
 
-        protected override bool TryCastShot()
+        base.CasterPawn.skills.Learn(SkillDefOf.Shooting, xp);
+    }
+
+    protected override bool TryCastShot()
+    {
+        if (base.TryCastShot() && base.CasterIsPawn)
         {
-            bool flag = base.TryCastShot();
-            if (flag && base.CasterIsPawn)
-            {
-                base.CasterPawn.records.Increment(RecordDefOf.ShotsFired);
-            }
-            return flag;
+            base.CasterPawn.records.Increment(RecordDefOf.ShotsFired);
         }
+
+        return base.TryCastShot();
     }
 }

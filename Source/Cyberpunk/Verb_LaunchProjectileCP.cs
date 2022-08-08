@@ -1,43 +1,31 @@
-﻿using RimWorld;
+using RimWorld;
 using Verse;
 
+namespace Cyberpunk;
 
-namespace Cyberpunk
+public class Verb_LaunchProjectileCP : Verb_LaunchProjectile
 {
-    public class Verb_LaunchProjectileCP : Verb_LaunchProjectile
+    protected virtual float reliable => EquipmentSource.GetStatValue(StatDefOf_CP.reliability);
+
+    public VerbPropertiesCP verbPropsCP => verbProps as VerbPropertiesCP;
+
+    protected override bool TryCastShot()
     {
-        protected virtual float reliable
+        var thingDef_GunCP = EquipmentSource as ThingDef_GunCP;
+        StatPart_Reliability.GetReliability(thingDef_GunCP, out var _, out var jamsOn);
+        var num = Rand.Range(0, 1000) / 10f;
+        if (!(num < jamsOn))
         {
-            get
-            {
-                return base.EquipmentSource.GetStatValue(StatDefOf_CP.reliability);
-            }
-        }
-
-        public VerbPropertiesCP verbPropsCP
-        {
-            get
-            {
-                return verbProps as VerbPropertiesCP;
-            }
-        }
-
-        protected override bool TryCastShot()
-        {
-            string reliabilityString;
-            float jamsOn;
-            ThingDef_GunCP ownerEquipment = base.EquipmentSource as ThingDef_GunCP;
-            StatPart_Reliability.GetReliability(ownerEquipment, out reliabilityString, out jamsOn);
-            float jamRoll = (Rand.Range(0, 1000))/10f;
-            //float jamRoll = Rand.Range(0, 100);
-            if (jamRoll < jamsOn)
-            {
-                string msg = string.Format("{0}'s {1} had a weapon jam. ({2}/{3})", caster.LabelCap, ownerEquipment.LabelCap, jamRoll, jamsOn);
-                Messages.Message(msg, MessageTypeDefOf.SilentInput);
-                ownerEquipment.HitPoints--;
-                return false;
-            }
             return base.TryCastShot();
         }
+
+        var text = $"{caster.LabelCap}'s {thingDef_GunCP?.LabelCap} had a weapon jam. ({num}/{jamsOn})";
+        Messages.Message(text, MessageTypeDefOf.SilentInput);
+        if (thingDef_GunCP != null)
+        {
+            thingDef_GunCP.HitPoints--;
+        }
+
+        return false;
     }
 }

@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef Name="BaseSNPGun" ParentName="BaseGunCP" Abstract="True">
+    <weaponTags>
+      <li>SniperRifle</li>
+    </weaponTags>
+    <statBases>
+      <Mass>4</Mass>
+    </statBases>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- =================== Arasaka WSSA Sniper System ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_AWSSA_CP</defName>
+    <label>Arasaka WSSA Sniper System</label>
+    <description>3.5mmFF Sniper Rifle - Designed for urban-deployed corporate enforcement teams, the heavy-barreled, semi-auto Arasaka WSSA has a 40-round helical mag of saboted 3.5mm Frag-Flechettes, and is equipped with a silencer, flash suppressor and a Zeiss 12x scope with computer-enhanced laser sighting. This system already includes smartchipping, and a whole lot more. With a loaded weight of 3.8kg, this is becoming a very popular sniper weapon.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AWSSA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
+    <statBases>
+      <MarketValue>1220</MarketValue>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+      <li>ArasakaSniper</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_35mmFF_CP</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>60</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Arasaka CMR-2 ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_ACMR2_CP</defName>
+    <label>Arasaka CMR-2</label>
+    <description>5.56×45mm Sniper Rifle - A very accurate, very quiet weapon, with custom venting and a redesigned suppressor to minimize noise without loss of range or accuracy.</description>
+    <graphicData>
+      <texPath>CP/Weapon/ACMR2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
+    <statBases>
+      <MarketValue>1220</MarketValue>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.97</AccuracyShort>
+      <AccuracyMedium>0.97</AccuracyMedium>
+      <AccuracyLong>0.97</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+      <li>ArasakaSniper</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>50</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Budget Arms R-187 ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_BAR187_CP</defName>
+    <label>Budget Arms R-187</label>
+    <description>5.56×45mm Sniper Rifle - Budget Arms tries to break into the precision weapons game with laughable results.  The assault rifle styling and 20 round magazine appeal to Budget Arms customer base, who don’t care if the gun jams, or even blows up in their face, as long as its cheap and looks cool.</description>
+    <graphicData>
+      <texPath>CP/Weapon/BAR187</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.86</AccuracyShort>
+      <AccuracyMedium>0.86</AccuracyMedium>
+      <AccuracyLong>0.88</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>40</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>UR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Dai Lung Ice Thrower ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_DLIT_CP</defName>
+    <label>Dai Lung Ice Thrower</label>
+    <description>5.56×45mm Sniper Rifle - Dai Lung's attempt at a sniper rifle. They actually do a decent job when you get past the cheap gun body.</description>
+    <graphicData>
+      <texPath>CP/Weapon/DLIT</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>680</MarketValue>
+      <AccuracyTouch>0.63</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.91</AccuracyLong>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>50</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech MRS-42 ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_MMRS42_CP</defName>
+    <label>Militech MRS-42</label>
+    <description>5.56×45mm Sniper Rifle - The MRS-42 is a very well respected combat sniper rifle, capable of pinpoint precision even under the most adverse conditions and circumstances. It is very popular among Militech marksmen, as well as professionals around the world.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MMRS42</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <MarketValue>1829</MarketValue>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.97</AccuracyShort>
+      <AccuracyMedium>0.97</AccuracyMedium>
+      <AccuracyLong>0.97</AccuracyLong>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+      <li>MilitechSniper</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
+        <warmupTime>.37</warmupTime>
+        <range>60</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>64</ticksBetweenBurstShots>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Sternmeyer ASW-68 ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_SASW68_CP</defName>
+    <label>Sternmeyer ASW-68</label>
+    <description>5.56×45mm Sniper Rifle - A very nice sniper rifle from Sternmeyer.  Kalishnikov origins are obvious when looking at this weapon and it shoots like a dream.</description>
+    <graphicData>
+      <texPath>CP/Weapon/SASW68</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <MarketValue>1375</MarketValue>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.97</AccuracyShort>
+      <AccuracyMedium>0.97</AccuracyMedium>
+      <AccuracyLong>0.97</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Sternmeyer</li>
+      <li>SternmeyerSniper</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>60</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Arasaka AXSR-7 ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_AAXSR7_CP</defName>
+    <label>Arasaka AXSR-7</label>
+    <description>7.62mm Sniper Rifle - Now here is an original innovation.  Tracer rounds are expensive, and they are a pain to load.  This weapon solves that problem by coating every fifth shell with a harmless bio-luminescent, extremely adhesive liquid derived from Teflon and Cyalume called Teflume.  The Teflume cylinder is good for 200 rounds (needing to be replaced after firing 1000 rounds through the weapon) and  the injection mechanism can be switched off when not necessary.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AAXSR7</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
+    <statBases>
+      <MarketValue>1220</MarketValue>
+      <AccuracyTouch>0.63</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.91</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+      <li>ArasakaSniper</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_762_CP</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>50</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Federated Arms	Cruseras ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_FAC_CP</defName>
+    <label>Federated Arms Cruseras</label>
+    <description>7.62mm Sniper Rifle - A rugged sniper rifle for use in the most harsh of terrains.  Comes standard with a bipod.</description>
+    <graphicData>
+      <texPath>CP/Weapon/FAC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.6</generateCommonality>
+    <statBases>
+      <MarketValue>1100</MarketValue>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.93</AccuracyShort>
+      <AccuracyMedium>0.93</AccuracyMedium>
+      <AccuracyLong>0.94</AccuracyLong>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_762_CP</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>50</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech	ACS O610 ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_MACSO610_CP</defName>
+    <label>Militech ACS O610</label>
+    <description>7.62mm Sniper Rifle - The Militech ACS is a hard hitting sniper rifle with a proven track record and it is sturdy enough to withstand the harshest abuse.   Capable of 3 round burst for long range suppressing fire, as well ridiculously precise single shots.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MACSO610</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>1985</MarketValue>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.97</AccuracyShort>
+      <AccuracyMedium>0.97</AccuracyMedium>
+      <AccuracyLong>0.97</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+      <li>MilitechSniper</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_762_CP</defaultProjectile>
+        <warmupTime>1.42</warmupTime>
+        <range>50</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Sternmeyer SSR-34 ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_SSSR34_CP</defName>
+    <label>Sternmeyer SSR-34</label>
+    <description>6mm Sniper Rifle - Unlike the SSR-32 which was capable of fully automatic fire, the 34 is a totally dedicated sniper weapon.  Streamlined for comfort.</description>
+    <graphicData>
+      <texPath>CP/Weapon/SSSR34</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <MarketValue>620</MarketValue>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.93</AccuracyShort>
+      <AccuracyMedium>0.93</AccuracyMedium>
+      <AccuracyLong>0.94</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Sternmeyer</li>
+      <li>SternmeyerSniper</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_6x45mm_CP</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>40</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech	PASR-42 ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_SASR34_CP</defName>
+    <label>Militech PASR-42</label>
+    <description>6mm Sniper Rifle - The PASR-42 is a very well respected combat sniper rifle, capable of pinpoint precision even under the most adverse conditions and circumstances. It is very popular among Militech marksmen, as well as professionals around the world.</description>
+    <graphicData>
+      <texPath>CP/Weapon/SSSR34</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <MarketValue>830</MarketValue>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.93</AccuracyShort>
+      <AccuracyMedium>0.93</AccuracyMedium>
+      <AccuracyLong>0.94</AccuracyLong>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+      <li>MilitechSniper</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_6x45mm_CP</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>60</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech	Arbus ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_MARBUS_CP</defName>
+    <label>Militech Arbus</label>
+    <description>7mm Sniper Rifle - This sniper rifle utilizes state of the art materials in its construction and comes smartchipped as standard.  A bit heavy, but very accurate and reliable.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MARBUS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
+    <statBases>
+      <MarketValue>1650</MarketValue>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.97</AccuracyShort>
+      <AccuracyMedium>0.97</AccuracyMedium>
+      <AccuracyLong>0.97</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+      <li>MilitechSniper</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_7mmWSM_CP</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>80</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech	SPW-32 ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_MSPW32_CP</defName>
+    <label>Militech SPW-32</label>
+    <description>9mm Sniper Rifle - Like all survival rifles, this weapon breaks down and is stored in a regular sized briefcase.  It was developed for pilots as survival/hunting weapon in case they were downed and on their own.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MSPW32</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
+    <statBases>
+      <MarketValue>125</MarketValue>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.86</AccuracyShort>
+      <AccuracyMedium>0.86</AccuracyMedium>
+      <AccuracyLong>0.88</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+      <li>MilitechSniper</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>40</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech	ATR-97 ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_MATR97_CP</defName>
+    <label>Militech ATR-97</label>
+    <description>15mm Sniper Rifle - While not really the anti-tank rifle it claims to be, it is an excellent choice for putting down the rampaging borg or the even the stray light ACPA you might come across.  Police agencies and military forces all over the globe have determined this weapon to be a valuable deterrent to the war on Cyborg crime.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MATR97</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
+    <statBases>
+      <MarketValue>11590</MarketValue>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.93</AccuracyShort>
+      <AccuracyMedium>0.93</AccuracyMedium>
+      <AccuracyLong>0.94</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+      <li>MilitechSniper</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_15mm_CP</defaultProjectile>
+        <warmupTime>3.6</warmupTime>
+        <range>100</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Dai Lung R-604 ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_DLR604_CP</defName>
+    <label>Dai Lung R-604</label>
+    <description>.50 BMG Sniper Rifle - What if the Barrett "50" had been designed by a third world nation firm?  Introducing the Dai Lung R-604, the Malaysian manufactured knock off of the venerable Barrett.   This weapon is made from stamped sheet metal and recycled steel.  And while mishaps are not as common as you might expect, they are usually final.  What do you expect when a .50 caliber rifle blows up in your hand.  Still these weapons are extremely popular to third world militaries, terrorists, and street gangs all over the world.  Just the sort of cheap tool to take down that RimWorld "Constable" that is coming your way.</description>
+    <graphicData>
+      <texPath>CP/Weapon/DLR604</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <MarketValue>2520</MarketValue>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.86</AccuracyShort>
+      <AccuracyMedium>0.86</AccuracyMedium>
+      <AccuracyLong>0.88</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_50BMG_CP</defaultProjectile>
+        <warmupTime>2.9</warmupTime>
+        <range>100</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Arasaka Longstrike ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_AMMSRL_CP</defName>
+    <label>Arasaka MMSR Longstrike</label>
+    <description>10mm Sniper Rifle - Continuing with their modular weapon systems, Arasaka has released the MMSR Longstrike.  With a wide variety of stocks, barrel extensions, and other accessories, the Longstrike is the ideal sniper weapon capable of handling any situation.  The base component of the Longstrike system can be used by itself, as a ridiculously large and powerful anti-cyborg handgun, however it is not recommended that anyone without at least a cyberarm attempt such a thing, as the recoil will likely break their wrists.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AMMSRL</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
+    <statBases>
+      <MarketValue>3500</MarketValue>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.93</AccuracyShort>
+      <AccuracyMedium>0.93</AccuracyMedium>
+      <AccuracyLong>0.94</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+      <li>ArasakaSniper</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mmAR_CP</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>100</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech ER-12 ================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_MER12_CP</defName>
+    <label>Militech ER-12</label>
+    <description>10mm Sniper Rifle - Militech has released a weapon that is almost a carbon copy of the Arasaka Longstrike.  It lacks the modularity, but is a more accurate weapon.  Arasaka is already talking lawsuit over what they are claiming is a stolen early prototype design.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MER12</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.97</AccuracyShort>
+      <AccuracyMedium>0.97</AccuracyMedium>
+      <AccuracyLong>0.97</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+      <li>MilitechSniper</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mmAR_CP</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>100</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ======================= Arasaka MAD-8 ======================= -->
+  <ThingDef ParentName="BaseRIFGun">
+    <defName>Gun_AMAD8_CP</defName>
+    <label>Arasaka MAD-8</label>
+    <description>10mm Sniper Rifle - This rifle is an electrothermally enhanced weapon.  Highly accurate and built around the Arasaka developed 10mm rifle round, this weapon is not available for sale on any market and Arasaka has announced it has no intentions of making it available.  Issued only to Elite Arasaka Marksmen,</description>
+    <graphicData>
+      <texPath>CP/Weapon/AMAD8</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
+    <statBases>
+      <MarketValue>6235</MarketValue>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.97</AccuracyShort>
+      <AccuracyMedium>0.97</AccuracyMedium>
+      <AccuracyLong>0.97</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
+    <techLevel>Spacer</techLevel>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mmAR_CP</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>55</range>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+</Defs>

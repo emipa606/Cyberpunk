@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Kevlar_Fibers</defName>
+    <label>kevlar fibers</label>
+    <description>Raw Poly-para-phenylene terephthalamide fibers. It can be spun into kevlar or sold to a trader.</description>
+    <graphicData>
+      <texPath>CP/Resources/RawKevlar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>100</stackLimit>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>5</MarketValue>
+      <Mass>0.05</Mass>
+      <Flammability>0.8</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Kevlar</defName>
+    <label>kevlar</label>
+    <description>Poly-para-phenylene terephthalamide fibers woven into a tough mat to make the super-strong, super-stiff finished material we know as Kevlar.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Cloth</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(246,233,178)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>50</MarketValue>
+      <Mass>0.020</Mass>
+      <Flammability>0.8</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+    </statBases>
+    <stuffProps>
+      <color>(246,233,178)</color>
+      <commonality>0.2</commonality>
+      <allowColorGenerators>true</allowColorGenerators>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

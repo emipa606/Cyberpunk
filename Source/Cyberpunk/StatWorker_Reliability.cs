@@ -1,49 +1,41 @@
-﻿using RimWorld;
-using System;
-using System.Collections.Generic;
 using System.Text;
-using UnityEngine;
+using RimWorld;
 using Verse;
 
-namespace Cyberpunk
+namespace Cyberpunk;
+
+public class StatWorker_Reliability : StatWorker
 {
-    public class StatWorker_Reliability : StatWorker
+    public override string GetExplanationUnfinalized(StatRequest req, ToStringNumberSense numberSense)
     {
-        public override string GetExplanationUnfinalized(StatRequest req, ToStringNumberSense numberSense)
+        return string.Empty;
+    }
+
+    public override string GetExplanationFinalizePart(StatRequest req, ToStringNumberSense numberSense, float finalVal)
+    {
+        var stringBuilder = new StringBuilder();
+        if (stat.parts == null)
         {
-            
-            return string.Empty;
+            return stringBuilder.ToString();
         }
 
-        public override string GetExplanationFinalizePart(StatRequest req, ToStringNumberSense numberSense, float finalVal)
+        foreach (var statPart in stat.parts)
         {
-            StringBuilder sb = new StringBuilder();
-            //sb.AppendLine("FinalizeExplanation");
-            if (this.stat.parts != null)
+            var text = statPart.ExplanationPart(req);
+            if (text.NullOrEmpty())
             {
-                for (int i = 0; i < this.stat.parts.Count; i++)
-                {
-                    string text = this.stat.parts[i].ExplanationPart(req);
-                    if (!text.NullOrEmpty())
-                    {
-                        sb.AppendLine(text);
-                        sb.AppendLine();
-                    }
-                }
-                string reliabilityString = string.Empty;
-                if (finalVal < 0.25)
-                    reliabilityString = "Extremely Reliable";
-                else if (finalVal < 0.5)
-                    reliabilityString = "Very Reliable";
-                else if (finalVal < 1)
-                    reliabilityString = "Standard";
-                else
-                    reliabilityString = "Unreliable";
-
-
-                sb.AppendLine(string.Format("Reliability: {0}\r\n\r\nChance of jam: {1}%", reliabilityString, finalVal));
+                continue;
             }
-            return sb.ToString();
+
+            stringBuilder.AppendLine(text);
+            stringBuilder.AppendLine();
         }
+
+        var empty = finalVal < 0.25 ? "Extremely Reliable" :
+            finalVal < 0.5 ? "Very Reliable" :
+            !(finalVal < 1f) ? "Unreliable" : "Standard";
+        stringBuilder.AppendLine($"Reliability: {empty}\r\n\r\nChance of jam: {finalVal}%");
+
+        return stringBuilder.ToString();
     }
 }

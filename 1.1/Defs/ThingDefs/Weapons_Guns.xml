@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="BaseMakeableShortGun" ParentName="BaseGunCP" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef Name="BaseMakeableLongGun" ParentName="BaseRIFGun" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <!-- ============================================================== -->
+  <ThingDef ParentName="BaseMakeableShortGun">
+    <defName>Gun_Revolver</defName>
+    <label>.357 special</label>
+    <description>.357 revolver - A very cheap, but surprisingly reliable weapon.  The lack of any real sights whatsoever, and the hammerless design, are a bit odd, but for a back up piece, or emergency defense, it does the trick just fine.  Of course many nomads use this weapon as their main sidearm, but that is probably more due to cost than anything else.  Made by Technomancers and sold in markets everywhere.  No two are ever exactly the same.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Revolver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>1.4</Mass>
+      <AccuracyTouch>0.91</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>1.38</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>SimpleGun</li>
+    </weaponTags>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_357mag_CP</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>5</range>
+        <soundCast>Shot_Revolver</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseMakeableShortGun">
+    <defName>Gun_Autopistol</defName>
+    <label>Beretta M1951</label>
+    <description>9mm pistol - Ancient pattern automatic pistol. Weak and short range, but quick.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Autopistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <MarketValue>150</MarketValue>
+      <AccuracyTouch>0.91</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
+        <warmupTime>.94</warmupTime>
+        <range>8</range>
+        <soundCast>Shot_Autopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ============================================================== -->
+  <ThingDef ParentName="BaseMakeableLongGun">
+    <defName>Gun_PumpShotgun</defName>
+    <label>Double Barrel Shotgun</label>
+    <description>12ga shotgun - Ancient design. Deadly, but short range.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <MarketValue>200</MarketValue>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>90</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>6</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ============================================================== -->
+  <ThingDef ParentName="BaseMakeableLongGun">
+    <defName>Gun_ChainShotgun</defName>
+    <label>shotgat</label>
+    <description>Overkill in an easy to use hand held size.  This short barreled full auto shotgun is absolutely devastating at close range, but pretty useless at long range.  In close quarters though, this thing will just destroy your opponent.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/ChainShotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4.5</Mass>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>1.26</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>70</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
+        <warmupTime>1.1</warmupTime>
+        <range>6</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseRIFGun">
+    <defName>Gun_BoltActionRifle</defName>
+    <label>Winchester Model 70</label>
+    <description>30-06 rifle - The Winchester Model 70 is a bolt-action sporting rifle. It has an iconic place in American sporting culture and has been held in high regard by shooters since it was introduced in 1936, earning the moniker "The Rifleman's Rifle". The action has some design similarities to Mauser designs and it is a development of the earlier Winchester Model 54.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/BoltActionRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>3.5</Mass>
+      <MarketValue>250</MarketValue>
+      <AccuracyTouch>0.94</AccuracyTouch>
+      <AccuracyShort>0.99</AccuracyShort>
+      <AccuracyMedium>0.99</AccuracyMedium>
+      <AccuracyLong>0.98</AccuracyLong>
+      <RangedWeapon_Cooldown>1.26</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_30_06_CP</defaultProjectile>
+        <warmupTime>1.9</warmupTime>
+        <range>50</range>
+        <soundCast>Shot_BoltActionRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseRIFGun">
+    <defName>Gun_AssaultRifle</defName>
+    <label>M16A assault rifle</label>
+    <description>5.56mm Assault Rifle - The M16 rifle, officially designated Rifle, Caliber 5.56 mm, M16, is a military adaptation of the Armalite AR-15 rifle. The original M16 was a select-fire, 5.56×45mm rifle with a 20-round magazine.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>120000</WorkToMake>
+      <MarketValue>650</MarketValue>
+      <AccuracyTouch>0.98</AccuracyTouch>
+      <AccuracyShort>0.94</AccuracyShort>
+      <AccuracyMedium>0.91</AccuracyMedium>
+      <AccuracyLong>0.82</AccuracyLong>
+      <RangedWeapon_Cooldown>1.36</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_556_CP</defaultProjectile>
+        <warmupTime>1.46</warmupTime>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>UR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseSNPGun">
+    <defName>Gun_SniperRifle</defName>
+    <label>Heckler &amp; Koch PSG1</label>
+    <description>7.62mm Sniper Rifle - The PSG1 is mechanically based on the G3 rifle and features a low-noise bolt closing device.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/SniperRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>120000</WorkToMake>
+      <MarketValue>1050</MarketValue>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.86</AccuracyShort>
+      <AccuracyMedium>0.86</AccuracyMedium>
+      <AccuracyLong>0.88</AccuracyLong>
+      <RangedWeapon_Cooldown>2.33</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_762_CP</defaultProjectile>
+        <warmupTime>4.07</warmupTime>
+        <range>80</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>SniperRifle</li>
+    </weaponTags>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_MachinePistol</defName>
+    <label>Uzi Submachine Gun</label>
+    <description>9mm SMG - The Uzi is an SMG primarily in service with the Israeli military since 1954 to present day, using the 9x19 Parabellum cartridge with a rate of fire of over 600 rounds per minute.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/MachinePistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <MarketValue>250</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.82</AccuracyShort>
+      <AccuracyMedium>0.46</AccuracyMedium>
+      <AccuracyLong>0.36</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>90</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
+        <warmupTime>2.19</warmupTime>
+        <range>15</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_HeavySMG</defName>
+    <label>Intratec TEC DC-9</label>
+    <description>9mm SMG - One of the sub-machines gun most used by criminals. Can be equiped with laser aim and a magazine of 32 or 50 bullets.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/HeavySMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <statBases>
+      <MarketValue>175</MarketValue>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.61</AccuracyShort>
+      <AccuracyMedium>0.21</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>130</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>10</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ==================== T-9 incendiary launcher ========================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_IncendiaryLauncher</defName>
+    <label>incendiary bolt</label>
+    <graphicData>
+      <texPath>Things/Projectile/LauncherShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>40</speed>
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <explosionRadius>1.1</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_IncendiaryLauncher</defName>
+    <label>T-9 incendiary launcher</label>
+    <description>Incendiary bolt launcher. Starts fires.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/IncendiaryLauncher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>22000</WorkToMake>
+      <Mass>3.4</Mass>
+      <MarketValue>630</MarketValue>
+      <AccuracyTouch>0.79</AccuracyTouch>
+      <AccuracyShort>0.42</AccuracyShort>
+      <AccuracyMedium>0.18</AccuracyMedium>
+      <AccuracyLong>0.06</AccuracyLong>
+      <RangedWeapon_Cooldown>1.66</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>140</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_IncendiaryLauncher</defaultProjectile>
+        <warmupTime>3.5</warmupTime>
+        <range>23.9</range>
+        <burstShotCount>1</burstShotCount>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ===================== L-15 LMG ========================= -->
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_LMG</defName>
+    <label>Militech M-77</label>
+    <description>5.56mm LMG - A very standard squad support weapon from Militech, belt fed and very durable.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/LMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <MarketValue>1575</MarketValue>
+      <Mass>8.5</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_LMG</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>25.9</range>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>6</burstShotCount>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>EliteGun</li>
+      <li>MilitechHeavy</li>
+      <li>LazarusHeavy</li>
+    </weaponTags>
+  </ThingDef>
+  <!-- ===================== Charge rifle ========================= -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ChargeRifle</defName>
+    <label>charge shot</label>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>24</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseRIFGun">
+    <defName>Gun_ChargeRifle</defName>
+    <label>Arasaka-UMAF Starburst</label>
+    <description>Laser Rifle - The big brother and slightly less sophisticated version of the Starlyte.  This rifle uses a much larger battery pack, which allows it to store more and slightly more powerful charges.  In all other aspects it is the same.  This weapon is to be issued exclusively to off-world United Military soldiers.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/ChargeRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>4.6</Mass>
+      <MarketValue>5000</MarketValue>
+      <AccuracyTouch>0.99</AccuracyTouch>
+      <AccuracyShort>0.97</AccuracyShort>
+      <AccuracyMedium>0.97</AccuracyMedium>
+      <AccuracyLong>0.91</AccuracyLong>
+      <RangedWeapon_Cooldown>1.16</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>120</Steel>
+      <Plasteel>30</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>AdvancedGun</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_ChargeRifle</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>45</range>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ======================= Heavy weapons ======================= -->
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_Minigun</defName>
+    <label>Dover GA-1112 Autogun</label>
+    <description>12mm machine gun - The GA-1112 is a man-portable machine gun chambered for 12mm Long Caseless ammunition. A double-barreled weapon, the GA-1112 feeds from an underside-mounted drum. Weighing about 15kg , it comes with a sling for support; an integral smartgun rig compensates for the hip-firing position. This weapon must be squeeze-cocked to start the motor (one combat round), and then it can be fired. The ultimate man-portable area-suppression weapon for cyborgs! This gun can also be mounted on a vehicle using swivel-clamp mounting, 1200-round ammo tank, and direct-from-motor power feed.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Minigun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <Mass>10</Mass>
+      <MarketValue>1100</MarketValue>
+      <AccuracyTouch>0.51</AccuracyTouch>
+      <AccuracyShort>0.45</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>MechanoidGunHeavy</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12mm_CP</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>30.9</range>
+        <burstShotCount>25</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_DoomsdayRocket</defName>
+    <label>doomsday rocket</label>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_DoomsdayRocket</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <explosionRadius>7.8</explosionRadius>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_DoomsdayRocket</defName>
+    <label>doomsday rocket launcher</label>
+    <description>A single-use rocket launcher for quick retribution.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/DoomsdayLauncher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1600</MarketValue>
+      <Mass>8</Mass>
+      <AccuracyTouch>1.0</AccuracyTouch>
+      <AccuracyShort>1.0</AccuracyShort>
+      <AccuracyMedium>1.0</AccuracyMedium>
+      <AccuracyLong>1.0</AccuracyLong>
+      <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <destroyOnDrop>false</destroyOnDrop>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_DoomsdayRocket</defaultProjectile>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
+        <warmupTime>4.5</warmupTime>
+        <range>40</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <onlyManualCast>true</onlyManualCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_TripleRocket</defName>
+    <label>Arasaka 3-Shot</label>
+    <description>70mm Missile Launcher - This three shot anti-tank missile launcher fires wire guided armor piercing HEAT missiles at the target.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/RocketLauncher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>19650</MarketValue>
+      <Mass>7</Mass>
+      <AccuracyTouch>0.98</AccuracyTouch>
+      <AccuracyShort>0.94</AccuracyShort>
+      <AccuracyMedium>0.91</AccuracyMedium>
+      <AccuracyLong>0.82</AccuracyLong>
+      <RangedWeapon_Cooldown>5.5</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>ArasakaHeavy</li>
+    </weaponTags>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_70mmMissile</defaultProjectile>
+        <forcedMissRadius>2.0</forcedMissRadius>
+        <warmupTime>5.0</warmupTime>
+        <range>300</range>
+        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <onlyManualCast>true</onlyManualCast>
+        <stopBurstWithoutLos>false</stopBurstWithoutLos>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ================= Mechanoid weapons ================= -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ChargeBlasterHeavy</defName>
+    <label>charge blaster shot</label>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>72</damageAmountBase>
+      <speed>90</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_ChargeBlasterHeavy</defName>
+    <label>Militech AM-5</label>
+    <description>30mmEHI Antimatter Rifle - Merely a larger version of Militech's AM-3 anti-matter Rifle.  Aesthetically the two are the same, although since the weapon is meant for use with mechanoids and full conversion individuals the grip assembly is a bit larger.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/ChargeBlasterHeavy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>6450</MarketValue>
+      <Mass>22</Mass>
+      <AccuracyTouch>0.99</AccuracyTouch>
+      <AccuracyShort>0.97</AccuracyShort>
+      <AccuracyMedium>0.97</AccuracyMedium>
+      <AccuracyLong>0.91</AccuracyLong>
+      <RangedWeapon_Cooldown>4.4</RangedWeapon_Cooldown>
+    </statBases>
+    <tradeability>None</tradeability>
+    <techLevel>Spacer</techLevel>
+    <destroyOnDrop>False</destroyOnDrop>
+    <menuHidden>False</menuHidden>
+    <weaponTags>
+      <li>MechanoidGunHeavy</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
+        <warmupTime>1.25</warmupTime>
+        <range>160</range>
+        <soundCast>Shot_ChargeBlaster</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_InfernoCannon</defName>
+    <label>inferno cannon shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/LauncherShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+      <speed>45</speed>
+      <explosionRadius>2.4</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.27</preExplosionSpawnChance>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_InfernoCannon</defName>
+    <label>inferno cannon</label>
+    <description>Incendiary-shot mini-artillery device. Mechanoid-built.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/InfernoCannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2400</MarketValue>
+      <Mass>18</Mass>
+      <AccuracyTouch>0.79</AccuracyTouch>
+      <AccuracyShort>0.42</AccuracyShort>
+      <AccuracyMedium>0.18</AccuracyMedium>
+      <AccuracyLong>0.06</AccuracyLong>
+      <RangedWeapon_Cooldown>8.4</RangedWeapon_Cooldown>
+    </statBases>
+    <tradeability>None</tradeability>
+    <techLevel>Spacer</techLevel>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <weaponTags>
+      <li>MechanoidGunHeavy</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_InfernoCannon</defaultProjectile>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>1.25</warmupTime>
+        <range>27</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ChargeLance</defName>
+    <label>charge lance shot</label>
+    <graphicData>
+      <texPath>Things/Projectile/ChargeLanceShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>60</damageAmountBase>
+      <speed>120</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_ChargeLance</defName>
+    <label>Arasaka Firelance Railgun</label>
+    <description>The finest Railgun you can get.  Arasaka has jumped ahead of the competition with thier latest design, which has been a source of some amount of scandal when Militech accused them of stealing the plans earlier this year upon its introduction.  The weapon features a removable ammo/power pack that requires 3 rounds to change.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/ChargeLance</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>20000</MarketValue>
+      <Mass>8</Mass>
+      <AccuracyTouch>1.0</AccuracyTouch>
+      <AccuracyShort>1.0</AccuracyShort>
+      <AccuracyMedium>1.0</AccuracyMedium>
+      <AccuracyLong>1.0</AccuracyLong>
+      <RangedWeapon_Cooldown>9.0</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <destroyOnDrop>False</destroyOnDrop>
+    <menuHidden>False</menuHidden>
+    <weaponTags>
+      <li>MechanoidGunMedium</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_ChargeLance</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>150</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+</Defs>

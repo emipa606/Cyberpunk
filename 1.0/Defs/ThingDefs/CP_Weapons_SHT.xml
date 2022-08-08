@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef Name="BaseSHTGun" ParentName="BaseGun" Abstract="True">
+    <statBases>
+      <Mass>3.4</Mass>
+    </statBases>
+    <smeltProducts>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </smeltProducts>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- =================== Arasaka KAI ================== -->
+  <ThingDef ParentName="BaseSHTGun">
+    <defName>Gun_AKAI_CP</defName>
+    <label>Arasaka KAI</label>
+    <description>10ga shotgun - Arsaka's latest combat shotgun, chambered in 10 gauge, this semi-auto weapon is tube fed.  Excellent for house to house combat.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AKAI</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <MarketValue>750</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.84</AccuracyShort>
+      <AccuracyMedium>0.71</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10ga_CP</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>6</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>21</ticksBetweenBurstShots>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech CSH-45 ================== -->
+  <ThingDef ParentName="BaseSHTGun">
+    <defName>Gun_MCSH45_CP</defName>
+    <label>Militech CSH-45</label>
+    <description>10ga shotgun - Big, mean, intimidating.  This 10 gauge shotgun switches between pump and semi auto with the flip of a button.  The whippet grip and folding stock are nice touches as well.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MCSH45</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <MarketValue>625</MarketValue>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10ga_CP</defaultProjectile>
+        <warmupTime>2.8</warmupTime>
+        <range>6</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Arasaka Rapid Assault 12 ================== -->
+  <ThingDef ParentName="BaseSHTGun">
+    <defName>Gun_ARA12_CP</defName>
+    <label>Arasaka Rapid Assault 12</label>
+    <description>12ga shotgun - The Arasaka Rapid Assault 12 is a high powered auto-shotgun with lethal firepower. Used by Arasaka worldwide. Another good reason to avoid the Boys in Black.</description>
+    <graphicData>
+      <texPath>CP/Weapon/ARA12</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <MarketValue>900</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.84</AccuracyShort>
+      <AccuracyMedium>0.71</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>6</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>32</ticksBetweenBurstShots>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Dai Lung URBCOM ================== -->
+  <ThingDef ParentName="BaseSHTGun">
+    <defName>Gun_DLU_CP</defName>
+    <label>Dai Lung URBCOM</label>
+    <description>12ga shotgun - Well, Dai-Lung finally got something right.  Their new pump action shotgun is actually fairly reliable and combat competent.</description>
+    <graphicData>
+      <texPath>CP/Weapon/DLU</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>215</MarketValue>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <destroyOnDrop>false</destroyOnDrop>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
+        <warmupTime>2.8</warmupTime>
+        <range>6</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== BudgetArms 12-20 ================== -->
+  <ThingDef ParentName="BaseSHTGun">
+    <defName>Gun_BA1220_CP</defName>
+    <label>BudgetArms 12-20</label>
+    <description>12ga shotgun - This may be a little too much.  It's a pump action weapon, with the ammo tube extending the entire length of the firearm.  Its stock is nearly worthless, though supposedly the weapon is meant to be fired from the hip.  So what you end up with is a monster sized, very heavy weapon that you can't really aim.  Thanks Budget Arms, for giving the gangers even more useless crap.  At least it doesn't blow up in your face though.</description>
+    <graphicData>
+      <texPath>CP/Weapon/BA1220</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <MarketValue>335</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.84</AccuracyShort>
+      <AccuracyMedium>0.71</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <destroyOnDrop>false</destroyOnDrop>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.09</MoveSpeed>
+      <WorkSpeedGlobal>-0.09</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
+        <warmupTime>2.8</warmupTime>
+        <range>5</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Federated Arms IRBS ================== -->
+  <ThingDef ParentName="BaseSHTGun">
+    <defName>Gun_FAIRBS_CP</defName>
+    <label>Federated Arms IRBS</label>
+    <description>12ga shotgun - Pistol grip, long barrel and choke, and ugly, everything you could want in a shotgun.  Popular with private security forces and as a home defense weapon.</description>
+    <graphicData>
+      <texPath>CP/Weapon/FAIRBS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>580</MarketValue>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <destroyOnDrop>false</destroyOnDrop>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
+        <warmupTime>2.8</warmupTime>
+        <range>6</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech ASG-16D ================== -->
+  <ThingDef ParentName="BaseSHTGun">
+    <defName>Gun_MASG16D_CP</defName>
+    <label>Militech ASG-16D</label>
+    <description>12ga shotgun - A nice bullpup shotgun design from Militech that loads from a rotary drum magazine.   Made by Militech for riot duty, it is most useful when used with mixed loads.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MASG16D</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <MarketValue>845</MarketValue>
+      <AccuracyTouch>0.98</AccuracyTouch>
+      <AccuracyShort>0.94</AccuracyShort>
+      <AccuracyMedium>0.89</AccuracyMedium>
+      <AccuracyLong>0.82</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
+        <warmupTime>2.8</warmupTime>
+        <range>6</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech S-442 ================== -->
+  <ThingDef ParentName="BaseSHTGun">
+    <defName>Gun_Mss42_CP</defName>
+    <label>Militech S-442</label>
+    <description>12ga shotgun - This full auto shotgun is perfect for sweeping rooms and completely clearing out the opposition.  While a bit heavy, the firepower of this beast more than makes up for any other shortcomings.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MS442</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
+    <statBases>
+      <MarketValue>1710</MarketValue>
+      <AccuracyTouch>0.97</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.83</AccuracyMedium>
+      <AccuracyLong>0.73</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>6</range>
+        <burstShotCount>10</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Sternmeyer SH-8 ================== -->
+  <ThingDef ParentName="BaseSHTGun">
+    <defName>Gun_SSH8_CP</defName>
+    <label>Sternmeyer SH-8</label>
+    <description>12ga shotgun - The SH-8 is a helical drum fed 12ga. shotgun that features a hinged front handle allowing it to either extend downward or to the side.</description>
+    <graphicData>
+      <texPath>CP/Weapon/SSH8</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <MarketValue>1025</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.84</AccuracyShort>
+      <AccuracyMedium>0.71</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>Sternmeyer</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>6</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>64</ticksBetweenBurstShots>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Sternmeyer Stakeout 10 ================== -->
+  <ThingDef ParentName="BaseSHTGun">
+    <defName>Gun_SS10_CP</defName>
+    <label>Sternmeyer Stakeout 10</label>
+    <description>12ga shotgun - The Sternmeyer Stakeout 10 is a light duty stakeout shotgun used by city security forces.</description>
+    <graphicData>
+      <texPath>CP/Weapon/SS10</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <generateCommonality>0.5</generateCommonality>
+    <statBases>
+      <MarketValue>450</MarketValue>
+      <AccuracyTouch>0.94</AccuracyTouch>
+      <AccuracyShort>0.81</AccuracyShort>
+      <AccuracyMedium>0.66</AccuracyMedium>
+      <AccuracyLong>0.46</AccuracyLong>
+      <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+    </statBases>
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>Sternmeyer</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12ga_CP</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>6</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Dai Lung SP-2040 ================== -->
+  <ThingDef ParentName="BaseSHTGun">
+    <defName>Gun_DLSP2040_CP</defName>
+    <label>Dai Lung SP-2040</label>
+    <description>20ga shotgun - This 12 shot semi-auto shotgun from Dai Lung is actually apretty decent weapon.  A bt underpowered for police work and a bit flashy for hunting, but it isn’t the garbage that Dai Lung usually puts out.</description>
+    <graphicData>
+      <texPath>CP/Weapon/DLSP2040</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
+    <statBases>
+      <MarketValue>280</MarketValue>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <destroyOnDrop>false</destroyOnDrop>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_20ga_CP</defaultProjectile>
+        <warmupTime>2.8</warmupTime>
+        <range>6</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Federated Arms Cheesemaker ================== -->
+  <ThingDef ParentName="BaseSHTGun">
+    <defName>Gun_FACM_CP</defName>
+    <label>Federated Arms Cheesemaker</label>
+    <description>20ga shotgun pistol - A nice little pistol sized .20ga shotgun, built to compete with Militech's Crusher.  Actually the sales of this weapon have surpassed those of the Crusher, due to this weapons lower price tag.</description>
+    <graphicData>
+      <texPath>CP/Weapon/FACM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
+    <statBases>
+      <MarketValue>325</MarketValue>
+      <AccuracyTouch>0.94</AccuracyTouch>
+      <AccuracyShort>0.81</AccuracyShort>
+      <AccuracyMedium>0.66</AccuracyMedium>
+      <AccuracyLong>0.46</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <destroyOnDrop>false</destroyOnDrop>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_20ga_CP</defaultProjectile>
+        <warmupTime>2.8</warmupTime>
+        <range>5</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech Crusher SSG ================== -->
+  <ThingDef ParentName="BaseSHTGun">
+    <defName>Gun_MCSSG_CP</defName>
+    <label>Militech Crusher SSG</label>
+    <description>20ga shotgun pistol - A small .20 gauge shotgun pistol makes an excellent sidearm for up close encounters, especially for those who have problems with accuracy.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MCSSG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <MarketValue>450</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.84</AccuracyShort>
+      <AccuracyMedium>0.71</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+    </statBases>
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_20ga_CP</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>6</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+</Defs>

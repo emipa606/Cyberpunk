@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef Name="BaseHVYGun" ParentName="BaseGun" Abstract="True">
+    <statBases>
+      <Mass>8.5</Mass>
+    </statBases>
+    <smeltable>true</smeltable>
+    <smeltProducts>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </smeltProducts>
+    <generateCommonality>0.5</generateCommonality>
+    <weaponTags>
+      <li>GunHeavy</li>
+      <li>EliteGun</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ======================= Arasaka Light 20mm ======================= -->
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_AL20_CP</defName>
+    <label>Arasaka Light 20mm</label>
+    <description>The cyberpsycho hunter's favorite. Almost 2m long, this cannon fires a depleted uranium shell at supersonic speeds.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AL20</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <smeltable>true</smeltable>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>ArasakaHeavy</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_AL20_CP</defaultProjectile>
+        <warmupTime>2.2</warmupTime>
+        <range>50</range>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ======================= Militech Renegade ======================= -->
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_MR_CP</defName>
+    <label>Militech Renegade</label>
+    <description>The cyberpsycho hunter's favorite. Almost 2m long, this cannon fires a depleted uranium shell at supersonic speeds.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MR</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <smeltable>true</smeltable>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>MilitechHeavy</li>
+      <li>LazarusHeavy</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_65mm_CP</defaultProjectile>
+        <warmupTime>0.87</warmupTime>
+        <burstShotCount>10</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <range>40</range>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ======================= Arasaka G-1141 ======================= -->
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_AG1141_CP</defName>
+    <label>Arasaka G-1141</label>
+    <description>40mm Missile Launcher - A very rare micro-missile benifitting from a small turning circle and fast reaction to target movements. Ideal for use against armored targets.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AG1141</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <smeltable>true</smeltable>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>7</Mass>
+      <AccuracyTouch>0.97</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.84</AccuracyMedium>
+      <AccuracyLong>0.73</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>ArasakaHeavy</li>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+      <li>Exotic</li>
+    </tradeTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_40mmMissile</defaultProjectile>
+        <forcedMissRadius>2.0</forcedMissRadius>
+        <warmupTime>1.5</warmupTime>
+        <range>70</range>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <onlyManualCast>true</onlyManualCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ======================= Militech RPG-A ======================= -->
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_MRPGA_CP</defName>
+    <label>Militech RPG-A</label>
+    <description>Grenade Launcher - The old bazooka concept of the reloadable rocket launcher made a comeback with this 67mm rocket-grenade launcher.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MRPGA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <smeltable>true</smeltable>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <Mass>7</Mass>
+      <AccuracyTouch>0.48</AccuracyTouch>
+      <AccuracyShort>0.36</AccuracyShort>
+      <AccuracyMedium>0.05</AccuracyMedium>
+      <AccuracyLong>0.05</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <destroyOnDrop>false</destroyOnDrop>
+    <weaponTags>
+      <li>MilitechHeavy</li>
+    </weaponTags>
+    <tradeTags>
+      <li>CP</li>
+      <li>Exotic</li>
+    </tradeTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Proj_RocketGrenade</defaultProjectile>
+        <forcedMissRadius>1.0</forcedMissRadius>
+        <warmupTime>1.5</warmupTime>
+        <range>75</range>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <onlyManualCast>true</onlyManualCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <muzzleFlashScale>4</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ======================= Militech AM-3 ======================= -->
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_MAM3_CP</defName>
+    <label>Militech AM-3</label>
+    <description>30mmEHI Antimatter Rifle - This 30mm rifle uses rocket-boosted, depleted-uranium 30mm shells to smash combat `borgs, powered armor, and mechanoids. Equipped with a hydro-pneumatic recoil system, advanced muzzle brake, and shock-absorbing stock and bipod. The AM-3 comes with a cyberoptic smartgun interlock and a 2-10x variable scope w/low-light and thermal-imaging options.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MAM3</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <smeltable>true</smeltable>
+    <statBases>
+      <MarketValue>6000</MarketValue>
+      <Mass>25</Mass>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>4.4</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>MilitechHeavy</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
+        <warmupTime>1.25</warmupTime>
+        <range>160</range>
+        <soundCast>Shot_ChargeBlaster</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ======================= Militech BMFG ======================= -->
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_MBMFG_CP</defName>
+    <label>Militech BMFG</label>
+    <description>30mm Plasma Cannon - Advances in electrothermal propellent technology have mad a greate many guns shoot harder and faster. Militech figured why not make a big gun fire the same, but make the gun lighter? The answer is the BMFG, a truly man-portable 30mm cannon. The cannon can not be fired from the shoulder, some sort of smart chipping is highly recommended.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MBMFG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <smeltable>true</smeltable>
+    <statBases>
+      <MarketValue>4500</MarketValue>
+      <Mass>35</Mass>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>MilitechHeavy</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_30mmPlasma</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>60</range>
+        <soundCast>Shot_ChargeBlaster</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ======================= Militech	M95A1 ======================= -->
+  <ThingDef ParentName="BaseHVYGun">
+    <defName>Gun_MM95A1_CP</defName>
+    <label>Militech M95A1</label>
+    <description>Railgun. In a joint venture funded by the United Military, Militech has taken the railgun conclusion another frightening step forward. 3 large electro-magnets power the weapon, and it is easily reloaded using easy to produce slugs made from ball bearings.  It's only slightly larger and more cumbersome than a heavy assault rifle, though the recoil is much more severe. How they managed to make a man portable railgun this small is anyone’s guess.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MM95A1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
+    <smeltable>true</smeltable>
+    <statBases>
+      <MarketValue>8900</MarketValue>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
+    <techLevel>Spacer</techLevel>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.35</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_eap_CP</defaultProjectile>
+        <warmupTime>2.2</warmupTime>
+        <range>100</range>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+</Defs>

@@ -1,12 +1,9 @@
-﻿using RimWorld;
-using Verse;
+using RimWorld;
 
-namespace Cyberpunk
+namespace Cyberpunk;
+
+[DefOf]
+public static class StatDefOf_CP
 {
-    [DefOf]
-    public static class StatDefOf_CP
-    {
-        public static readonly StatDef reliability = StatDef.Named("reliability"); // for gun reliability
-
-    }
+    public static readonly StatDef reliability = StatDef.Named("reliability");
 }

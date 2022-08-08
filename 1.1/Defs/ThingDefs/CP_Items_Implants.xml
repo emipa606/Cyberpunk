@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="ImplantBase_CP" Abstract="True">
+    <label>implant</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Beauty>-4</Beauty>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isTechHediff>true</isTechHediff>
+    <tradeTags>
+      <li>BodyPartOrImplant</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <thingCategories>
+      <li>BodyParts</li>
+    </thingCategories>
+    <pathCost>10</pathCost>
+    <thingSetMakerTags>
+      <li>SpecialReward</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef Name="BodyPartBase_CP" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>-4</Beauty>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isTechHediff>true</isTechHediff>
+    <tradeTags>
+      <li>BodyPartOrImplant</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <pathCost>10</pathCost>
+    <thingCategories>
+      <li>BodyParts</li>
+    </thingCategories>
+    <thingSetMakerTags>
+      <li>SpecialReward</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!-- neuralware -->
+  <ThingDef ParentName="ImplantBase_CP">
+    <defName>Speedware</defName>
+    <label>speedware</label>
+    <description>Kicks in when desired, eliminating much of the need to adopt to one's entire life to an inhumanly fast reaction time.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1600</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="ImplantBase_CP">
+    <defName>SubdermalArmor_CP</defName>
+    <label>subdermal armor</label>
+    <description>This is a mesh/ballistic plasteel armor inserted under the skin.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>1.0</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Armor</li>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="ImplantBase_CP">
+    <defName>SkinWeave_CP</defName>
+    <label>skin weave</label>
+    <description>This enhancement uses nanoids to weave the top three layers of skin with a dense plasteel thread. The result is equivalent to light body armor.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Armor</li>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="ImplantBase_CP">
+    <defName>Thermaskin_CP</defName>
+    <label>thermaskin</label>
+    <description>Tired of being cold, but not cool? Thermaskin is like having an insulated parka under your hide! It is a protective layer of insulative material which is nanotechnically woven under the skin.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Armor</li>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>Scratchers_CP</defName>
+    <label>scratchers</label>
+    <description>Implanted metal or plasteel fingernails. The incredible sharpness of the material makes these as deadly as razor blades.
+Scratchers cut on the bias, requireing the user to slice crossways, not rip downwards. Most people lacquer their wscratchers, making them indistinguishable from normal nails. These are not considered lethal cyberwear, and can be purchased in any local clinic.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>0.4</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Weapon</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>Rippers_CP</defName>
+    <label>rippers</label>
+    <description>Longer, heavier version of scratchers. The top two joints of each finger are replaced with a plasteel sheath in which 3 inch carbo-glas claws are housed.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Weapon</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>Wolvers_CP</defName>
+    <label>wolvers</label>
+    <description>The longest and deadliest of the implant blades, wolvers are implanted along the back of the hand. When the hand is clenched in a fist, the thin, triangular blades telescope and lock into place, remaining extended a full foot until the hand is relaxed.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>600</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Weapon</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>BigKnucks_CP</defName>
+    <label>bigknucks</label>
+    <description>Reinforced knucklebones, giving the fist the impact value of a brass knuckle.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>0.4</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Weapon</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>GraftedMuscle_CP</defName>
+    <label>grafted muscle</label>
+    <description>This is vat-grown muscle to be grafted onto the existing muscles.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>Faceplate_CP</defName>
+    <label>faceplate</label>
+    <description>The standard faceplate covers the entire face, with ports for eating, breathing and seeing. The armored plasteel is woven fine myomar muscle fibers and is relatively flexible. Facial nervelinks allow limited changes of expression. This modification doesn't have to be ugly; many people find the silvery contours to be quite attractive.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Armor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>Cowlplate_CP</defName>
+    <label>cowl plate</label>
+    <description>This is a body plate that covers the skull. It is anchored by minibolts to the scalp, and resembles the bad skullcaps from bad science fiction or fantasy epics.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Armor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>Torsoplate_CP</defName>
+    <label>torso plate</label>
+    <description>The torso plate covers the entire upper and lower torso, back and front, with expansion joints on the sides, groin and waist to allow free movement.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>1.0</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Armor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="ImplantBase_CP">
+    <defName>Optishield_CP</defName>
+    <label>optishield</label>
+    <description>This bulletproof mirrorshade is built into the housings in the forehead and orbital ridge over one eye. The mirrord lens encloses the eye socket to provide protection for the eye.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>150</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Standard</li>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <!-- Organs -->
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>CyberLiver_CP</defName>
+    <label>T-Maxx Cyberliver</label>
+    <description>Party longer with the T-Maxx Cyberliver. Micropore Filter units equipped with the new T-Maxx electrochemical diffusion process can filter out alcohol and most cardio-vascular poisons and drugs.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>450</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>CyberLiver2_CP</defName>
+    <label>T-Maxx Cyberliver II</label>
+    <description>The T-Maxx Cyberliber II builds on the previous version by adding in a convenient fluid rerouting system, allowing the cyberliver to be even more effective.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>850</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>CyberHeart_CP</defName>
+    <label>Pacesetter Sport Heart</label>
+    <description>This rapid action turbopump heart is for the physically oriented. It is capable of increasing circulation many time over, effectively boosting physical performace.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>900</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>CyberHeart2_CP</defName>
+    <label>Pacesetter 2000 Heart</label>
+    <description>The Pacesetter 2000 is the ultimate in high-performance organware. This sophisticated heart's overdrive boosts the body when needed.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>985</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>CyberLung_CP</defName>
+    <label>Enhanced Lung</label>
+    <description>This lung is cyber-enhanced with synthetic filters and oxygen superchargers.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>700</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_CP">
+    <defName>CyberLung2_CP</defName>
+    <label>Enhanced Lung Series 2</label>
+    <description>The ELS-2 goes beyond the original enhanced lung by replacing the entire respiratory system with an enhanced synthetics/plasteel architecture.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>5000</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+</Defs>

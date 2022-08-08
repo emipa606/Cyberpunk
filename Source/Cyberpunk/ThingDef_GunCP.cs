@@ -1,44 +1,37 @@
-﻿using RimWorld;
 using System;
 using Verse;
 
-namespace Cyberpunk
+namespace Cyberpunk;
+
+public class ThingDef_GunCP : ThingWithComps
 {
-    public class ThingDef_GunCP : ThingWithComps
+    public Reliability reliability
     {
-        public Reliability reliability
+        get
         {
-            get
+            foreach (var verb in def.Verbs)
             {
-                foreach (VerbProperties v in def.Verbs)
+                if (verb.GetType() == Type.GetType("Cyberpunk.VerbPropertiesCP"))
                 {
-                    if (v.GetType() == Type.GetType("Cyberpunk.VerbPropertiesCP"))
-                    {
-                        return ((VerbPropertiesCP)v).reliability;
-                    }
+                    return ((VerbPropertiesCP)verb).reliability;
                 }
-                return Reliability.NA;
             }
-        }
-        public override string GetInspectString()
-        {
-            string result = base.GetInspectString();
-            string reliabilityString;
-            float jamsOn;
-            StatPart_Reliability.GetReliability(this, out reliabilityString, out jamsOn);
 
-            result += string.Format("\r\nReliability: {0}\r\nChance of jam: {1}%", reliabilityString, jamsOn);
-            return result;
+            return Reliability.NA;
         }
+    }
 
-        public override void ExposeData()
-        {
-            base.ExposeData();
-            string reliabilityString;
-            float jamsOn;
-            StatPart_Reliability.GetReliability(this, out reliabilityString, out jamsOn);
+    public override string GetInspectString()
+    {
+        var inspectString = base.GetInspectString();
+        StatPart_Reliability.GetReliability(this, out var rel, out var jamsOn);
+        return $"{inspectString}\r\nReliability: {rel}\r\nChance of jam: {jamsOn}%";
+    }
 
-            Scribe_Values.Look<string>(ref reliabilityString, "reliability", "NA", false);
-        }
+    public override void ExposeData()
+    {
+        base.ExposeData();
+        StatPart_Reliability.GetReliability(this, out var rel, out var _);
+        Scribe_Values.Look(ref rel, "reliability", "NA");
     }
 }

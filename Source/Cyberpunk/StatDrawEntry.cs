@@ -1,184 +1,178 @@
-﻿using RimWorld;
 using System;
 using System.Text;
+using RimWorld;
 using UnityEngine;
 using Verse;
 
-namespace Cyberpunk
+namespace Cyberpunk;
+
+public class StatDrawEntry
 {
-    public class StatDrawEntry
+    private readonly int displayOrderWithinCategory;
+
+    private readonly string labelInt;
+
+    private readonly ToStringNumberSense numberSense;
+
+    private readonly float value;
+
+    private readonly string valueStringInt;
+    public StatCategoryDef category;
+
+    public bool hasOptionalReq;
+
+    public StatRequest optionalReq;
+
+    public string overrideReportText;
+
+    public StatDef stat;
+
+    public StatDrawEntry(StatCategoryDef category, StatDef stat, float value, StatRequest optionalReq,
+        ToStringNumberSense numberSense = ToStringNumberSense.Undefined)
     {
-        public StatCategoryDef category;
+        this.category = category;
+        this.stat = stat;
+        labelInt = null;
+        this.value = value;
+        valueStringInt = null;
+        displayOrderWithinCategory = 0;
+        this.optionalReq = optionalReq;
+        hasOptionalReq = true;
+        this.numberSense = numberSense == ToStringNumberSense.Undefined ? stat.toStringNumberSense : numberSense;
+    }
 
-        private int displayOrderWithinCategory;
+    public StatDrawEntry(StatCategoryDef category, string label, string valueString,
+        int displayPriorityWithinCategory = 0)
+    {
+        this.category = category;
+        stat = null;
+        labelInt = label;
+        value = 0f;
+        valueStringInt = valueString;
+        displayOrderWithinCategory = displayPriorityWithinCategory;
+        numberSense = ToStringNumberSense.Absolute;
+    }
 
-        public StatDef stat;
+    public bool ShouldDisplay => stat == null || !Mathf.Approximately(value, stat.hideAtValue);
 
-        private float value;
-
-        public StatRequest optionalReq;
-
-        public bool hasOptionalReq;
-
-        private string labelInt;
-
-        private string valueStringInt;
-
-        public string overrideReportText;
-
-        private ToStringNumberSense numberSense;
-
-        public bool ShouldDisplay
+    public string LabelCap
+    {
+        get
         {
-            get
+            if (labelInt != null)
             {
-                return this.stat == null || !Mathf.Approximately(this.value, this.stat.hideAtValue);
+                return labelInt.CapitalizeFirst();
             }
+
+            return stat.LabelCap;
+        }
+    }
+
+    public string ValueString
+    {
+        get
+        {
+            if (numberSense == ToStringNumberSense.Factor)
+            {
+                return value.ToStringByStyle(ToStringStyle.PercentZero);
+            }
+
+            if (stat != null)
+            {
+                return stat.Worker.GetStatDrawEntryLabel(stat, value, numberSense, optionalReq);
+            }
+
+            return valueStringInt;
+        }
+    }
+
+    public int DisplayPriorityWithinCategory
+    {
+        get
+        {
+            if (stat != null)
+            {
+                return stat.displayPriorityInCategory;
+            }
+
+            return displayOrderWithinCategory;
+        }
+    }
+
+    public string GetExplanationText(StatRequest optionalReq)
+    {
+        if (!overrideReportText.NullOrEmpty())
+        {
+            return overrideReportText;
         }
 
-        public string LabelCap
+        if (stat == null)
         {
-            get
-            {
-                if (this.labelInt != null)
-                {
-                    return this.labelInt.CapitalizeFirst();
-                }
-                return this.stat.LabelCap;
-            }
+            return string.Empty;
         }
 
-        public string ValueString
+        var stringBuilder = new StringBuilder();
+        stringBuilder.AppendLine(stat.LabelCap);
+        stringBuilder.AppendLine();
+        stringBuilder.AppendLine(stat.description);
+        stringBuilder.AppendLine();
+        if (optionalReq.Empty)
         {
-            get
-            {
-                if (this.numberSense == ToStringNumberSense.Factor)
-                {
-                    return this.value.ToStringByStyle(ToStringStyle.PercentZero, ToStringNumberSense.Absolute);
-                }
-                if (this.stat != null)
-                {
-                    return this.stat.Worker.GetStatDrawEntryLabel(this.stat, this.value, this.numberSense, this.optionalReq);
-                }
-                return this.valueStringInt;
-            }
-        }
-
-        public int DisplayPriorityWithinCategory
-        {
-            get
-            {
-                if (this.stat != null)
-                {
-                    return this.stat.displayPriorityInCategory;
-                }
-                return this.displayOrderWithinCategory;
-            }
-        }
-
-        public StatDrawEntry(StatCategoryDef category, StatDef stat, float value, StatRequest optionalReq, ToStringNumberSense numberSense = ToStringNumberSense.Undefined)
-        {
-            this.category = category;
-            this.stat = stat;
-            this.labelInt = null;
-            this.value = value;
-            this.valueStringInt = null;
-            this.displayOrderWithinCategory = 0;
-            this.optionalReq = optionalReq;
-            this.hasOptionalReq = true;
-            if (numberSense == ToStringNumberSense.Undefined)
-            {
-                this.numberSense = stat.toStringNumberSense;
-            }
-            else
-            {
-                this.numberSense = numberSense;
-            }
-        }
-
-        public StatDrawEntry(StatCategoryDef category, string label, string valueString, int displayPriorityWithinCategory = 0)
-        {
-            this.category = category;
-            this.stat = null;
-            this.labelInt = label;
-            this.value = 0f;
-            this.valueStringInt = valueString;
-            this.displayOrderWithinCategory = displayPriorityWithinCategory;
-            this.numberSense = ToStringNumberSense.Absolute;
-        }
-
-        public string GetExplanationText(StatRequest optionalReq)
-        {
-            if (!this.overrideReportText.NullOrEmpty())
-            {
-                return this.overrideReportText;
-            }
-            if (this.stat == null)
-            {
-                return string.Empty;
-            }
-            StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.AppendLine(this.stat.LabelCap);
-            stringBuilder.AppendLine();
-            stringBuilder.AppendLine(this.stat.description);
-            stringBuilder.AppendLine();
-            if (!optionalReq.Empty)
-            {
-                if (this.stat.Worker.IsDisabledFor(optionalReq.Thing))
-                {
-                    stringBuilder.AppendLine("StatsReport_PermanentlyDisabled".Translate());
-                }
-                else
-                {
-                    stringBuilder.AppendLine(this.stat.Worker.GetExplanationUnfinalized(optionalReq, this.numberSense).TrimEndNewlines());
-                    stringBuilder.AppendLine();
-                    stringBuilder.AppendLine(this.stat.Worker.GetExplanationFinalizePart(optionalReq, this.numberSense, this.value));
-                }
-            }
             return stringBuilder.ToString();
         }
 
-        public float Draw(float x, float y, float width, bool selected, Action clickedCallback)
+        if (stat.Worker.IsDisabledFor(optionalReq.Thing))
         {
-            float num = width * 0.45f;
-            Rect rect = new Rect(8f, y, width, Text.CalcHeight(this.ValueString, num));
-            if (selected)
-            {
-                Widgets.DrawHighlightSelected(rect);
-            }
-            else if (Mouse.IsOver(rect))
-            {
-                Widgets.DrawHighlight(rect);
-            }
-            Rect rect2 = rect;
-            rect2.width -= num;
-            Widgets.Label(rect2, this.LabelCap);
-            Rect rect3 = rect;
-            rect3.x = rect2.xMax;
-            rect3.width = num;
-            Widgets.Label(rect3, this.ValueString);
-            if (this.stat != null)
-            {
-                StatDef localStat = this.stat;
-                TooltipHandler.TipRegion(rect, new TipSignal(() => localStat.LabelCap + ": " + localStat.description, this.stat.GetHashCode()));
-            }
-            if (Widgets.ButtonInvisible(rect, false))
-            {
-                clickedCallback();
-            }
-            return rect.height;
+            stringBuilder.AppendLine("StatsReport_PermanentlyDisabled".Translate());
+        }
+        else
+        {
+            stringBuilder.AppendLine(stat.Worker.GetExplanationUnfinalized(optionalReq, numberSense)
+                .TrimEndNewlines());
+            stringBuilder.AppendLine();
+            stringBuilder.AppendLine(stat.Worker.GetExplanationFinalizePart(optionalReq, numberSense, value));
         }
 
-        public override string ToString()
+        return stringBuilder.ToString();
+    }
+
+    public float Draw(float x, float y, float width, bool selected, Action clickedCallback)
+    {
+        var num = width * 0.45f;
+        var rect = new Rect(8f, y, width, Text.CalcHeight(ValueString, num));
+        if (selected)
         {
-            return string.Concat(new string[]
-            {
-                "(",
-                this.LabelCap,
-                ": ",
-                this.ValueString,
-                ")"
-            });
+            Widgets.DrawHighlightSelected(rect);
         }
+        else if (Mouse.IsOver(rect))
+        {
+            Widgets.DrawHighlight(rect);
+        }
+
+        var rect2 = rect;
+        rect2.width -= num;
+        Widgets.Label(rect2, LabelCap);
+        var rect3 = rect;
+        rect3.x = rect2.xMax;
+        rect3.width = num;
+        Widgets.Label(rect3, ValueString);
+        if (stat != null)
+        {
+            var localStat = stat;
+            TooltipHandler.TipRegion(rect,
+                new TipSignal(() => localStat.LabelCap + ": " + localStat.description, stat.GetHashCode()));
+        }
+
+        if (Widgets.ButtonInvisible(rect, false))
+        {
+            clickedCallback();
+        }
+
+        return rect.height;
+    }
+
+    public override string ToString()
+    {
+        return $"({LabelCap}: {ValueString})";
     }
 }
