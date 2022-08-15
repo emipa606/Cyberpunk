@@ -9,6 +9,11 @@ public class ThingDef_GunCP : ThingWithComps
     {
         get
         {
+            if (!CyberpunkMod.instance.Settings.Durability)
+            {
+                return Reliability.NA;
+            }
+
             foreach (var verb in def.Verbs)
             {
                 if (verb.GetType() == Type.GetType("Cyberpunk.VerbPropertiesCP"))
@@ -23,6 +28,11 @@ public class ThingDef_GunCP : ThingWithComps
 
     public override string GetInspectString()
     {
+        if (!CyberpunkMod.instance.Settings.Durability)
+        {
+            return base.GetInspectString();
+        }
+
         var inspectString = base.GetInspectString();
         StatPart_Reliability.GetReliability(this, out var rel, out var jamsOn);
         return $"{inspectString}\r\nReliability: {rel}\r\nChance of jam: {jamsOn}%";
@@ -31,7 +41,7 @@ public class ThingDef_GunCP : ThingWithComps
     public override void ExposeData()
     {
         base.ExposeData();
-        StatPart_Reliability.GetReliability(this, out var rel, out var _);
+        StatPart_Reliability.GetReliability(this, out var rel, out _);
         Scribe_Values.Look(ref rel, "reliability", "NA");
     }
 }

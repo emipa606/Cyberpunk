@@ -7,7 +7,8 @@ internal class StatPart_Reliability : StatPart
 {
     public override void TransformValue(StatRequest req, ref float val)
     {
-        if (!req.HasThing || req.Thing.GetType() != Type.GetType("Cyberpunk.ThingDef_GunCP"))
+        if (!CyberpunkMod.instance.Settings.Durability || !req.HasThing ||
+            req.Thing.GetType() != Type.GetType("Cyberpunk.ThingDef_GunCP"))
         {
             return;
         }
@@ -43,6 +44,13 @@ internal class StatPart_Reliability : StatPart
 
     public static void GetReliability(ThingDef_GunCP gun, out string rel, out float jamsOn)
     {
+        if (!CyberpunkMod.instance.Settings.Durability)
+        {
+            rel = "Standard";
+            jamsOn = 0;
+            return;
+        }
+
         rel = string.Empty;
         jamsOn = JamChance(gun);
         if (jamsOn < 0.25)

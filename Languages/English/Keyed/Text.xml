@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CyP.Durability>Weapons have reliability</CyP.Durability>
+  <CyP.Durability.Tooltip>Weapons can jam duriong combat based on their durability and Reliability</CyP.Durability.Tooltip>
+  <CyP.ModVersion>Installed mod-version: {0}</CyP.ModVersion>
+</LanguageData>

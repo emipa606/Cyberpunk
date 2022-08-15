@@ -32,14 +32,12 @@ It includes the following:
 - Gun reliability and jamming
 - Includes Pardeike's Harmony library
 
-If you like this mod, try the http://steamcommunity.com/sharedfiles/filedetails/?id=1134649225]Cyberpunk Factions expansion.  It adds several corps to the game in addition to the outlanders.
+If you like this mod, try the https://steamcommunity.com/sharedfiles/filedetails/?id=2846910032]Cyberpunk Factions expansion.  It adds several corps to the game in addition to the outlanders.
 I also suggest using the http://steamcommunity.com/sharedfiles/filedetails/?id=735241897]Mending Mod, which will allow you to fix and maintain your guns, as well as clean up the gear from your fallen enemies to make them usable again.
 
-**There is always the possibility that this mod has bugs. Please report any issues that you might run into github.com/MDarque/Cyberpunk/issues]here.**
+**There is always the possibility that this mod has bugs. Please report any issues that you might run into**
 
-All current and past versions of this mod can be downloaded from github.com/MDarque/Cyberpunk]GitHub.
-
-To discuss this mod, please visit the https://ludeon.com/forums/index.php?topic=32798.0]forums.
+All current and past versions of this mod can be downloaded from GitHub.
 
 # Contributors
 

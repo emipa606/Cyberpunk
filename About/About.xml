@@ -3,7 +3,7 @@
   <name>Cyberpunk (Continued)</name>
   <packageId>Mlie.Cyberpunk</packageId>
   <author>Darque</author>
-  <url>https://github.com/emipa606/Cyberpunk18</url>
+  <url>https://github.com/emipa606/Cyberpunk</url>
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>
@@ -58,14 +58,12 @@ It includes the following:
 - Gun reliability and jamming
 - Includes Pardeike's Harmony library
 
-If you like this mod, try the [url=http://steamcommunity.com/sharedfiles/filedetails/?id=1134649225]Cyberpunk Factions[/url] expansion.  It adds several corps to the game in addition to the outlanders.
+If you like this mod, try the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2846910032]Cyberpunk Factions[/url] expansion.  It adds several corps to the game in addition to the outlanders.
 I also suggest using the [url=http://steamcommunity.com/sharedfiles/filedetails/?id=735241897]Mending[/url] Mod, which will allow you to fix and maintain your guns, as well as clean up the gear from your fallen enemies to make them usable again.
 
-[b]There is always the possibility that this mod has bugs. Please report any issues that you might run into [url=github.com/MDarque/Cyberpunk/issues]here[/url].[/b]
+[b]There is always the possibility that this mod has bugs. Please report any issues that you might run into[/b]
 
-All current and past versions of this mod can be downloaded from [url=github.com/MDarque/Cyberpunk]GitHub[/url].
-
-To discuss this mod, please visit the [url=https://ludeon.com/forums/index.php?topic=32798.0]forums[/url].
+All current and past versions of this mod can be downloaded from GitHub.
 
 [h1]Contributors[/h1]
 - Andreas Pardeike: Harmony library + help with muscle graft code

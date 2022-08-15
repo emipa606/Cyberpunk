@@ -13,6 +13,11 @@ public class StatWorker_Reliability : StatWorker
 
     public override string GetExplanationFinalizePart(StatRequest req, ToStringNumberSense numberSense, float finalVal)
     {
+        if (!CyberpunkMod.instance.Settings.Durability)
+        {
+            return base.GetExplanationFinalizePart(req, numberSense, finalVal);
+        }
+
         var stringBuilder = new StringBuilder();
         if (stat.parts == null)
         {
