@@ -77,27 +77,13 @@ public class StatDrawEntry
                 return value.ToStringByStyle(ToStringStyle.PercentZero);
             }
 
-            if (stat != null)
-            {
-                return stat.Worker.GetStatDrawEntryLabel(stat, value, numberSense, optionalReq);
-            }
-
-            return valueStringInt;
+            return stat != null
+                ? stat.Worker.GetStatDrawEntryLabel(stat, value, numberSense, optionalReq)
+                : valueStringInt;
         }
     }
 
-    public int DisplayPriorityWithinCategory
-    {
-        get
-        {
-            if (stat != null)
-            {
-                return stat.displayPriorityInCategory;
-            }
-
-            return displayOrderWithinCategory;
-        }
-    }
+    public int DisplayPriorityWithinCategory => stat?.displayPriorityInCategory ?? displayOrderWithinCategory;
 
     public string GetExplanationText(StatRequest optionalReq)
     {

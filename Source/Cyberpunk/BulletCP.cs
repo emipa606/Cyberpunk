@@ -7,10 +7,10 @@ namespace Cyberpunk;
 
 public class BulletCP : Bullet
 {
-    protected override void Impact(Thing hitThing)
+    protected override void Impact(Thing hitThing, bool blockedByShield = false)
     {
         var map = Map;
-        base.Impact(hitThing);
+        base.Impact(hitThing, blockedByShield);
         var battleLogEntry_RangedImpact = new BattleLogEntry_RangedImpact(launcher, hitThing, intendedTarget.Thing,
             equipmentDef, def, targetCoverDef);
         Find.BattleLog.Add(battleLogEntry_RangedImpact);
@@ -28,7 +28,7 @@ public class BulletCP : Bullet
             hitThing.TakeDamage(dinfo).AssociateWithLog(battleLogEntry_RangedImpact);
             if (hitThing is Pawn { stances: { } } pawn && pawn.BodySize <= def.projectile.StoppingPower + 0.001f)
             {
-                pawn.stances.StaggerFor(95);
+                pawn.stances.stagger.StaggerFor(95);
             }
 
             return;

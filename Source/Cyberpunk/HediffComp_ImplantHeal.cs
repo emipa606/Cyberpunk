@@ -16,7 +16,6 @@ public class HediffComp_ImplantHeal : HediffComp
 
     public override void CompPostTick(ref float severityAdjustment)
     {
-        base.CompPostTick(ref severityAdjustment);
         ticksSinceHeal++;
         if (ticksSinceHeal <= Props.healIntervalTicks || !Pawn.health.hediffSet.HasNaturallyHealingInjury())
         {
@@ -25,9 +24,9 @@ public class HediffComp_ImplantHeal : HediffComp
 
         ticksSinceHeal = 0;
         var num = 8f;
-        var hediff_Injury = (from x in Pawn.health.hediffSet.GetHediffs<Hediff_Injury>()
-            where x.CanHealNaturally()
-            select x).RandomElement();
+        var hediff_Injury = (from hediff in Pawn.health.hediffSet.hediffs
+            where hediff is Hediff_Injury && !hediff.IsPermanent()
+            select hediff).RandomElement();
         hediff_Injury.Heal(num * Pawn.HealthScale * 0.01f);
     }
 }

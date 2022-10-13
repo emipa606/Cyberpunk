@@ -16,6 +16,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2129832774
 
 
 
+- Added an option to turn off weapon reliability
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
