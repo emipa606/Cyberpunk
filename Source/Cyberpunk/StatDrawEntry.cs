@@ -14,6 +14,8 @@ public class StatDrawEntry
 
     private readonly ToStringNumberSense numberSense;
 
+    public readonly StatDef stat;
+
     private readonly float value;
 
     private readonly string valueStringInt;
@@ -24,8 +26,6 @@ public class StatDrawEntry
     public StatRequest optionalReq;
 
     public string overrideReportText;
-
-    public StatDef stat;
 
     public StatDrawEntry(StatCategoryDef category, StatDef stat, float value, StatRequest optionalReq,
         ToStringNumberSense numberSense = ToStringNumberSense.Undefined)

@@ -4,7 +4,7 @@ namespace Cyberpunk;
 
 public class VerbPropertiesCP : VerbProperties
 {
-    public Reliability reliability = Reliability.ST;
+    public readonly Reliability reliability = Reliability.ST;
 
     public override string ToString()
     {

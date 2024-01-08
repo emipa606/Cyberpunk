@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallStandardCyberHand</defName>
     <label>install standard cyberhand</label>
     <description>Installs standard cyberhand.</description>
@@ -38,7 +38,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>CyberHand_CP</addsHediff>
   </RecipeDef>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallArmoredArm</defName>
     <label>install armored cyberarm</label>
     <description>Installs armored cyberarm.</description>
@@ -76,7 +76,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>ArmoredArm_CP</addsHediff>
   </RecipeDef>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallCyberFoot</defName>
     <label>install standard cyberfoot</label>
     <description>Installs standard cyberfoot.</description>
@@ -114,7 +114,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>CyberFoot_CP</addsHediff>
   </RecipeDef>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallArmoredLeg</defName>
     <label>install armored cyberleg</label>
     <description>Installs armored cyberleg.</description>
@@ -152,7 +152,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>ArmoredLeg_CP</addsHediff>
   </RecipeDef>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallSkateFoot</defName>
     <label>install cyberleg w/ skate foot</label>
     <description>Installs cyberleg w/ skate foot.</description>
@@ -190,7 +190,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>SkateFoot_CP</addsHediff>
   </RecipeDef>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallToolHand_CP</defName>
     <label>install cyberarm w/ tool hand</label>
     <description>Installs cyberarm w/ tool hand.</description>
@@ -228,7 +228,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>ToolHand_CP</addsHediff>
   </RecipeDef>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallBuzzHand_CP</defName>
     <label>install cyberarm w/ buzz hand</label>
     <description>Installs cyberarm w/ buzz hand.</description>
@@ -266,7 +266,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>BuzzHand_CP</addsHediff>
   </RecipeDef>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallHammerHand_CP</defName>
     <label>install cyberarm w/ hammer hand</label>
     <description>Installs cyberarm w/ hammer hand.</description>
@@ -304,7 +304,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>HammerHand_CP</addsHediff>
   </RecipeDef>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallDrillHand_CP</defName>
     <label>install cyberarm w/ drill hand</label>
     <description>Installs cyberarm w/ drill hand.</description>
@@ -342,7 +342,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>DrillHand_CP</addsHediff>
   </RecipeDef>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallMedHand_CP</defName>
     <label>install cyberarm w/ medical modular hand</label>
     <description>Installs cyberarm w/ medical modular hand.</description>
@@ -380,7 +380,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>MedHand_CP</addsHediff>
   </RecipeDef>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallLightningFist_CP</defName>
     <label>install cyberarm w/ lightning fist</label>
     <description>Installs cyberarm w/ lightning fist.</description>
@@ -418,7 +418,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>LightningFist_CP</addsHediff>
   </RecipeDef>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallPowerJaw_CP</defName>
     <label>install powerjaw</label>
     <description>Installs powerjaw.</description>
@@ -456,7 +456,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>PowerJaw_CP</addsHediff>
   </RecipeDef>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallCyberJaw_CP</defName>
     <label>install cyberjaw</label>
     <description>Installs cyberjaw.</description>
@@ -494,7 +494,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>CyberJaw_CP</addsHediff>
   </RecipeDef>
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallCyberJawK9_CP</defName>
     <label>install cyberjaw K9</label>
     <description>Installs cyberjaw K9.</description>

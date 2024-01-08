@@ -17,7 +17,7 @@ internal class CyberpunkMod : Mod
     /// <summary>
     ///     The private settings
     /// </summary>
-    private CyberpunkSettings settings;
+    public readonly CyberpunkSettings Settings;
 
     /// <summary>
     ///     Constructor
@@ -27,25 +27,10 @@ internal class CyberpunkMod : Mod
     {
         instance = this;
         currentVersion =
-            VersionFromManifest.GetVersionFromModMetaData(ModLister.GetActiveModWithIdentifier("Mlie.Cyberpunk"));
+            VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
+        Settings = GetSettings<CyberpunkSettings>();
     }
 
-    /// <summary>
-    ///     The instance-settings for the mod
-    /// </summary>
-    internal CyberpunkSettings Settings
-    {
-        get
-        {
-            if (settings == null)
-            {
-                settings = GetSettings<CyberpunkSettings>();
-            }
-
-            return settings;
-        }
-        set => settings = value;
-    }
 
     /// <summary>
     ///     The title for the mod-settings
