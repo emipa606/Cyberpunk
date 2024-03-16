@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef Name="BaseSMGGun" ParentName="BaseGunCP" Abstract="True">
+    <statBases>
+      <Mass>2.5</Mass>
+    </statBases>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- =================== Federated Arms Tech Assault II ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_FATAII_CP</defName>
+    <label>Federated Arms Tech Assault II</label>
+    <description>6mm SMG - An updated version of the venerable Tech Assault I, features larger clip, better autofire, no melting. Honest.</description>
+    <graphicData>
+      <texPath>CP/Weapon/FATAII</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_6mm_CP</defaultProjectile>
+        <warmupTime>2.16</warmupTime>
+        <range>15</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Arasaka AASW-9F ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_AAASW9F_CP</defName>
+    <label>Arasaka AASW-9F</label>
+    <description>9mm SMG - A light simple submachinegun, common to security forces all over the world, both private and federal.  Sleek clean lines are all that distinguish this weapon from the vast multitude of other 9mm subs around the globe.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AAASW9F</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <statBases>
+      <MarketValue>275</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.82</AccuracyShort>
+      <AccuracyMedium>0.46</AccuracyMedium>
+      <AccuracyLong>0.36</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
+        <warmupTime>1.58</warmupTime>
+        <range>15</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== BudgetArms Balta ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_BAB_CP</defName>
+    <label>BudgetArms Balta</label>
+    <description>9mm SMG - Third world dictators and low level crime lords love arming their men with these horribly cheap and unreliable weapons.  They jam frequently, occasionally blow up when fired full auto, and the metal is so subpar you can easily bend it with your bare hands.  But its really cheap, fires extremely common ammunition, and comes with a folding stock, and when you're on a really tight budget does anything else matter.</description>
+    <graphicData>
+      <texPath>CP/Weapon/BAB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>120</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
+        <warmupTime>2.22</warmupTime>
+        <range>15</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>UR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Dai Lung SMG ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_DLSMG_CP</defName>
+    <label>Dai Lung SMG</label>
+    <description>9mm SMG - For a weapon that fires caseless ammunition, this sure does tend to jam a lot.  Which can be a major pain in the ass since you have disassemble the weapon completely to free the mechanism.  Still, it's cheap, so its everywhere.</description>
+    <graphicData>
+      <texPath>CP/Weapon/BAB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>150</MarketValue>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.39</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>0.70</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
+        <warmupTime>2.12</warmupTime>
+        <range>15</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>UR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech GN-808 ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_MGN808_CP</defName>
+    <label>Militech GN-808</label>
+    <description>9mm SMG - The GN-808 comes with a removable stock and front grip for decreased recoil and an ergonomic grip for long work hours, this SMG seems as common in 21th century as the Kalishnikov was in the 20th. It was originally developed by Heckler &amp; Koch, but when that company went under in 2032 Militech bought the patents and started producing it.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MGN808</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>1.1</generateCommonality>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
+        <warmupTime>2.22</warmupTime>
+        <range>15</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Sternmeyer MS-71 ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_SMS71_CP</defName>
+    <label>Sternmeyer MS-71</label>
+    <description>9mm SMG - A very small weapon with a very high rate of fire.  Inexpensive and concealable this is a very popular weapon among gangs and organized criminals, as well as terrorists.</description>
+    <graphicData>
+      <texPath>CP/Weapon/SMS71</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Sternmeyer</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
+        <warmupTime>2.06</warmupTime>
+        <range>15</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Uzi Miniauto 9 ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_UziM9_CP</defName>
+    <label>Uzi Miniauto 9</label>
+    <description>9mm SMG - Uzis entry into the 21st century, all plastic with a rotary electric clip and adjustable trigger. Thr choice for many security Solos.</description>
+    <graphicData>
+      <texPath>CP/Weapon/UziM9</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>475</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9mm_CP</defaultProjectile>
+        <warmupTime>2.22</warmupTime>
+        <range>15</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Arasaka Minami 10 ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_AM10_CP</defName>
+    <label>Arasaka Minami 10</label>
+    <description>10mm SMG - The standard Arasaka Security weapon, found galaxy wide. A good, all around weapon.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AM10</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
+        <warmupTime>2.06</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== BudgetArms RX-79 ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_BARX79_CP</defName>
+    <label>BudgetArms RX-79</label>
+    <description>10mm SMG - Unfortunately due to the extremely low cost, high rate of fire, and large ammo capacity this weapon has become very popular among street gangs.  It is also barely concealable under most long trenchcoats.  The sad thing is this weapon has a 30 percent chance of blowing up in your face anytime is fired full auto for more than 6 seconds.  It features a folding stock, and while the rest of the weapon is crap, the unique magazine and loading design are noteworthy.</description>
+    <graphicData>
+      <texPath>CP/Weapon/BARX79</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>240</MarketValue>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.46</AccuracyShort>
+      <AccuracyMedium>0.37</AccuracyMedium>
+      <AccuracyLong>0.08</AccuracyLong>
+      <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
+        <warmupTime>1.33</warmupTime>
+        <range>20</range>
+        <burstShotCount>15</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>UR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Federated Arms NT-LEP1 ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_FANTLEP1_CP</defName>
+    <label>Federated Arms NT-LEP1</label>
+    <description>10mm SMG - Slight cosmetic differences are all that distinguish this weapon from the NT-MM01.</description>
+    <graphicData>
+      <texPath>CP/Weapon/FANTLEP1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
+    <statBases>
+      <MarketValue>410</MarketValue>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.39</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
+        <warmupTime>2.06</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech Viper ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_MV_CP</defName>
+    <label>Militech Viper</label>
+    <description>10mm SMG - The standard issue sub-machinegun for those Lazarus troops who don't use assault rifles. Typically used by airborne noncoms and by special ops troops who need a powerful, silenceable weapon.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MV</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>0.9</generateCommonality>
+    <statBases>
+      <MarketValue>600</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Lazarus</li>
+      <li>Militech</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
+        <warmupTime>1.89</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Mustang Arms ARS-5C ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_MAARS5C_CP</defName>
+    <label>Mustang Arms ARS-5C</label>
+    <description>10mm SMG - This submachine gun is fashioned mostly from the advanced ceramic Sortex™, and available in matte black, blued, marine stainless and camouflage finishes. It is a new system for the young company, gaining popularity among law enforcement agencies and corporate armies.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MV</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>0.9</generateCommonality>
+    <statBases>
+      <MarketValue>600</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Lazarus</li>
+      <li>Militech</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
+        <warmupTime>2.3</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Sternmeyer SK-VASH ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_SSKVASH_CP</defName>
+    <label>Sternmeyer SK-VASH</label>
+    <description>10mm SMG - A standard submachinegun, perfect for police and security work.  Its small size also makes it ideal for less legal activities.</description>
+    <graphicData>
+      <texPath>CP/Weapon/SSKVASH</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>325</MarketValue>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.39</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Sternmeyer</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
+        <warmupTime>1.58</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Stolbovoy SSTS ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_SSTS_CP</defName>
+    <label>Stolbovoy SSTS</label>
+    <description>10mm SMG - The STS submachinegun incorporates the Stolbovoy's unique designs, and is one of the finest submachineguns around. Available with collapsable or fixed stocks. Comes with iron sights, but can be fitted with a variety of aiming systems.</description>
+    <graphicData>
+      <texPath>CP/Weapon/SSTS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>0.9</generateCommonality>
+    <statBases>
+      <MarketValue>600</MarketValue>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.39</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Stolbovoy</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_10mm_CP</defaultProjectile>
+        <warmupTime>2.22</warmupTime>
+        <range>10</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Arasaka DE-Mag ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_ADEMAG_CP</defName>
+    <label>Arasaka DE-Mag</label>
+    <description>11mm SMG - A very compact, but controllable submachine gun with a high ammo capacity and an above average rate of fire.</description>
+    <graphicData>
+      <texPath>CP/Weapon/ADEMAG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
+    <statBases>
+      <MarketValue>380</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
+        <warmupTime>2.01</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Federated Arms	TA-14 ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_FATA14_CP</defName>
+    <label>Federated Arms TA-14</label>
+    <description>11mm SMG - A commonly seen smg similar in shape and performance to the Mac-10/11 from Ingram.  Comes with retracting stock and available with either 12 or 30 round magazines.</description>
+    <graphicData>
+      <texPath>CP/Weapon/FATA14</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>565</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.53</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.78</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
+        <warmupTime>1.94</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech DPLS-7 ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_MDPLS7_CP</defName>
+    <label>Militech DPLS-7</label>
+    <description>11mm SMG - Militechs latest submachine gun, very comfortable to fire, perfect for close quarters combat.  The stock is extendable, but as you can see when it is retracted it rests seamlessly against the weapon, in fat the weapon itself has very few exterior moving parts, and the only real snag points are on the sighting system.  It also accepts a suppressor making it ideal for covert ops.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MDPLS7</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <statBases>
+      <MarketValue>790</MarketValue>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
+        <warmupTime>1.9</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Sternmeyer	SMG 21 ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_SSMG21_CP</defName>
+    <label>Sternmeyer SMG 21</label>
+    <description>11mm SMG - Sternmeyer's best entry in the anti-terrorist category, with wide use on C-SWAT teams and Psychosquads.</description>
+    <graphicData>
+      <texPath>CP/Weapon/SSMG21</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>1.5</generateCommonality>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.61</AccuracyShort>
+      <AccuracyMedium>0.21</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>0.78</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Sternmeyer</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_11mm_CP</defaultProjectile>
+        <warmupTime>1.78</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Arasaka AS-225 ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_AAS225_CP</defName>
+    <label>Arasaka AS-225</label>
+    <description>12mm SMG - Available with a wide variety of options and configurations, the Arasaka AS-225 SMG is currently being marketed to special forces and police agencies around the world, especially to anti-cyborg teams who are interested do to its large caliber chambering of the 12mm round.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AAS225</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>0.6</generateCommonality>
+    <statBases>
+      <MarketValue>940</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.37</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>0.78</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12mm_CP</defaultProjectile>
+        <warmupTime>1.46</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Dai Lung DBDF-12 ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_DLDBDF12_CP</defName>
+    <label>Dai Lung DBDF-12</label>
+    <description>12mm SMG - The designers at Dai Lung must be lunatics.  The DBDF-12 is an over/under double barreled SMG firing 12mm ammo.  The ammo is fed from a divided clip, front and back, each holding 30 rounds.  Firing this weapon is about as close as you can legally come to attempting suicide.... except that even owning this weapon is considered a felony in almost every civilized country in the world. Even most gangs are afraid to carry this weapon. It is so unreliable, that if fired at full auto the barrels heat up so fast and so hot that they warp each other as they alternate fire, since the barrels are so short they also tend to cook off the ammo in the breach setting off the other rounds as well.  This weapon has a 60 percent chance of blowing up in your face when fired full auto.  You would think that no one at all would use these, but there is always the lunatic fringe out there, and if Autumn Blade can sell these to a rival group through subterfuge, then it chances are they will do more damage to themselves than anyone else. Want to get rid of someone you hate, give them one of these. Oh yeah, it also features a folding stock, nifty huh.</description>
+    <graphicData>
+      <texPath>CP/Weapon/DLDBDF12</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>0.7</generateCommonality>
+    <statBases>
+      <MarketValue>345</MarketValue>
+      <AccuracyTouch>0.81</AccuracyTouch>
+      <AccuracyShort>0.37</AccuracyShort>
+      <AccuracyMedium>0.09</AccuracyMedium>
+      <AccuracyLong>0.01</AccuracyLong>
+      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12mm_CP</defaultProjectile>
+        <warmupTime>.72</warmupTime>
+        <range>20</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>UR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech SMG-207 ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_MSMG207_CP</defName>
+    <label>Militech SMG-207</label>
+    <description>12mm SMG - A somewhat large, but impressive submachine gun from Militech, chambered in 12mm.  The weapon comes with a removable folding stock, and insulated barrel.  This weapon was designed with hard use in mind, and can take abuse like you wouldn't believe.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MSMG207</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <statBases>
+      <MarketValue>1160</MarketValue>
+      <MaxHitPoints>120</MaxHitPoints>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.46</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <DeteriorationRate>0.1</DeteriorationRate>
+      <RangedWeapon_Cooldown>0.78</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12mm_CP</defaultProjectile>
+        <warmupTime>1.78</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>VR</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Arasaka	Kirin ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_AK_CP</defName>
+    <label>Arasaka Kirin</label>
+    <description>14mm SMG - A similar design to the old Kriss SMG, the Kirin features an updated design and is chambered in 14mm, for hard hitting action, guaranteed to put down whatever stands against you. And extended 25 round mag is available.</description>
+    <graphicData>
+      <texPath>CP/Weapon/AK</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>0.5</generateCommonality>
+    <statBases>
+      <MarketValue>3275</MarketValue>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.37</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Arasaka</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_14mm_CP</defaultProjectile>
+        <warmupTime>1.44</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =================== Militech	DSL-14 ================== -->
+  <ThingDef ParentName="BaseSMGGun">
+    <defName>Gun_MDSL14_CP</defName>
+    <label>Militech DSL-14</label>
+    <description>14mm SMG - Militech’s DSL-14 is a monster that feeds from a 40 round drum magazine.  It is highly recommended that no one with out a least highly augmented strength and a cyberarm attempt to fire this beast on full auto.</description>
+    <graphicData>
+      <texPath>CP/Weapon/MDSL14</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>0.5</generateCommonality>
+    <statBases>
+      <MarketValue>4750</MarketValue>
+      <AccuracyTouch>0.81</AccuracyTouch>
+      <AccuracyShort>0.54</AccuracyShort>
+      <AccuracyMedium>0.09</AccuracyMedium>
+      <AccuracyLong>0.01</AccuracyLong>
+      <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Militech</li>
+    </weaponTags>
+    <verbs>
+      <li Class="Cyberpunk.VerbPropertiesCP">
+        <verbClass>Cyberpunk.Verb_ShootCP</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_14mm_CP</defaultProjectile>
+        <warmupTime>1.6</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <reliability>ST</reliability>
+      </li>
+    </verbs>
+  </ThingDef>
+</Defs>

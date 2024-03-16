@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Cyberarms -->
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>LightningFist_CP</defName>
+    <label>lightning fist</label>
+    <description>lightning fist</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>1.65</defaultCooldownTime>
+            <meleeDamageBaseAmount>13</meleeDamageBaseAmount>
+            <meleeDamageDef>EMP</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>LightningFist_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArmoredArm_CP</defName>
+    <label>armored cyberarm</label>
+    <description>armored cyberarm</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>1.65</defaultCooldownTime>
+            <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+            <meleeDamageDef>Blunt</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>ArmoredArm_CP</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.2</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CyberHand_CP</defName>
+    <label>cyberhand</label>
+    <description>cyberhand</description>
+    <spawnThingOnRemoved>CyberHand_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ToolHand_CP</defName>
+    <label>cyberarm w/ tool hand</label>
+    <description>cyberarm w/ tool hand</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ConstructionSpeed>0.20</ConstructionSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>ToolHand_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BuzzHand_CP</defName>
+    <label>cyberarm w/ buzz hand</label>
+    <description>cyberarm w/ buzz hand</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>0.5</defaultCooldownTime>
+            <meleeDamageBaseAmount>14</meleeDamageBaseAmount>
+            <meleeDamageDef>Cut</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <PlantWorkSpeed>0.20</PlantWorkSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>BuzzHand_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>HammerHand_CP</defName>
+    <label>cyberarm w/ hammer hand</label>
+    <description>cyberarm w/ hammer hand</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>3.0</defaultCooldownTime>
+            <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+            <meleeDamageDef>Blunt</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MiningSpeed>.10</MiningSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>HammerHand_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>DrillHand_CP</defName>
+    <label>cyberarm w/ drill hand</label>
+    <description>cyberarm w/ drill hand</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>1.2</defaultCooldownTime>
+            <meleeDamageBaseAmount>18</meleeDamageBaseAmount>
+            <meleeDamageDef>Stab</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MiningSpeed>0.20</MiningSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>DrillHand_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>MedHand_CP</defName>
+    <label>cyberarm w/ medical hand</label>
+    <description>cyberarm w/ medical hand</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <MedicalOperationSpeed>0.10</MedicalOperationSpeed>
+          <MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+          <MedicalTendQuality>0.10</MedicalTendQuality>
+          <MedicalTendSpeed>0.10</MedicalTendSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>MedHand_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <!-- Cyberlegs -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CyberFoot_CP</defName>
+    <label>standard cyberfoot</label>
+    <description>standard cyberfoot</description>
+    <spawnThingOnRemoved>CyberFoot_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArmoredLeg_CP</defName>
+    <label>armored cyberleg</label>
+    <description>armored cyberleg</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>1.65</defaultCooldownTime>
+            <meleeDamageBaseAmount>12</meleeDamageBaseAmount>
+            <meleeDamageDef>Blunt</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>ArmoredLeg_CP</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.2</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>SkateFoot_CP</defName>
+    <label>cyberleg w/ skate foot</label>
+    <description>cyberleg w/ skate foot</description>
+    <spawnThingOnRemoved>SkateFoot_CP</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <!-- Cyberoptics -->
+  <HediffDef ParentName="AddedBodyPartBase_CP">
+    <defName>COTargettingScope_CP</defName>
+    <label>cyberoptic targetting scope</label>
+    <description>cyberoptic targetting scope</description>
+    <spawnThingOnRemoved>COTargettingScope_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.10</AimingDelayFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.20</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- CyberAudio -->
+  <HediffDef ParentName="AddedBodyPartBase_CP">
+    <defName>CAAmplifiedHearing_CP</defName>
+    <label>cyberaudio amplified hearing</label>
+    <description>cyberaudio amplified hearing</description>
+    <spawnThingOnRemoved>CAAmplifiedHearing_CP</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>0.20</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <!-- CyberJaw -->
+  <HediffDef ParentName="AddedBodyPartBase_CP">
+    <defName>PowerJaw_CP</defName>
+    <label>powerjaw</label>
+    <description>powerjaw</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>1.65</defaultCooldownTime>
+            <meleeDamageBaseAmount>2</meleeDamageBaseAmount>
+            <meleeDamageDef>Stab</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>PowerJaw_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_CP">
+    <defName>CyberJaw_CP</defName>
+    <label>cyberjaw</label>
+    <description>cyberjaw</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.06</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>CyberJaw_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_CP">
+    <defName>CyberJawK9_CP</defName>
+    <label>cyberjaw K9</label>
+    <description>cyberjaw K9</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.06</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>1.85</defaultCooldownTime>
+            <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+            <meleeDamageDef>Stab</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>CyberJawK9_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+</Defs>

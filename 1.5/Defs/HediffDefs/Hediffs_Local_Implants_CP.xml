@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Implants -->
+  <HediffDef Name="AddedBodyPartBase_CP" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+    <defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef Name="ImplantHediffBase_CP" Abstract="True">
+    <hediffClass>Hediff_Implant</hediffClass>
+    <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>true</scenarioCanAdd>
+  </HediffDef>
+  <HediffDef Name="BiowareHediffBase_CP" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.3, 0.9)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>true</scenarioCanAdd>
+  </HediffDef>
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>Scratchers_CP</defName>
+    <label>scratchers</label>
+    <description>scratchers</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>0.6</defaultCooldownTime>
+            <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
+            <meleeDamageDef>Scratch</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>Scratchers_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>Rippers_CP</defName>
+    <label>rippers</label>
+    <description>rippers</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>0.6</defaultCooldownTime>
+            <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
+            <meleeDamageDef>Scratch</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>Rippers_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>Wolvers_CP</defName>
+    <label>wolvers</label>
+    <description>wolvers</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>0.6</defaultCooldownTime>
+            <meleeDamageBaseAmount>18</meleeDamageBaseAmount>
+            <meleeDamageDef>Cut</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>Wolvers_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>BigKnucks_CP</defName>
+    <label>big knucks</label>
+    <description>big knucks</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>0.5</defaultCooldownTime>
+            <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
+            <meleeDamageDef>Blunt</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>BigKnucks_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>SubdermalArmor_CP</defName>
+    <label>subermal armor</label>
+    <description>subermal armor</description>
+    <spawnThingOnRemoved>SubdermalArmor_CP</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>SkinWeave_CP</defName>
+    <label>skin weave</label>
+    <description>skin weave</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>SkinWeave_CP</spawnThingOnRemoved>
+  </HediffDef>
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>Thermaskin_CP</defName>
+    <label>thermaskin</label>
+    <description>thermaskin</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <Insulation_Cold>10</Insulation_Cold>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>Thermaskin_CP</spawnThingOnRemoved>
+  </HediffDef>
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>Faceplate_CP</defName>
+    <label>faceplate</label>
+    <description>faceplate</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>Faceplate_CP</spawnThingOnRemoved>
+  </HediffDef>
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>Cowlplate_CP</defName>
+    <label>cowl plate</label>
+    <description>cowl plate</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>Cowlplate_CP</spawnThingOnRemoved>
+  </HediffDef>
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>Torsoplate_CP</defName>
+    <label>torso plate</label>
+    <description>torso plate</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+          <WorkSpeedGlobal>-0.30</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>Torsoplate_CP</spawnThingOnRemoved>
+  </HediffDef>
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>Optishield_CP</defName>
+    <label>optishield</label>
+    <description>optishield</description>
+    <spawnThingOnRemoved>Optishield_CP</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.04</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- Neuralware -->
+  <HediffDef ParentName="ImplantHediffBase_CP">
+    <defName>Speedware</defName>
+    <label>speedware</label>
+    <description>speedware</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <AimingDelayFactor>-0.2</AimingDelayFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.20</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>Joywire</spawnThingOnRemoved>
+  </HediffDef>
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>Painstopper</defName>
+    <label>pain editor</label>
+    <description>pain editor</description>
+    <stages>
+      <li>
+        <painFactor>0</painFactor>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>Painstopper</spawnThingOnRemoved>
+  </HediffDef>
+  <!-- Organs -->
+  <HediffDef ParentName="AddedBodyPartBase_CP">
+    <defName>CyberLiver_CP</defName>
+    <label>T-Maxx Cyberliver</label>
+    <description>T-Maxx Cyberliver</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicResistance>0.2</ToxicResistance>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.20</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>CyberLiver_CP</spawnThingOnRemoved>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_CP">
+    <defName>CyberLiver2_CP</defName>
+    <label>T-Maxx Cyberliver II</label>
+    <description>T-Maxx Cyberliver II</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicResistance>0.4</ToxicResistance>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.40</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>CyberLiver2_CP</spawnThingOnRemoved>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_CP">
+    <defName>CyberHeart_CP</defName>
+    <label>Pacesetter Sport Heart</label>
+    <description>Pacesetter Sport Heart</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>0.1</MoveSpeed>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>CyberHeart_CP</spawnThingOnRemoved>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_CP">
+    <defName>CyberHeart2_CP</defName>
+    <label>Pacesetter 2000 Heart</label>
+    <description>Pacesetter 2000 Heart</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>0.2</MoveSpeed>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.20</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>CyberHeart2_CP</spawnThingOnRemoved>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_CP">
+    <defName>CyberLung_CP</defName>
+    <label>Enhanced Lung</label>
+    <description>Enhanced Lung</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicResistance>0.1</ToxicResistance>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>CyberLung_CP</spawnThingOnRemoved>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_CP">
+    <defName>CyberLung2_CP</defName>
+    <label>Enhanced Lung Series 2</label>
+    <description>Enhanced Lung Series 2</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicResistance>0.2</ToxicResistance>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>0.20</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>CyberLung2_CP</spawnThingOnRemoved>
+  </HediffDef>
+</Defs>

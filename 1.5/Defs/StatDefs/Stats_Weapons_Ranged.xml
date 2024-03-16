@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <StatDef>
+    <defName>reliability</defName>
+    <workerClass>Cyberpunk.StatWorker_Reliability</workerClass>
+    <label>Reliability</label>
+    <category>Weapon</category>
+    <showIfUndefined>false</showIfUndefined>
+    <parts>
+      <li Class="Cyberpunk.StatPart_Reliability" />
+    </parts>
+    <displayPriorityInCategory>500</displayPriorityInCategory>
+  </StatDef>
+</Defs>

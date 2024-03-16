@@ -17,7 +17,7 @@ public class Verb_LaunchProjectileCP : Verb_LaunchProjectile
         }
 
         var thingDef_GunCP = EquipmentSource as ThingDef_GunCP;
-        StatPart_Reliability.GetReliability(thingDef_GunCP, out var _, out var jamsOn);
+        StatPart_Reliability.GetReliability(thingDef_GunCP, out _, out var jamsOn);
         var num = Rand.Range(0, 1000) / 10f;
         if (!(num < jamsOn))
         {

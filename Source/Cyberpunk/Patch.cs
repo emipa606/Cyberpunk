@@ -17,6 +17,6 @@ internal static class Patch
         });
         pawn_StoryTracker.bodyType = bt;
         pawn.story = pawn_StoryTracker;
-        pawn.Drawer.renderer.graphics.ResolveAllGraphics();
+        pawn.Drawer.renderer.SetAllGraphicsDirty();
     }
 }
