@@ -103,23 +103,6 @@
     </techHediffsTags>
   </ThingDef>
   <ThingDef ParentName="BodyPartBase_CP">
-    <defName>BionicArm</defName>
-    <label>standard cyberarm</label>
-    <description>The standard cyberarm is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the shoulder using a metal and plasteel cuff.</description>
-    <graphicData>
-      <texPath>Things/Item/Health/HealthItem</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <MarketValue>3000</MarketValue>
-      <Mass>4</Mass>
-    </statBases>
-    <techHediffsTags>
-      <li>Standard</li>
-      <li>Advanced</li>
-    </techHediffsTags>
-  </ThingDef>
-  <ThingDef ParentName="BodyPartBase_CP">
     <defName>CyberHand_CP</defName>
     <label>standard cyberhand</label>
     <description>The standard cyberhand is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the wrist using a metal and plasteel cuff.</description>
@@ -150,23 +133,6 @@
     </statBases>
     <techHediffsTags>
       <li>Armor</li>
-      <li>Advanced</li>
-    </techHediffsTags>
-  </ThingDef>
-  <ThingDef ParentName="BodyPartBase_CP">
-    <defName>BionicLeg</defName>
-    <label>standard cyberleg</label>
-    <description>The standard cyberleg is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the pelvis using a metal and plasteel cuff.</description>
-    <graphicData>
-      <texPath>Things/Item/Health/HealthItem</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <MarketValue>2000</MarketValue>
-      <Mass>6</Mass>
-    </statBases>
-    <techHediffsTags>
-      <li>Standard</li>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
@@ -234,23 +200,6 @@
     </statBases>
     <techHediffsTags>
       <li>Weapon</li>
-      <li>Advanced</li>
-    </techHediffsTags>
-  </ThingDef>
-  <ThingDef ParentName="BodyPartBase_CP">
-    <defName>BionicEye</defName>
-    <label>cyberoptic image enhancement</label>
-    <description>This cyberoptic gives the recipient ultra high resolution graphics capability to enhance and refine images viewed.</description>
-    <graphicData>
-      <texPath>Things/Item/Health/HealthItem</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <MarketValue>900</MarketValue>
-      <Mass>0.3</Mass>
-    </statBases>
-    <techHediffsTags>
-      <li>Standard</li>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>

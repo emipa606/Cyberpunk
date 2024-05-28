@@ -1,5 +1,8 @@
 # Changelog for Cyberpunk
 
+1.5.1 - Fixed a patch for bionic arm, leg and eye instead of overwriting them
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 

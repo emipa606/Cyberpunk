@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BionicArm"]/label</xpath>
+    <value>
+      <label>standard cyberarm</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BionicArm"]/description</xpath>
+    <value>
+      <description>The standard cyberarm is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the shoulder using a metal and plasteel cuff.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BionicLeg"]/label</xpath>
+    <value>
+      <label>standard cyberleg</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BionicLeg"]/description</xpath>
+    <value>
+      <description>The standard cyberleg is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the pelvis using a metal and plasteel cuff.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BionicEye"]/label</xpath>
+    <value>
+      <label>cyberoptic image enhancement</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BionicEye"]/description</xpath>
+    <value>
+      <description>This cyberoptic gives the recipient ultra high resolution graphics capability to enhance and refine images viewed.</description>
+    </value>
+  </Operation>
+</Patch>

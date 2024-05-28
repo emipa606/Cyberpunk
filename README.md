@@ -1,7 +1,6 @@
-# Cyberpunk
+# [Cyberpunk (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2846541548)
 
 ![Image](https://i.imgur.com/buuPQel.png)
-
 Update of Darques mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1301071669
 based on Itachi x E28's updated version
@@ -11,18 +10,16 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2129832774
 
 
 
-- https://steamcommunity.com/sharedfiles/filedetails/?id=2514935266]No vanilla weapons
-- https://steamcommunity.com/sharedfiles/filedetails/?id=2235398051]No vanilla apparel
+- [https://steamcommunity.com/sharedfiles/filedetails/?id=2514935266](No vanilla weapons)
+- [https://steamcommunity.com/sharedfiles/filedetails/?id=2235398051](No vanilla apparel)
 
 
 
 - Added an option to turn off weapon reliability
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 # Overview
 
 The Cyberpunk mod adds elements of the Cyberpunk 2020 RPG game to RimWorld.
@@ -34,8 +31,8 @@ It includes the following:
 - Gun reliability and jamming
 - Includes Pardeike's Harmony library
 
-If you like this mod, try the https://steamcommunity.com/sharedfiles/filedetails/?id=2846910032]Cyberpunk Factions expansion.  It adds several corps to the game in addition to the outlanders.
-I also suggest using the http://steamcommunity.com/sharedfiles/filedetails/?id=735241897]Mending Mod, which will allow you to fix and maintain your guns, as well as clean up the gear from your fallen enemies to make them usable again.
+If you like this mod, try the [https://steamcommunity.com/sharedfiles/filedetails/?id=2846910032](Cyberpunk Factions) expansion.  It adds several corps to the game in addition to the outlanders.
+I also suggest using the [http://steamcommunity.com/sharedfiles/filedetails/?id=735241897](Mending) Mod, which will allow you to fix and maintain your guns, as well as clean up the gear from your fallen enemies to make them usable again.
 
 **There is always the possibility that this mod has bugs. Please report any issues that you might run into**
 
@@ -90,16 +87,14 @@ All current and past versions of this mod can be downloaded from GitHub.
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
-
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404](Uploader) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [https://github.com/RimSort/RimSort/releases/latest](RimSort) to sort your mods
 
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2846541548]![Image](https://img.shields.io/github/v/release/emipa606/Cyberpunk?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[https://steamcommunity.com/sharedfiles/filedetails/changelog/2846541548]![Image]((https://img.shields.io/github/v/release/emipa606/Cyberpunk?label=latest%20version&style=plastic&color=9f1111&labelColor=black))
