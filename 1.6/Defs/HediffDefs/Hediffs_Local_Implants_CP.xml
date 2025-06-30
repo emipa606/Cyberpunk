@@ -11,7 +11,7 @@
     </addedPartProps>
   </HediffDef>
   <HediffDef Name="ImplantHediffBase_CP" Abstract="True">
-    <hediffClass>Hediff_Implant</hediffClass>
+    <hediffClass>Hediff_AddedPart</hediffClass>
     <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
     <isBad>false</isBad>
     <scenarioCanAdd>true</scenarioCanAdd>
