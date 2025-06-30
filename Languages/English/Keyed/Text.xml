@@ -1,6 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <CyP.Durability>Weapons have reliability</CyP.Durability>
-  <CyP.Durability.Tooltip>Weapons can jam duriong combat based on their durability and Reliability</CyP.Durability.Tooltip>
+  <CyP.Durability.Tooltip>Weapons can jam during combat based on their durability and Reliability</CyP.Durability.Tooltip>
   <CyP.ModVersion>Installed mod-version: {0}</CyP.ModVersion>
+  <CyP.Unreliable>This gun is unreliable in combat and can jam easily.</CyP.Unreliable>
+  <CyP.Standard>This gun is reliable in combat but can occasionally jam.</CyP.Standard>
+  <CyP.VeryReliable>This gun is very reliable in combat and tends not to jam.</CyP.VeryReliable>
+  <CyP.ExtremelyReliable>This gun is extremely reliable in combat and tends not to jam.</CyP.ExtremelyReliable>
 </LanguageData>

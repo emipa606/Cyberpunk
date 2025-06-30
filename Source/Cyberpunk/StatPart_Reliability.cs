@@ -1,5 +1,6 @@
 using System;
 using RimWorld;
+using Verse;
 
 namespace Cyberpunk;
 
@@ -7,7 +8,7 @@ internal class StatPart_Reliability : StatPart
 {
     public override void TransformValue(StatRequest req, ref float val)
     {
-        if (!CyberpunkMod.instance.Settings.Durability || !req.HasThing ||
+        if (!CyberpunkMod.Instance.Settings.Durability || !req.HasThing ||
             req.Thing.GetType() != Type.GetType("Cyberpunk.ThingDef_GunCP"))
         {
             return;
@@ -21,16 +22,16 @@ internal class StatPart_Reliability : StatPart
             default:
                 return;
             case "Unreliable":
-                parentStat.description = "This gun is unreliable in combat and can jam easily.";
+                parentStat.description = "CyP.Unreliable".Translate();
                 break;
             case "Standard":
-                parentStat.description = "This gun is reliable in combat but can occationally jam.";
+                parentStat.description = "CyP.Standard".Translate();
                 break;
             case "Very Reliable":
-                parentStat.description = "This gun is very reliable in combat and tends not to jam.";
+                parentStat.description = "CyP.VeryReliable".Translate();
                 break;
             case "Extremely Reliable":
-                parentStat.description = "This gun is extremely reliable in combat and tends not to jam.";
+                parentStat.description = "CyP.ExtremelyReliable".Translate();
                 break;
         }
 
@@ -44,7 +45,7 @@ internal class StatPart_Reliability : StatPart
 
     public static void GetReliability(ThingDef_GunCP gun, out string rel, out float jamsOn)
     {
-        if (!CyberpunkMod.instance.Settings.Durability)
+        if (!CyberpunkMod.Instance.Settings.Durability)
         {
             rel = "Standard";
             jamsOn = 0;
@@ -52,7 +53,7 @@ internal class StatPart_Reliability : StatPart
         }
 
         rel = string.Empty;
-        jamsOn = JamChance(gun);
+        jamsOn = jamChance(gun);
         if (jamsOn < 0.25)
         {
             rel = "Extremely Reliable";
@@ -71,7 +72,7 @@ internal class StatPart_Reliability : StatPart
         }
     }
 
-    public static float JamChance(ThingDef_GunCP gun)
+    private static float jamChance(ThingDef_GunCP gun)
     {
         float num;
         switch (gun.reliability)
@@ -89,12 +90,12 @@ internal class StatPart_Reliability : StatPart
                 return 0f;
         }
 
-        num += GetQualityFactor(gun);
+        num += getQualityFactor(gun);
         num = num * 100f / gun.HitPoints / 100f;
         return (float)(Math.Truncate(num * 100.0) / 100.0);
     }
 
-    public static int GetQualityFactor(ThingDef_GunCP gun)
+    private static int getQualityFactor(ThingDef_GunCP gun)
     {
         if (!gun.TryGetQuality(out var qc))
         {

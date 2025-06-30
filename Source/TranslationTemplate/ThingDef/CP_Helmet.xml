@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: balaclava -->
+  <Apparel_Balaclava_CP.label>balaclava</Apparel_Balaclava_CP.label>
+  <!-- EN: A balaclava, also known as a balaclava helmet or ski mask, is a form of cloth headgear designed to expose only part of the face. -->
+  <Apparel_Balaclava_CP.description>A balaclava, also known as a balaclava helmet or ski mask, is a form of cloth headgear designed to expose only part of the face.</Apparel_Balaclava_CP.description>
+  <!-- EN: Sternmeyer balaclava -->
+  <Apparel_BalaclavaS_CP.label>Sternmeyer balaclava</Apparel_BalaclavaS_CP.label>
+  <!-- EN: beret -->
+  <Apparel_Beret.label>beret</Apparel_Beret.label>
+  <!-- EN: A soft, round, flat-crowned hat, usually of woven, hand-knitted wool, crocheted cotton, wool felt, or acrylic fibre. -->
+  <Apparel_Beret.description>A soft, round, flat-crowned hat, usually of woven, hand-knitted wool, crocheted cotton, wool felt, or acrylic fibre.</Apparel_Beret.description>
+  <!-- EN: cap -->
+  <Apparel_Cap.label>cap</Apparel_Cap.label>
+  <!-- EN: A cap is a form of headgear. Caps have crowns that fit very close to the head and have no brim or only a visor. They are typically designed for warmth and, when including a visor, blocking sunlight from the eyes. They come in many shapes and sizes. -->
+  <Apparel_Cap.description>A cap is a form of headgear. Caps have crowns that fit very close to the head and have no brim or only a visor. They are typically designed for warmth and, when including a visor, blocking sunlight from the eyes. They come in many shapes and sizes.</Apparel_Cap.description>
+  <!-- EN: kevlar helmet -->
+  <Apparel_KevlarHelmet.label>kevlar helmet</Apparel_KevlarHelmet.label>
+  <!-- EN: A lightweight combat helmet. -->
+  <Apparel_KevlarHelmet.description>A lightweight combat helmet.</Apparel_KevlarHelmet.description>
+  <!-- EN: Arasaka Combat Helmet -->
+  <CP_Arasaka_Helmet.label>Arasaka Combat Helmet</CP_Arasaka_Helmet.label>
+  <!-- EN: Standard issue Arasaka Combat Helmet. -->
+  <CP_Arasaka_Helmet.description>Standard issue Arasaka Combat Helmet.</CP_Arasaka_Helmet.description>
+  <!-- EN: Esporma Environment Helmet -->
+  <CP_Esporma_Helmet.label>Esporma Environment Helmet</CP_Esporma_Helmet.label>
+  <!-- EN: The Esporma Environment Helmet is a must of any situation that may include poisonous gasses, bioweapons, or corrosive materials. This helmet includes a hood with face shield as well as an internal oxygen supply. -->
+  <CP_Esporma_Helmet.description>The Esporma Environment Helmet is a must of any situation that may include poisonous gasses, bioweapons, or corrosive materials. This helmet includes a hood with face shield as well as an internal oxygen supply.</CP_Esporma_Helmet.description>
+  <!-- EN: TTI Paramedic Helmet -->
+  <CP_Medic_Helmet.label>TTI Paramedic Helmet</CP_Medic_Helmet.label>
+  <!-- EN: Worn by paramedic units, these helmets provide protection as well as an anti-dazzle visor and a two-way radio. -->
+  <CP_Medic_Helmet.description>Worn by paramedic units, these helmets provide protection as well as an anti-dazzle visor and a two-way radio.</CP_Medic_Helmet.description>
+  <!-- EN: MetalGear™ helmet -->
+  <CP_MGHelmet.label>MetalGear™ helmet</CP_MGHelmet.label>
+  <!-- EN: Laminated expoxide plated helmet from the MetalGear™ armor set. -->
+  <CP_MGHelmet.description>Laminated expoxide plated helmet from the MetalGear™ armor set.</CP_MGHelmet.description>
+  <!-- EN: Militech M88 Combat Helmet -->
+  <CP_MM88_Helmet.label>Militech M88 Combat Helmet</CP_MM88_Helmet.label>
+  <!-- EN: The M-88 is a fully enclosed infantry helmet that is currently being issued to special attack and guard units. The communications microphone and earphones are built in, as is a small, forward facing video camera array which not only provides input for night vision systems but can transmit images back to a rearechelon receiver. The face shield functions as a heads-up display which is interfaced with a belt-pack accepting chipped data, such as maps. -->
+  <CP_MM88_Helmet.description>The M-88 is a fully enclosed infantry helmet that is currently being issued to special attack and guard units. The communications microphone and earphones are built in, as is a small, forward facing video camera array which not only provides input for night vision systems but can transmit images back to a rearechelon receiver. The face shield functions as a heads-up display which is interfaced with a belt-pack accepting chipped data, such as maps.</CP_MM88_Helmet.description>
+  <!-- EN: Militech M88A2 Combat Helmet -->
+  <CP_MM88A2_Helmet.label>Militech M88A2 Combat Helmet</CP_MM88A2_Helmet.label>
+  <!-- EN: The M-88A2 is an enhanced combat helmet model with greater protective and analytic capability than the M-88. It has an integral face shield and respirator and offers complete protection against all inhaled agents. The communications microphone and earphones are built in, as is a small, forward facing video camera array which not only provides input for night vision systems but can transmit images back to a rearechelon receiver. The face shield functions as a heads-up display which is interfaced with a belt-pack accepting chipped data, such as maps. -->
+  <CP_MM88A2_Helmet.description>The M-88A2 is an enhanced combat helmet model with greater protective and analytic capability than the M-88. It has an integral face shield and respirator and offers complete protection against all inhaled agents. The communications microphone and earphones are built in, as is a small, forward facing video camera array which not only provides input for night vision systems but can transmit images back to a rearechelon receiver. The face shield functions as a heads-up display which is interfaced with a belt-pack accepting chipped data, such as maps.</CP_MM88A2_Helmet.description>
+  <!-- EN: Smart Helmet -->
+  <CP_Smart_Helmet.label>Smart Helmet</CP_Smart_Helmet.label>
+  <!-- EN: The smart helmet provides some protection as well as utilizing smart interface links for aiming assist. -->
+  <CP_Smart_Helmet.description>The smart helmet provides some protection as well as utilizing smart interface links for aiming assist.</CP_Smart_Helmet.description>
+</LanguageData>

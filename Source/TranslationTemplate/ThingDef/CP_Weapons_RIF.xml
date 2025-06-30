@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Arasaka Advanced Recon -->
+  <Gun_AAR_CP.label>Arasaka Advanced Recon</Gun_AAR_CP.label>
+  <!-- EN: 10mm Assault Rifle - The Advenced Recon is Arasaka’s latest response to the problem of Cyborg crime. -->
+  <Gun_AAR_CP.description>10mm Assault Rifle - The Advenced Recon is Arasaka’s latest response to the problem of Cyborg crime.</Gun_AAR_CP.description>
+  <!-- EN: stock -->
+  <Gun_AAR_CP.tools.stock.label>stock</Gun_AAR_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_AAR_CP.tools.barrel.label>barrel</Gun_AAR_CP.tools.barrel.label>
+  <!-- EN: Arasaka Advanced Recon -->
+  <Gun_AAR_CP.verbs.Verb_ShootCP.label>Arasaka Advanced Recon</Gun_AAR_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka AW-65 -->
+  <Gun_AAW65_CP.label>Arasaka AW-65</Gun_AAW65_CP.label>
+  <!-- EN: 5.56mm Assault Rifle - Short, fat, and menacing is the only way to describe this rifle.  Arasaka developed this weapon with maximum kill ratio's in mind, and succeeded.  Its large suppresser keeps the noise down while it unleashes its load of 5.56 ammunition.  Comes standard with a low light telescopic sight. -->
+  <Gun_AAW65_CP.description>5.56mm Assault Rifle - Short, fat, and menacing is the only way to describe this rifle.  Arasaka developed this weapon with maximum kill ratio's in mind, and succeeded.  Its large suppresser keeps the noise down while it unleashes its load of 5.56 ammunition.  Comes standard with a low light telescopic sight.</Gun_AAW65_CP.description>
+  <!-- EN: stock -->
+  <Gun_AAW65_CP.tools.stock.label>stock</Gun_AAW65_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_AAW65_CP.tools.barrel.label>barrel</Gun_AAW65_CP.tools.barrel.label>
+  <!-- EN: Arasaka AW-65 -->
+  <Gun_AAW65_CP.verbs.Verb_ShootCP.label>Arasaka AW-65</Gun_AAW65_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka BAR-54 -->
+  <Gun_ABAR54_CP.label>Arasaka BAR-54</Gun_ABAR54_CP.label>
+  <!-- EN: 4.5mm Assault Rifle - This bullpup assault rifle is a favorite among police and SDF forces in the Asian Rim. -->
+  <Gun_ABAR54_CP.description>4.5mm Assault Rifle - This bullpup assault rifle is a favorite among police and SDF forces in the Asian Rim.</Gun_ABAR54_CP.description>
+  <!-- EN: stock -->
+  <Gun_ABAR54_CP.tools.stock.label>stock</Gun_ABAR54_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_ABAR54_CP.tools.barrel.label>barrel</Gun_ABAR54_CP.tools.barrel.label>
+  <!-- EN: Arasaka BAR-54 -->
+  <Gun_ABAR54_CP.verbs.Verb_ShootCP.label>Arasaka BAR-54</Gun_ABAR54_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka Kiara -->
+  <Gun_AKIARA_CP.label>Arasaka Kiara</Gun_AKIARA_CP.label>
+  <!-- EN: 6mm Assault Rifle - This Is a stunning assault rifle with a built in 8 shot 10 gauge shotgun. -->
+  <Gun_AKIARA_CP.description>6mm Assault Rifle - This Is a stunning assault rifle with a built in 8 shot 10 gauge shotgun.</Gun_AKIARA_CP.description>
+  <!-- EN: stock -->
+  <Gun_AKIARA_CP.tools.stock.label>stock</Gun_AKIARA_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_AKIARA_CP.tools.barrel.label>barrel</Gun_AKIARA_CP.tools.barrel.label>
+  <!-- EN: Arasaka Kiara -->
+  <Gun_AKIARA_CP.verbs.Verb_ShootCP.label>Arasaka Kiara</Gun_AKIARA_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka SA-456 -->
+  <Gun_ASA456_CP.label>Arasaka SA-456</Gun_ASA456_CP.label>
+  <!-- EN: 7mm Assault Rifle - Arasaka's newest assault rifle.  The 60 round drum magazine almost makes this a light squad assault weapon, but the weight, size, and versatility keep in nicely in the assault rifle realm. -->
+  <Gun_ASA456_CP.description>7mm Assault Rifle - Arasaka's newest assault rifle.  The 60 round drum magazine almost makes this a light squad assault weapon, but the weight, size, and versatility keep in nicely in the assault rifle realm.</Gun_ASA456_CP.description>
+  <!-- EN: stock -->
+  <Gun_ASA456_CP.tools.stock.label>stock</Gun_ASA456_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_ASA456_CP.tools.barrel.label>barrel</Gun_ASA456_CP.tools.barrel.label>
+  <!-- EN: Arasaka SA-456 -->
+  <Gun_ASA456_CP.verbs.Verb_ShootCP.label>Arasaka SA-456</Gun_ASA456_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka SA-460 -->
+  <Gun_ASA460_CP.label>Arasaka SA-460</Gun_ASA460_CP.label>
+  <!-- EN: 7.62mm Assault Rifle - The big brother of the SA-456.  Chambered in 7.62mm.  A bit more accurate due to the longer barrel. -->
+  <Gun_ASA460_CP.description>7.62mm Assault Rifle - The big brother of the SA-456.  Chambered in 7.62mm.  A bit more accurate due to the longer barrel.</Gun_ASA460_CP.description>
+  <!-- EN: stock -->
+  <Gun_ASA460_CP.tools.stock.label>stock</Gun_ASA460_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_ASA460_CP.tools.barrel.label>barrel</Gun_ASA460_CP.tools.barrel.label>
+  <!-- EN: Arasaka SA-460 -->
+  <Gun_ASA460_CP.verbs.Verb_ShootCP.label>Arasaka SA-460</Gun_ASA460_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka X-61 -->
+  <Gun_AX61_CP.label>Arasaka X-61</Gun_AX61_CP.label>
+  <!-- EN: Railgun. Arasaka has created a true man-portable railgun roughly the same size and weight as a large assault rifle.  This weapon uses a 15mm nickel cadmium projectile. -->
+  <Gun_AX61_CP.description>Railgun. Arasaka has created a true man-portable railgun roughly the same size and weight as a large assault rifle.  This weapon uses a 15mm nickel cadmium projectile.</Gun_AX61_CP.description>
+  <!-- EN: stock -->
+  <Gun_AX61_CP.tools.stock.label>stock</Gun_AX61_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_AX61_CP.tools.barrel.label>barrel</Gun_AX61_CP.tools.barrel.label>
+  <!-- EN: Arasaka X-61 -->
+  <Gun_AX61_CP.verbs.Verb_ShootCP.label>Arasaka X-61</Gun_AX61_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Budget Arms AR-25 -->
+  <Gun_BAAR25_CP.label>Budget Arms AR-25</Gun_BAAR25_CP.label>
+  <!-- EN: 7mm Assault Rifle - Unispired and inexpensive, but at least it won't blow up in your face (we hope). -->
+  <Gun_BAAR25_CP.description>7mm Assault Rifle - Unispired and inexpensive, but at least it won't blow up in your face (we hope).</Gun_BAAR25_CP.description>
+  <!-- EN: stock -->
+  <Gun_BAAR25_CP.tools.stock.label>stock</Gun_BAAR25_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_BAAR25_CP.tools.barrel.label>barrel</Gun_BAAR25_CP.tools.barrel.label>
+  <!-- EN: Budget Arms AR-25 -->
+  <Gun_BAAR25_CP.verbs.Verb_ShootCP.label>Budget Arms AR-25</Gun_BAAR25_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Budget Arms CLAWS -->
+  <Gun_BACLAWS_CP.label>Budget Arms CLAWS</Gun_BACLAWS_CP.label>
+  <!-- EN: 6mm Assault Rifle - The CLAWS is the polymer one shot version of the H&K CAWS weapon system.  While the original system was designed to accept a variety of different ammunition, the CLAWS is only chambered for 6mm rounds.  The weapon jams frequently, and has a reputation for explosively misfiring during full auto fire. -->
+  <Gun_BACLAWS_CP.description>6mm Assault Rifle - The CLAWS is the polymer one shot version of the H&amp;K CAWS weapon system.  While the original system was designed to accept a variety of different ammunition, the CLAWS is only chambered for 6mm rounds.  The weapon jams frequently, and has a reputation for explosively misfiring during full auto fire.</Gun_BACLAWS_CP.description>
+  <!-- EN: stock -->
+  <Gun_BACLAWS_CP.tools.stock.label>stock</Gun_BACLAWS_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_BACLAWS_CP.tools.barrel.label>barrel</Gun_BACLAWS_CP.tools.barrel.label>
+  <!-- EN: Budget Arms CLAWS -->
+  <Gun_BACLAWS_CP.verbs.Verb_ShootCP.label>Budget Arms CLAWS</Gun_BACLAWS_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Dai Lung BLT-24 -->
+  <Gun_DLBLT24_CP.label>Dai Lung BLT-24</Gun_DLBLT24_CP.label>
+  <!-- EN: 7.62mm Assault Rifle - Someone really needs to perform a less than surgical strike on Dai-Lung, their weapons are simply to dangerous to both user and target to ever  be justified.  A prime example is this assault rifle. Among street gangs, who's philosophy seems to be "the bigger a gun the better" this weapon sells like hotcakes.  Rumor has it the weapon also has a large distribution to rebels in the rim. -->
+  <Gun_DLBLT24_CP.description>7.62mm Assault Rifle - Someone really needs to perform a less than surgical strike on Dai-Lung, their weapons are simply to dangerous to both user and target to ever  be justified.  A prime example is this assault rifle. Among street gangs, who's philosophy seems to be "the bigger a gun the better" this weapon sells like hotcakes.  Rumor has it the weapon also has a large distribution to rebels in the rim.</Gun_DLBLT24_CP.description>
+  <!-- EN: stock -->
+  <Gun_DLBLT24_CP.tools.stock.label>stock</Gun_DLBLT24_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_DLBLT24_CP.tools.barrel.label>barrel</Gun_DLBLT24_CP.tools.barrel.label>
+  <!-- EN: Dai Lung BLT-24 -->
+  <Gun_DLBLT24_CP.verbs.Verb_ShootCP.label>Dai Lung BLT-24</Gun_DLBLT24_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Dai Lung DR-40 -->
+  <Gun_DLDR40_CP.label>Dai Lung DR-40</Gun_DLDR40_CP.label>
+  <!-- EN: 4.5mm Assault Rifle - An inexpensive, but not poorly designed rifle, popular with many third world militaries, police forces, and civilians worldwide. -->
+  <Gun_DLDR40_CP.description>4.5mm Assault Rifle - An inexpensive, but not poorly designed rifle, popular with many third world militaries, police forces, and civilians worldwide.</Gun_DLDR40_CP.description>
+  <!-- EN: stock -->
+  <Gun_DLDR40_CP.tools.stock.label>stock</Gun_DLDR40_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_DLDR40_CP.tools.barrel.label>barrel</Gun_DLDR40_CP.tools.barrel.label>
+  <!-- EN: Dai Lung DR-40 -->
+  <Gun_DLDR40_CP.verbs.Verb_ShootCP.label>Dai Lung DR-40</Gun_DLDR40_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Federated Arms BR-328 -->
+  <Gun_FABR328_CP.label>Federated Arms BR-328</Gun_FABR328_CP.label>
+  <!-- EN: 7.62mm Assault Rifle - A decent assault rifle from Federated arms, although it falls short in the accuracy department.  A retracting stock is standard. -->
+  <Gun_FABR328_CP.description>7.62mm Assault Rifle - A decent assault rifle from Federated arms, although it falls short in the accuracy department.  A retracting stock is standard.</Gun_FABR328_CP.description>
+  <!-- EN: stock -->
+  <Gun_FABR328_CP.tools.stock.label>stock</Gun_FABR328_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_FABR328_CP.tools.barrel.label>barrel</Gun_FABR328_CP.tools.barrel.label>
+  <!-- EN: Federated Arms BR-328 -->
+  <Gun_FABR328_CP.verbs.Verb_ShootCP.label>Federated Arms BR-328</Gun_FABR328_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Federated Arms MA-25 -->
+  <Gun_FAMA25_CP.label>Federated Arms MA-25</Gun_FAMA25_CP.label>
+  <!-- EN: 5.56mm Assault Rifle - A cheap fairly reliable assault rifle, popular in 3rd world militaries, nomads, and urban gangs. -->
+  <Gun_FAMA25_CP.description>5.56mm Assault Rifle - A cheap fairly reliable assault rifle, popular in 3rd world militaries, nomads, and urban gangs.</Gun_FAMA25_CP.description>
+  <!-- EN: stock -->
+  <Gun_FAMA25_CP.tools.stock.label>stock</Gun_FAMA25_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_FAMA25_CP.tools.barrel.label>barrel</Gun_FAMA25_CP.tools.barrel.label>
+  <!-- EN: Federated Arms MA-25 -->
+  <Gun_FAMA25_CP.verbs.Verb_ShootCP.label>Federated Arms MA-25</Gun_FAMA25_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech Dragon -->
+  <Gun_MDRAG_CP.label>Militech Dragon</Gun_MDRAG_CP.label>
+  <!-- EN: 6.5mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine. -->
+  <Gun_MDRAG_CP.description>6.5mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine.</Gun_MDRAG_CP.description>
+  <!-- EN: stock -->
+  <Gun_MDRAG_CP.tools.stock.label>stock</Gun_MDRAG_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MDRAG_CP.tools.barrel.label>barrel</Gun_MDRAG_CP.tools.barrel.label>
+  <!-- EN: Militech Dragon -->
+  <Gun_MDRAG_CP.verbs.Verb_ShootCP.label>Militech Dragon</Gun_MDRAG_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech M-12CC -->
+  <Gun_MM12CC_CP.label>Militech M-12CC</Gun_MM12CC_CP.label>
+  <!-- EN: 6mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine. -->
+  <Gun_MM12CC_CP.description>6mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine.</Gun_MM12CC_CP.description>
+  <!-- EN: stock -->
+  <Gun_MM12CC_CP.tools.stock.label>stock</Gun_MM12CC_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MM12CC_CP.tools.barrel.label>barrel</Gun_MM12CC_CP.tools.barrel.label>
+  <!-- EN: Militech M-12CC -->
+  <Gun_MM12CC_CP.verbs.Verb_ShootCP.label>Militech M-12CC</Gun_MM12CC_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech M31-A1 -->
+  <Gun_MM31A1_CP.label>Militech M31-A1</Gun_MM31A1_CP.label>
+  <!-- EN: 4.5mm Assault Rifle - An assault rifle designed for use by miltary forces around the rim. -->
+  <Gun_MM31A1_CP.description>4.5mm Assault Rifle - An assault rifle designed for use by miltary forces around the rim.</Gun_MM31A1_CP.description>
+  <!-- EN: stock -->
+  <Gun_MM31A1_CP.tools.stock.label>stock</Gun_MM31A1_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MM31A1_CP.tools.barrel.label>barrel</Gun_MM31A1_CP.tools.barrel.label>
+  <!-- EN: Militech M31-A1 -->
+  <Gun_MM31A1_CP.verbs.Verb_ShootCP.label>Militech M31-A1</Gun_MM31A1_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech M-52AR -->
+  <Gun_MM52AR_CP.label>Militech M-52AR</Gun_MM52AR_CP.label>
+  <!-- EN: 10mm Assault Rifle - An assault weapon built for the urban environment. The rifle features digital ammo counter along with a retractable stock (now available with fixed stock for greater aesthetic and comfort) and the highest ammo capacity and caliber of an weapon in its class. -->
+  <Gun_MM52AR_CP.description>10mm Assault Rifle - An assault weapon built for the urban environment. The rifle features digital ammo counter along with a retractable stock (now available with fixed stock for greater aesthetic and comfort) and the highest ammo capacity and caliber of an weapon in its class.</Gun_MM52AR_CP.description>
+  <!-- EN: stock -->
+  <Gun_MM52AR_CP.tools.stock.label>stock</Gun_MM52AR_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MM52AR_CP.tools.barrel.label>barrel</Gun_MM52AR_CP.tools.barrel.label>
+  <!-- EN: Militech M-52AR -->
+  <Gun_MM52AR_CP.verbs.Verb_ShootCP.label>Militech M-52AR</Gun_MM52AR_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech M-56AR -->
+  <Gun_MM56AR_CP.label>Militech M-56AR</Gun_MM56AR_CP.label>
+  <!-- EN: 7.62mm Assault Rifle - This is actually a step down from the M-52AR,  whose ammunition is shorter but more powerful..  Still this weapon is more accurate, and the 7.62 ammunition is far more common.  It's also a bit cheaper, making this a far more suited to urban combat. -->
+  <Gun_MM56AR_CP.description>7.62mm Assault Rifle - This is actually a step down from the M-52AR,  whose ammunition is shorter but more powerful..  Still this weapon is more accurate, and the 7.62 ammunition is far more common.  It's also a bit cheaper, making this a far more suited to urban combat.</Gun_MM56AR_CP.description>
+  <!-- EN: stock -->
+  <Gun_MM56AR_CP.tools.stock.label>stock</Gun_MM56AR_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MM56AR_CP.tools.barrel.label>barrel</Gun_MM56AR_CP.tools.barrel.label>
+  <!-- EN: Militech M-56AR -->
+  <Gun_MM56AR_CP.verbs.Verb_ShootCP.label>Militech M-56AR</Gun_MM56AR_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech MK IV -->
+  <Gun_MMKIV_CP.label>Militech MK IV</Gun_MMKIV_CP.label>
+  <!-- EN: 6.5mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine. -->
+  <Gun_MMKIV_CP.description>6.5mm Assault Rifle - Military rifle with a 60 round top mounted helical magazine.</Gun_MMKIV_CP.description>
+  <!-- EN: stock -->
+  <Gun_MMKIV_CP.tools.stock.label>stock</Gun_MMKIV_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MMKIV_CP.tools.barrel.label>barrel</Gun_MMKIV_CP.tools.barrel.label>
+  <!-- EN: Militech MK IV -->
+  <Gun_MMKIV_CP.verbs.Verb_ShootCP.label>Militech MK IV</Gun_MMKIV_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech Ninja -->
+  <Gun_MNINJA_CP.label>Militech Ninja</Gun_MNINJA_CP.label>
+  <!-- EN: 5mm Rifle - A highly reliable caseless design with no moving parts and an integral silencer. A fully plastic magazing and electrical firing pin makes this assault weapon incredibly quiet. Perfect for black ops! -->
+  <Gun_MNINJA_CP.description>5mm Rifle - A highly reliable caseless design with no moving parts and an integral silencer. A fully plastic magazing and electrical firing pin makes this assault weapon incredibly quiet. Perfect for black ops!</Gun_MNINJA_CP.description>
+  <!-- EN: stock -->
+  <Gun_MNINJA_CP.tools.stock.label>stock</Gun_MNINJA_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MNINJA_CP.tools.barrel.label>barrel</Gun_MNINJA_CP.tools.barrel.label>
+  <!-- EN: Militech Ninja -->
+  <Gun_MNINJA_CP.verbs.Verb_ShootCP.label>Militech Ninja</Gun_MNINJA_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech Ronin Assault Rifle -->
+  <Gun_MRLA_CP.label>Militech Ronin Assault Rifle</Gun_MRLA_CP.label>
+  <!-- EN: 5.56mm Assault Rifle - The Militech Ronin standard edition is the classic light assault rifle of the modern battlefield. It only weighs 3 kilograms loaded. -->
+  <Gun_MRLA_CP.description>5.56mm Assault Rifle - The Militech Ronin standard edition is the classic light assault rifle of the modern battlefield. It only weighs 3 kilograms loaded.</Gun_MRLA_CP.description>
+  <!-- EN: stock -->
+  <Gun_MRLA_CP.tools.stock.label>stock</Gun_MRLA_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MRLA_CP.tools.barrel.label>barrel</Gun_MRLA_CP.tools.barrel.label>
+  <!-- EN: Militech Ronin Assault Rifle -->
+  <Gun_MRLA_CP.verbs.Verb_ShootCP.label>Militech Ronin Assault Rifle</Gun_MRLA_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer AR-892 -->
+  <Gun_SAR892_CP.label>Sternmeyer AR-892</Gun_SAR892_CP.label>
+  <!-- EN: 5.56mm Assault Rifle - A light bullpup assault rifle, a fine weapon from Sternmeyer, more attractive than their usual faire. -->
+  <Gun_SAR892_CP.description>5.56mm Assault Rifle - A light bullpup assault rifle, a fine weapon from Sternmeyer, more attractive than their usual faire.</Gun_SAR892_CP.description>
+  <!-- EN: stock -->
+  <Gun_SAR892_CP.tools.stock.label>stock</Gun_SAR892_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_SAR892_CP.tools.barrel.label>barrel</Gun_SAR892_CP.tools.barrel.label>
+  <!-- EN: Sternmeyer AR-892 -->
+  <Gun_SAR892_CP.verbs.Verb_ShootCP.label>Sternmeyer AR-892</Gun_SAR892_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer HRO-113 -->
+  <Gun_SHRO113_CP.label>Sternmeyer HRO-113</Gun_SHRO113_CP.label>
+  <!-- EN: 6.5mm Assault Rifle - A simple if effective assault rifle by Sternmeyer. -->
+  <Gun_SHRO113_CP.description>6.5mm Assault Rifle - A simple if effective assault rifle by Sternmeyer.</Gun_SHRO113_CP.description>
+  <!-- EN: stock -->
+  <Gun_SHRO113_CP.tools.stock.label>stock</Gun_SHRO113_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_SHRO113_CP.tools.barrel.label>barrel</Gun_SHRO113_CP.tools.barrel.label>
+  <!-- EN: Sternmeyer HRO-113 -->
+  <Gun_SHRO113_CP.verbs.Verb_ShootCP.label>Sternmeyer HRO-113</Gun_SHRO113_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Stolbovoy ST-5 -->
+  <Gun_SST5_CP.label>Stolbovoy ST-5</Gun_SST5_CP.label>
+  <!-- EN: 5.56mm Assault Rifle - A light, sturdy bullpup weapon. The ST-5 was designed to withstand the rugged environmental conditions in the rim. Using innovative design and special lubricants, Stolbovoy has created a weapon that can operate reliably under the most adverse conditions, including heat, cold, mud, dampness, sand and grit, lubricant contamination, and corrosive environments. One of die toughest, most reliable assault rifles in die world; troops are quoted as saying, "It never breaks!" -->
+  <Gun_SST5_CP.description>5.56mm Assault Rifle - A light, sturdy bullpup weapon. The ST-5 was designed to withstand the rugged environmental conditions in the rim. Using innovative design and special lubricants, Stolbovoy has created a weapon that can operate reliably under the most adverse conditions, including heat, cold, mud, dampness, sand and grit, lubricant contamination, and corrosive environments. One of die toughest, most reliable assault rifles in die world; troops are quoted as saying, "It never breaks!"</Gun_SST5_CP.description>
+  <!-- EN: stock -->
+  <Gun_SST5_CP.tools.stock.label>stock</Gun_SST5_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_SST5_CP.tools.barrel.label>barrel</Gun_SST5_CP.tools.barrel.label>
+  <!-- EN: Stolbovoy ST-5 -->
+  <Gun_SST5_CP.verbs.Verb_ShootCP.label>Stolbovoy ST-5</Gun_SST5_CP.verbs.Verb_ShootCP.label>
+</LanguageData>

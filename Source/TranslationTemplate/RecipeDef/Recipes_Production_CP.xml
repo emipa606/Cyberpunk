@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make kevlar -->
+  <Make_Kevlar.label>make kevlar</Make_Kevlar.label>
+  <!-- EN: Make kevlar sheets from kevlar fibers. \n\nMakes 20 sheets of kevlar. -->
+  <Make_Kevlar.description>Make kevlar sheets from kevlar fibers. 
+
+Makes 20 sheets of kevlar.</Make_Kevlar.description>
+  <!-- EN: Making kevlar. -->
+  <Make_Kevlar.jobString>Making kevlar.</Make_Kevlar.jobString>
+  <!-- EN: make kevlar fibers from chemfuel -->
+  <Make_KevlarFromChemfuel.label>make kevlar fibers from chemfuel</Make_KevlarFromChemfuel.label>
+  <!-- EN: Produce the basic fibers from which Kevlar is made. -->
+  <Make_KevlarFromChemfuel.description>Produce the basic fibers from which Kevlar is made.</Make_KevlarFromChemfuel.description>
+  <!-- EN: Producing kevlar fibers. -->
+  <Make_KevlarFromChemfuel.jobString>Producing kevlar fibers.</Make_KevlarFromChemfuel.jobString>
+</LanguageData>

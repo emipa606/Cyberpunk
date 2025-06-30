@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: bigknucks -->
+  <BigKnucks_CP.label>bigknucks</BigKnucks_CP.label>
+  <!-- EN: Reinforced knucklebones, giving the fist the impact value of a brass knuckle. -->
+  <BigKnucks_CP.description>Reinforced knucklebones, giving the fist the impact value of a brass knuckle.</BigKnucks_CP.description>
+  <!-- EN: cowl plate -->
+  <Cowlplate_CP.label>cowl plate</Cowlplate_CP.label>
+  <!-- EN: This is a body plate that covers the skull. It is anchored by minibolts to the scalp, and resembles the bad skullcaps from bad science fiction or fantasy epics. -->
+  <Cowlplate_CP.description>This is a body plate that covers the skull. It is anchored by minibolts to the scalp, and resembles the bad skullcaps from bad science fiction or fantasy epics.</Cowlplate_CP.description>
+  <!-- EN: Pacesetter Sport Heart -->
+  <CyberHeart_CP.label>Pacesetter Sport Heart</CyberHeart_CP.label>
+  <!-- EN: This rapid action turbopump heart is for the physically oriented. It is capable of increasing circulation many time over, effectively boosting physical performace. -->
+  <CyberHeart_CP.description>This rapid action turbopump heart is for the physically oriented. It is capable of increasing circulation many time over, effectively boosting physical performace.</CyberHeart_CP.description>
+  <!-- EN: Pacesetter 2000 Heart -->
+  <CyberHeart2_CP.label>Pacesetter 2000 Heart</CyberHeart2_CP.label>
+  <!-- EN: The Pacesetter 2000 is the ultimate in high-performance organware. This sophisticated heart's overdrive boosts the body when needed. -->
+  <CyberHeart2_CP.description>The Pacesetter 2000 is the ultimate in high-performance organware. This sophisticated heart's overdrive boosts the body when needed.</CyberHeart2_CP.description>
+  <!-- EN: T-Maxx Cyberliver -->
+  <CyberLiver_CP.label>T-Maxx Cyberliver</CyberLiver_CP.label>
+  <!-- EN: Party longer with the T-Maxx Cyberliver. Micropore Filter units equipped with the new T-Maxx electrochemical diffusion process can filter out alcohol and most cardio-vascular poisons and drugs. -->
+  <CyberLiver_CP.description>Party longer with the T-Maxx Cyberliver. Micropore Filter units equipped with the new T-Maxx electrochemical diffusion process can filter out alcohol and most cardio-vascular poisons and drugs.</CyberLiver_CP.description>
+  <!-- EN: T-Maxx Cyberliver II -->
+  <CyberLiver2_CP.label>T-Maxx Cyberliver II</CyberLiver2_CP.label>
+  <!-- EN: The T-Maxx Cyberliber II builds on the previous version by adding in a convenient fluid rerouting system, allowing the cyberliver to be even more effective. -->
+  <CyberLiver2_CP.description>The T-Maxx Cyberliber II builds on the previous version by adding in a convenient fluid rerouting system, allowing the cyberliver to be even more effective.</CyberLiver2_CP.description>
+  <!-- EN: Enhanced Lung -->
+  <CyberLung_CP.label>Enhanced Lung</CyberLung_CP.label>
+  <!-- EN: This lung is cyber-enhanced with synthetic filters and oxygen superchargers. -->
+  <CyberLung_CP.description>This lung is cyber-enhanced with synthetic filters and oxygen superchargers.</CyberLung_CP.description>
+  <!-- EN: Enhanced Lung Series 2 -->
+  <CyberLung2_CP.label>Enhanced Lung Series 2</CyberLung2_CP.label>
+  <!-- EN: The ELS-2 goes beyond the original enhanced lung by replacing the entire respiratory system with an enhanced synthetics/plasteel architecture. -->
+  <CyberLung2_CP.description>The ELS-2 goes beyond the original enhanced lung by replacing the entire respiratory system with an enhanced synthetics/plasteel architecture.</CyberLung2_CP.description>
+  <!-- EN: faceplate -->
+  <Faceplate_CP.label>faceplate</Faceplate_CP.label>
+  <!-- EN: The standard faceplate covers the entire face, with ports for eating, breathing and seeing. The armored plasteel is woven fine myomar muscle fibers and is relatively flexible. Facial nervelinks allow limited changes of expression. This modification doesn't have to be ugly; many people find the silvery contours to be quite attractive. -->
+  <Faceplate_CP.description>The standard faceplate covers the entire face, with ports for eating, breathing and seeing. The armored plasteel is woven fine myomar muscle fibers and is relatively flexible. Facial nervelinks allow limited changes of expression. This modification doesn't have to be ugly; many people find the silvery contours to be quite attractive.</Faceplate_CP.description>
+  <!-- EN: grafted muscle -->
+  <GraftedMuscle_CP.label>grafted muscle</GraftedMuscle_CP.label>
+  <!-- EN: This is vat-grown muscle to be grafted onto the existing muscles. -->
+  <GraftedMuscle_CP.description>This is vat-grown muscle to be grafted onto the existing muscles.</GraftedMuscle_CP.description>
+  <!-- EN: optishield -->
+  <Optishield_CP.label>optishield</Optishield_CP.label>
+  <!-- EN: This bulletproof mirrorshade is built into the housings in the forehead and orbital ridge over one eye. The mirrord lens encloses the eye socket to provide protection for the eye. -->
+  <Optishield_CP.description>This bulletproof mirrorshade is built into the housings in the forehead and orbital ridge over one eye. The mirrord lens encloses the eye socket to provide protection for the eye.</Optishield_CP.description>
+  <!-- EN: rippers -->
+  <Rippers_CP.label>rippers</Rippers_CP.label>
+  <!-- EN: Longer, heavier version of scratchers. The top two joints of each finger are replaced with a plasteel sheath in which 3 inch carbo-glas claws are housed. -->
+  <Rippers_CP.description>Longer, heavier version of scratchers. The top two joints of each finger are replaced with a plasteel sheath in which 3 inch carbo-glas claws are housed.</Rippers_CP.description>
+  <!-- EN: scratchers -->
+  <Scratchers_CP.label>scratchers</Scratchers_CP.label>
+  <!-- EN: Implanted metal or plasteel fingernails. The incredible sharpness of the material makes these as deadly as razor blades.\nScratchers cut on the bias, requireing the user to slice crossways, not rip downwards. Most people lacquer their wscratchers, making them indistinguishable from normal nails. These are not considered lethal cyberwear, and can be purchased in any local clinic. -->
+  <Scratchers_CP.description>Implanted metal or plasteel fingernails. The incredible sharpness of the material makes these as deadly as razor blades.
+Scratchers cut on the bias, requireing the user to slice crossways, not rip downwards. Most people lacquer their wscratchers, making them indistinguishable from normal nails. These are not considered lethal cyberwear, and can be purchased in any local clinic.</Scratchers_CP.description>
+  <!-- EN: skin weave -->
+  <SkinWeave_CP.label>skin weave</SkinWeave_CP.label>
+  <!-- EN: This enhancement uses nanoids to weave the top three layers of skin with a dense plasteel thread. The result is equivalent to light body armor. -->
+  <SkinWeave_CP.description>This enhancement uses nanoids to weave the top three layers of skin with a dense plasteel thread. The result is equivalent to light body armor.</SkinWeave_CP.description>
+  <!-- EN: speedware -->
+  <Speedware.label>speedware</Speedware.label>
+  <!-- EN: Kicks in when desired, eliminating much of the need to adopt to one's entire life to an inhumanly fast reaction time. -->
+  <Speedware.description>Kicks in when desired, eliminating much of the need to adopt to one's entire life to an inhumanly fast reaction time.</Speedware.description>
+  <!-- EN: subdermal armor -->
+  <SubdermalArmor_CP.label>subdermal armor</SubdermalArmor_CP.label>
+  <!-- EN: This is a mesh/ballistic plasteel armor inserted under the skin. -->
+  <SubdermalArmor_CP.description>This is a mesh/ballistic plasteel armor inserted under the skin.</SubdermalArmor_CP.description>
+  <!-- EN: thermaskin -->
+  <Thermaskin_CP.label>thermaskin</Thermaskin_CP.label>
+  <!-- EN: Tired of being cold, but not cool? Thermaskin is like having an insulated parka under your hide! It is a protective layer of insulative material which is nanotechnically woven under the skin. -->
+  <Thermaskin_CP.description>Tired of being cold, but not cool? Thermaskin is like having an insulated parka under your hide! It is a protective layer of insulative material which is nanotechnically woven under the skin.</Thermaskin_CP.description>
+  <!-- EN: torso plate -->
+  <Torsoplate_CP.label>torso plate</Torsoplate_CP.label>
+  <!-- EN: The torso plate covers the entire upper and lower torso, back and front, with expansion joints on the sides, groin and waist to allow free movement. -->
+  <Torsoplate_CP.description>The torso plate covers the entire upper and lower torso, back and front, with expansion joints on the sides, groin and waist to allow free movement.</Torsoplate_CP.description>
+  <!-- EN: wolvers -->
+  <Wolvers_CP.label>wolvers</Wolvers_CP.label>
+  <!-- EN: The longest and deadliest of the implant blades, wolvers are implanted along the back of the hand. When the hand is clenched in a fist, the thin, triangular blades telescope and lock into place, remaining extended a full foot until the hand is relaxed. -->
+  <Wolvers_CP.description>The longest and deadliest of the implant blades, wolvers are implanted along the back of the hand. When the hand is clenched in a fist, the thin, triangular blades telescope and lock into place, remaining extended a full foot until the hand is relaxed.</Wolvers_CP.description>
+</LanguageData>

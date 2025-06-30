@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: install armored cyberarm -->
+  <InstallArmoredArm.label>install armored cyberarm</InstallArmoredArm.label>
+  <!-- EN: Installs armored cyberarm. -->
+  <InstallArmoredArm.description>Installs armored cyberarm.</InstallArmoredArm.description>
+  <!-- EN: Installing armored cyberarm. -->
+  <InstallArmoredArm.jobString>Installing armored cyberarm.</InstallArmoredArm.jobString>
+  <!-- EN: install armored cyberleg -->
+  <InstallArmoredLeg.label>install armored cyberleg</InstallArmoredLeg.label>
+  <!-- EN: Installs armored cyberleg. -->
+  <InstallArmoredLeg.description>Installs armored cyberleg.</InstallArmoredLeg.description>
+  <!-- EN: Installing armored cyberleg. -->
+  <InstallArmoredLeg.jobString>Installing armored cyberleg.</InstallArmoredLeg.jobString>
+  <!-- EN: install cyberarm w/ buzz hand -->
+  <InstallBuzzHand_CP.label>install cyberarm w/ buzz hand</InstallBuzzHand_CP.label>
+  <!-- EN: Installs cyberarm w/ buzz hand. -->
+  <InstallBuzzHand_CP.description>Installs cyberarm w/ buzz hand.</InstallBuzzHand_CP.description>
+  <!-- EN: Installing cyberarm w/ buzz hand. -->
+  <InstallBuzzHand_CP.jobString>Installing cyberarm w/ buzz hand.</InstallBuzzHand_CP.jobString>
+  <!-- EN: install standard cyberfoot -->
+  <InstallCyberFoot.label>install standard cyberfoot</InstallCyberFoot.label>
+  <!-- EN: Installs standard cyberfoot. -->
+  <InstallCyberFoot.description>Installs standard cyberfoot.</InstallCyberFoot.description>
+  <!-- EN: Installing standard cyberfoot. -->
+  <InstallCyberFoot.jobString>Installing standard cyberfoot.</InstallCyberFoot.jobString>
+  <!-- EN: install cyberjaw -->
+  <InstallCyberJaw_CP.label>install cyberjaw</InstallCyberJaw_CP.label>
+  <!-- EN: Installs cyberjaw. -->
+  <InstallCyberJaw_CP.description>Installs cyberjaw.</InstallCyberJaw_CP.description>
+  <!-- EN: Installing cyberjaw. -->
+  <InstallCyberJaw_CP.jobString>Installing cyberjaw.</InstallCyberJaw_CP.jobString>
+  <!-- EN: install cyberjaw K9 -->
+  <InstallCyberJawK9_CP.label>install cyberjaw K9</InstallCyberJawK9_CP.label>
+  <!-- EN: Installs cyberjaw K9. -->
+  <InstallCyberJawK9_CP.description>Installs cyberjaw K9.</InstallCyberJawK9_CP.description>
+  <!-- EN: Installing cyberjaw K9. -->
+  <InstallCyberJawK9_CP.jobString>Installing cyberjaw K9.</InstallCyberJawK9_CP.jobString>
+  <!-- EN: install cyberarm w/ drill hand -->
+  <InstallDrillHand_CP.label>install cyberarm w/ drill hand</InstallDrillHand_CP.label>
+  <!-- EN: Installs cyberarm w/ drill hand. -->
+  <InstallDrillHand_CP.description>Installs cyberarm w/ drill hand.</InstallDrillHand_CP.description>
+  <!-- EN: Installing cyberarm w/ drill hand. -->
+  <InstallDrillHand_CP.jobString>Installing cyberarm w/ drill hand.</InstallDrillHand_CP.jobString>
+  <!-- EN: install cyberarm w/ hammer hand -->
+  <InstallHammerHand_CP.label>install cyberarm w/ hammer hand</InstallHammerHand_CP.label>
+  <!-- EN: Installs cyberarm w/ hammer hand. -->
+  <InstallHammerHand_CP.description>Installs cyberarm w/ hammer hand.</InstallHammerHand_CP.description>
+  <!-- EN: Installing cyberarm w/ hammer hand. -->
+  <InstallHammerHand_CP.jobString>Installing cyberarm w/ hammer hand.</InstallHammerHand_CP.jobString>
+  <!-- EN: install cyberarm w/ lightning fist -->
+  <InstallLightningFist_CP.label>install cyberarm w/ lightning fist</InstallLightningFist_CP.label>
+  <!-- EN: Installs cyberarm w/ lightning fist. -->
+  <InstallLightningFist_CP.description>Installs cyberarm w/ lightning fist.</InstallLightningFist_CP.description>
+  <!-- EN: Installing cyberarm w/ lightning fist. -->
+  <InstallLightningFist_CP.jobString>Installing cyberarm w/ lightning fist.</InstallLightningFist_CP.jobString>
+  <!-- EN: install cyberarm w/ medical modular hand -->
+  <InstallMedHand_CP.label>install cyberarm w/ medical modular hand</InstallMedHand_CP.label>
+  <!-- EN: Installs cyberarm w/ medical modular hand. -->
+  <InstallMedHand_CP.description>Installs cyberarm w/ medical modular hand.</InstallMedHand_CP.description>
+  <!-- EN: Installing cyberarm w/ medical modular hand. -->
+  <InstallMedHand_CP.jobString>Installing cyberarm w/ medical modular hand.</InstallMedHand_CP.jobString>
+  <!-- EN: install powerjaw -->
+  <InstallPowerJaw_CP.label>install powerjaw</InstallPowerJaw_CP.label>
+  <!-- EN: Installs powerjaw. -->
+  <InstallPowerJaw_CP.description>Installs powerjaw.</InstallPowerJaw_CP.description>
+  <!-- EN: Installing powerjaw. -->
+  <InstallPowerJaw_CP.jobString>Installing powerjaw.</InstallPowerJaw_CP.jobString>
+  <!-- EN: install cyberleg w/ skate foot -->
+  <InstallSkateFoot.label>install cyberleg w/ skate foot</InstallSkateFoot.label>
+  <!-- EN: Installs cyberleg w/ skate foot. -->
+  <InstallSkateFoot.description>Installs cyberleg w/ skate foot.</InstallSkateFoot.description>
+  <!-- EN: Installing cyberleg w/ skate foot. -->
+  <InstallSkateFoot.jobString>Installing cyberleg w/ skate foot.</InstallSkateFoot.jobString>
+  <!-- EN: install standard cyberhand -->
+  <InstallStandardCyberHand.label>install standard cyberhand</InstallStandardCyberHand.label>
+  <!-- EN: Installs standard cyberhand. -->
+  <InstallStandardCyberHand.description>Installs standard cyberhand.</InstallStandardCyberHand.description>
+  <!-- EN: Installing standard cyberhand. -->
+  <InstallStandardCyberHand.jobString>Installing standard cyberhand.</InstallStandardCyberHand.jobString>
+  <!-- EN: install cyberarm w/ tool hand -->
+  <InstallToolHand_CP.label>install cyberarm w/ tool hand</InstallToolHand_CP.label>
+  <!-- EN: Installs cyberarm w/ tool hand. -->
+  <InstallToolHand_CP.description>Installs cyberarm w/ tool hand.</InstallToolHand_CP.description>
+  <!-- EN: Installing cyberarm w/ tool hand. -->
+  <InstallToolHand_CP.jobString>Installing cyberarm w/ tool hand.</InstallToolHand_CP.jobString>
+</LanguageData>

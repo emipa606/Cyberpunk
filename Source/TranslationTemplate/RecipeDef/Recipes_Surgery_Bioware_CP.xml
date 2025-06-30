@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: inject adrenal booster -->
+  <InstallAdrenalBooster.label>inject adrenal booster</InstallAdrenalBooster.label>
+  <!-- EN: Injects adrenal booster. -->
+  <InstallAdrenalBooster.description>Injects adrenal booster.</InstallAdrenalBooster.description>
+  <!-- EN: Injecting adrenal booster. -->
+  <InstallAdrenalBooster.jobString>Injecting adrenal booster.</InstallAdrenalBooster.jobString>
+  <!-- EN: install enhanced antibodies -->
+  <InstallEnhancedAntibodies.label>install enhanced antibodies</InstallEnhancedAntibodies.label>
+  <!-- EN: Installs enhanced antibodies. -->
+  <InstallEnhancedAntibodies.description>Installs enhanced antibodies.</InstallEnhancedAntibodies.description>
+  <!-- EN: Installing enhanced antibodies. -->
+  <InstallEnhancedAntibodies.jobString>Installing enhanced antibodies.</InstallEnhancedAntibodies.jobString>
+  <!-- EN: install muscle graft -->
+  <InstallGraftedMuscle.label>install muscle graft</InstallGraftedMuscle.label>
+  <!-- EN: Installs muscle graft onto the existing muscles. -->
+  <InstallGraftedMuscle.description>Installs muscle graft onto the existing muscles.</InstallGraftedMuscle.description>
+  <!-- EN: Installing muscle graft. -->
+  <InstallGraftedMuscle.jobString>Installing muscle graft.</InstallGraftedMuscle.jobString>
+  <!-- EN: inject nanosurgeons -->
+  <InstallNanosurgeons.label>inject nanosurgeons</InstallNanosurgeons.label>
+  <!-- EN: Injects nanosurgeons. -->
+  <InstallNanosurgeons.description>Injects nanosurgeons.</InstallNanosurgeons.description>
+  <!-- EN: Injecting nanosurgeons. -->
+  <InstallNanosurgeons.jobString>Injecting nanosurgeons.</InstallNanosurgeons.jobString>
+  <!-- EN: install skin weave -->
+  <InstallSkinWeave.label>install skin weave</InstallSkinWeave.label>
+  <!-- EN: Installs skin weave. -->
+  <InstallSkinWeave.description>Installs skin weave.</InstallSkinWeave.description>
+  <!-- EN: Installing skin weave. -->
+  <InstallSkinWeave.jobString>Installing skin weave.</InstallSkinWeave.jobString>
+  <!-- EN: install speedware -->
+  <InstallSpeedware.label>install speedware</InstallSpeedware.label>
+  <!-- EN: Installs speedware. -->
+  <InstallSpeedware.description>Installs speedware.</InstallSpeedware.description>
+  <!-- EN: Installing speedware. -->
+  <InstallSpeedware.jobString>Installing speedware.</InstallSpeedware.jobString>
+  <!-- EN: install thermaskin -->
+  <InstallThermaskin.label>install thermaskin</InstallThermaskin.label>
+  <!-- EN: Installs thermaskin. -->
+  <InstallThermaskin.description>Installs thermaskin.</InstallThermaskin.description>
+  <!-- EN: Installing thermaskin. -->
+  <InstallThermaskin.jobString>Installing thermaskin.</InstallThermaskin.jobString>
+  <!-- EN: inject toxin binders -->
+  <InstallToxinBinders.label>inject toxin binders</InstallToxinBinders.label>
+  <!-- EN: Injects toxin binders. -->
+  <InstallToxinBinders.description>Injects toxin binders.</InstallToxinBinders.description>
+  <!-- EN: Injecting toxin binders. -->
+  <InstallToxinBinders.jobString>Injecting toxin binders.</InstallToxinBinders.jobString>
+</LanguageData>

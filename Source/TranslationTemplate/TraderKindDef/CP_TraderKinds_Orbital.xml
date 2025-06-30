@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Autumn Blade arms dealer -->
+  <AutumnBladeOrbit.label>Autumn Blade arms dealer</AutumnBladeOrbit.label>
+  <!-- EN: Autumn Blade caravan -->
+  <Caravan_AutumnBlade.label>Autumn Blade caravan</Caravan_AutumnBlade.label>
+  <!-- EN: Cybertek caravan -->
+  <Caravan_CPTrader.label>Cybertek caravan</Caravan_CPTrader.label>
+  <!-- EN: Cybertek trade barge -->
+  <CPTrader.label>Cybertek trade barge</CPTrader.label>
+</LanguageData>

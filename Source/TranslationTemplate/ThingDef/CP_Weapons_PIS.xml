@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Arasaka CWS-10 -->
+  <Gun_ACWS10_CP.label>Arasaka CWS-10</Gun_ACWS10_CP.label>
+  <!-- EN: 10mm pistol - Arasaka stays competitive with the CWS-10.  Accurate, extremely reliable, and stylish. -->
+  <Gun_ACWS10_CP.description>10mm pistol - Arasaka stays competitive with the CWS-10.  Accurate, extremely reliable, and stylish.</Gun_ACWS10_CP.description>
+  <!-- EN: Arasaka CWS-10 -->
+  <Gun_ACWS10_CP.verbs.Verb_ShootCP.label>Arasaka CWS-10</Gun_ACWS10_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka Otomo -->
+  <Gun_AO_CP.label>Arasaka Otomo</Gun_AO_CP.label>
+  <!-- EN: 11mm pistol - A fairly normal weapon, nothing remarkable, but a good gun, with decent accuracy and ammo capacity. -->
+  <Gun_AO_CP.description>11mm pistol - A fairly normal weapon, nothing remarkable, but a good gun, with decent accuracy and ammo capacity.</Gun_AO_CP.description>
+  <!-- EN: Arasaka Otomo -->
+  <Gun_AO_CP.verbs.Verb_ShootCP.label>Arasaka Otomo</Gun_AO_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka R-209 -->
+  <Gun_AR209_CP.label>Arasaka R-209</Gun_AR209_CP.label>
+  <!-- EN: 9mm pistol - This is a very large, and very heavy auto-pistol chambered in 9mm. It is not very concealable, but with a large ammo capacity, and high rate of fire, its a fairly good weapon. -->
+  <Gun_AR209_CP.description>9mm pistol - This is a very large, and very heavy auto-pistol chambered in 9mm. It is not very concealable, but with a large ammo capacity, and high rate of fire, its a fairly good weapon.</Gun_AR209_CP.description>
+  <!-- EN: Arasaka R-209 -->
+  <Gun_AR209_CP.verbs.Verb_ShootCP.label>Arasaka R-209</Gun_AR209_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka WSA -->
+  <Gun_AWSA_CP.label>Arasaka WSA</Gun_AWSA_CP.label>
+  <!-- EN: 10mm pistol - Standard issue sidearm for all Arasaka troops, as well as executives who want to pack a little punch. -->
+  <Gun_AWSA_CP.description>10mm pistol - Standard issue sidearm for all Arasaka troops, as well as executives who want to pack a little punch.</Gun_AWSA_CP.description>
+  <!-- EN: Arasaka WSA -->
+  <Gun_AWSA_CP.verbs.Verb_ShootCP.label>Arasaka WSA</Gun_AWSA_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka Zenith -->
+  <Gun_AZHP_CP.label>Arasaka Zenith</Gun_AZHP_CP.label>
+  <!-- EN: 12mm pistol - Arasaka is the leading developer in 12 mm handguns, and as the threat of cybernetic crimes and augmented militaries becomes more prevalent its not hard to see why. The Zenith is a beautiful gun, and does not disappoint in it's performance. -->
+  <Gun_AZHP_CP.description>12mm pistol - Arasaka is the leading developer in 12 mm handguns, and as the threat of cybernetic crimes and augmented militaries becomes more prevalent its not hard to see why. The Zenith is a beautiful gun, and does not disappoint in it's performance.</Gun_AZHP_CP.description>
+  <!-- EN: Arasaka Zenith -->
+  <Gun_AZHP_CP.verbs.Verb_ShootCP.label>Arasaka Zenith</Gun_AZHP_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: BudgetArms C-13 -->
+  <Gun_BAC13_CP.label>BudgetArms C-13</Gun_BAC13_CP.label>
+  <!-- EN: 5mm pistol - A light duty autopistol used as a holdout and lady's gun -->
+  <Gun_BAC13_CP.description>5mm pistol - A light duty autopistol used as a holdout and lady's gun</Gun_BAC13_CP.description>
+  <!-- EN: BudgetArms C-13 -->
+  <Gun_BAC13_CP.verbs.Verb_ShootCP.label>BudgetArms C-13</Gun_BAC13_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: BudgetArms Cyberdrop 2 -->
+  <Gun_BAC2_CP.label>BudgetArms Cyberdrop 2</Gun_BAC2_CP.label>
+  <!-- EN: 11mm pistol - By using styling similar to much heavier firearms, Budget Arms has managed to make quite a profit selling this pistol. A fairly decent weapon, Budget Arms actually got it right for once. -->
+  <Gun_BAC2_CP.description>11mm pistol - By using styling similar to much heavier firearms, Budget Arms has managed to make quite a profit selling this pistol. A fairly decent weapon, Budget Arms actually got it right for once.</Gun_BAC2_CP.description>
+  <!-- EN: BudgetArms Cyberdrop 2 -->
+  <Gun_BAC2_CP.verbs.Verb_ShootCP.label>BudgetArms Cyberdrop 2</Gun_BAC2_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: BudgetArms P-1145 -->
+  <Gun_BAP1145_CP.label>BudgetArms P-1145</Gun_BAP1145_CP.label>
+  <!-- EN: 9mm pistol - While Budget Arms is by far the largest handgun manufacturer on the Central American contininent of Warth, this is the only Budget Arms weapon issued by the governments there to any of its forces. In this case, the weapon is issued to police and military officers.  However, most choose to replace it as it doesn't have the stopping power, or the ability to penetrate any type of armor at all.  Not to mention no one really wants to carry a weapon from a company known worldwide for producing the worst of the polymer one-shot weapons.  The weapon is equipped with a built in laser sight. -->
+  <Gun_BAP1145_CP.description>9mm pistol - While Budget Arms is by far the largest handgun manufacturer on the Central American contininent of Warth, this is the only Budget Arms weapon issued by the governments there to any of its forces. In this case, the weapon is issued to police and military officers.  However, most choose to replace it as it doesn't have the stopping power, or the ability to penetrate any type of armor at all.  Not to mention no one really wants to carry a weapon from a company known worldwide for producing the worst of the polymer one-shot weapons.  The weapon is equipped with a built in laser sight.</Gun_BAP1145_CP.description>
+  <!-- EN: BudgetArms P-1145 -->
+  <Gun_BAP1145_CP.verbs.Verb_ShootCP.label>BudgetArms P-1145</Gun_BAP1145_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Colt Enforcement 10 -->
+  <Gun_CE10_CP.label>Colt Enforcement 10</Gun_CE10_CP.label>
+  <!-- EN: 10mm pistol - This is Colt Firearms latest addition to its venerable line of automatic pistols. As its name suggests, the Enforcement 10 is targeted toward the military and law enforcement markets. Like the .45 auto, the Enforcement 10 is built on a solid, heavy frame which helps to absorb the recoil of the potent 10mm round. The receiver and slide are fashioned from Sortex™, a tough, high-density ceramic composite developed by Petrochem for use in firearms manufacture. -->
+  <Gun_CE10_CP.description>10mm pistol - This is Colt Firearms latest addition to its venerable line of automatic pistols. As its name suggests, the Enforcement 10 is targeted toward the military and law enforcement markets. Like the .45 auto, the Enforcement 10 is built on a solid, heavy frame which helps to absorb the recoil of the potent 10mm round. The receiver and slide are fashioned from Sortex™, a tough, high-density ceramic composite developed by Petrochem for use in firearms manufacture.</Gun_CE10_CP.description>
+  <!-- EN: Colt Enforcement 10 -->
+  <Gun_CE10_CP.verbs.Verb_ShootCP.label>Colt Enforcement 10</Gun_CE10_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Dai Lung Cybermag 15 -->
+  <Gun_DLC15_CP.label>Dai Lung Cybermag 15</Gun_DLC15_CP.label>
+  <!-- EN: 6mm pistol - This light autopistol is a cheap Hong Kong knockoff, often used by boosters and other street trash. -->
+  <Gun_DLC15_CP.description>6mm pistol - This light autopistol is a cheap Hong Kong knockoff, often used by boosters and other street trash.</Gun_DLC15_CP.description>
+  <!-- EN: Dai Lung Cybermag 15 -->
+  <Gun_DLC15_CP.verbs.Verb_ShootCP.label>Dai Lung Cybermag 15</Gun_DLC15_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Dai Lung LP-402 -->
+  <Gun_DLLP402_CP.label>Dai Lung LP-402</Gun_DLLP402_CP.label>
+  <!-- EN: 9mm pistol - A professional looking gun at a very reasonable price. A nice change from a company that is known for its one-shots and junk pistols. -->
+  <Gun_DLLP402_CP.description>9mm pistol - A professional looking gun at a very reasonable price. A nice change from a company that is known for its one-shots and junk pistols.</Gun_DLLP402_CP.description>
+  <!-- EN: Dai Lung LP-402 -->
+  <Gun_DLLP402_CP.verbs.Verb_ShootCP.label>Dai Lung LP-402</Gun_DLLP402_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Dai Lung ODII-11 -->
+  <Gun_DLODII11_CP.label>Dai Lung ODII-11</Gun_DLODII11_CP.label>
+  <!-- EN: 11mm pistol - Made for police, this simple, somewhat oversized weapon has all the aesthetic value of lead paperweight, but it functions rather well considering the manufacturer. -->
+  <Gun_DLODII11_CP.description>11mm pistol - Made for police, this simple, somewhat oversized weapon has all the aesthetic value of lead paperweight, but it functions rather well considering the manufacturer.</Gun_DLODII11_CP.description>
+  <!-- EN: Dai Lung ODII-11 -->
+  <Gun_DLODII11_CP.verbs.Verb_ShootCP.label>Dai Lung ODII-11</Gun_DLODII11_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Dai Lung Streetmaster -->
+  <Gun_DLSM_CP.label>Dai Lung Streetmaster</Gun_DLSM_CP.label>
+  <!-- EN: 10mm pistol - Another Dai Lung cheapie, built for the street. -->
+  <Gun_DLSM_CP.description>10mm pistol - Another Dai Lung cheapie, built for the street.</Gun_DLSM_CP.description>
+  <!-- EN: Dai Lung Streetmaster -->
+  <Gun_DLSM_CP.verbs.Verb_ShootCP.label>Dai Lung Streetmaster</Gun_DLSM_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Federated Arms BP-24 -->
+  <Gun_FABP24_CP.label>Federated Arms BP-24</Gun_FABP24_CP.label>
+  <!-- EN: 11mm pistol - This weapon features a built in laser sight and the magazine has a large lip for easier grasping, especially in the case of cybernetic hands which sometimes slip. -->
+  <Gun_FABP24_CP.description>11mm pistol - This weapon features a built in laser sight and the magazine has a large lip for easier grasping, especially in the case of cybernetic hands which sometimes slip.</Gun_FABP24_CP.description>
+  <!-- EN: Federated Arms BP-24 -->
+  <Gun_FABP24_CP.verbs.Verb_ShootCP.label>Federated Arms BP-24</Gun_FABP24_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Federated Arms SA-58 -->
+  <Gun_FASA58_CP.label>Federated Arms SA-58</Gun_FASA58_CP.label>
+  <!-- EN: 10mm pistol - Not attractive, but effective.  Comes with a built in laser sight, and is guaranteed to stand up to abuse. -->
+  <Gun_FASA58_CP.description>10mm pistol - Not attractive, but effective.  Comes with a built in laser sight, and is guaranteed to stand up to abuse.</Gun_FASA58_CP.description>
+  <!-- EN: Federated Arms SA-58 -->
+  <Gun_FASA58_CP.verbs.Verb_ShootCP.label>Federated Arms SA-58</Gun_FASA58_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Federated Arms X-22 -->
+  <Gun_FAX22_CP.label>Federated Arms X-22</Gun_FAX22_CP.label>
+  <!-- EN: 6mm pistol - The ubiquitous polymer-one-shot cheap plastic pistol. Available in designer colors -->
+  <Gun_FAX22_CP.description>6mm pistol - The ubiquitous polymer-one-shot cheap plastic pistol. Available in designer colors</Gun_FAX22_CP.description>
+  <!-- EN: Federated Arms X-22 -->
+  <Gun_FAX22_CP.verbs.Verb_ShootCP.label>Federated Arms X-22</Gun_FAX22_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Federated Arms X-9 -->
+  <Gun_FAX9_CP.label>Federated Arms X-9</Gun_FAX9_CP.label>
+  <!-- EN: 9mm pistol - A studry solo's gun, also used as a standard military sidearm. -->
+  <Gun_FAX9_CP.description>9mm pistol - A studry solo's gun, also used as a standard military sidearm.</Gun_FAX9_CP.description>
+  <!-- EN: Federated Arms X-9 -->
+  <Gun_FAX9_CP.verbs.Verb_ShootCP.label>Federated Arms X-9</Gun_FAX9_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech Arms Avenger -->
+  <Gun_MAA_CP.label>Militech Arms Avenger</Gun_MAA_CP.label>
+  <!-- EN: 9mm pistol - A well made autopistol with good range and accuracy. A professional's gun. -->
+  <Gun_MAA_CP.description>9mm pistol - A well made autopistol with good range and accuracy. A professional's gun.</Gun_MAA_CP.description>
+  <!-- EN: Militech Arms Avenger -->
+  <Gun_MAA_CP.verbs.Verb_ShootCP.label>Militech Arms Avenger</Gun_MAA_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech MPP-21 -->
+  <Gun_MMPP21_CP.label>Militech MPP-21</Gun_MMPP21_CP.label>
+  <!-- EN: 10mm pistol - Another in a long line of extremely reliable and durable handguns from Militech. Often given to pilots, officers, and bodyguards. It is an attractive, though simple looking weapon, with an incredibly smooth feel to it. -->
+  <Gun_MMPP21_CP.description>10mm pistol - Another in a long line of extremely reliable and durable handguns from Militech. Often given to pilots, officers, and bodyguards. It is an attractive, though simple looking weapon, with an incredibly smooth feel to it.</Gun_MMPP21_CP.description>
+  <!-- EN: Militech MPP-21 -->
+  <Gun_MMPP21_CP.verbs.Verb_ShootCP.label>Militech MPP-21</Gun_MMPP21_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech MPP-22 -->
+  <Gun_MMPP22_CP.label>Militech MPP-22</Gun_MMPP22_CP.label>
+  <!-- EN: 11mm pistol - Just like the MPP-21, only chambered in 11mm as opposed to 10mm. -->
+  <Gun_MMPP22_CP.description>11mm pistol - Just like the MPP-21, only chambered in 11mm as opposed to 10mm.</Gun_MMPP22_CP.description>
+  <!-- EN: Militech MPP-22 -->
+  <Gun_MMPP22_CP.verbs.Verb_ShootCP.label>Militech MPP-22</Gun_MMPP22_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech RNA-12 -->
+  <Gun_MRNA12_CP.label>Militech RNA-12</Gun_MRNA12_CP.label>
+  <!-- EN: 12mm pistol - Designed specifically for their own special forces division, this weapon is incredibly reliable, nail driving accurate right out of the box, sturdy, and features an integral laser sight.  The hammerless design and high ammo capacity are just icing on the cake for this combat beast.  Militech is hoping once again to win Military contracts, and with the rimworlds on the brink of war, they may get their chance. -->
+  <Gun_MRNA12_CP.description>12mm pistol - Designed specifically for their own special forces division, this weapon is incredibly reliable, nail driving accurate right out of the box, sturdy, and features an integral laser sight.  The hammerless design and high ammo capacity are just icing on the cake for this combat beast.  Militech is hoping once again to win Military contracts, and with the rimworlds on the brink of war, they may get their chance.</Gun_MRNA12_CP.description>
+  <!-- EN: Militech RNA-12 -->
+  <Gun_MRNA12_CP.verbs.Verb_ShootCP.label>Militech RNA-12</Gun_MRNA12_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer M295 -->
+  <Gun_SM295_CP.label>Sternmeyer M295</Gun_SM295_CP.label>
+  <!-- EN: 9mm pistol - A common but unremarkable firearm from Sternmeyer.  Not a professional’s weapon, but an honest one.  For it's price it's a steal. -->
+  <Gun_SM295_CP.description>9mm pistol - A common but unremarkable firearm from Sternmeyer.  Not a professional’s weapon, but an honest one.  For it's price it's a steal.</Gun_SM295_CP.description>
+  <!-- EN: Sternmeyer M295 -->
+  <Gun_SM295_CP.verbs.Verb_ShootCP.label>Sternmeyer M295</Gun_SM295_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer RS-50 -->
+  <Gun_SRS50_CP.label>Sternmeyer RS-50</Gun_SRS50_CP.label>
+  <!-- EN: 12mm pistol - A very large, but reliable and hard hitting handgun from Sternmeyer.  While there really isn't anything remarkable about it, it is quite intimidating. -->
+  <Gun_SRS50_CP.description>12mm pistol - A very large, but reliable and hard hitting handgun from Sternmeyer.  While there really isn't anything remarkable about it, it is quite intimidating.</Gun_SRS50_CP.description>
+  <!-- EN: Sternmeyer RS-50 -->
+  <Gun_SRS50_CP.verbs.Verb_ShootCP.label>Sternmeyer RS-50</Gun_SRS50_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka "STARLYTE" -->
+  <Gun_SRS50S_CP.label>Arasaka "STARLYTE"</Gun_SRS50S_CP.label>
+  <!-- EN: laser pistol - The worlds first true laser pistol.  Developed jointly between the Arasaka Corporation and the United Military Air Force, the Starlyte is the top secret brainchild of years of research.  The Starlyte  uses a high capacity battery clip, which slides like a magazine into the back of the weapon, to fire a pinpoint laser.  The laser is limited to 1 second burns, and the battery holds enough juice for 20 shots before it must be replaced.  This is set to become the standard sidearm for UMAF off-world officers. -->
+  <Gun_SRS50S_CP.description>laser pistol - The worlds first true laser pistol.  Developed jointly between the Arasaka Corporation and the United Military Air Force, the Starlyte is the top secret brainchild of years of research.  The Starlyte  uses a high capacity battery clip, which slides like a magazine into the back of the weapon, to fire a pinpoint laser.  The laser is limited to 1 second burns, and the battery holds enough juice for 20 shots before it must be replaced.  This is set to become the standard sidearm for UMAF off-world officers.</Gun_SRS50S_CP.description>
+  <!-- EN: Arasaka "STARLYTE" -->
+  <Gun_SRS50S_CP.verbs.Verb_ShootCP.label>Arasaka "STARLYTE"</Gun_SRS50S_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Stolbovoy ST-2 -->
+  <Gun_SST2_CP.label>Stolbovoy ST-2</Gun_SST2_CP.label>
+  <!-- EN: 10mm pistol - Continuing Stolbovoy's tradition of extremely durable and reliable weapons, the ST-2 is a handgun built with a composite slide and receiver and a patented action that virtually cleans itself of dust and grit. -->
+  <Gun_SST2_CP.description>10mm pistol - Continuing Stolbovoy's tradition of extremely durable and reliable weapons, the ST-2 is a handgun built with a composite slide and receiver and a patented action that virtually cleans itself of dust and grit.</Gun_SST2_CP.description>
+  <!-- EN: Stolbovoy ST-2 -->
+  <Gun_SST2_CP.verbs.Verb_ShootCP.label>Stolbovoy ST-2</Gun_SST2_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer Type 35 -->
+  <Gun_ST35_CP.label>Sternmeyer Type 35</Gun_ST35_CP.label>
+  <!-- EN: 11mm pistol - Rugged, reliable, with excellent stopping power. Another fine product from Sternmeyer. -->
+  <Gun_ST35_CP.description>11mm pistol - Rugged, reliable, with excellent stopping power. Another fine product from Sternmeyer.</Gun_ST35_CP.description>
+  <!-- EN: Sternmeyer Type 35 -->
+  <Gun_ST35_CP.verbs.Verb_ShootCP.label>Sternmeyer Type 35</Gun_ST35_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer Type 45 -->
+  <Gun_ST45_CP.label>Sternmeyer Type 45</Gun_ST45_CP.label>
+  <!-- EN: 10mm pistol - A simple but effective design, the Type 45 relies heavily on the M-1911 frame for inspiration.  A standard weapon, the only thing of note is that it comes with an integral laser sight. -->
+  <Gun_ST45_CP.description>10mm pistol - A simple but effective design, the Type 45 relies heavily on the M-1911 frame for inspiration.  A standard weapon, the only thing of note is that it comes with an integral laser sight.</Gun_ST45_CP.description>
+  <!-- EN: Sternmeyer Type 45 -->
+  <Gun_ST45_CP.verbs.Verb_ShootCP.label>Sternmeyer Type 45</Gun_ST45_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer Type 82 -->
+  <Gun_ST82_CP.label>Sternmeyer Type 82</Gun_ST82_CP.label>
+  <!-- EN: 10mm pistol - While a bit larger than it needs to be, the Type 82 is a good weapon with a reliable record.  It also boasts a very high magazine capacity, and  rarely needs maintenance. -->
+  <Gun_ST82_CP.description>10mm pistol - While a bit larger than it needs to be, the Type 82 is a good weapon with a reliable record.  It also boasts a very high magazine capacity, and  rarely needs maintenance.</Gun_ST82_CP.description>
+  <!-- EN: Sternmeyer Type 82 -->
+  <Gun_ST82_CP.verbs.Verb_ShootCP.label>Sternmeyer Type 82</Gun_ST82_CP.verbs.Verb_ShootCP.label>
+</LanguageData>

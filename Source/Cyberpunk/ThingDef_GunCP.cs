@@ -9,7 +9,7 @@ public class ThingDef_GunCP : ThingWithComps
     {
         get
         {
-            if (!CyberpunkMod.instance.Settings.Durability)
+            if (!CyberpunkMod.Instance.Settings.Durability)
             {
                 return Reliability.NA;
             }
@@ -28,7 +28,7 @@ public class ThingDef_GunCP : ThingWithComps
 
     public override string GetInspectString()
     {
-        if (!CyberpunkMod.instance.Settings.Durability)
+        if (!CyberpunkMod.Instance.Settings.Durability)
         {
             return base.GetInspectString();
         }

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="BodyPartBase_CP">
     <defName>ToolHand_CP</defName>
@@ -206,7 +206,7 @@
   <ThingDef ParentName="BodyPartBase_CP">
     <defName>ArmoredLeg_CP</defName>
     <label>armored cyberleg</label>
-    <description>&gt;The armored cyberleg is built as a standard cyberleg, but contains ballistic joints and is covered with kevlar.</description>
+    <description>>The armored cyberleg is built as a standard cyberleg, but contains ballistic joints and is covered with kevlar.</description>
     <graphicData>
       <texPath>Things/Item/Health/HealthItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>

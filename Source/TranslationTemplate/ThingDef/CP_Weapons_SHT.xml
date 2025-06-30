@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Arasaka KAI -->
+  <Gun_AKAI_CP.label>Arasaka KAI</Gun_AKAI_CP.label>
+  <!-- EN: 10ga shotgun - Arsaka's latest combat shotgun, chambered in 10 gauge, this semi-auto weapon is tube fed.  Excellent for house to house combat. -->
+  <Gun_AKAI_CP.description>10ga shotgun - Arsaka's latest combat shotgun, chambered in 10 gauge, this semi-auto weapon is tube fed.  Excellent for house to house combat.</Gun_AKAI_CP.description>
+  <!-- EN: stock -->
+  <Gun_AKAI_CP.tools.stock.label>stock</Gun_AKAI_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_AKAI_CP.tools.barrel.label>barrel</Gun_AKAI_CP.tools.barrel.label>
+  <!-- EN: Arasaka KAI -->
+  <Gun_AKAI_CP.verbs.Verb_ShootCP.label>Arasaka KAI</Gun_AKAI_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka Rapid Assault 12 -->
+  <Gun_ARA12_CP.label>Arasaka Rapid Assault 12</Gun_ARA12_CP.label>
+  <!-- EN: 12ga shotgun - The Arasaka Rapid Assault 12 is a high powered auto-shotgun with lethal firepower. Used by Arasaka worldwide. Another good reason to avoid the Boys in Black. -->
+  <Gun_ARA12_CP.description>12ga shotgun - The Arasaka Rapid Assault 12 is a high powered auto-shotgun with lethal firepower. Used by Arasaka worldwide. Another good reason to avoid the Boys in Black.</Gun_ARA12_CP.description>
+  <!-- EN: stock -->
+  <Gun_ARA12_CP.tools.stock.label>stock</Gun_ARA12_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_ARA12_CP.tools.barrel.label>barrel</Gun_ARA12_CP.tools.barrel.label>
+  <!-- EN: Arasaka Rapid Assault 12 -->
+  <Gun_ARA12_CP.verbs.Verb_ShootCP.label>Arasaka Rapid Assault 12</Gun_ARA12_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: BudgetArms 12-20 -->
+  <Gun_BA1220_CP.label>BudgetArms 12-20</Gun_BA1220_CP.label>
+  <!-- EN: 12ga shotgun - This may be a little too much.  It's a pump action weapon, with the ammo tube extending the entire length of the firearm.  Its stock is nearly worthless, though supposedly the weapon is meant to be fired from the hip.  So what you end up with is a monster sized, very heavy weapon that you can't really aim.  Thanks Budget Arms, for giving the gangers even more useless crap.  At least it doesn't blow up in your face though. -->
+  <Gun_BA1220_CP.description>12ga shotgun - This may be a little too much.  It's a pump action weapon, with the ammo tube extending the entire length of the firearm.  Its stock is nearly worthless, though supposedly the weapon is meant to be fired from the hip.  So what you end up with is a monster sized, very heavy weapon that you can't really aim.  Thanks Budget Arms, for giving the gangers even more useless crap.  At least it doesn't blow up in your face though.</Gun_BA1220_CP.description>
+  <!-- EN: stock -->
+  <Gun_BA1220_CP.tools.stock.label>stock</Gun_BA1220_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_BA1220_CP.tools.barrel.label>barrel</Gun_BA1220_CP.tools.barrel.label>
+  <!-- EN: BudgetArms 12-20 -->
+  <Gun_BA1220_CP.verbs.Verb_ShootCP.label>BudgetArms 12-20</Gun_BA1220_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Dai Lung SP-2040 -->
+  <Gun_DLSP2040_CP.label>Dai Lung SP-2040</Gun_DLSP2040_CP.label>
+  <!-- EN: 20ga shotgun - This 12 shot semi-auto shotgun from Dai Lung is actually apretty decent weapon.  A bt underpowered for police work and a bit flashy for hunting, but it isn’t the garbage that Dai Lung usually puts out. -->
+  <Gun_DLSP2040_CP.description>20ga shotgun - This 12 shot semi-auto shotgun from Dai Lung is actually apretty decent weapon.  A bt underpowered for police work and a bit flashy for hunting, but it isn’t the garbage that Dai Lung usually puts out.</Gun_DLSP2040_CP.description>
+  <!-- EN: stock -->
+  <Gun_DLSP2040_CP.tools.stock.label>stock</Gun_DLSP2040_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_DLSP2040_CP.tools.barrel.label>barrel</Gun_DLSP2040_CP.tools.barrel.label>
+  <!-- EN: Dai Lung SP-2040 -->
+  <Gun_DLSP2040_CP.verbs.Verb_ShootCP.label>Dai Lung SP-2040</Gun_DLSP2040_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Dai Lung URBCOM -->
+  <Gun_DLU_CP.label>Dai Lung URBCOM</Gun_DLU_CP.label>
+  <!-- EN: 12ga shotgun - Well, Dai-Lung finally got something right.  Their new pump action shotgun is actually fairly reliable and combat competent. -->
+  <Gun_DLU_CP.description>12ga shotgun - Well, Dai-Lung finally got something right.  Their new pump action shotgun is actually fairly reliable and combat competent.</Gun_DLU_CP.description>
+  <!-- EN: stock -->
+  <Gun_DLU_CP.tools.stock.label>stock</Gun_DLU_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_DLU_CP.tools.barrel.label>barrel</Gun_DLU_CP.tools.barrel.label>
+  <!-- EN: Dai Lung URBCOM -->
+  <Gun_DLU_CP.verbs.Verb_ShootCP.label>Dai Lung URBCOM</Gun_DLU_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Federated Arms Cheesemaker -->
+  <Gun_FACM_CP.label>Federated Arms Cheesemaker</Gun_FACM_CP.label>
+  <!-- EN: 20ga shotgun pistol - A nice little pistol sized .20ga shotgun, built to compete with Militech's Crusher.  Actually the sales of this weapon have surpassed those of the Crusher, due to this weapons lower price tag. -->
+  <Gun_FACM_CP.description>20ga shotgun pistol - A nice little pistol sized .20ga shotgun, built to compete with Militech's Crusher.  Actually the sales of this weapon have surpassed those of the Crusher, due to this weapons lower price tag.</Gun_FACM_CP.description>
+  <!-- EN: stock -->
+  <Gun_FACM_CP.tools.stock.label>stock</Gun_FACM_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_FACM_CP.tools.barrel.label>barrel</Gun_FACM_CP.tools.barrel.label>
+  <!-- EN: Federated Arms Cheesemaker -->
+  <Gun_FACM_CP.verbs.Verb_ShootCP.label>Federated Arms Cheesemaker</Gun_FACM_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Federated Arms IRBS -->
+  <Gun_FAIRBS_CP.label>Federated Arms IRBS</Gun_FAIRBS_CP.label>
+  <!-- EN: 12ga shotgun - Pistol grip, long barrel and choke, and ugly, everything you could want in a shotgun.  Popular with private security forces and as a home defense weapon. -->
+  <Gun_FAIRBS_CP.description>12ga shotgun - Pistol grip, long barrel and choke, and ugly, everything you could want in a shotgun.  Popular with private security forces and as a home defense weapon.</Gun_FAIRBS_CP.description>
+  <!-- EN: stock -->
+  <Gun_FAIRBS_CP.tools.stock.label>stock</Gun_FAIRBS_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_FAIRBS_CP.tools.barrel.label>barrel</Gun_FAIRBS_CP.tools.barrel.label>
+  <!-- EN: Federated Arms IRBS -->
+  <Gun_FAIRBS_CP.verbs.Verb_ShootCP.label>Federated Arms IRBS</Gun_FAIRBS_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech ASG-16D -->
+  <Gun_MASG16D_CP.label>Militech ASG-16D</Gun_MASG16D_CP.label>
+  <!-- EN: 12ga shotgun - A nice bullpup shotgun design from Militech that loads from a rotary drum magazine.   Made by Militech for riot duty, it is most useful when used with mixed loads. -->
+  <Gun_MASG16D_CP.description>12ga shotgun - A nice bullpup shotgun design from Militech that loads from a rotary drum magazine.   Made by Militech for riot duty, it is most useful when used with mixed loads.</Gun_MASG16D_CP.description>
+  <!-- EN: stock -->
+  <Gun_MASG16D_CP.tools.stock.label>stock</Gun_MASG16D_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MASG16D_CP.tools.barrel.label>barrel</Gun_MASG16D_CP.tools.barrel.label>
+  <!-- EN: Militech ASG-16D -->
+  <Gun_MASG16D_CP.verbs.Verb_ShootCP.label>Militech ASG-16D</Gun_MASG16D_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech CSH-45 -->
+  <Gun_MCSH45_CP.label>Militech CSH-45</Gun_MCSH45_CP.label>
+  <!-- EN: 10ga shotgun - Big, mean, intimidating.  This 10 gauge shotgun switches between pump and semi auto with the flip of a button.  The whippet grip and folding stock are nice touches as well. -->
+  <Gun_MCSH45_CP.description>10ga shotgun - Big, mean, intimidating.  This 10 gauge shotgun switches between pump and semi auto with the flip of a button.  The whippet grip and folding stock are nice touches as well.</Gun_MCSH45_CP.description>
+  <!-- EN: stock -->
+  <Gun_MCSH45_CP.tools.stock.label>stock</Gun_MCSH45_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MCSH45_CP.tools.barrel.label>barrel</Gun_MCSH45_CP.tools.barrel.label>
+  <!-- EN: Militech CSH-45 -->
+  <Gun_MCSH45_CP.verbs.Verb_ShootCP.label>Militech CSH-45</Gun_MCSH45_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech Crusher SSG -->
+  <Gun_MCSSG_CP.label>Militech Crusher SSG</Gun_MCSSG_CP.label>
+  <!-- EN: 20ga shotgun pistol - A small .20 gauge shotgun pistol makes an excellent sidearm for up close encounters, especially for those who have problems with accuracy. -->
+  <Gun_MCSSG_CP.description>20ga shotgun pistol - A small .20 gauge shotgun pistol makes an excellent sidearm for up close encounters, especially for those who have problems with accuracy.</Gun_MCSSG_CP.description>
+  <!-- EN: stock -->
+  <Gun_MCSSG_CP.tools.stock.label>stock</Gun_MCSSG_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MCSSG_CP.tools.barrel.label>barrel</Gun_MCSSG_CP.tools.barrel.label>
+  <!-- EN: Militech Crusher SSG -->
+  <Gun_MCSSG_CP.verbs.Verb_ShootCP.label>Militech Crusher SSG</Gun_MCSSG_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech S-442 -->
+  <Gun_Mss42_CP.label>Militech S-442</Gun_Mss42_CP.label>
+  <!-- EN: 12ga shotgun - This full auto shotgun is perfect for sweeping rooms and completely clearing out the opposition.  While a bit heavy, the firepower of this beast more than makes up for any other shortcomings. -->
+  <Gun_Mss42_CP.description>12ga shotgun - This full auto shotgun is perfect for sweeping rooms and completely clearing out the opposition.  While a bit heavy, the firepower of this beast more than makes up for any other shortcomings.</Gun_Mss42_CP.description>
+  <!-- EN: stock -->
+  <Gun_Mss42_CP.tools.stock.label>stock</Gun_Mss42_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_Mss42_CP.tools.barrel.label>barrel</Gun_Mss42_CP.tools.barrel.label>
+  <!-- EN: Militech S-442 -->
+  <Gun_Mss42_CP.verbs.Verb_ShootCP.label>Militech S-442</Gun_Mss42_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer Stakeout 10 -->
+  <Gun_SS10_CP.label>Sternmeyer Stakeout 10</Gun_SS10_CP.label>
+  <!-- EN: 12ga shotgun - The Sternmeyer Stakeout 10 is a light duty stakeout shotgun used by city security forces. -->
+  <Gun_SS10_CP.description>12ga shotgun - The Sternmeyer Stakeout 10 is a light duty stakeout shotgun used by city security forces.</Gun_SS10_CP.description>
+  <!-- EN: stock -->
+  <Gun_SS10_CP.tools.stock.label>stock</Gun_SS10_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_SS10_CP.tools.barrel.label>barrel</Gun_SS10_CP.tools.barrel.label>
+  <!-- EN: Sternmeyer Stakeout 10 -->
+  <Gun_SS10_CP.verbs.Verb_ShootCP.label>Sternmeyer Stakeout 10</Gun_SS10_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer SH-8 -->
+  <Gun_SSH8_CP.label>Sternmeyer SH-8</Gun_SSH8_CP.label>
+  <!-- EN: 12ga shotgun - The SH-8 is a helical drum fed 12ga. shotgun that features a hinged front handle allowing it to either extend downward or to the side. -->
+  <Gun_SSH8_CP.description>12ga shotgun - The SH-8 is a helical drum fed 12ga. shotgun that features a hinged front handle allowing it to either extend downward or to the side.</Gun_SSH8_CP.description>
+  <!-- EN: stock -->
+  <Gun_SSH8_CP.tools.stock.label>stock</Gun_SSH8_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_SSH8_CP.tools.barrel.label>barrel</Gun_SSH8_CP.tools.barrel.label>
+  <!-- EN: Sternmeyer SH-8 -->
+  <Gun_SSH8_CP.verbs.Verb_ShootCP.label>Sternmeyer SH-8</Gun_SSH8_CP.verbs.Verb_ShootCP.label>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Corporate trade caravan -->
+  <Caravan_Corp_CP.label>Corporate trade caravan</Caravan_Corp_CP.label>
+  <!-- EN: Autumn Blade trade caravan -->
+  <CPTraderCaravan.label>Autumn Blade trade caravan</CPTraderCaravan.label>
+  <!-- EN: Autumn Blade trade ship -->
+  <Orbital_CPTrader.label>Autumn Blade trade ship</Orbital_CPTrader.label>
+</LanguageData>

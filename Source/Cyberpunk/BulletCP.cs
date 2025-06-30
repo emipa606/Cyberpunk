@@ -11,9 +11,9 @@ public class BulletCP : Bullet
     {
         var map = Map;
         base.Impact(hitThing, blockedByShield);
-        var battleLogEntry_RangedImpact = new BattleLogEntry_RangedImpact(launcher, hitThing, intendedTarget.Thing,
+        var battleLogEntryRangedImpact = new BattleLogEntry_RangedImpact(launcher, hitThing, intendedTarget.Thing,
             equipmentDef, def, targetCoverDef);
-        Find.BattleLog.Add(battleLogEntry_RangedImpact);
+        Find.BattleLog.Add(battleLogEntryRangedImpact);
         if (hitThing != null)
         {
             var damageDef = def.projectile.damageDef;
@@ -23,10 +23,10 @@ public class BulletCP : Bullet
             var y = ExactRotation.eulerAngles.y;
             var thing = launcher;
             var thingDef = equipmentDef;
-            var dinfo = new DamageInfo(damageDef, num, armorPenetration, y, thing, null, thingDef,
-                DamageInfo.SourceCategory.ThingOrUnknown, intendedTarget.Thing);
-            hitThing.TakeDamage(dinfo).AssociateWithLog(battleLogEntry_RangedImpact);
-            if (hitThing is Pawn { stances: not null } pawn && pawn.BodySize <= def.projectile.StoppingPower + 0.001f)
+            hitThing.TakeDamage(new DamageInfo(damageDef, num, armorPenetration, y, thing, null, thingDef,
+                    DamageInfo.SourceCategory.ThingOrUnknown, intendedTarget.Thing))
+                .AssociateWithLog(battleLogEntryRangedImpact);
+            if (hitThing is Pawn { stances: not null } pawn && pawn.BodySize <= def.projectile.stoppingPower + 0.001f)
             {
                 pawn.stances.stagger.StaggerFor(95);
             }

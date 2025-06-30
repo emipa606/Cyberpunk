@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Arasaka G-1141 -->
+  <Gun_AG1141_CP.label>Arasaka G-1141</Gun_AG1141_CP.label>
+  <!-- EN: 40mm Missile Launcher - A very rare micro-missile benifitting from a small turning circle and fast reaction to target movements. Ideal for use against armored targets. -->
+  <Gun_AG1141_CP.description>40mm Missile Launcher - A very rare micro-missile benifitting from a small turning circle and fast reaction to target movements. Ideal for use against armored targets.</Gun_AG1141_CP.description>
+  <!-- EN: stock -->
+  <Gun_AG1141_CP.tools.stock.label>stock</Gun_AG1141_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_AG1141_CP.tools.barrel.label>barrel</Gun_AG1141_CP.tools.barrel.label>
+  <!-- EN: Arasaka G-1141 -->
+  <Gun_AG1141_CP.verbs.Verb_ShootCP.label>Arasaka G-1141</Gun_AG1141_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka Light 20mm -->
+  <Gun_AL20_CP.label>Arasaka Light 20mm</Gun_AL20_CP.label>
+  <!-- EN: The cyberpsycho hunter's favorite. Almost 2m long, this cannon fires a depleted uranium shell at supersonic speeds. -->
+  <Gun_AL20_CP.description>The cyberpsycho hunter's favorite. Almost 2m long, this cannon fires a depleted uranium shell at supersonic speeds.</Gun_AL20_CP.description>
+  <!-- EN: stock -->
+  <Gun_AL20_CP.tools.stock.label>stock</Gun_AL20_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_AL20_CP.tools.barrel.label>barrel</Gun_AL20_CP.tools.barrel.label>
+  <!-- EN: Arasaka Light 20mm -->
+  <Gun_AL20_CP.verbs.Verb_ShootCP.label>Arasaka Light 20mm</Gun_AL20_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech AM-3 -->
+  <Gun_MAM3_CP.label>Militech AM-3</Gun_MAM3_CP.label>
+  <!-- EN: 30mmEHI Antimatter Rifle - This 30mm rifle uses rocket-boosted, depleted-uranium 30mm shells to smash combat `borgs, powered armor, and mechanoids. Equipped with a hydro-pneumatic recoil system, advanced muzzle brake, and shock-absorbing stock and bipod. The AM-3 comes with a cyberoptic smartgun interlock and a 2-10x variable scope w/low-light and thermal-imaging options. -->
+  <Gun_MAM3_CP.description>30mmEHI Antimatter Rifle - This 30mm rifle uses rocket-boosted, depleted-uranium 30mm shells to smash combat `borgs, powered armor, and mechanoids. Equipped with a hydro-pneumatic recoil system, advanced muzzle brake, and shock-absorbing stock and bipod. The AM-3 comes with a cyberoptic smartgun interlock and a 2-10x variable scope w/low-light and thermal-imaging options.</Gun_MAM3_CP.description>
+  <!-- EN: stock -->
+  <Gun_MAM3_CP.tools.stock.label>stock</Gun_MAM3_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MAM3_CP.tools.barrel.label>barrel</Gun_MAM3_CP.tools.barrel.label>
+  <!-- EN: Militech AM-3 -->
+  <Gun_MAM3_CP.verbs.Verb_ShootCP.label>Militech AM-3</Gun_MAM3_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech BMFG -->
+  <Gun_MBMFG_CP.label>Militech BMFG</Gun_MBMFG_CP.label>
+  <!-- EN: 30mm Plasma Cannon - Advances in electrothermal propellent technology have mad a greate many guns shoot harder and faster. Militech figured why not make a big gun fire the same, but make the gun lighter? The answer is the BMFG, a truly man-portable 30mm cannon. The cannon can not be fired from the shoulder, some sort of smart chipping is highly recommended. -->
+  <Gun_MBMFG_CP.description>30mm Plasma Cannon - Advances in electrothermal propellent technology have mad a greate many guns shoot harder and faster. Militech figured why not make a big gun fire the same, but make the gun lighter? The answer is the BMFG, a truly man-portable 30mm cannon. The cannon can not be fired from the shoulder, some sort of smart chipping is highly recommended.</Gun_MBMFG_CP.description>
+  <!-- EN: stock -->
+  <Gun_MBMFG_CP.tools.stock.label>stock</Gun_MBMFG_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MBMFG_CP.tools.barrel.label>barrel</Gun_MBMFG_CP.tools.barrel.label>
+  <!-- EN: Militech BMFG -->
+  <Gun_MBMFG_CP.verbs.Verb_ShootCP.label>Militech BMFG</Gun_MBMFG_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech M95A1 -->
+  <Gun_MM95A1_CP.label>Militech M95A1</Gun_MM95A1_CP.label>
+  <!-- EN: Railgun. In a joint venture funded by the United Military, Militech has taken the railgun conclusion another frightening step forward. 3 large electro-magnets power the weapon, and it is easily reloaded using easy to produce slugs made from ball bearings.  It's only slightly larger and more cumbersome than a heavy assault rifle, though the recoil is much more severe. How they managed to make a man portable railgun this small is anyone’s guess. -->
+  <Gun_MM95A1_CP.description>Railgun. In a joint venture funded by the United Military, Militech has taken the railgun conclusion another frightening step forward. 3 large electro-magnets power the weapon, and it is easily reloaded using easy to produce slugs made from ball bearings.  It's only slightly larger and more cumbersome than a heavy assault rifle, though the recoil is much more severe. How they managed to make a man portable railgun this small is anyone’s guess.</Gun_MM95A1_CP.description>
+  <!-- EN: stock -->
+  <Gun_MM95A1_CP.tools.stock.label>stock</Gun_MM95A1_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MM95A1_CP.tools.barrel.label>barrel</Gun_MM95A1_CP.tools.barrel.label>
+  <!-- EN: Militech M95A1 -->
+  <Gun_MM95A1_CP.verbs.Verb_ShootCP.label>Militech M95A1</Gun_MM95A1_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech Renegade -->
+  <Gun_MR_CP.label>Militech Renegade</Gun_MR_CP.label>
+  <!-- EN: The cyberpsycho hunter's favorite. Almost 2m long, this cannon fires a depleted uranium shell at supersonic speeds. -->
+  <Gun_MR_CP.description>The cyberpsycho hunter's favorite. Almost 2m long, this cannon fires a depleted uranium shell at supersonic speeds.</Gun_MR_CP.description>
+  <!-- EN: stock -->
+  <Gun_MR_CP.tools.stock.label>stock</Gun_MR_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MR_CP.tools.barrel.label>barrel</Gun_MR_CP.tools.barrel.label>
+  <!-- EN: Militech Renegade -->
+  <Gun_MR_CP.verbs.Verb_ShootCP.label>Militech Renegade</Gun_MR_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech RPG-A -->
+  <Gun_MRPGA_CP.label>Militech RPG-A</Gun_MRPGA_CP.label>
+  <!-- EN: Grenade Launcher - The old bazooka concept of the reloadable rocket launcher made a comeback with this 67mm rocket-grenade launcher. -->
+  <Gun_MRPGA_CP.description>Grenade Launcher - The old bazooka concept of the reloadable rocket launcher made a comeback with this 67mm rocket-grenade launcher.</Gun_MRPGA_CP.description>
+  <!-- EN: stock -->
+  <Gun_MRPGA_CP.tools.stock.label>stock</Gun_MRPGA_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MRPGA_CP.tools.barrel.label>barrel</Gun_MRPGA_CP.tools.barrel.label>
+  <!-- EN: Militech RPG-A -->
+  <Gun_MRPGA_CP.verbs.Verb_ShootCP.label>Militech RPG-A</Gun_MRPGA_CP.verbs.Verb_ShootCP.label>
+</LanguageData>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: big knucks -->
+  <BigKnucks_CP.label>big knucks</BigKnucks_CP.label>
+  <!-- EN: big knucks -->
+  <BigKnucks_CP.description>big knucks</BigKnucks_CP.description>
+  <!-- EN: cowl plate -->
+  <Cowlplate_CP.label>cowl plate</Cowlplate_CP.label>
+  <!-- EN: cowl plate -->
+  <Cowlplate_CP.description>cowl plate</Cowlplate_CP.description>
+  <!-- EN: Pacesetter Sport Heart -->
+  <CyberHeart_CP.label>Pacesetter Sport Heart</CyberHeart_CP.label>
+  <!-- EN: Pacesetter Sport Heart -->
+  <CyberHeart_CP.description>Pacesetter Sport Heart</CyberHeart_CP.description>
+  <!-- EN: Pacesetter 2000 Heart -->
+  <CyberHeart2_CP.label>Pacesetter 2000 Heart</CyberHeart2_CP.label>
+  <!-- EN: Pacesetter 2000 Heart -->
+  <CyberHeart2_CP.description>Pacesetter 2000 Heart</CyberHeart2_CP.description>
+  <!-- EN: T-Maxx Cyberliver -->
+  <CyberLiver_CP.label>T-Maxx Cyberliver</CyberLiver_CP.label>
+  <!-- EN: T-Maxx Cyberliver -->
+  <CyberLiver_CP.description>T-Maxx Cyberliver</CyberLiver_CP.description>
+  <!-- EN: T-Maxx Cyberliver II -->
+  <CyberLiver2_CP.label>T-Maxx Cyberliver II</CyberLiver2_CP.label>
+  <!-- EN: T-Maxx Cyberliver II -->
+  <CyberLiver2_CP.description>T-Maxx Cyberliver II</CyberLiver2_CP.description>
+  <!-- EN: Enhanced Lung -->
+  <CyberLung_CP.label>Enhanced Lung</CyberLung_CP.label>
+  <!-- EN: Enhanced Lung -->
+  <CyberLung_CP.description>Enhanced Lung</CyberLung_CP.description>
+  <!-- EN: Enhanced Lung Series 2 -->
+  <CyberLung2_CP.label>Enhanced Lung Series 2</CyberLung2_CP.label>
+  <!-- EN: Enhanced Lung Series 2 -->
+  <CyberLung2_CP.description>Enhanced Lung Series 2</CyberLung2_CP.description>
+  <!-- EN: faceplate -->
+  <Faceplate_CP.label>faceplate</Faceplate_CP.label>
+  <!-- EN: faceplate -->
+  <Faceplate_CP.description>faceplate</Faceplate_CP.description>
+  <!-- EN: optishield -->
+  <Optishield_CP.label>optishield</Optishield_CP.label>
+  <!-- EN: optishield -->
+  <Optishield_CP.description>optishield</Optishield_CP.description>
+  <!-- EN: pain editor -->
+  <Painstopper.label>pain editor</Painstopper.label>
+  <!-- EN: pain editor -->
+  <Painstopper.description>pain editor</Painstopper.description>
+  <!-- EN: rippers -->
+  <Rippers_CP.label>rippers</Rippers_CP.label>
+  <!-- EN: rippers -->
+  <Rippers_CP.description>rippers</Rippers_CP.description>
+  <!-- EN: scratchers -->
+  <Scratchers_CP.label>scratchers</Scratchers_CP.label>
+  <!-- EN: scratchers -->
+  <Scratchers_CP.description>scratchers</Scratchers_CP.description>
+  <!-- EN: skin weave -->
+  <SkinWeave_CP.label>skin weave</SkinWeave_CP.label>
+  <!-- EN: skin weave -->
+  <SkinWeave_CP.description>skin weave</SkinWeave_CP.description>
+  <!-- EN: speedware -->
+  <Speedware.label>speedware</Speedware.label>
+  <!-- EN: speedware -->
+  <Speedware.description>speedware</Speedware.description>
+  <!-- EN: subermal armor -->
+  <SubdermalArmor_CP.label>subermal armor</SubdermalArmor_CP.label>
+  <!-- EN: subermal armor -->
+  <SubdermalArmor_CP.description>subermal armor</SubdermalArmor_CP.description>
+  <!-- EN: thermaskin -->
+  <Thermaskin_CP.label>thermaskin</Thermaskin_CP.label>
+  <!-- EN: thermaskin -->
+  <Thermaskin_CP.description>thermaskin</Thermaskin_CP.description>
+  <!-- EN: torso plate -->
+  <Torsoplate_CP.label>torso plate</Torsoplate_CP.label>
+  <!-- EN: torso plate -->
+  <Torsoplate_CP.description>torso plate</Torsoplate_CP.description>
+  <!-- EN: wolvers -->
+  <Wolvers_CP.label>wolvers</Wolvers_CP.label>
+  <!-- EN: wolvers -->
+  <Wolvers_CP.description>wolvers</Wolvers_CP.description>
+</LanguageData>

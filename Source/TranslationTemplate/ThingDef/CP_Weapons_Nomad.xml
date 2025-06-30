@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: .357 autoloader rifle -->
+  <Gun_N357ALRifle.label>.357 autoloader rifle</Gun_N357ALRifle.label>
+  <!-- EN: .357 assault rifle - Based on the same concept of the uzi or AK-47, this is carried by nomads who expect action and use their weapons a great deal. -->
+  <Gun_N357ALRifle.description>.357 assault rifle - Based on the same concept of the uzi or AK-47, this is carried by nomads who expect action and use their weapons a great deal.</Gun_N357ALRifle.description>
+  <!-- EN: stock -->
+  <Gun_N357ALRifle.tools.stock.label>stock</Gun_N357ALRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_N357ALRifle.tools.barrel.label>barrel</Gun_N357ALRifle.tools.barrel.label>
+  <!-- EN: .357 autoloader rifle -->
+  <Gun_N357ALRifle.verbs.Verb_ShootCP.label>.357 autoloader rifle</Gun_N357ALRifle.verbs.Verb_ShootCP.label>
+  <!-- EN: .357 Autopistol -->
+  <Gun_N357AP_CP.label>.357 Autopistol</Gun_N357AP_CP.label>
+  <!-- EN: .357 pistol - Based on the Colt M1911, this pistol is sturdy and user friendly. -->
+  <Gun_N357AP_CP.description>.357 pistol - Based on the Colt M1911, this pistol is sturdy and user friendly.</Gun_N357AP_CP.description>
+  <!-- EN: grip -->
+  <Gun_N357AP_CP.tools.grip.label>grip</Gun_N357AP_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_N357AP_CP.tools.barrel.label>barrel</Gun_N357AP_CP.tools.barrel.label>
+  <!-- EN: .357 Autopistol -->
+  <Gun_N357AP_CP.verbs.Verb_ShootCP.label>.357 Autopistol</Gun_N357AP_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: .357 lever-action rifle -->
+  <Gun_N357LARifle.label>.357 lever-action rifle</Gun_N357LARifle.label>
+  <!-- EN: .357 magnum lever-action rifle - Based on an old Winchester design, this weapon is accurate and well balanced. The magazine is a non-detachable tube under the barrel, and rounds must be loaded 3 at a time. -->
+  <Gun_N357LARifle.description>.357 magnum lever-action rifle - Based on an old Winchester design, this weapon is accurate and well balanced. The magazine is a non-detachable tube under the barrel, and rounds must be loaded 3 at a time.</Gun_N357LARifle.description>
+  <!-- EN: stock -->
+  <Gun_N357LARifle.tools.stock.label>stock</Gun_N357LARifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_N357LARifle.tools.barrel.label>barrel</Gun_N357LARifle.tools.barrel.label>
+  <!-- EN: .357 lever-action rifle -->
+  <Gun_N357LARifle.verbs.Verb_ShootCP.label>.357 lever-action rifle</Gun_N357LARifle.verbs.Verb_ShootCP.label>
+  <!-- EN: .44 lever-action rifle -->
+  <Gun_N357LLARifle.label>.44 lever-action rifle</Gun_N357LLARifle.label>
+  <!-- EN: .44 magnum lever-action rifle - This rifle is carried by nomads looking for a little more punch. It is similar in all respects, save caliber to the .357 magnum version. -->
+  <Gun_N357LLARifle.description>.44 magnum lever-action rifle - This rifle is carried by nomads looking for a little more punch. It is similar in all respects, save caliber to the .357 magnum version.</Gun_N357LLARifle.description>
+  <!-- EN: stock -->
+  <Gun_N357LLARifle.tools.stock.label>stock</Gun_N357LLARifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_N357LLARifle.tools.barrel.label>barrel</Gun_N357LLARifle.tools.barrel.label>
+  <!-- EN: .44 lever-action rifle -->
+  <Gun_N357LLARifle.verbs.Verb_ShootCP.label>.44 lever-action rifle</Gun_N357LLARifle.verbs.Verb_ShootCP.label>
+  <!-- EN: .44 Revolver -->
+  <Gun_N357R_CP.label>.44 Revolver</Gun_N357R_CP.label>
+  <!-- EN: .44 revolver - The design of this revolver is based upon the classic large-frame Colt revolver. -->
+  <Gun_N357R_CP.description>.44 revolver - The design of this revolver is based upon the classic large-frame Colt revolver.</Gun_N357R_CP.description>
+  <!-- EN: grip -->
+  <Gun_N357R_CP.tools.grip.label>grip</Gun_N357R_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_N357R_CP.tools.barrel.label>barrel</Gun_N357R_CP.tools.barrel.label>
+  <!-- EN: .44 Revolver -->
+  <Gun_N357R_CP.verbs.Verb_ShootCP.label>.44 Revolver</Gun_N357R_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: .357 Revolver -->
+  <Gun_N357RM_CP.label>.357 Revolver</Gun_N357RM_CP.label>
+  <!-- EN: .357 revolver - Basic wheel gun that uses half-moon magazines for quick reloading. This gun is often used by Nomads for self defense. It has good ballistic stability and fair penetration. It is easy for even a child to use on the fly. -->
+  <Gun_N357RM_CP.description>.357 revolver - Basic wheel gun that uses half-moon magazines for quick reloading. This gun is often used by Nomads for self defense. It has good ballistic stability and fair penetration. It is easy for even a child to use on the fly.</Gun_N357RM_CP.description>
+  <!-- EN: grip -->
+  <Gun_N357RM_CP.tools.grip.label>grip</Gun_N357RM_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_N357RM_CP.tools.barrel.label>barrel</Gun_N357RM_CP.tools.barrel.label>
+  <!-- EN: .357 Revolver -->
+  <Gun_N357RM_CP.verbs.Verb_ShootCP.label>.357 Revolver</Gun_N357RM_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: 7.62mm autoloader rifle -->
+  <Gun_N762ALRifle.label>7.62mm autoloader rifle</Gun_N762ALRifle.label>
+  <!-- EN: 7.62mm assault rifle - A fourth or fifth generation copy of an original design, this is a time tested survivor of the 20th century, differing very little from its predecessors. -->
+  <Gun_N762ALRifle.description>7.62mm assault rifle - A fourth or fifth generation copy of an original design, this is a time tested survivor of the 20th century, differing very little from its predecessors.</Gun_N762ALRifle.description>
+  <!-- EN: stock -->
+  <Gun_N762ALRifle.tools.stock.label>stock</Gun_N762ALRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_N762ALRifle.tools.barrel.label>barrel</Gun_N762ALRifle.tools.barrel.label>
+  <!-- EN: 7.62mm autoloader rifle -->
+  <Gun_N762ALRifle.verbs.Verb_ShootCP.label>7.62mm autoloader rifle</Gun_N762ALRifle.verbs.Verb_ShootCP.label>
+  <!-- EN: 9mm Assault Pistol -->
+  <Gun_N9mmAP.label>9mm Assault Pistol</Gun_N9mmAP.label>
+  <!-- EN: 9mm Pistol - Based upon Calico M950 9mm pistol, this design has been improved to be sturdy and reliable. -->
+  <Gun_N9mmAP.description>9mm Pistol - Based upon Calico M950 9mm pistol, this design has been improved to be sturdy and reliable.</Gun_N9mmAP.description>
+  <!-- EN: grip -->
+  <Gun_N9mmAP.tools.grip.label>grip</Gun_N9mmAP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_N9mmAP.tools.barrel.label>barrel</Gun_N9mmAP.tools.barrel.label>
+  <!-- EN: 9mm Assault Pistol -->
+  <Gun_N9mmAP.verbs.Verb_ShootCP.label>9mm Assault Pistol</Gun_N9mmAP.verbs.Verb_ShootCP.label>
+  <!-- EN: 9mm rifle -->
+  <Gun_N9mmRifle.label>9mm rifle</Gun_N9mmRifle.label>
+  <!-- EN: 9mm Rifle - A nomad assault rifle based upon of the Calico Liberty Rifles. It comes with a removable bipod. -->
+  <Gun_N9mmRifle.description>9mm Rifle - A nomad assault rifle based upon of the Calico Liberty Rifles. It comes with a removable bipod.</Gun_N9mmRifle.description>
+  <!-- EN: stock -->
+  <Gun_N9mmRifle.tools.stock.label>stock</Gun_N9mmRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_N9mmRifle.tools.barrel.label>barrel</Gun_N9mmRifle.tools.barrel.label>
+  <!-- EN: 9mm rifle -->
+  <Gun_N9mmRifle.verbs.Verb_ShootCP.label>9mm rifle</Gun_N9mmRifle.verbs.Verb_ShootCP.label>
+  <!-- EN: hand crossbow -->
+  <Gun_NHandCrossbow.label>hand crossbow</Gun_NHandCrossbow.label>
+  <!-- EN: crossbow - This nomad weapon is similar to a pistol, but shoots bolts and has a shorter range. It can be useful to shoot small game. -->
+  <Gun_NHandCrossbow.description>crossbow - This nomad weapon is similar to a pistol, but shoots bolts and has a shorter range. It can be useful to shoot small game.</Gun_NHandCrossbow.description>
+  <!-- EN: stock -->
+  <Gun_NHandCrossbow.tools.stock.label>stock</Gun_NHandCrossbow.tools.stock.label>
+  <!-- EN: hand crossbow -->
+  <Gun_NHandCrossbow.verbs.Verb_ShootCP.label>hand crossbow</Gun_NHandCrossbow.verbs.Verb_ShootCP.label>
+  <!-- EN: long rifle -->
+  <Gun_NLongRifle.label>long rifle</Gun_NLongRifle.label>
+  <!-- EN: 15mm Sniper Rifle - Although adoption of the 15mm BMG round was never fully implemented, there were a great number of weapons designed and manufactured to jump on the 15mm bandwagon. Nomads use the 15mm BMG for sniping work. the media has given them the name nomad long rifles.  These weapons are huge and heavy, but they can shoot a great distance. -->
+  <Gun_NLongRifle.description>15mm Sniper Rifle - Although adoption of the 15mm BMG round was never fully implemented, there were a great number of weapons designed and manufactured to jump on the 15mm bandwagon. Nomads use the 15mm BMG for sniping work. the media has given them the name nomad long rifles.  These weapons are huge and heavy, but they can shoot a great distance.</Gun_NLongRifle.description>
+  <!-- EN: stock -->
+  <Gun_NLongRifle.tools.stock.label>stock</Gun_NLongRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_NLongRifle.tools.barrel.label>barrel</Gun_NLongRifle.tools.barrel.label>
+  <!-- EN: long rifle -->
+  <Gun_NLongRifle.verbs.Verb_ShootCP.label>long rifle</Gun_NLongRifle.verbs.Verb_ShootCP.label>
+  <!-- EN: scattergun -->
+  <Gun_NScattergun.label>scattergun</Gun_NScattergun.label>
+  <!-- EN: 12ga shotgun - Carried by horrid marksmen and people who are not real particular about what they hit. Take a standard breech-loading shotgun, and saw the barrel off at about 12 inches. The result is a viscious up-close weapon with no real range and a shot pattern the size of a garage door. Finding one of these home-made wonders is not difficult, but finding one of these brand new is nearly impossible, unless you make one yourself. -->
+  <Gun_NScattergun.description>12ga shotgun - Carried by horrid marksmen and people who are not real particular about what they hit. Take a standard breech-loading shotgun, and saw the barrel off at about 12 inches. The result is a viscious up-close weapon with no real range and a shot pattern the size of a garage door. Finding one of these home-made wonders is not difficult, but finding one of these brand new is nearly impossible, unless you make one yourself.</Gun_NScattergun.description>
+  <!-- EN: stock -->
+  <Gun_NScattergun.tools.stock.label>stock</Gun_NScattergun.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_NScattergun.tools.barrel.label>barrel</Gun_NScattergun.tools.barrel.label>
+  <!-- EN: scattergun -->
+  <Gun_NScattergun.verbs.Verb_ShootCP.label>scattergun</Gun_NScattergun.verbs.Verb_ShootCP.label>
+  <!-- EN: 9mm SMG -->
+  <Gun_NSMG.label>9mm SMG</Gun_NSMG.label>
+  <!-- EN: 9mm SMG - This design is based upon the M950A Calico submachingun, configured much like the M950 pistol, but with a folding shoulder stock and balanced for a large helical-fed magazine. The SMG is prone to jamming if fired for long periods of time. -->
+  <Gun_NSMG.description>9mm SMG - This design is based upon the M950A Calico submachingun, configured much like the M950 pistol, but with a folding shoulder stock and balanced for a large helical-fed magazine. The SMG is prone to jamming if fired for long periods of time.</Gun_NSMG.description>
+  <!-- EN: grip -->
+  <Gun_NSMG.tools.grip.label>grip</Gun_NSMG.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_NSMG.tools.barrel.label>barrel</Gun_NSMG.tools.barrel.label>
+  <!-- EN: 9mm SMG -->
+  <Gun_NSMG.verbs.Verb_ShootCP.label>9mm SMG</Gun_NSMG.verbs.Verb_ShootCP.label>
+  <!-- EN: STEN -->
+  <Gun_NSTEN.label>STEN</Gun_NSTEN.label>
+  <!-- EN: .357mag SMG - STEN is a generic nomad term for any homemade submachine gun, in honor of the original Sten gun. STEN is an acronym, from the names of the original weapon's chief designers, Major Reginald (S)hepherd and Harold (T)urpin, and EN for Enfield. -->
+  <Gun_NSTEN.description>.357mag SMG - STEN is a generic nomad term for any homemade submachine gun, in honor of the original Sten gun. STEN is an acronym, from the names of the original weapon's chief designers, Major Reginald (S)hepherd and Harold (T)urpin, and EN for Enfield.</Gun_NSTEN.description>
+  <!-- EN: grip -->
+  <Gun_NSTEN.tools.grip.label>grip</Gun_NSTEN.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_NSTEN.tools.barrel.label>barrel</Gun_NSTEN.tools.barrel.label>
+  <!-- EN: STEN -->
+  <Gun_NSTEN.verbs.Verb_ShootCP.label>STEN</Gun_NSTEN.verbs.Verb_ShootCP.label>
+</LanguageData>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: armored cyberarm -->
+  <ArmoredArm_CP.label>armored cyberarm</ArmoredArm_CP.label>
+  <!-- EN: armored cyberarm -->
+  <ArmoredArm_CP.description>armored cyberarm</ArmoredArm_CP.description>
+  <!-- EN: armored cyberleg -->
+  <ArmoredLeg_CP.label>armored cyberleg</ArmoredLeg_CP.label>
+  <!-- EN: armored cyberleg -->
+  <ArmoredLeg_CP.description>armored cyberleg</ArmoredLeg_CP.description>
+  <!-- EN: cyberarm w/ buzz hand -->
+  <BuzzHand_CP.label>cyberarm w/ buzz hand</BuzzHand_CP.label>
+  <!-- EN: cyberarm w/ buzz hand -->
+  <BuzzHand_CP.description>cyberarm w/ buzz hand</BuzzHand_CP.description>
+  <!-- EN: cyberaudio amplified hearing -->
+  <CAAmplifiedHearing_CP.label>cyberaudio amplified hearing</CAAmplifiedHearing_CP.label>
+  <!-- EN: cyberaudio amplified hearing -->
+  <CAAmplifiedHearing_CP.description>cyberaudio amplified hearing</CAAmplifiedHearing_CP.description>
+  <!-- EN: cyberoptic targetting scope -->
+  <COTargettingScope_CP.label>cyberoptic targetting scope</COTargettingScope_CP.label>
+  <!-- EN: cyberoptic targetting scope -->
+  <COTargettingScope_CP.description>cyberoptic targetting scope</COTargettingScope_CP.description>
+  <!-- EN: standard cyberfoot -->
+  <CyberFoot_CP.label>standard cyberfoot</CyberFoot_CP.label>
+  <!-- EN: standard cyberfoot -->
+  <CyberFoot_CP.description>standard cyberfoot</CyberFoot_CP.description>
+  <!-- EN: cyberhand -->
+  <CyberHand_CP.label>cyberhand</CyberHand_CP.label>
+  <!-- EN: cyberhand -->
+  <CyberHand_CP.description>cyberhand</CyberHand_CP.description>
+  <!-- EN: cyberjaw -->
+  <CyberJaw_CP.label>cyberjaw</CyberJaw_CP.label>
+  <!-- EN: cyberjaw -->
+  <CyberJaw_CP.description>cyberjaw</CyberJaw_CP.description>
+  <!-- EN: cyberjaw K9 -->
+  <CyberJawK9_CP.label>cyberjaw K9</CyberJawK9_CP.label>
+  <!-- EN: cyberjaw K9 -->
+  <CyberJawK9_CP.description>cyberjaw K9</CyberJawK9_CP.description>
+  <!-- EN: cyberarm w/ drill hand -->
+  <DrillHand_CP.label>cyberarm w/ drill hand</DrillHand_CP.label>
+  <!-- EN: cyberarm w/ drill hand -->
+  <DrillHand_CP.description>cyberarm w/ drill hand</DrillHand_CP.description>
+  <!-- EN: cyberarm w/ hammer hand -->
+  <HammerHand_CP.label>cyberarm w/ hammer hand</HammerHand_CP.label>
+  <!-- EN: cyberarm w/ hammer hand -->
+  <HammerHand_CP.description>cyberarm w/ hammer hand</HammerHand_CP.description>
+  <!-- EN: lightning fist -->
+  <LightningFist_CP.label>lightning fist</LightningFist_CP.label>
+  <!-- EN: lightning fist -->
+  <LightningFist_CP.description>lightning fist</LightningFist_CP.description>
+  <!-- EN: cyberarm w/ medical hand -->
+  <MedHand_CP.label>cyberarm w/ medical hand</MedHand_CP.label>
+  <!-- EN: cyberarm w/ medical hand -->
+  <MedHand_CP.description>cyberarm w/ medical hand</MedHand_CP.description>
+  <!-- EN: powerjaw -->
+  <PowerJaw_CP.label>powerjaw</PowerJaw_CP.label>
+  <!-- EN: powerjaw -->
+  <PowerJaw_CP.description>powerjaw</PowerJaw_CP.description>
+  <!-- EN: cyberleg w/ skate foot -->
+  <SkateFoot_CP.label>cyberleg w/ skate foot</SkateFoot_CP.label>
+  <!-- EN: cyberleg w/ skate foot -->
+  <SkateFoot_CP.description>cyberleg w/ skate foot</SkateFoot_CP.description>
+  <!-- EN: cyberarm w/ tool hand -->
+  <ToolHand_CP.label>cyberarm w/ tool hand</ToolHand_CP.label>
+  <!-- EN: cyberarm w/ tool hand -->
+  <ToolHand_CP.description>cyberarm w/ tool hand</ToolHand_CP.description>
+</LanguageData>

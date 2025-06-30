@@ -4,7 +4,7 @@ namespace Cyberpunk;
 
 public class HediffCompProperties_ImplantHeal : HediffCompProperties
 {
-    public readonly int healIntervalTicks = 60;
+    public const int HealIntervalTicks = 60;
 
     public HediffCompProperties_ImplantHeal()
     {

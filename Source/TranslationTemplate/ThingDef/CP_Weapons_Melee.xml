@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Arasaka Katana -->
+  <MeleeWeapon_AKatana_CP.label>Arasaka Katana</MeleeWeapon_AKatana_CP.label>
+  <!-- EN: Arasaka grows their swords in orbit, their crystalline matrices aligned to make a sword that is stronger and sharper than any terrestrial metal. These swords are not sold by Arasaka, but given to their soldiers as a symbol of honor when they are prometed to officers. -->
+  <MeleeWeapon_AKatana_CP.description>Arasaka grows their swords in orbit, their crystalline matrices aligned to make a sword that is stronger and sharper than any terrestrial metal. These swords are not sold by Arasaka, but given to their soldiers as a symbol of honor when they are prometed to officers.</MeleeWeapon_AKatana_CP.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_AKatana_CP.tools.handle.label>handle</MeleeWeapon_AKatana_CP.tools.handle.label>
+  <!-- EN: blade -->
+  <MeleeWeapon_AKatana_CP.tools.blade.label>blade</MeleeWeapon_AKatana_CP.tools.blade.label>
+  <!-- EN: point -->
+  <MeleeWeapon_AKatana_CP.tools.point.label>point</MeleeWeapon_AKatana_CP.tools.point.label>
+  <!-- EN: Arasaka combat knife -->
+  <MeleeWeapon_AKnife_CP.label>Arasaka combat knife</MeleeWeapon_AKnife_CP.label>
+  <!-- EN: A simple, yet very sturdy combat knife.  Well balanced and made from a special iron heavy alloy that allows it to retain an edge even after serious abuse. -->
+  <MeleeWeapon_AKnife_CP.description>A simple, yet very sturdy combat knife.  Well balanced and made from a special iron heavy alloy that allows it to retain an edge even after serious abuse.</MeleeWeapon_AKnife_CP.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_AKnife_CP.tools.handle.label>handle</MeleeWeapon_AKnife_CP.tools.handle.label>
+  <!-- EN: blade -->
+  <MeleeWeapon_AKnife_CP.tools.blade.label>blade</MeleeWeapon_AKnife_CP.tools.blade.label>
+  <!-- EN: point -->
+  <MeleeWeapon_AKnife_CP.tools.point.label>point</MeleeWeapon_AKnife_CP.tools.point.label>
+  <!-- EN: Gibson Battlegear SPM-1 Battleglove -->
+  <MeleeWeapon_Battleglove_CP.label>Gibson Battlegear SPM-1 Battleglove</MeleeWeapon_Battleglove_CP.label>
+  <!-- EN: This is a large gauntlet covering the hand and forearm, increasing the power of the user's punches. -->
+  <MeleeWeapon_Battleglove_CP.description>This is a large gauntlet covering the hand and forearm, increasing the power of the user's punches.</MeleeWeapon_Battleglove_CP.description>
+  <!-- EN: fist -->
+  <MeleeWeapon_Battleglove_CP.tools.fist.label>fist</MeleeWeapon_Battleglove_CP.tools.fist.label>
+  <!-- EN: chainknife -->
+  <MeleeWeapon_Chainknife_CP.label>chainknife</MeleeWeapon_Chainknife_CP.label>
+  <!-- EN: These chainknives are hand made, similar to the chainknife produced by IMI. -->
+  <MeleeWeapon_Chainknife_CP.description>These chainknives are hand made, similar to the chainknife produced by IMI.</MeleeWeapon_Chainknife_CP.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_Chainknife_CP.tools.handle.label>handle</MeleeWeapon_Chainknife_CP.tools.handle.label>
+  <!-- EN: blade -->
+  <MeleeWeapon_Chainknife_CP.tools.blade.label>blade</MeleeWeapon_Chainknife_CP.tools.blade.label>
+  <!-- EN: Chainsword -->
+  <MeleeWeapon_Chainsword_CP.label>Chainsword</MeleeWeapon_Chainsword_CP.label>
+  <!-- EN: These swords have begun to appear at the hands of pirates and raiders. They are all handmade; powered either by combustion engine or electric. -->
+  <MeleeWeapon_Chainsword_CP.description>These swords have begun to appear at the hands of pirates and raiders. They are all handmade; powered either by combustion engine or electric.</MeleeWeapon_Chainsword_CP.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_Chainsword_CP.tools.handle.label>handle</MeleeWeapon_Chainsword_CP.tools.handle.label>
+  <!-- EN: blade -->
+  <MeleeWeapon_Chainsword_CP.tools.blade.label>blade</MeleeWeapon_Chainsword_CP.tools.blade.label>
+  <!-- EN: IMI Chainknife -->
+  <MeleeWeapon_IMIChainknife_CP.label>IMI Chainknife</MeleeWeapon_IMIChainknife_CP.label>
+  <!-- EN: The IMI Chainknife is a miniature battery powered chainsaw; shaped somewhat like a survival knife with a 2 hour charge. It has seen a great deal of use by espionage agents. -->
+  <MeleeWeapon_IMIChainknife_CP.description>The IMI Chainknife is a miniature battery powered chainsaw; shaped somewhat like a survival knife with a 2 hour charge. It has seen a great deal of use by espionage agents.</MeleeWeapon_IMIChainknife_CP.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_IMIChainknife_CP.tools.handle.label>handle</MeleeWeapon_IMIChainknife_CP.tools.handle.label>
+  <!-- EN: blade -->
+  <MeleeWeapon_IMIChainknife_CP.tools.blade.label>blade</MeleeWeapon_IMIChainknife_CP.tools.blade.label>
+  <!-- EN: IMI Chainsword -->
+  <MeleeWeapon_IMIChainsword_CP.label>IMI Chainsword</MeleeWeapon_IMIChainsword_CP.label>
+  <!-- EN: Since their chain knife sold so well, IMI decided to up the stakes and released a full scale sword.  The balance is a bit off, but this weapons will simply tear through just about anything that stands in its way.  It comes with a custom sheath. -->
+  <MeleeWeapon_IMIChainsword_CP.description>Since their chain knife sold so well, IMI decided to up the stakes and released a full scale sword.  The balance is a bit off, but this weapons will simply tear through just about anything that stands in its way.  It comes with a custom sheath.</MeleeWeapon_IMIChainsword_CP.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_IMIChainsword_CP.tools.handle.label>handle</MeleeWeapon_IMIChainsword_CP.tools.handle.label>
+  <!-- EN: blade -->
+  <MeleeWeapon_IMIChainsword_CP.tools.blade.label>blade</MeleeWeapon_IMIChainsword_CP.tools.blade.label>
+  <!-- EN: katana -->
+  <MeleeWeapon_Katana_CP.label>katana</MeleeWeapon_Katana_CP.label>
+  <!-- EN: Katanas were one of the traditionally made Japanese swords that were used by the samurai of ancient and feudal Japan. Today they are popular in asian communities by those who view themselves as rimworld ronin. -->
+  <MeleeWeapon_Katana_CP.description>Katanas were one of the traditionally made Japanese swords that were used by the samurai of ancient and feudal Japan. Today they are popular in asian communities by those who view themselves as rimworld ronin.</MeleeWeapon_Katana_CP.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_Katana_CP.tools.handle.label>handle</MeleeWeapon_Katana_CP.tools.handle.label>
+  <!-- EN: blade -->
+  <MeleeWeapon_Katana_CP.tools.blade.label>blade</MeleeWeapon_Katana_CP.tools.blade.label>
+  <!-- EN: point -->
+  <MeleeWeapon_Katana_CP.tools.point.label>point</MeleeWeapon_Katana_CP.tools.point.label>
+  <!-- EN: Kendachi Monokatana -->
+  <MeleeWeapon_MonoKatana_CP.label>Kendachi Monokatana</MeleeWeapon_MonoKatana_CP.label>
+  <!-- EN: The monokatana is an incredibally sharp. mono-molecular crystal blade in the style of a katana. -->
+  <MeleeWeapon_MonoKatana_CP.description>The monokatana is an incredibally sharp. mono-molecular crystal blade in the style of a katana.</MeleeWeapon_MonoKatana_CP.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_MonoKatana_CP.tools.handle.label>handle</MeleeWeapon_MonoKatana_CP.tools.handle.label>
+  <!-- EN: blade -->
+  <MeleeWeapon_MonoKatana_CP.tools.blade.label>blade</MeleeWeapon_MonoKatana_CP.tools.blade.label>
+  <!-- EN: point -->
+  <MeleeWeapon_MonoKatana_CP.tools.point.label>point</MeleeWeapon_MonoKatana_CP.tools.point.label>
+  <!-- EN: Kendachi Mono-Two -->
+  <MeleeWeapon_MonoKatana2_CP.label>Kendachi Mono-Two</MeleeWeapon_MonoKatana2_CP.label>
+  <!-- EN: An improved version of the original Kendachi Monoblade, favored by corporate samurai everywhere. A thicker blade cross section reinforced with Orbital crystal strengthens the weapon against parries. -->
+  <MeleeWeapon_MonoKatana2_CP.description>An improved version of the original Kendachi Monoblade, favored by corporate samurai everywhere. A thicker blade cross section reinforced with Orbital crystal strengthens the weapon against parries.</MeleeWeapon_MonoKatana2_CP.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_MonoKatana2_CP.tools.handle.label>handle</MeleeWeapon_MonoKatana2_CP.tools.handle.label>
+  <!-- EN: blade -->
+  <MeleeWeapon_MonoKatana2_CP.tools.blade.label>blade</MeleeWeapon_MonoKatana2_CP.tools.blade.label>
+  <!-- EN: point -->
+  <MeleeWeapon_MonoKatana2_CP.tools.point.label>point</MeleeWeapon_MonoKatana2_CP.tools.point.label>
+  <!-- EN: Kendachi Monoknife -->
+  <MeleeWeapon_Monoknife_CP.label>Kendachi Monoknife</MeleeWeapon_Monoknife_CP.label>
+  <!-- EN: The Kendachi MonoknifeÂ® is a melee weapon An incredibly sharp, mono-sectional crystal blade. Produced in the Japanese "tanto" style. -->
+  <MeleeWeapon_Monoknife_CP.description>The Kendachi MonoknifeÂ® is a melee weapon An incredibly sharp, mono-sectional crystal blade. Produced in the Japanese "tanto" style.</MeleeWeapon_Monoknife_CP.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_Monoknife_CP.tools.handle.label>handle</MeleeWeapon_Monoknife_CP.tools.handle.label>
+  <!-- EN: blade -->
+  <MeleeWeapon_Monoknife_CP.tools.blade.label>blade</MeleeWeapon_Monoknife_CP.tools.blade.label>
+  <!-- EN: point -->
+  <MeleeWeapon_Monoknife_CP.tools.point.label>point</MeleeWeapon_Monoknife_CP.tools.point.label>
+  <!-- EN: Kendachi Powersword -->
+  <MeleeWeapon_PowerSword_CP.label>Kendachi Powersword</MeleeWeapon_PowerSword_CP.label>
+  <!-- EN: Combining elements of the popular Kendachi monoline with a powered handle, the powersword vibrates its molecular crystal blade 2000 per minute. Combined with a microscopically serrated edge, this weapon literally chews its way through anything it encounteres. -->
+  <MeleeWeapon_PowerSword_CP.description>Combining elements of the popular Kendachi monoline with a powered handle, the powersword vibrates its molecular crystal blade 2000 per minute. Combined with a microscopically serrated edge, this weapon literally chews its way through anything it encounteres.</MeleeWeapon_PowerSword_CP.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_PowerSword_CP.tools.handle.label>handle</MeleeWeapon_PowerSword_CP.tools.handle.label>
+  <!-- EN: edge -->
+  <MeleeWeapon_PowerSword_CP.tools.edge.label>edge</MeleeWeapon_PowerSword_CP.tools.edge.label>
+  <!-- EN: point -->
+  <MeleeWeapon_PowerSword_CP.tools.point.label>point</MeleeWeapon_PowerSword_CP.tools.point.label>
+</LanguageData>

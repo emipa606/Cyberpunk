@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: armored cyberarm -->
+  <ArmoredArm_CP.label>armored cyberarm</ArmoredArm_CP.label>
+  <!-- EN: The armored cyberarm is built as a standard cyberarm, but contains ballistic joints and is covered with kevlar. -->
+  <ArmoredArm_CP.description>The armored cyberarm is built as a standard cyberarm, but contains ballistic joints and is covered with kevlar.</ArmoredArm_CP.description>
+  <!-- EN: armored cyberleg -->
+  <ArmoredLeg_CP.label>armored cyberleg</ArmoredLeg_CP.label>
+  <!-- EN: >The armored cyberleg is built as a standard cyberleg, but contains ballistic joints and is covered with kevlar. -->
+  <ArmoredLeg_CP.description>>The armored cyberleg is built as a standard cyberleg, but contains ballistic joints and is covered with kevlar.</ArmoredLeg_CP.description>
+  <!-- EN: buzz hand -->
+  <BuzzHand_CP.label>buzz hand</BuzzHand_CP.label>
+  <!-- EN: This hand can be pulled back to reveal small, spinning mono-wires around a plasteel hub. The high speed "weed wacker" shears through most materials like butter. -->
+  <BuzzHand_CP.description>This hand can be pulled back to reveal small, spinning mono-wires around a plasteel hub. The high speed "weed wacker" shears through most materials like butter.</BuzzHand_CP.description>
+  <!-- EN: cyberaudio amplified hearing -->
+  <CAAmplifiedHearing_CP.label>cyberaudio amplified hearing</CAAmplifiedHearing_CP.label>
+  <!-- EN: This system improves hearing and sound recognition ability. -->
+  <CAAmplifiedHearing_CP.description>This system improves hearing and sound recognition ability.</CAAmplifiedHearing_CP.description>
+  <!-- EN: cyberoptic targetting scope -->
+  <COTargettingScope_CP.label>cyberoptic targetting scope</COTargettingScope_CP.label>
+  <!-- EN: Replaces the natural eye, giving the recipient the ability to project a targetting sight onto the field of vision at will. The targetting scope will read range to specific objects, speed of movement, bearing and size, as well as providing several types of scope reticle for aligning weapons. -->
+  <COTargettingScope_CP.description>Replaces the natural eye, giving the recipient the ability to project a targetting sight onto the field of vision at will. The targetting scope will read range to specific objects, speed of movement, bearing and size, as well as providing several types of scope reticle for aligning weapons.</COTargettingScope_CP.description>
+  <!-- EN: standard cyberfoot -->
+  <CyberFoot_CP.label>standard cyberfoot</CyberFoot_CP.label>
+  <!-- EN: The standard cyberfoot is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the leg using a metal and plasteel cuff. -->
+  <CyberFoot_CP.description>The standard cyberfoot is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the leg using a metal and plasteel cuff.</CyberFoot_CP.description>
+  <!-- EN: standard cyberhand -->
+  <CyberHand_CP.label>standard cyberhand</CyberHand_CP.label>
+  <!-- EN: The standard cyberhand is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the wrist using a metal and plasteel cuff. -->
+  <CyberHand_CP.description>The standard cyberhand is an aluminum and steel basket framework, with artificial plasteel muscles controlling motion. It is attached at the wrist using a metal and plasteel cuff.</CyberHand_CP.description>
+  <!-- EN: cyberjaw -->
+  <CyberJaw_CP.label>cyberjaw</CyberJaw_CP.label>
+  <!-- EN: This jaw replacement rebuilds the jaw and upper mouth with stronger, more durable synthetics and micronetics. It even has realistic looking skin! -->
+  <CyberJaw_CP.description>This jaw replacement rebuilds the jaw and upper mouth with stronger, more durable synthetics and micronetics. It even has realistic looking skin!</CyberJaw_CP.description>
+  <!-- EN: cyberjaw K9 -->
+  <CyberJawK9_CP.label>cyberjaw K9</CyberJawK9_CP.label>
+  <!-- EN: This jaw replacement rebuilds the jaw and upper mouth with stronger, more durable synthetics and micronetics. -->
+  <CyberJawK9_CP.description>This jaw replacement rebuilds the jaw and upper mouth with stronger, more durable synthetics and micronetics.</CyberJawK9_CP.description>
+  <!-- EN: drill hand -->
+  <DrillHand_CP.label>drill hand</DrillHand_CP.label>
+  <!-- EN: Designed specifically for worker 'borgs, Antomation Inc's drill hand comprises of an industrial plasteel diamond tipped drill bit. The drill extends from a socket located in the center of the palm. -->
+  <DrillHand_CP.description>Designed specifically for worker 'borgs, Antomation Inc's drill hand comprises of an industrial plasteel diamond tipped drill bit. The drill extends from a socket located in the center of the palm.</DrillHand_CP.description>
+  <!-- EN: hammer hand -->
+  <HammerHand_CP.label>hammer hand</HammerHand_CP.label>
+  <!-- EN: This hand is made of hardened plasteel and has a powerful explosive shell-driven ram that acts like a jack-hammer. The user punches, the shell goes off, driving the fist forward with incredible velocity and power. A port in the top ejects the shell and opens to receive a new one. -->
+  <HammerHand_CP.description>This hand is made of hardened plasteel and has a powerful explosive shell-driven ram that acts like a jack-hammer. The user punches, the shell goes off, driving the fist forward with incredible velocity and power. A port in the top ejects the shell and opens to receive a new one.</HammerHand_CP.description>
+  <!-- EN: lightning fist -->
+  <LightningFist_CP.label>lightning fist</LightningFist_CP.label>
+  <!-- EN: Designed for self defense, the lightning fist hand has an integrated taser that is set to ready mode when the user makes a fist; and delivers an electric shock when that fist makes contact with a solid object. -->
+  <LightningFist_CP.description>Designed for self defense, the lightning fist hand has an integrated taser that is set to ready mode when the user makes a fist; and delivers an electric shock when that fist makes contact with a solid object.</LightningFist_CP.description>
+  <!-- EN: modular medical hand -->
+  <MedHand_CP.label>modular medical hand</MedHand_CP.label>
+  <!-- EN: This MedHand is the latest in modular finger technologies. It includes five instruments to use in any medical situation: monoedge scalpel, a four dose air hypo, dermal stapler dual-purpose clamp/forceps and a basic biomonitor probe. -->
+  <MedHand_CP.description>This MedHand is the latest in modular finger technologies. It includes five instruments to use in any medical situation: monoedge scalpel, a four dose air hypo, dermal stapler dual-purpose clamp/forceps and a basic biomonitor probe.</MedHand_CP.description>
+  <!-- EN: powerjaw -->
+  <PowerJaw_CP.label>powerjaw</PowerJaw_CP.label>
+  <!-- EN: This system from Dynalar increases the viciousness of your bite! It winds plasteel through the jaw muscles, increasing the force of mastication. -->
+  <PowerJaw_CP.description>This system from Dynalar increases the viciousness of your bite! It winds plasteel through the jaw muscles, increasing the force of mastication.</PowerJaw_CP.description>
+  <!-- EN: skate foot -->
+  <SkateFoot_CP.label>skate foot</SkateFoot_CP.label>
+  <!-- EN: This motorized foot module is fitted with four chain-driven super-grip wheels which fold up behind the heel when not in use. Once activated, micro-hydrolic servers slide the wheels down below the feet and...ZOOM! -->
+  <SkateFoot_CP.description>This motorized foot module is fitted with four chain-driven super-grip wheels which fold up behind the heel when not in use. Once activated, micro-hydrolic servers slide the wheels down below the feet and...ZOOM!</SkateFoot_CP.description>
+  <!-- EN: tool hand -->
+  <ToolHand_CP.label>tool hand</ToolHand_CP.label>
+  <!-- EN: This hand's four fingers conceal small tools including a screwdriver, adjustable wrench, soldering iron and a socket wrench. In addition, the lower edge of the palm is hardened to make a dandy hammer. -->
+  <ToolHand_CP.description>This hand's four fingers conceal small tools including a screwdriver, adjustable wrench, soldering iron and a socket wrench. In addition, the lower edge of the palm is hardened to make a dandy hammer.</ToolHand_CP.description>
+</LanguageData>

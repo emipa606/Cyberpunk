@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: doorgunner's vest -->
+  <Apparel_DoorgunnersVest.label>doorgunner's vest</Apparel_DoorgunnersVest.label>
+  <!-- EN: Heavy duty protection for stationary positions, like machinegun nests, helicopter doors, etc. -->
+  <Apparel_DoorgunnersVest.description>Heavy duty protection for stationary positions, like machinegun nests, helicopter doors, etc.</Apparel_DoorgunnersVest.description>
+  <!-- EN: MedicGear Combat Armor -->
+  <Apparel_MGCombat_Armor.label>MedicGear Combat Armor</Apparel_MGCombat_Armor.label>
+  <!-- EN: Utilizing the latest in computer, medical and armor technology, MedicGear by Bodyweight Systems is designed to assist medics everywhere. Endorsed by Trauma Team, Inc. and the RimWorld Search and Rescue service! MedicGear starts with hard-shell armor, then starts loading on the goodies. Incorporated into the structure is a Hybrid MedicWear computer, with a few additional functions. Sensors and software are added that allow it to function as a drug analyzer and techscanner, giving the medic the ability to see just what the patient is on, and what cyberware he's got! A pack on the waist also includes various pressure bandages and other supplies. -->
+  <Apparel_MGCombat_Armor.description>Utilizing the latest in computer, medical and armor technology, MedicGear by Bodyweight Systems is designed to assist medics everywhere. Endorsed by Trauma Team, Inc. and the RimWorld Search and Rescue service! MedicGear starts with hard-shell armor, then starts loading on the goodies. Incorporated into the structure is a Hybrid MedicWear computer, with a few additional functions. Sensors and software are added that allow it to function as a drug analyzer and techscanner, giving the medic the ability to see just what the patient is on, and what cyberware he's got! A pack on the waist also includes various pressure bandages and other supplies.</Apparel_MGCombat_Armor.description>
+  <!-- EN: Takanaka Exec monogram shirt -->
+  <Apparel_Takanaka_Shirt.label>Takanaka Exec monogram shirt</Apparel_Takanaka_Shirt.label>
+  <!-- EN: The epitome of the samurai spirit is embodied in the work of Takanaka's Executive monogram shirt. Spare and exact, it shows that the true master of business must not only follow the Way of the Sword, but also the Way of Art. -->
+  <Apparel_Takanaka_Shirt.description>The epitome of the samurai spirit is embodied in the work of Takanaka's Executive monogram shirt. Spare and exact, it shows that the true master of business must not only follow the Way of the Sword, but also the Way of Art.</Apparel_Takanaka_Shirt.description>
+  <!-- EN: flack vest -->
+  <CP_Apparel_FlakVest.label>flack vest</CP_Apparel_FlakVest.label>
+  <!-- EN: Standard protection for combat soldiers, the flack vest is designed to stop small arms fire, grenade shrapnel, but only slow up assault rifle rounds. -->
+  <CP_Apparel_FlakVest.description>Standard protection for combat soldiers, the flack vest is designed to stop small arms fire, grenade shrapnel, but only slow up assault rifle rounds.</CP_Apparel_FlakVest.description>
+  <!-- EN: Eji armoured jacket -->
+  <CP_Eji_Jacket.label>Eji armoured jacket</CP_Eji_Jacket.label>
+  <!-- EN: The look is IT, and Eji captures IT in their look. This jacket shows confidence and taste. -->
+  <CP_Eji_Jacket.description>The look is IT, and Eji captures IT in their look. This jacket shows confidence and taste.</CP_Eji_Jacket.description>
+  <!-- EN: Eji armored cloak -->
+  <CP_EjiCloak.label>Eji armored cloak</CP_EjiCloak.label>
+  <!-- EN: Eji's armored cloak is designed for the Edgerunner on the go. -->
+  <CP_EjiCloak.description>Eji's armored cloak is designed for the Edgerunner on the go.</CP_EjiCloak.description>
+  <!-- EN: Eji Designer Jeans -->
+  <CP_EjiJeans.label>Eji Designer Jeans</CP_EjiJeans.label>
+  <!-- EN: Eji designer jeans provide the hi-tech flair that edgerunners want. It is part of Eji's picture of confidence and taste. -->
+  <CP_EjiJeans.description>Eji designer jeans provide the hi-tech flair that edgerunners want. It is part of Eji's picture of confidence and taste.</CP_EjiJeans.description>
+  <!-- EN: Esporma Environment Suit -->
+  <CP_Esporma_Armor.label>Esporma Environment Suit</CP_Esporma_Armor.label>
+  <!-- EN: Hazmat. -->
+  <CP_Esporma_Armor.description>Hazmat.</CP_Esporma_Armor.description>
+  <!-- EN: flack pants -->
+  <CP_Flack_Pants.label>flack pants</CP_Flack_Pants.label>
+  <!-- EN: Standard protection for combat soldiers, the flack pants are designed to stop small arms fire, grenade shrapnel, but only slow up assault rifle rounds. -->
+  <CP_Flack_Pants.description>Standard protection for combat soldiers, the flack pants are designed to stop small arms fire, grenade shrapnel, but only slow up assault rifle rounds.</CP_Flack_Pants.description>
+  <!-- EN: Gibson Battlegear™ jumpsuit -->
+  <CP_GB_BodySuit.label>Gibson Battlegear™ jumpsuit</CP_GB_BodySuit.label>
+  <!-- EN: Edgerunner styled jumpsuit. It's all about function, with a bit of style and sex appeal thrown in. -->
+  <CP_GB_BodySuit.description>Edgerunner styled jumpsuit. It's all about function, with a bit of style and sex appeal thrown in.</CP_GB_BodySuit.description>
+  <!-- EN: Gibson Battlegear™ armored jacket -->
+  <CP_GB_Jacket.label>Gibson Battlegear™ armored jacket</CP_GB_Jacket.label>
+  <!-- EN: Get serious with the Gibson Battlegear™ armored jacket. This combat ready jacket has all the Edgerunner style, with the added protection of plassteel hard armor where it counts. -->
+  <CP_GB_Jacket.description>Get serious with the Gibson Battlegear™ armored jacket. This combat ready jacket has all the Edgerunner style, with the added protection of plassteel hard armor where it counts.</CP_GB_Jacket.description>
+  <!-- EN: Gibson Battlegear™ greaves -->
+  <CP_GBgreaves.label>Gibson Battlegear™ greaves</CP_GBgreaves.label>
+  <!-- EN: Gibson Battlegear greaves are Metalgear-style hard armor for the shins. -->
+  <CP_GBgreaves.description>Gibson Battlegear greaves are Metalgear-style hard armor for the shins.</CP_GBgreaves.description>
+  <!-- EN: Gibson Battlegear™ armored jeans -->
+  <CP_GBjeans.label>Gibson Battlegear™ armored jeans</CP_GBjeans.label>
+  <!-- EN: Substance and style. you've got to look good doing what you do. But style counts for nada if you are dead. Gibson Battlegear armored acid-washed jeans addresses this issue with pieces of Metalgear-style hard armor where it is needed most. -->
+  <CP_GBjeans.description>Substance and style. you've got to look good doing what you do. But style counts for nada if you are dead. Gibson Battlegear armored acid-washed jeans addresses this issue with pieces of Metalgear-style hard armor where it is needed most.</CP_GBjeans.description>
+  <!-- EN: Gibson Battlegear™ fatigue pants -->
+  <CP_GBpants.label>Gibson Battlegear™ fatigue pants</CP_GBpants.label>
+  <!-- EN: Gibson Battlegear™ Fatigue Pants are ready to serve you and feature the classic six pocket design as well as reinforced seat and knees and an adjustable tab waist. They also feature drawstring tie ankles well designed and adaptable for every situation. Remember that these pants are made for comfort and are very functional, making them the ideal choice for casual, work, or combat. -->
+  <CP_GBpants.description>Gibson Battlegear™ Fatigue Pants are ready to serve you and feature the classic six pocket design as well as reinforced seat and knees and an adjustable tab waist. They also feature drawstring tie ankles well designed and adaptable for every situation. Remember that these pants are made for comfort and are very functional, making them the ideal choice for casual, work, or combat.</CP_GBpants.description>
+  <!-- EN: Gibson Battlegear™ armored t-shirt -->
+  <CP_GBTShirt.label>Gibson Battlegear™ armored t-shirt</CP_GBTShirt.label>
+  <!-- EN: Gibson Battlegear armored t-shirt allows you to show that you are stylish with a professional, but casual look. -->
+  <CP_GBTShirt.description>Gibson Battlegear armored t-shirt allows you to show that you are stylish with a professional, but casual look.</CP_GBTShirt.description>
+  <!-- EN: forest camo fatigues -->
+  <CP_GCPants.label>forest camo fatigues</CP_GCPants.label>
+  <!-- EN: Fatigues with a forest camo pattern. -->
+  <CP_GCPants.description>Fatigues with a forest camo pattern.</CP_GCPants.description>
+  <!-- EN: forest camo tactical shirt -->
+  <CP_GCShirt.label>forest camo tactical shirt</CP_GCShirt.label>
+  <!-- EN: A long sleeved shirt with a forest camo pattern designed especially for anyone who participates in tactical activities. -->
+  <CP_GCShirt.description>A long sleeved shirt with a forest camo pattern designed especially for anyone who participates in tactical activities.</CP_GCShirt.description>
+  <!-- EN: greatcoat -->
+  <CP_GreatCoat.label>greatcoat</CP_GreatCoat.label>
+  <!-- EN: A greatcoat, also known as a watchcoat, is a large overcoat that is typically made of wool designed for warmth and protection against the weather. Its collar and cuffs can be turned out to protect the face and hands from cold and rain, and the short cape around the shoulders provides extra warmth and repels rainwater (if made of a waterproof material). -->
+  <CP_GreatCoat.description>A greatcoat, also known as a watchcoat, is a large overcoat that is typically made of wool designed for warmth and protection against the weather. Its collar and cuffs can be turned out to protect the face and hands from cold and rain, and the short cape around the shoulders provides extra warmth and repels rainwater (if made of a waterproof material).</CP_GreatCoat.description>
+  <!-- EN: SMI armored greatcoat -->
+  <CP_GreatCoatSMI.label>SMI armored greatcoat</CP_GreatCoatSMI.label>
+  <!-- EN: For guards and soldiers working in cold weather conditions that aren't extreme enough to demand full combat gear, there is the SMI armored greatcoat. This item is also issued to SovOil corporate guards who are working in public situations where the Sternmeyer suit might be inappropriate. The greatcoat is good in temperatures down to -20° C, and in high winds and rain and has built in armor. When buttoned, the coat protects virtually the entire body. Webbing and gun belts can be worn over the coat, but, usually, no other armor is added. The coat is belted at the waist, and comes in olive green, brown, or black. -->
+  <CP_GreatCoatSMI.description>For guards and soldiers working in cold weather conditions that aren't extreme enough to demand full combat gear, there is the SMI armored greatcoat. This item is also issued to SovOil corporate guards who are working in public situations where the Sternmeyer suit might be inappropriate. The greatcoat is good in temperatures down to -20° C, and in high winds and rain and has built in armor. When buttoned, the coat protects virtually the entire body. Webbing and gun belts can be worn over the coat, but, usually, no other armor is added. The coat is belted at the waist, and comes in olive green, brown, or black.</CP_GreatCoatSMI.description>
+  <!-- EN: heavy leather jacket -->
+  <CP_HvyLeather_Jacket.label>heavy leather jacket</CP_HvyLeather_Jacket.label>
+  <!-- EN: Good for road rash, stopping knives, etc. A good .38 slug will probably rip you to bits, however. -->
+  <CP_HvyLeather_Jacket.description>Good for road rash, stopping knives, etc. A good .38 slug will probably rip you to bits, however.</CP_HvyLeather_Jacket.description>
+  <!-- EN: heavy leather pants -->
+  <CP_HvyLeather_Pants.label>heavy leather pants</CP_HvyLeather_Pants.label>
+  <!-- EN: Good for road rash, stopping knives, etc. A good .38 slug will probably rip you to bits, however. -->
+  <CP_HvyLeather_Pants.description>Good for road rash, stopping knives, etc. A good .38 slug will probably rip you to bits, however.</CP_HvyLeather_Pants.description>
+  <!-- EN: kevlar pants -->
+  <CP_Kevlar_Pants.label>kevlar pants</CP_Kevlar_Pants.label>
+  <!-- EN: Lightweight armor for the legs -->
+  <CP_Kevlar_Pants.description>Lightweight armor for the legs</CP_Kevlar_Pants.description>
+  <!-- EN: heavy kevlar armor jacket -->
+  <CP_KevlarJH.label>heavy kevlar armor jacket</CP_KevlarJH.label>
+  <!-- EN: Personal protection for the fashion conscious, these heavy Kevlar jackets have nylon coverings that resemble normal jackets. -->
+  <CP_KevlarJH.description>Personal protection for the fashion conscious, these heavy Kevlar jackets have nylon coverings that resemble normal jackets.</CP_KevlarJH.description>
+  <!-- EN: light kevlar armor jacket -->
+  <CP_KevlarJL.label>light kevlar armor jacket</CP_KevlarJL.label>
+  <!-- EN: Personal protection for the fashion conscious, these lightweight Kevlar jackets have nylon coverings that resemble normal jackets. -->
+  <CP_KevlarJL.description>Personal protection for the fashion conscious, these lightweight Kevlar jackets have nylon coverings that resemble normal jackets.</CP_KevlarJL.description>
+  <!-- EN: kevlar armor jacket -->
+  <CP_KevlarJM.label>kevlar armor jacket</CP_KevlarJM.label>
+  <!-- EN: Personal protection for the fashion conscious, these medium Kevlar jackets have nylon coverings that resemble normal jackets. -->
+  <CP_KevlarJM.description>Personal protection for the fashion conscious, these medium Kevlar jackets have nylon coverings that resemble normal jackets.</CP_KevlarJM.description>
+  <!-- EN: Kevlar T-Shirt -->
+  <CP_KevlarTShirt.label>Kevlar T-Shirt</CP_KevlarTShirt.label>
+  <!-- EN: Can be worn unnoticably under most street clothes. Will stop most rounds up to a .45 ACP. -->
+  <CP_KevlarTShirt.description>Can be worn unnoticably under most street clothes. Will stop most rounds up to a .45 ACP.</CP_KevlarTShirt.description>
+  <!-- EN: Kevlar Vest -->
+  <CP_KevlarVest.label>Kevlar Vest</CP_KevlarVest.label>
+  <!-- EN: A light-weight vest that protects the torso. Will stop most rounds up to a .45 ACP. -->
+  <CP_KevlarVest.description>A light-weight vest that protects the torso. Will stop most rounds up to a .45 ACP.</CP_KevlarVest.description>
+  <!-- EN: Linear Frame Beta -->
+  <CP_LinearFrameBeta.label>Linear Frame Beta</CP_LinearFrameBeta.label>
+  <!-- EN: A linear frame resembles a suit of contoured metal body armor. It is directly neurolinked to the muscles and bones. Linear frames are designed to take over a percentage of the load, while leaving you enough "work" to allow you to gauge how much you're lifting and maintain control of the weight. -->
+  <CP_LinearFrameBeta.description>A linear frame resembles a suit of contoured metal body armor. It is directly neurolinked to the muscles and bones. Linear frames are designed to take over a percentage of the load, while leaving you enough "work" to allow you to gauge how much you're lifting and maintain control of the weight.</CP_LinearFrameBeta.description>
+  <!-- EN: Linear Frame Omega -->
+  <CP_LinearFrameOmega.label>Linear Frame Omega</CP_LinearFrameOmega.label>
+  <!-- EN: A linear frame resembles a suit of contoured metal body armor. It is directly neurolinked to the muscles and bones. Linear frames are designed to take over a percentage of the load, while leaving you enough "work" to allow you to gauge how much you're lifting and maintain control of the weight. -->
+  <CP_LinearFrameOmega.description>A linear frame resembles a suit of contoured metal body armor. It is directly neurolinked to the muscles and bones. Linear frames are designed to take over a percentage of the load, while leaving you enough "work" to allow you to gauge how much you're lifting and maintain control of the weight.</CP_LinearFrameOmega.description>
+  <!-- EN: Linear Frame Sigma -->
+  <CP_LinearFrameSigma.label>Linear Frame Sigma</CP_LinearFrameSigma.label>
+  <!-- EN: A linear frame resembles a suit of contoured metal body armor. It is directly neurolinked to the muscles and bones. Linear frames are designed to take over a percentage of the load, while leaving you enough "work" to allow you to gauge how much you're lifting and maintain control of the weight. -->
+  <CP_LinearFrameSigma.description>A linear frame resembles a suit of contoured metal body armor. It is directly neurolinked to the muscles and bones. Linear frames are designed to take over a percentage of the load, while leaving you enough "work" to allow you to gauge how much you're lifting and maintain control of the weight.</CP_LinearFrameSigma.description>
+  <!-- EN: shirt -->
+  <CP_LShirt.label>shirt</CP_LShirt.label>
+  <!-- EN: A simple long sleeved shirt. -->
+  <CP_LShirt.description>A simple long sleeved shirt.</CP_LShirt.description>
+  <!-- EN: Militech EMA-1 "Softshell" -->
+  <CP_MEMA1_Armor.label>Militech EMA-1 "Softshell"</CP_MEMA1_Armor.label>
+  <!-- EN: Militech EMA-1 armor is a full suit of modern armor able to withstand a great deal of damage, while looking menacing doing it. -->
+  <CP_MEMA1_Armor.description>Militech EMA-1 armor is a full suit of modern armor able to withstand a great deal of damage, while looking menacing doing it.</CP_MEMA1_Armor.description>
+  <!-- EN: MetalGear™ MRK-I -->
+  <CP_MGBodysuit.label>MetalGear™ MRK-I</CP_MGBodysuit.label>
+  <!-- EN: Laminated expoxide plate armor that is designed in modular sections, with arm coverings, torso and back clamshell. Large, bulky, and hot, it nevertheless affords excellent protection. -->
+  <CP_MGBodysuit.description>Laminated expoxide plate armor that is designed in modular sections, with arm coverings, torso and back clamshell. Large, bulky, and hot, it nevertheless affords excellent protection.</CP_MGBodysuit.description>
+  <!-- EN: MetalGear™ pants -->
+  <CP_MGPants.label>MetalGear™ pants</CP_MGPants.label>
+  <!-- EN: Laminated expoxide plate armor for the legs. -->
+  <CP_MGPants.description>Laminated expoxide plate armor for the legs.</CP_MGPants.description>
+  <!-- EN: Militech M1 Armored Vest -->
+  <CP_MM1Vest.label>Militech M1 Armored Vest</CP_MM1Vest.label>
+  <!-- EN: First issued to American troops during the Second South American War, this is still one of the most commonly used and widely distributed personal armor among soldiers and security forces.  In addition to the the straps to affix the load bearing equipment, this armor also has numerous small straps and loops for storing individual rounds of ammunition or other equipment. -->
+  <CP_MM1Vest.description>First issued to American troops during the Second South American War, this is still one of the most commonly used and widely distributed personal armor among soldiers and security forces.  In addition to the the straps to affix the load bearing equipment, this armor also has numerous small straps and loops for storing individual rounds of ammunition or other equipment.</CP_MM1Vest.description>
+  <!-- EN: Militech M78 Armor Jacket -->
+  <CP_MM78Jacket.label>Militech M78 Armor Jacket</CP_MM78Jacket.label>
+  <!-- EN: Militech has used advanced polymer technology to create a new generation of personal armor which is not quite as tough as other armors available on the market, but which is not susceptible to standard armor-piercing rounds and edged weapons. This T-Shirt is the top layer of the M78 Revised Personal Armor set, designed to also be worn with the M78 Vest and T-Shirt. -->
+  <CP_MM78Jacket.description>Militech has used advanced polymer technology to create a new generation of personal armor which is not quite as tough as other armors available on the market, but which is not susceptible to standard armor-piercing rounds and edged weapons. This T-Shirt is the top layer of the M78 Revised Personal Armor set, designed to also be worn with the M78 Vest and T-Shirt.</CP_MM78Jacket.description>
+  <!-- EN: Militech M78 RPA T-Shirt -->
+  <CP_MM78TShirt.label>Militech M78 RPA T-Shirt</CP_MM78TShirt.label>
+  <!-- EN: Militech has used advanced polymer technology to create a new generation of personal armor which is not quite as tough as other armors available on the market, but which is not susceptible to standard armor-piercing rounds and edged weapons. This T-Shirt is the bottom layer of the M78 Revised Personal Armor set, designed to also be worn with the M78 Vest and Jacket. -->
+  <CP_MM78TShirt.description>Militech has used advanced polymer technology to create a new generation of personal armor which is not quite as tough as other armors available on the market, but which is not susceptible to standard armor-piercing rounds and edged weapons. This T-Shirt is the bottom layer of the M78 Revised Personal Armor set, designed to also be worn with the M78 Vest and Jacket.</CP_MM78TShirt.description>
+  <!-- EN: Militech M78 Combat Vest -->
+  <CP_MM78Vest.label>Militech M78 Combat Vest</CP_MM78Vest.label>
+  <!-- EN: Militech has used advanced polymer technology to create a new generation of personal armor which is not quite as tough as other armors available on the market, but which is not susceptible to standard armor-piercing rounds and edged weapons. This vest is the middle layer of the M78 Revised Personal Armor set, designed to also be worn with the M78 T-Shirt and Jacket. -->
+  <CP_MM78Vest.description>Militech has used advanced polymer technology to create a new generation of personal armor which is not quite as tough as other armors available on the market, but which is not susceptible to standard armor-piercing rounds and edged weapons. This vest is the middle layer of the M78 Revised Personal Armor set, designed to also be worn with the M78 T-Shirt and Jacket.</CP_MM78Vest.description>
+  <!-- EN: Sternmeyer Cold Weather Combat Outfit -->
+  <CP_SCWCO_Armor.label>Sternmeyer Cold Weather Combat Outfit</CP_SCWCO_Armor.label>
+  <!-- EN: Sternmeyer AG, a German arms corporation that supplies military organizations around the world, developed a new generation of winter combat gear using advanced insulating and armoring materials, and reactive fabrics. The most current model, G-12, has excellent insulating and wind and water repelling characteristics, yet is thin enough to breathe, and permit good mobility. The G-12 suit is made with a reactive fabric that can vent waste heat in times of exertion without compromising overall insulation. The outfits can protect soldiers in temperatures down to -70° C and in high winds, but are not recommended for use in temperatures over freezing. -->
+  <CP_SCWCO_Armor.description>Sternmeyer AG, a German arms corporation that supplies military organizations around the world, developed a new generation of winter combat gear using advanced insulating and armoring materials, and reactive fabrics. The most current model, G-12, has excellent insulating and wind and water repelling characteristics, yet is thin enough to breathe, and permit good mobility. The G-12 suit is made with a reactive fabric that can vent waste heat in times of exertion without compromising overall insulation. The outfits can protect soldiers in temperatures down to -70° C and in high winds, but are not recommended for use in temperatures over freezing.</CP_SCWCO_Armor.description>
+  <!-- EN: Takanaka jacket -->
+  <CP_Takanaka_Jacket.label>Takanaka jacket</CP_Takanaka_Jacket.label>
+  <!-- EN: Be ready for a hostile takeover with this ultra-chill suit coat from Takanaka. The coat is made from cotton, with a new Biotechnica arachni-silk lining which is as tough as leather. -->
+  <CP_Takanaka_Jacket.description>Be ready for a hostile takeover with this ultra-chill suit coat from Takanaka. The coat is made from cotton, with a new Biotechnica arachni-silk lining which is as tough as leather.</CP_Takanaka_Jacket.description>
+  <!-- EN: Takanaka Exec Pants -->
+  <CP_Takanaka_Pants.label>Takanaka Exec Pants</CP_Takanaka_Pants.label>
+  <!-- EN: No Gimmicks, no fancy syntha-cloth, nothing extraneous. There is no need for any of it in Takanaka's Exec line of clothing, and these pants are no exception. -->
+  <CP_Takanaka_Pants.description>No Gimmicks, no fancy syntha-cloth, nothing extraneous. There is no need for any of it in Takanaka's Exec line of clothing, and these pants are no exception.</CP_Takanaka_Pants.description>
+  <!-- EN: trench coat -->
+  <CP_TrenchCoat.label>trench coat</CP_TrenchCoat.label>
+  <!-- EN: The design of the trench coat includes shoulder straps and D-rings. The shoulder straps are for the attachment of epaulettes or other rank insignia; There is a popular myth that the D-ring was for the attachment of hand grenades. The ring was originally for attaching map cases and swords or other equipment to the belt. This latter pattern was dubbed "trench coat" by the soldiers in the front line. The trench coats has large pockets for maps and cleverly placed flaps and vents to deal with odour and heat. -->
+  <CP_TrenchCoat.description>The design of the trench coat includes shoulder straps and D-rings. The shoulder straps are for the attachment of epaulettes or other rank insignia; There is a popular myth that the D-ring was for the attachment of hand grenades. The ring was originally for attaching map cases and swords or other equipment to the belt. This latter pattern was dubbed "trench coat" by the soldiers in the front line. The trench coats has large pockets for maps and cleverly placed flaps and vents to deal with odour and heat.</CP_TrenchCoat.description>
+  <!-- EN: urban camo fatigues -->
+  <CP_UCPants.label>urban camo fatigues</CP_UCPants.label>
+  <!-- EN: Fatigues with a light gray, medium gray, and black urban camo pattern. -->
+  <CP_UCPants.description>Fatigues with a light gray, medium gray, and black urban camo pattern.</CP_UCPants.description>
+  <!-- EN: urban camo tactical shirt -->
+  <CP_UCShirt.label>urban camo tactical shirt</CP_UCShirt.label>
+  <!-- EN: A long sleeved shirt with an urban camo pattern designed especially for anyone who participates in tactical activities. -->
+  <CP_UCShirt.description>A long sleeved shirt with an urban camo pattern designed especially for anyone who participates in tactical activities.</CP_UCShirt.description>
+</LanguageData>

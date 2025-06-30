@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Arasaka AASW-9F -->
+  <Gun_AAASW9F_CP.label>Arasaka AASW-9F</Gun_AAASW9F_CP.label>
+  <!-- EN: 9mm SMG - A light simple submachinegun, common to security forces all over the world, both private and federal.  Sleek clean lines are all that distinguish this weapon from the vast multitude of other 9mm subs around the globe. -->
+  <Gun_AAASW9F_CP.description>9mm SMG - A light simple submachinegun, common to security forces all over the world, both private and federal.  Sleek clean lines are all that distinguish this weapon from the vast multitude of other 9mm subs around the globe.</Gun_AAASW9F_CP.description>
+  <!-- EN: grip -->
+  <Gun_AAASW9F_CP.tools.grip.label>grip</Gun_AAASW9F_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_AAASW9F_CP.tools.barrel.label>barrel</Gun_AAASW9F_CP.tools.barrel.label>
+  <!-- EN: Arasaka AASW-9F -->
+  <Gun_AAASW9F_CP.verbs.Verb_ShootCP.label>Arasaka AASW-9F</Gun_AAASW9F_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka AS-225 -->
+  <Gun_AAS225_CP.label>Arasaka AS-225</Gun_AAS225_CP.label>
+  <!-- EN: 12mm SMG - Available with a wide variety of options and configurations, the Arasaka AS-225 SMG is currently being marketed to special forces and police agencies around the world, especially to anti-cyborg teams who are interested do to its large caliber chambering of the 12mm round. -->
+  <Gun_AAS225_CP.description>12mm SMG - Available with a wide variety of options and configurations, the Arasaka AS-225 SMG is currently being marketed to special forces and police agencies around the world, especially to anti-cyborg teams who are interested do to its large caliber chambering of the 12mm round.</Gun_AAS225_CP.description>
+  <!-- EN: grip -->
+  <Gun_AAS225_CP.tools.grip.label>grip</Gun_AAS225_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_AAS225_CP.tools.barrel.label>barrel</Gun_AAS225_CP.tools.barrel.label>
+  <!-- EN: Arasaka AS-225 -->
+  <Gun_AAS225_CP.verbs.Verb_ShootCP.label>Arasaka AS-225</Gun_AAS225_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka DE-Mag -->
+  <Gun_ADEMAG_CP.label>Arasaka DE-Mag</Gun_ADEMAG_CP.label>
+  <!-- EN: 11mm SMG - A very compact, but controllable submachine gun with a high ammo capacity and an above average rate of fire. -->
+  <Gun_ADEMAG_CP.description>11mm SMG - A very compact, but controllable submachine gun with a high ammo capacity and an above average rate of fire.</Gun_ADEMAG_CP.description>
+  <!-- EN: grip -->
+  <Gun_ADEMAG_CP.tools.grip.label>grip</Gun_ADEMAG_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_ADEMAG_CP.tools.barrel.label>barrel</Gun_ADEMAG_CP.tools.barrel.label>
+  <!-- EN: Arasaka DE-Mag -->
+  <Gun_ADEMAG_CP.verbs.Verb_ShootCP.label>Arasaka DE-Mag</Gun_ADEMAG_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka Kirin -->
+  <Gun_AK_CP.label>Arasaka Kirin</Gun_AK_CP.label>
+  <!-- EN: 14mm SMG - A similar design to the old Kriss SMG, the Kirin features an updated design and is chambered in 14mm, for hard hitting action, guaranteed to put down whatever stands against you. And extended 25 round mag is available. -->
+  <Gun_AK_CP.description>14mm SMG - A similar design to the old Kriss SMG, the Kirin features an updated design and is chambered in 14mm, for hard hitting action, guaranteed to put down whatever stands against you. And extended 25 round mag is available.</Gun_AK_CP.description>
+  <!-- EN: grip -->
+  <Gun_AK_CP.tools.grip.label>grip</Gun_AK_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_AK_CP.tools.barrel.label>barrel</Gun_AK_CP.tools.barrel.label>
+  <!-- EN: Arasaka Kirin -->
+  <Gun_AK_CP.verbs.Verb_ShootCP.label>Arasaka Kirin</Gun_AK_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka Minami 10 -->
+  <Gun_AM10_CP.label>Arasaka Minami 10</Gun_AM10_CP.label>
+  <!-- EN: 10mm SMG - The standard Arasaka Security weapon, found galaxy wide. A good, all around weapon. -->
+  <Gun_AM10_CP.description>10mm SMG - The standard Arasaka Security weapon, found galaxy wide. A good, all around weapon.</Gun_AM10_CP.description>
+  <!-- EN: grip -->
+  <Gun_AM10_CP.tools.grip.label>grip</Gun_AM10_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_AM10_CP.tools.barrel.label>barrel</Gun_AM10_CP.tools.barrel.label>
+  <!-- EN: Arasaka Minami 10 -->
+  <Gun_AM10_CP.verbs.Verb_ShootCP.label>Arasaka Minami 10</Gun_AM10_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: BudgetArms Balta -->
+  <Gun_BAB_CP.label>BudgetArms Balta</Gun_BAB_CP.label>
+  <!-- EN: 9mm SMG - Third world dictators and low level crime lords love arming their men with these horribly cheap and unreliable weapons.  They jam frequently, occasionally blow up when fired full auto, and the metal is so subpar you can easily bend it with your bare hands.  But its really cheap, fires extremely common ammunition, and comes with a folding stock, and when you're on a really tight budget does anything else matter. -->
+  <Gun_BAB_CP.description>9mm SMG - Third world dictators and low level crime lords love arming their men with these horribly cheap and unreliable weapons.  They jam frequently, occasionally blow up when fired full auto, and the metal is so subpar you can easily bend it with your bare hands.  But its really cheap, fires extremely common ammunition, and comes with a folding stock, and when you're on a really tight budget does anything else matter.</Gun_BAB_CP.description>
+  <!-- EN: grip -->
+  <Gun_BAB_CP.tools.grip.label>grip</Gun_BAB_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_BAB_CP.tools.barrel.label>barrel</Gun_BAB_CP.tools.barrel.label>
+  <!-- EN: BudgetArms Balta -->
+  <Gun_BAB_CP.verbs.Verb_ShootCP.label>BudgetArms Balta</Gun_BAB_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: BudgetArms RX-79 -->
+  <Gun_BARX79_CP.label>BudgetArms RX-79</Gun_BARX79_CP.label>
+  <!-- EN: 10mm SMG - Unfortunately due to the extremely low cost, high rate of fire, and large ammo capacity this weapon has become very popular among street gangs.  It is also barely concealable under most long trenchcoats.  The sad thing is this weapon has a 30 percent chance of blowing up in your face anytime is fired full auto for more than 6 seconds.  It features a folding stock, and while the rest of the weapon is crap, the unique magazine and loading design are noteworthy. -->
+  <Gun_BARX79_CP.description>10mm SMG - Unfortunately due to the extremely low cost, high rate of fire, and large ammo capacity this weapon has become very popular among street gangs.  It is also barely concealable under most long trenchcoats.  The sad thing is this weapon has a 30 percent chance of blowing up in your face anytime is fired full auto for more than 6 seconds.  It features a folding stock, and while the rest of the weapon is crap, the unique magazine and loading design are noteworthy.</Gun_BARX79_CP.description>
+  <!-- EN: grip -->
+  <Gun_BARX79_CP.tools.grip.label>grip</Gun_BARX79_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_BARX79_CP.tools.barrel.label>barrel</Gun_BARX79_CP.tools.barrel.label>
+  <!-- EN: BudgetArms RX-79 -->
+  <Gun_BARX79_CP.verbs.Verb_ShootCP.label>BudgetArms RX-79</Gun_BARX79_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Dai Lung DBDF-12 -->
+  <Gun_DLDBDF12_CP.label>Dai Lung DBDF-12</Gun_DLDBDF12_CP.label>
+  <!-- EN: 12mm SMG - The designers at Dai Lung must be lunatics.  The DBDF-12 is an over/under double barreled SMG firing 12mm ammo.  The ammo is fed from a divided clip, front and back, each holding 30 rounds.  Firing this weapon is about as close as you can legally come to attempting suicide.... except that even owning this weapon is considered a felony in almost every civilized country in the world. Even most gangs are afraid to carry this weapon. It is so unreliable, that if fired at full auto the barrels heat up so fast and so hot that they warp each other as they alternate fire, since the barrels are so short they also tend to cook off the ammo in the breach setting off the other rounds as well.  This weapon has a 60 percent chance of blowing up in your face when fired full auto.  You would think that no one at all would use these, but there is always the lunatic fringe out there, and if Autumn Blade can sell these to a rival group through subterfuge, then it chances are they will do more damage to themselves than anyone else. Want to get rid of someone you hate, give them one of these. Oh yeah, it also features a folding stock, nifty huh. -->
+  <Gun_DLDBDF12_CP.description>12mm SMG - The designers at Dai Lung must be lunatics.  The DBDF-12 is an over/under double barreled SMG firing 12mm ammo.  The ammo is fed from a divided clip, front and back, each holding 30 rounds.  Firing this weapon is about as close as you can legally come to attempting suicide.... except that even owning this weapon is considered a felony in almost every civilized country in the world. Even most gangs are afraid to carry this weapon. It is so unreliable, that if fired at full auto the barrels heat up so fast and so hot that they warp each other as they alternate fire, since the barrels are so short they also tend to cook off the ammo in the breach setting off the other rounds as well.  This weapon has a 60 percent chance of blowing up in your face when fired full auto.  You would think that no one at all would use these, but there is always the lunatic fringe out there, and if Autumn Blade can sell these to a rival group through subterfuge, then it chances are they will do more damage to themselves than anyone else. Want to get rid of someone you hate, give them one of these. Oh yeah, it also features a folding stock, nifty huh.</Gun_DLDBDF12_CP.description>
+  <!-- EN: grip -->
+  <Gun_DLDBDF12_CP.tools.grip.label>grip</Gun_DLDBDF12_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_DLDBDF12_CP.tools.barrel.label>barrel</Gun_DLDBDF12_CP.tools.barrel.label>
+  <!-- EN: Dai Lung DBDF-12 -->
+  <Gun_DLDBDF12_CP.verbs.Verb_ShootCP.label>Dai Lung DBDF-12</Gun_DLDBDF12_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Dai Lung SMG -->
+  <Gun_DLSMG_CP.label>Dai Lung SMG</Gun_DLSMG_CP.label>
+  <!-- EN: 9mm SMG - For a weapon that fires caseless ammunition, this sure does tend to jam a lot.  Which can be a major pain in the ass since you have disassemble the weapon completely to free the mechanism.  Still, it's cheap, so its everywhere. -->
+  <Gun_DLSMG_CP.description>9mm SMG - For a weapon that fires caseless ammunition, this sure does tend to jam a lot.  Which can be a major pain in the ass since you have disassemble the weapon completely to free the mechanism.  Still, it's cheap, so its everywhere.</Gun_DLSMG_CP.description>
+  <!-- EN: grip -->
+  <Gun_DLSMG_CP.tools.grip.label>grip</Gun_DLSMG_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_DLSMG_CP.tools.barrel.label>barrel</Gun_DLSMG_CP.tools.barrel.label>
+  <!-- EN: Dai Lung SMG -->
+  <Gun_DLSMG_CP.verbs.Verb_ShootCP.label>Dai Lung SMG</Gun_DLSMG_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Federated Arms NT-LEP1 -->
+  <Gun_FANTLEP1_CP.label>Federated Arms NT-LEP1</Gun_FANTLEP1_CP.label>
+  <!-- EN: 10mm SMG - Slight cosmetic differences are all that distinguish this weapon from the NT-MM01. -->
+  <Gun_FANTLEP1_CP.description>10mm SMG - Slight cosmetic differences are all that distinguish this weapon from the NT-MM01.</Gun_FANTLEP1_CP.description>
+  <!-- EN: grip -->
+  <Gun_FANTLEP1_CP.tools.grip.label>grip</Gun_FANTLEP1_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_FANTLEP1_CP.tools.barrel.label>barrel</Gun_FANTLEP1_CP.tools.barrel.label>
+  <!-- EN: Federated Arms NT-LEP1 -->
+  <Gun_FANTLEP1_CP.verbs.Verb_ShootCP.label>Federated Arms NT-LEP1</Gun_FANTLEP1_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Federated Arms TA-14 -->
+  <Gun_FATA14_CP.label>Federated Arms TA-14</Gun_FATA14_CP.label>
+  <!-- EN: 11mm SMG - A commonly seen smg similar in shape and performance to the Mac-10/11 from Ingram.  Comes with retracting stock and available with either 12 or 30 round magazines. -->
+  <Gun_FATA14_CP.description>11mm SMG - A commonly seen smg similar in shape and performance to the Mac-10/11 from Ingram.  Comes with retracting stock and available with either 12 or 30 round magazines.</Gun_FATA14_CP.description>
+  <!-- EN: grip -->
+  <Gun_FATA14_CP.tools.grip.label>grip</Gun_FATA14_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_FATA14_CP.tools.barrel.label>barrel</Gun_FATA14_CP.tools.barrel.label>
+  <!-- EN: Federated Arms TA-14 -->
+  <Gun_FATA14_CP.verbs.Verb_ShootCP.label>Federated Arms TA-14</Gun_FATA14_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Federated Arms Tech Assault II -->
+  <Gun_FATAII_CP.label>Federated Arms Tech Assault II</Gun_FATAII_CP.label>
+  <!-- EN: 6mm SMG - An updated version of the venerable Tech Assault I, features larger clip, better autofire, no melting. Honest. -->
+  <Gun_FATAII_CP.description>6mm SMG - An updated version of the venerable Tech Assault I, features larger clip, better autofire, no melting. Honest.</Gun_FATAII_CP.description>
+  <!-- EN: grip -->
+  <Gun_FATAII_CP.tools.grip.label>grip</Gun_FATAII_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_FATAII_CP.tools.barrel.label>barrel</Gun_FATAII_CP.tools.barrel.label>
+  <!-- EN: Federated Arms Tech Assault II -->
+  <Gun_FATAII_CP.verbs.Verb_ShootCP.label>Federated Arms Tech Assault II</Gun_FATAII_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Mustang Arms ARS-5C -->
+  <Gun_MAARS5C_CP.label>Mustang Arms ARS-5C</Gun_MAARS5C_CP.label>
+  <!-- EN: 10mm SMG - This submachine gun is fashioned mostly from the advanced ceramic Sortex™, and available in matte black, blued, marine stainless and camouflage finishes. It is a new system for the young company, gaining popularity among law enforcement agencies and corporate armies. -->
+  <Gun_MAARS5C_CP.description>10mm SMG - This submachine gun is fashioned mostly from the advanced ceramic Sortex™, and available in matte black, blued, marine stainless and camouflage finishes. It is a new system for the young company, gaining popularity among law enforcement agencies and corporate armies.</Gun_MAARS5C_CP.description>
+  <!-- EN: grip -->
+  <Gun_MAARS5C_CP.tools.grip.label>grip</Gun_MAARS5C_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_MAARS5C_CP.tools.barrel.label>barrel</Gun_MAARS5C_CP.tools.barrel.label>
+  <!-- EN: Mustang Arms ARS-5C -->
+  <Gun_MAARS5C_CP.verbs.Verb_ShootCP.label>Mustang Arms ARS-5C</Gun_MAARS5C_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech DPLS-7 -->
+  <Gun_MDPLS7_CP.label>Militech DPLS-7</Gun_MDPLS7_CP.label>
+  <!-- EN: 11mm SMG - Militechs latest submachine gun, very comfortable to fire, perfect for close quarters combat.  The stock is extendable, but as you can see when it is retracted it rests seamlessly against the weapon, in fat the weapon itself has very few exterior moving parts, and the only real snag points are on the sighting system.  It also accepts a suppressor making it ideal for covert ops. -->
+  <Gun_MDPLS7_CP.description>11mm SMG - Militechs latest submachine gun, very comfortable to fire, perfect for close quarters combat.  The stock is extendable, but as you can see when it is retracted it rests seamlessly against the weapon, in fat the weapon itself has very few exterior moving parts, and the only real snag points are on the sighting system.  It also accepts a suppressor making it ideal for covert ops.</Gun_MDPLS7_CP.description>
+  <!-- EN: grip -->
+  <Gun_MDPLS7_CP.tools.grip.label>grip</Gun_MDPLS7_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_MDPLS7_CP.tools.barrel.label>barrel</Gun_MDPLS7_CP.tools.barrel.label>
+  <!-- EN: Militech DPLS-7 -->
+  <Gun_MDPLS7_CP.verbs.Verb_ShootCP.label>Militech DPLS-7</Gun_MDPLS7_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech DSL-14 -->
+  <Gun_MDSL14_CP.label>Militech DSL-14</Gun_MDSL14_CP.label>
+  <!-- EN: 14mm SMG - Militech’s DSL-14 is a monster that feeds from a 40 round drum magazine.  It is highly recommended that no one with out a least highly augmented strength and a cyberarm attempt to fire this beast on full auto. -->
+  <Gun_MDSL14_CP.description>14mm SMG - Militech’s DSL-14 is a monster that feeds from a 40 round drum magazine.  It is highly recommended that no one with out a least highly augmented strength and a cyberarm attempt to fire this beast on full auto.</Gun_MDSL14_CP.description>
+  <!-- EN: grip -->
+  <Gun_MDSL14_CP.tools.grip.label>grip</Gun_MDSL14_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_MDSL14_CP.tools.barrel.label>barrel</Gun_MDSL14_CP.tools.barrel.label>
+  <!-- EN: Militech DSL-14 -->
+  <Gun_MDSL14_CP.verbs.Verb_ShootCP.label>Militech DSL-14</Gun_MDSL14_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech GN-808 -->
+  <Gun_MGN808_CP.label>Militech GN-808</Gun_MGN808_CP.label>
+  <!-- EN: 9mm SMG - The GN-808 comes with a removable stock and front grip for decreased recoil and an ergonomic grip for long work hours, this SMG seems as common in 21th century as the Kalishnikov was in the 20th. It was originally developed by Heckler & Koch, but when that company went under in 2032 Militech bought the patents and started producing it. -->
+  <Gun_MGN808_CP.description>9mm SMG - The GN-808 comes with a removable stock and front grip for decreased recoil and an ergonomic grip for long work hours, this SMG seems as common in 21th century as the Kalishnikov was in the 20th. It was originally developed by Heckler &amp; Koch, but when that company went under in 2032 Militech bought the patents and started producing it.</Gun_MGN808_CP.description>
+  <!-- EN: grip -->
+  <Gun_MGN808_CP.tools.grip.label>grip</Gun_MGN808_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_MGN808_CP.tools.barrel.label>barrel</Gun_MGN808_CP.tools.barrel.label>
+  <!-- EN: Militech GN-808 -->
+  <Gun_MGN808_CP.verbs.Verb_ShootCP.label>Militech GN-808</Gun_MGN808_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech SMG-207 -->
+  <Gun_MSMG207_CP.label>Militech SMG-207</Gun_MSMG207_CP.label>
+  <!-- EN: 12mm SMG - A somewhat large, but impressive submachine gun from Militech, chambered in 12mm.  The weapon comes with a removable folding stock, and insulated barrel.  This weapon was designed with hard use in mind, and can take abuse like you wouldn't believe. -->
+  <Gun_MSMG207_CP.description>12mm SMG - A somewhat large, but impressive submachine gun from Militech, chambered in 12mm.  The weapon comes with a removable folding stock, and insulated barrel.  This weapon was designed with hard use in mind, and can take abuse like you wouldn't believe.</Gun_MSMG207_CP.description>
+  <!-- EN: grip -->
+  <Gun_MSMG207_CP.tools.grip.label>grip</Gun_MSMG207_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_MSMG207_CP.tools.barrel.label>barrel</Gun_MSMG207_CP.tools.barrel.label>
+  <!-- EN: Militech SMG-207 -->
+  <Gun_MSMG207_CP.verbs.Verb_ShootCP.label>Militech SMG-207</Gun_MSMG207_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech Viper -->
+  <Gun_MV_CP.label>Militech Viper</Gun_MV_CP.label>
+  <!-- EN: 10mm SMG - The standard issue sub-machinegun for those Lazarus troops who don't use assault rifles. Typically used by airborne noncoms and by special ops troops who need a powerful, silenceable weapon. -->
+  <Gun_MV_CP.description>10mm SMG - The standard issue sub-machinegun for those Lazarus troops who don't use assault rifles. Typically used by airborne noncoms and by special ops troops who need a powerful, silenceable weapon.</Gun_MV_CP.description>
+  <!-- EN: grip -->
+  <Gun_MV_CP.tools.grip.label>grip</Gun_MV_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_MV_CP.tools.barrel.label>barrel</Gun_MV_CP.tools.barrel.label>
+  <!-- EN: Militech Viper -->
+  <Gun_MV_CP.verbs.Verb_ShootCP.label>Militech Viper</Gun_MV_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer MS-71 -->
+  <Gun_SMS71_CP.label>Sternmeyer MS-71</Gun_SMS71_CP.label>
+  <!-- EN: 9mm SMG - A very small weapon with a very high rate of fire.  Inexpensive and concealable this is a very popular weapon among gangs and organized criminals, as well as terrorists. -->
+  <Gun_SMS71_CP.description>9mm SMG - A very small weapon with a very high rate of fire.  Inexpensive and concealable this is a very popular weapon among gangs and organized criminals, as well as terrorists.</Gun_SMS71_CP.description>
+  <!-- EN: grip -->
+  <Gun_SMS71_CP.tools.grip.label>grip</Gun_SMS71_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_SMS71_CP.tools.barrel.label>barrel</Gun_SMS71_CP.tools.barrel.label>
+  <!-- EN: Sternmeyer MS-71 -->
+  <Gun_SMS71_CP.verbs.Verb_ShootCP.label>Sternmeyer MS-71</Gun_SMS71_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer SK-VASH -->
+  <Gun_SSKVASH_CP.label>Sternmeyer SK-VASH</Gun_SSKVASH_CP.label>
+  <!-- EN: 10mm SMG - A standard submachinegun, perfect for police and security work.  Its small size also makes it ideal for less legal activities. -->
+  <Gun_SSKVASH_CP.description>10mm SMG - A standard submachinegun, perfect for police and security work.  Its small size also makes it ideal for less legal activities.</Gun_SSKVASH_CP.description>
+  <!-- EN: grip -->
+  <Gun_SSKVASH_CP.tools.grip.label>grip</Gun_SSKVASH_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_SSKVASH_CP.tools.barrel.label>barrel</Gun_SSKVASH_CP.tools.barrel.label>
+  <!-- EN: Sternmeyer SK-VASH -->
+  <Gun_SSKVASH_CP.verbs.Verb_ShootCP.label>Sternmeyer SK-VASH</Gun_SSKVASH_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer SMG 21 -->
+  <Gun_SSMG21_CP.label>Sternmeyer SMG 21</Gun_SSMG21_CP.label>
+  <!-- EN: 11mm SMG - Sternmeyer's best entry in the anti-terrorist category, with wide use on C-SWAT teams and Psychosquads. -->
+  <Gun_SSMG21_CP.description>11mm SMG - Sternmeyer's best entry in the anti-terrorist category, with wide use on C-SWAT teams and Psychosquads.</Gun_SSMG21_CP.description>
+  <!-- EN: grip -->
+  <Gun_SSMG21_CP.tools.grip.label>grip</Gun_SSMG21_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_SSMG21_CP.tools.barrel.label>barrel</Gun_SSMG21_CP.tools.barrel.label>
+  <!-- EN: Sternmeyer SMG 21 -->
+  <Gun_SSMG21_CP.verbs.Verb_ShootCP.label>Sternmeyer SMG 21</Gun_SSMG21_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Stolbovoy SSTS -->
+  <Gun_SSTS_CP.label>Stolbovoy SSTS</Gun_SSTS_CP.label>
+  <!-- EN: 10mm SMG - The STS submachinegun incorporates the Stolbovoy's unique designs, and is one of the finest submachineguns around. Available with collapsable or fixed stocks. Comes with iron sights, but can be fitted with a variety of aiming systems. -->
+  <Gun_SSTS_CP.description>10mm SMG - The STS submachinegun incorporates the Stolbovoy's unique designs, and is one of the finest submachineguns around. Available with collapsable or fixed stocks. Comes with iron sights, but can be fitted with a variety of aiming systems.</Gun_SSTS_CP.description>
+  <!-- EN: grip -->
+  <Gun_SSTS_CP.tools.grip.label>grip</Gun_SSTS_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_SSTS_CP.tools.barrel.label>barrel</Gun_SSTS_CP.tools.barrel.label>
+  <!-- EN: Stolbovoy SSTS -->
+  <Gun_SSTS_CP.verbs.Verb_ShootCP.label>Stolbovoy SSTS</Gun_SSTS_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Uzi Miniauto 9 -->
+  <Gun_UziM9_CP.label>Uzi Miniauto 9</Gun_UziM9_CP.label>
+  <!-- EN: 9mm SMG - Uzis entry into the 21st century, all plastic with a rotary electric clip and adjustable trigger. Thr choice for many security Solos. -->
+  <Gun_UziM9_CP.description>9mm SMG - Uzis entry into the 21st century, all plastic with a rotary electric clip and adjustable trigger. Thr choice for many security Solos.</Gun_UziM9_CP.description>
+  <!-- EN: grip -->
+  <Gun_UziM9_CP.tools.grip.label>grip</Gun_UziM9_CP.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_UziM9_CP.tools.barrel.label>barrel</Gun_UziM9_CP.tools.barrel.label>
+  <!-- EN: Uzi Miniauto 9 -->
+  <Gun_UziM9_CP.verbs.Verb_ShootCP.label>Uzi Miniauto 9</Gun_UziM9_CP.verbs.Verb_ShootCP.label>
+</LanguageData>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: crossbow bolt -->
+  <Bolt_CP.label>crossbow bolt</Bolt_CP.label>
+  <!-- EN: 10ga shell -->
+  <Bullet_10ga_CP.label>10ga shell</Bullet_10ga_CP.label>
+  <!-- EN: 10mm bullet -->
+  <Bullet_10mm_CP.label>10mm bullet</Bullet_10mm_CP.label>
+  <!-- EN: 10mm AR bullet -->
+  <Bullet_10mmAR_CP.label>10mm AR bullet</Bullet_10mmAR_CP.label>
+  <!-- EN: 11mm bullet -->
+  <Bullet_11mm_CP.label>11mm bullet</Bullet_11mm_CP.label>
+  <!-- EN: 12ga shell -->
+  <Bullet_12ga_CP.label>12ga shell</Bullet_12ga_CP.label>
+  <!-- EN: 12mm bullet -->
+  <Bullet_12mm_CP.label>12mm bullet</Bullet_12mm_CP.label>
+  <!-- EN: 14mm bullet -->
+  <Bullet_14mm_CP.label>14mm bullet</Bullet_14mm_CP.label>
+  <!-- EN: 15mm bullet -->
+  <Bullet_15mm_CP.label>15mm bullet</Bullet_15mm_CP.label>
+  <!-- EN: 15mm BMG bullet -->
+  <Bullet_15mmBMG_CP.label>15mm BMG bullet</Bullet_15mmBMG_CP.label>
+  <!-- EN: 15mm nickel cadmium projectile -->
+  <Bullet_15mmNiCd_CP.label>15mm nickel cadmium projectile</Bullet_15mmNiCd_CP.label>
+  <!-- EN: 20ga shell -->
+  <Bullet_20ga_CP.label>20ga shell</Bullet_20ga_CP.label>
+  <!-- EN: 30-06 bullet -->
+  <Bullet_30_06_CP.label>30-06 bullet</Bullet_30_06_CP.label>
+  <!-- EN: 30mm Plasma -->
+  <Bullet_30mmPlasma.label>30mm Plasma</Bullet_30mmPlasma.label>
+  <!-- EN: 357 mag bullet -->
+  <Bullet_357mag_CP.label>357 mag bullet</Bullet_357mag_CP.label>
+  <!-- EN: 357mag bullet -->
+  <Bullet_357Mmag_CP.label>357mag bullet</Bullet_357Mmag_CP.label>
+  <!-- EN: 3.5mm Frag-Flachette bullet -->
+  <Bullet_35mmFF_CP.label>3.5mm Frag-Flachette bullet</Bullet_35mmFF_CP.label>
+  <!-- EN: rocket -->
+  <Bullet_40mmMissile.label>rocket</Bullet_40mmMissile.label>
+  <!-- EN: 44 mag bullet -->
+  <Bullet_44mag_CP.label>44 mag bullet</Bullet_44mag_CP.label>
+  <!-- EN: 4.5mm caliber bullet -->
+  <Bullet_45mm_CP.label>4.5mm caliber bullet</Bullet_45mm_CP.label>
+  <!-- EN: .50 BMG bullet -->
+  <Bullet_50BMG_CP.label>.50 BMG bullet</Bullet_50BMG_CP.label>
+  <!-- EN: 5.56mm bullet -->
+  <Bullet_556_CP.label>5.56mm bullet</Bullet_556_CP.label>
+  <!-- EN: 5mm caliber bullet -->
+  <Bullet_5mm_CP.label>5mm caliber bullet</Bullet_5mm_CP.label>
+  <!-- EN: 6.5mm hybrid bullet -->
+  <Bullet_65mm_CP.label>6.5mm hybrid bullet</Bullet_65mm_CP.label>
+  <!-- EN: 6.5mm cased bullet -->
+  <Bullet_65mmc_CP.label>6.5mm cased bullet</Bullet_65mmc_CP.label>
+  <!-- EN: 6mm bullet -->
+  <Bullet_6mm_CP.label>6mm bullet</Bullet_6mm_CP.label>
+  <!-- EN: 6x45mm bullet -->
+  <Bullet_6x45mm_CP.label>6x45mm bullet</Bullet_6x45mm_CP.label>
+  <!-- EN: rocket -->
+  <Bullet_70mmMissile.label>rocket</Bullet_70mmMissile.label>
+  <!-- EN: 7.62mm bullet -->
+  <Bullet_762_CP.label>7.62mm bullet</Bullet_762_CP.label>
+  <!-- EN: 7mm WSM bullet -->
+  <Bullet_7mmWSM_CP.label>7mm WSM bullet</Bullet_7mmWSM_CP.label>
+  <!-- EN: 9mm bullet -->
+  <Bullet_9mm_CP.label>9mm bullet</Bullet_9mm_CP.label>
+  <!-- EN: 20mm depleted uranium shell -->
+  <Bullet_AL20_CP.label>20mm depleted uranium shell</Bullet_AL20_CP.label>
+  <!-- EN: electrode accelerated projectile -->
+  <Bullet_eap_CP.label>electrode accelerated projectile</Bullet_eap_CP.label>
+  <!-- EN: laser pistol shot -->
+  <Bullet_LaserPistol.label>laser pistol shot</Bullet_LaserPistol.label>
+  <!-- EN: frag grenade -->
+  <Proj_RocketGrenade.label>frag grenade</Proj_RocketGrenade.label>
+  <!-- EN: Training bullet -->
+  <TrainingBullet.label>Training bullet</TrainingBullet.label>
+</LanguageData>

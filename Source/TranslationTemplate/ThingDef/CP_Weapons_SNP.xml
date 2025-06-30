@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Arasaka AXSR-7 -->
+  <Gun_AAXSR7_CP.label>Arasaka AXSR-7</Gun_AAXSR7_CP.label>
+  <!-- EN: 7.62mm Sniper Rifle - Now here is an original innovation.  Tracer rounds are expensive, and they are a pain to load.  This weapon solves that problem by coating every fifth shell with a harmless bio-luminescent, extremely adhesive liquid derived from Teflon and Cyalume called Teflume.  The Teflume cylinder is good for 200 rounds (needing to be replaced after firing 1000 rounds through the weapon) and  the injection mechanism can be switched off when not necessary. -->
+  <Gun_AAXSR7_CP.description>7.62mm Sniper Rifle - Now here is an original innovation.  Tracer rounds are expensive, and they are a pain to load.  This weapon solves that problem by coating every fifth shell with a harmless bio-luminescent, extremely adhesive liquid derived from Teflon and Cyalume called Teflume.  The Teflume cylinder is good for 200 rounds (needing to be replaced after firing 1000 rounds through the weapon) and  the injection mechanism can be switched off when not necessary.</Gun_AAXSR7_CP.description>
+  <!-- EN: stock -->
+  <Gun_AAXSR7_CP.tools.stock.label>stock</Gun_AAXSR7_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_AAXSR7_CP.tools.barrel.label>barrel</Gun_AAXSR7_CP.tools.barrel.label>
+  <!-- EN: Arasaka AXSR-7 -->
+  <Gun_AAXSR7_CP.verbs.Verb_ShootCP.label>Arasaka AXSR-7</Gun_AAXSR7_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka CMR-2 -->
+  <Gun_ACMR2_CP.label>Arasaka CMR-2</Gun_ACMR2_CP.label>
+  <!-- EN: 5.56×45mm Sniper Rifle - A very accurate, very quiet weapon, with custom venting and a redesigned suppressor to minimize noise without loss of range or accuracy. -->
+  <Gun_ACMR2_CP.description>5.56×45mm Sniper Rifle - A very accurate, very quiet weapon, with custom venting and a redesigned suppressor to minimize noise without loss of range or accuracy.</Gun_ACMR2_CP.description>
+  <!-- EN: stock -->
+  <Gun_ACMR2_CP.tools.stock.label>stock</Gun_ACMR2_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_ACMR2_CP.tools.barrel.label>barrel</Gun_ACMR2_CP.tools.barrel.label>
+  <!-- EN: Arasaka CMR-2 -->
+  <Gun_ACMR2_CP.verbs.Verb_ShootCP.label>Arasaka CMR-2</Gun_ACMR2_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka MAD-8 -->
+  <Gun_AMAD8_CP.label>Arasaka MAD-8</Gun_AMAD8_CP.label>
+  <!-- EN: 10mm Sniper Rifle - This rifle is an electrothermally enhanced weapon.  Highly accurate and built around the Arasaka developed 10mm rifle round, this weapon is not available for sale on any market and Arasaka has announced it has no intentions of making it available.  Issued only to Elite Arasaka Marksmen, -->
+  <Gun_AMAD8_CP.description>10mm Sniper Rifle - This rifle is an electrothermally enhanced weapon.  Highly accurate and built around the Arasaka developed 10mm rifle round, this weapon is not available for sale on any market and Arasaka has announced it has no intentions of making it available.  Issued only to Elite Arasaka Marksmen,</Gun_AMAD8_CP.description>
+  <!-- EN: stock -->
+  <Gun_AMAD8_CP.tools.stock.label>stock</Gun_AMAD8_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_AMAD8_CP.tools.barrel.label>barrel</Gun_AMAD8_CP.tools.barrel.label>
+  <!-- EN: Arasaka MAD-8 -->
+  <Gun_AMAD8_CP.verbs.Verb_ShootCP.label>Arasaka MAD-8</Gun_AMAD8_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka MMSR Longstrike -->
+  <Gun_AMMSRL_CP.label>Arasaka MMSR Longstrike</Gun_AMMSRL_CP.label>
+  <!-- EN: 10mm Sniper Rifle - Continuing with their modular weapon systems, Arasaka has released the MMSR Longstrike.  With a wide variety of stocks, barrel extensions, and other accessories, the Longstrike is the ideal sniper weapon capable of handling any situation.  The base component of the Longstrike system can be used by itself, as a ridiculously large and powerful anti-cyborg handgun, however it is not recommended that anyone without at least a cyberarm attempt such a thing, as the recoil will likely break their wrists. -->
+  <Gun_AMMSRL_CP.description>10mm Sniper Rifle - Continuing with their modular weapon systems, Arasaka has released the MMSR Longstrike.  With a wide variety of stocks, barrel extensions, and other accessories, the Longstrike is the ideal sniper weapon capable of handling any situation.  The base component of the Longstrike system can be used by itself, as a ridiculously large and powerful anti-cyborg handgun, however it is not recommended that anyone without at least a cyberarm attempt such a thing, as the recoil will likely break their wrists.</Gun_AMMSRL_CP.description>
+  <!-- EN: stock -->
+  <Gun_AMMSRL_CP.tools.stock.label>stock</Gun_AMMSRL_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_AMMSRL_CP.tools.barrel.label>barrel</Gun_AMMSRL_CP.tools.barrel.label>
+  <!-- EN: Arasaka MMSR Longstrike -->
+  <Gun_AMMSRL_CP.verbs.Verb_ShootCP.label>Arasaka MMSR Longstrike</Gun_AMMSRL_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Arasaka WSSA Sniper System -->
+  <Gun_AWSSA_CP.label>Arasaka WSSA Sniper System</Gun_AWSSA_CP.label>
+  <!-- EN: 3.5mmFF Sniper Rifle - Designed for urban-deployed corporate enforcement teams, the heavy-barreled, semi-auto Arasaka WSSA has a 40-round helical mag of saboted 3.5mm Frag-Flechettes, and is equipped with a silencer, flash suppressor and a Zeiss 12x scope with computer-enhanced laser sighting. This system already includes smartchipping, and a whole lot more. With a loaded weight of 3.8kg, this is becoming a very popular sniper weapon. -->
+  <Gun_AWSSA_CP.description>3.5mmFF Sniper Rifle - Designed for urban-deployed corporate enforcement teams, the heavy-barreled, semi-auto Arasaka WSSA has a 40-round helical mag of saboted 3.5mm Frag-Flechettes, and is equipped with a silencer, flash suppressor and a Zeiss 12x scope with computer-enhanced laser sighting. This system already includes smartchipping, and a whole lot more. With a loaded weight of 3.8kg, this is becoming a very popular sniper weapon.</Gun_AWSSA_CP.description>
+  <!-- EN: stock -->
+  <Gun_AWSSA_CP.tools.stock.label>stock</Gun_AWSSA_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_AWSSA_CP.tools.barrel.label>barrel</Gun_AWSSA_CP.tools.barrel.label>
+  <!-- EN: Arasaka WSSA Sniper System -->
+  <Gun_AWSSA_CP.verbs.Verb_ShootCP.label>Arasaka WSSA Sniper System</Gun_AWSSA_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Budget Arms R-187 -->
+  <Gun_BAR187_CP.label>Budget Arms R-187</Gun_BAR187_CP.label>
+  <!-- EN: 5.56×45mm Sniper Rifle - Budget Arms tries to break into the precision weapons game with laughable results.  The assault rifle styling and 20 round magazine appeal to Budget Arms customer base, who don’t care if the gun jams, or even blows up in their face, as long as its cheap and looks cool. -->
+  <Gun_BAR187_CP.description>5.56×45mm Sniper Rifle - Budget Arms tries to break into the precision weapons game with laughable results.  The assault rifle styling and 20 round magazine appeal to Budget Arms customer base, who don’t care if the gun jams, or even blows up in their face, as long as its cheap and looks cool.</Gun_BAR187_CP.description>
+  <!-- EN: stock -->
+  <Gun_BAR187_CP.tools.stock.label>stock</Gun_BAR187_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_BAR187_CP.tools.barrel.label>barrel</Gun_BAR187_CP.tools.barrel.label>
+  <!-- EN: Budget Arms R-187 -->
+  <Gun_BAR187_CP.verbs.Verb_ShootCP.label>Budget Arms R-187</Gun_BAR187_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Dai Lung Ice Thrower -->
+  <Gun_DLIT_CP.label>Dai Lung Ice Thrower</Gun_DLIT_CP.label>
+  <!-- EN: 5.56×45mm Sniper Rifle - Dai Lung's attempt at a sniper rifle. They actually do a decent job when you get past the cheap gun body. -->
+  <Gun_DLIT_CP.description>5.56×45mm Sniper Rifle - Dai Lung's attempt at a sniper rifle. They actually do a decent job when you get past the cheap gun body.</Gun_DLIT_CP.description>
+  <!-- EN: stock -->
+  <Gun_DLIT_CP.tools.stock.label>stock</Gun_DLIT_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_DLIT_CP.tools.barrel.label>barrel</Gun_DLIT_CP.tools.barrel.label>
+  <!-- EN: Dai Lung Ice Thrower -->
+  <Gun_DLIT_CP.verbs.Verb_ShootCP.label>Dai Lung Ice Thrower</Gun_DLIT_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Dai Lung R-604 -->
+  <Gun_DLR604_CP.label>Dai Lung R-604</Gun_DLR604_CP.label>
+  <!-- EN: .50 BMG Sniper Rifle - What if the Barrett "50" had been designed by a third world nation firm?  Introducing the Dai Lung R-604, the Malaysian manufactured knock off of the venerable Barrett.   This weapon is made from stamped sheet metal and recycled steel.  And while mishaps are not as common as you might expect, they are usually final.  What do you expect when a .50 caliber rifle blows up in your hand.  Still these weapons are extremely popular to third world militaries, terrorists, and street gangs all over the world.  Just the sort of cheap tool to take down that RimWorld "Constable" that is coming your way. -->
+  <Gun_DLR604_CP.description>.50 BMG Sniper Rifle - What if the Barrett "50" had been designed by a third world nation firm?  Introducing the Dai Lung R-604, the Malaysian manufactured knock off of the venerable Barrett.   This weapon is made from stamped sheet metal and recycled steel.  And while mishaps are not as common as you might expect, they are usually final.  What do you expect when a .50 caliber rifle blows up in your hand.  Still these weapons are extremely popular to third world militaries, terrorists, and street gangs all over the world.  Just the sort of cheap tool to take down that RimWorld "Constable" that is coming your way.</Gun_DLR604_CP.description>
+  <!-- EN: stock -->
+  <Gun_DLR604_CP.tools.stock.label>stock</Gun_DLR604_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_DLR604_CP.tools.barrel.label>barrel</Gun_DLR604_CP.tools.barrel.label>
+  <!-- EN: Dai Lung R-604 -->
+  <Gun_DLR604_CP.verbs.Verb_ShootCP.label>Dai Lung R-604</Gun_DLR604_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Federated Arms Cruseras -->
+  <Gun_FAC_CP.label>Federated Arms Cruseras</Gun_FAC_CP.label>
+  <!-- EN: 7.62mm Sniper Rifle - A rugged sniper rifle for use in the most harsh of terrains.  Comes standard with a bipod. -->
+  <Gun_FAC_CP.description>7.62mm Sniper Rifle - A rugged sniper rifle for use in the most harsh of terrains.  Comes standard with a bipod.</Gun_FAC_CP.description>
+  <!-- EN: stock -->
+  <Gun_FAC_CP.tools.stock.label>stock</Gun_FAC_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_FAC_CP.tools.barrel.label>barrel</Gun_FAC_CP.tools.barrel.label>
+  <!-- EN: Federated Arms Cruseras -->
+  <Gun_FAC_CP.verbs.Verb_ShootCP.label>Federated Arms Cruseras</Gun_FAC_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech ACS O610 -->
+  <Gun_MACSO610_CP.label>Militech ACS O610</Gun_MACSO610_CP.label>
+  <!-- EN: 7.62mm Sniper Rifle - The Militech ACS is a hard hitting sniper rifle with a proven track record and it is sturdy enough to withstand the harshest abuse.   Capable of 3 round burst for long range suppressing fire, as well ridiculously precise single shots. -->
+  <Gun_MACSO610_CP.description>7.62mm Sniper Rifle - The Militech ACS is a hard hitting sniper rifle with a proven track record and it is sturdy enough to withstand the harshest abuse.   Capable of 3 round burst for long range suppressing fire, as well ridiculously precise single shots.</Gun_MACSO610_CP.description>
+  <!-- EN: stock -->
+  <Gun_MACSO610_CP.tools.stock.label>stock</Gun_MACSO610_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MACSO610_CP.tools.barrel.label>barrel</Gun_MACSO610_CP.tools.barrel.label>
+  <!-- EN: Militech ACS O610 -->
+  <Gun_MACSO610_CP.verbs.Verb_ShootCP.label>Militech ACS O610</Gun_MACSO610_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech Arbus -->
+  <Gun_MARBUS_CP.label>Militech Arbus</Gun_MARBUS_CP.label>
+  <!-- EN: 7mm Sniper Rifle - This sniper rifle utilizes state of the art materials in its construction and comes smartchipped as standard.  A bit heavy, but very accurate and reliable. -->
+  <Gun_MARBUS_CP.description>7mm Sniper Rifle - This sniper rifle utilizes state of the art materials in its construction and comes smartchipped as standard.  A bit heavy, but very accurate and reliable.</Gun_MARBUS_CP.description>
+  <!-- EN: stock -->
+  <Gun_MARBUS_CP.tools.stock.label>stock</Gun_MARBUS_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MARBUS_CP.tools.barrel.label>barrel</Gun_MARBUS_CP.tools.barrel.label>
+  <!-- EN: Militech Arbus -->
+  <Gun_MARBUS_CP.verbs.Verb_ShootCP.label>Militech Arbus</Gun_MARBUS_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech ATR-97 -->
+  <Gun_MATR97_CP.label>Militech ATR-97</Gun_MATR97_CP.label>
+  <!-- EN: 15mm Sniper Rifle - While not really the anti-tank rifle it claims to be, it is an excellent choice for putting down the rampaging borg or the even the stray light ACPA you might come across.  Police agencies and military forces all over the globe have determined this weapon to be a valuable deterrent to the war on Cyborg crime. -->
+  <Gun_MATR97_CP.description>15mm Sniper Rifle - While not really the anti-tank rifle it claims to be, it is an excellent choice for putting down the rampaging borg or the even the stray light ACPA you might come across.  Police agencies and military forces all over the globe have determined this weapon to be a valuable deterrent to the war on Cyborg crime.</Gun_MATR97_CP.description>
+  <!-- EN: stock -->
+  <Gun_MATR97_CP.tools.stock.label>stock</Gun_MATR97_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MATR97_CP.tools.barrel.label>barrel</Gun_MATR97_CP.tools.barrel.label>
+  <!-- EN: Militech ATR-97 -->
+  <Gun_MATR97_CP.verbs.Verb_ShootCP.label>Militech ATR-97</Gun_MATR97_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech ER-12 -->
+  <Gun_MER12_CP.label>Militech ER-12</Gun_MER12_CP.label>
+  <!-- EN: 10mm Sniper Rifle - Militech has released a weapon that is almost a carbon copy of the Arasaka Longstrike.  It lacks the modularity, but is a more accurate weapon.  Arasaka is already talking lawsuit over what they are claiming is a stolen early prototype design. -->
+  <Gun_MER12_CP.description>10mm Sniper Rifle - Militech has released a weapon that is almost a carbon copy of the Arasaka Longstrike.  It lacks the modularity, but is a more accurate weapon.  Arasaka is already talking lawsuit over what they are claiming is a stolen early prototype design.</Gun_MER12_CP.description>
+  <!-- EN: stock -->
+  <Gun_MER12_CP.tools.stock.label>stock</Gun_MER12_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MER12_CP.tools.barrel.label>barrel</Gun_MER12_CP.tools.barrel.label>
+  <!-- EN: Militech ER-12 -->
+  <Gun_MER12_CP.verbs.Verb_ShootCP.label>Militech ER-12</Gun_MER12_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech MRS-42 -->
+  <Gun_MMRS42_CP.label>Militech MRS-42</Gun_MMRS42_CP.label>
+  <!-- EN: 5.56×45mm Sniper Rifle - The MRS-42 is a very well respected combat sniper rifle, capable of pinpoint precision even under the most adverse conditions and circumstances. It is very popular among Militech marksmen, as well as professionals around the world. -->
+  <Gun_MMRS42_CP.description>5.56×45mm Sniper Rifle - The MRS-42 is a very well respected combat sniper rifle, capable of pinpoint precision even under the most adverse conditions and circumstances. It is very popular among Militech marksmen, as well as professionals around the world.</Gun_MMRS42_CP.description>
+  <!-- EN: stock -->
+  <Gun_MMRS42_CP.tools.stock.label>stock</Gun_MMRS42_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MMRS42_CP.tools.barrel.label>barrel</Gun_MMRS42_CP.tools.barrel.label>
+  <!-- EN: Militech MRS-42 -->
+  <Gun_MMRS42_CP.verbs.Verb_ShootCP.label>Militech MRS-42</Gun_MMRS42_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech SPW-32 -->
+  <Gun_MSPW32_CP.label>Militech SPW-32</Gun_MSPW32_CP.label>
+  <!-- EN: 9mm Sniper Rifle - Like all survival rifles, this weapon breaks down and is stored in a regular sized briefcase.  It was developed for pilots as survival/hunting weapon in case they were downed and on their own. -->
+  <Gun_MSPW32_CP.description>9mm Sniper Rifle - Like all survival rifles, this weapon breaks down and is stored in a regular sized briefcase.  It was developed for pilots as survival/hunting weapon in case they were downed and on their own.</Gun_MSPW32_CP.description>
+  <!-- EN: stock -->
+  <Gun_MSPW32_CP.tools.stock.label>stock</Gun_MSPW32_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_MSPW32_CP.tools.barrel.label>barrel</Gun_MSPW32_CP.tools.barrel.label>
+  <!-- EN: Militech SPW-32 -->
+  <Gun_MSPW32_CP.verbs.Verb_ShootCP.label>Militech SPW-32</Gun_MSPW32_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Militech PASR-42 -->
+  <Gun_SASR34_CP.label>Militech PASR-42</Gun_SASR34_CP.label>
+  <!-- EN: 6mm Sniper Rifle - The PASR-42 is a very well respected combat sniper rifle, capable of pinpoint precision even under the most adverse conditions and circumstances. It is very popular among Militech marksmen, as well as professionals around the world. -->
+  <Gun_SASR34_CP.description>6mm Sniper Rifle - The PASR-42 is a very well respected combat sniper rifle, capable of pinpoint precision even under the most adverse conditions and circumstances. It is very popular among Militech marksmen, as well as professionals around the world.</Gun_SASR34_CP.description>
+  <!-- EN: stock -->
+  <Gun_SASR34_CP.tools.stock.label>stock</Gun_SASR34_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_SASR34_CP.tools.barrel.label>barrel</Gun_SASR34_CP.tools.barrel.label>
+  <!-- EN: Militech PASR-42 -->
+  <Gun_SASR34_CP.verbs.Verb_ShootCP.label>Militech PASR-42</Gun_SASR34_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer ASW-68 -->
+  <Gun_SASW68_CP.label>Sternmeyer ASW-68</Gun_SASW68_CP.label>
+  <!-- EN: 5.56×45mm Sniper Rifle - A very nice sniper rifle from Sternmeyer.  Kalishnikov origins are obvious when looking at this weapon and it shoots like a dream. -->
+  <Gun_SASW68_CP.description>5.56×45mm Sniper Rifle - A very nice sniper rifle from Sternmeyer.  Kalishnikov origins are obvious when looking at this weapon and it shoots like a dream.</Gun_SASW68_CP.description>
+  <!-- EN: stock -->
+  <Gun_SASW68_CP.tools.stock.label>stock</Gun_SASW68_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_SASW68_CP.tools.barrel.label>barrel</Gun_SASW68_CP.tools.barrel.label>
+  <!-- EN: Sternmeyer ASW-68 -->
+  <Gun_SASW68_CP.verbs.Verb_ShootCP.label>Sternmeyer ASW-68</Gun_SASW68_CP.verbs.Verb_ShootCP.label>
+  <!-- EN: Sternmeyer SSR-34 -->
+  <Gun_SSSR34_CP.label>Sternmeyer SSR-34</Gun_SSSR34_CP.label>
+  <!-- EN: 6mm Sniper Rifle - Unlike the SSR-32 which was capable of fully automatic fire, the 34 is a totally dedicated sniper weapon.  Streamlined for comfort. -->
+  <Gun_SSSR34_CP.description>6mm Sniper Rifle - Unlike the SSR-32 which was capable of fully automatic fire, the 34 is a totally dedicated sniper weapon.  Streamlined for comfort.</Gun_SSSR34_CP.description>
+  <!-- EN: stock -->
+  <Gun_SSSR34_CP.tools.stock.label>stock</Gun_SSSR34_CP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_SSSR34_CP.tools.barrel.label>barrel</Gun_SSSR34_CP.tools.barrel.label>
+  <!-- EN: Sternmeyer SSR-34 -->
+  <Gun_SSSR34_CP.verbs.Verb_ShootCP.label>Sternmeyer SSR-34</Gun_SSSR34_CP.verbs.Verb_ShootCP.label>
+</LanguageData>

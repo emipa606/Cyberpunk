@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: refinery -->
+  <BiofuelRefinery.label>refinery</BiofuelRefinery.label>
+  <!-- EN: A chemical refining plant. Refines biological matter like wood or plant matter into chemfuel and to produce kevlar fibers. -->
+  <BiofuelRefinery.description>A chemical refining plant. Refines biological matter like wood or plant matter into chemfuel and to produce kevlar fibers.</BiofuelRefinery.description>
+  <!-- EN: machining table -->
+  <TableMachining.label>machining table</TableMachining.label>
+  <!-- EN: A work station for assembling and disassembling machinery such as guns or mechanoid corpses; as well as the manufacture of kevlar. -->
+  <TableMachining.description>A work station for assembling and disassembling machinery such as guns or mechanoid corpses; as well as the manufacture of kevlar.</TableMachining.description>
+</LanguageData>

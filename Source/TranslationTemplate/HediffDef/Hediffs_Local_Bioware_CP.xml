@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: adrenal booster -->
+  <AdrenalBooster_CP.label>adrenal booster</AdrenalBooster_CP.label>
+  <!-- EN: adrenal booster -->
+  <AdrenalBooster_CP.description>adrenal booster</AdrenalBooster_CP.description>
+  <!-- EN: enhanced antibodies -->
+  <EnhancedAntibodies_CP.label>enhanced antibodies</EnhancedAntibodies_CP.label>
+  <!-- EN: enhanced antibodies -->
+  <EnhancedAntibodies_CP.description>enhanced antibodies</EnhancedAntibodies_CP.description>
+  <!-- EN: grafted muscle -->
+  <GraftedMuscle_CP.label>grafted muscle</GraftedMuscle_CP.label>
+  <!-- EN: grafted muscle -->
+  <GraftedMuscle_CP.description>grafted muscle</GraftedMuscle_CP.description>
+  <!-- EN: nanosurgeons -->
+  <Nanosurgeons_CP.label>nanosurgeons</Nanosurgeons_CP.label>
+  <!-- EN: nanosurgeons -->
+  <Nanosurgeons_CP.description>nanosurgeons</Nanosurgeons_CP.description>
+  <!-- EN: toxin binders -->
+  <ToxinBinders_CP.label>toxin binders</ToxinBinders_CP.label>
+  <!-- EN: toxin binders -->
+  <ToxinBinders_CP.description>toxin binders</ToxinBinders_CP.description>
+</LanguageData>

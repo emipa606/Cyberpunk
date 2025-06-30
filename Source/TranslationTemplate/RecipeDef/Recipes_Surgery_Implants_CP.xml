@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: install cyberaudio amplified hearing -->
+  <InstallAmplifiedHearing.label>install cyberaudio amplified hearing</InstallAmplifiedHearing.label>
+  <!-- EN: Installs cyberaudio amplified hearing. -->
+  <InstallAmplifiedHearing.description>Installs cyberaudio amplified hearing.</InstallAmplifiedHearing.description>
+  <!-- EN: Installing cyberaudio amplified hearing. -->
+  <InstallAmplifiedHearing.jobString>Installing cyberaudio amplified hearing.</InstallAmplifiedHearing.jobString>
+  <!-- EN: install big knucks -->
+  <InstallBigKnucks_CP.label>install big knucks</InstallBigKnucks_CP.label>
+  <!-- EN: Installs big knucks on hand. -->
+  <InstallBigKnucks_CP.description>Installs big knucks on hand.</InstallBigKnucks_CP.description>
+  <!-- EN: Installing big knucks. -->
+  <InstallBigKnucks_CP.jobString>Installing big knucks.</InstallBigKnucks_CP.jobString>
+  <!-- EN: install cyberoptic targetting scope -->
+  <InstallCOTargettingScope.label>install cyberoptic targetting scope</InstallCOTargettingScope.label>
+  <!-- EN: Installs cyberoptic targetting scope. -->
+  <InstallCOTargettingScope.description>Installs cyberoptic targetting scope.</InstallCOTargettingScope.description>
+  <!-- EN: Installing cyberoptic targetting scope. -->
+  <InstallCOTargettingScope.jobString>Installing cyberoptic targetting scope.</InstallCOTargettingScope.jobString>
+  <!-- EN: install cowl plate -->
+  <InstallCowlplate.label>install cowl plate</InstallCowlplate.label>
+  <!-- EN: Installs cowl plate. -->
+  <InstallCowlplate.description>Installs cowl plate.</InstallCowlplate.description>
+  <!-- EN: Installing cowl plate. -->
+  <InstallCowlplate.jobString>Installing cowl plate.</InstallCowlplate.jobString>
+  <!-- EN: install Pacesetter Sport Heart -->
+  <InstallCyberHeart_CP.label>install Pacesetter Sport Heart</InstallCyberHeart_CP.label>
+  <!-- EN: Installs cyberheart. -->
+  <InstallCyberHeart_CP.description>Installs cyberheart.</InstallCyberHeart_CP.description>
+  <!-- EN: Installing cyberheart. -->
+  <InstallCyberHeart_CP.jobString>Installing cyberheart.</InstallCyberHeart_CP.jobString>
+  <!-- EN: install Pacesetter 2000 Heart -->
+  <InstallCyberHeart2_CP.label>install Pacesetter 2000 Heart</InstallCyberHeart2_CP.label>
+  <!-- EN: Installs cyberheart. -->
+  <InstallCyberHeart2_CP.description>Installs cyberheart.</InstallCyberHeart2_CP.description>
+  <!-- EN: Installing cyberheart. -->
+  <InstallCyberHeart2_CP.jobString>Installing cyberheart.</InstallCyberHeart2_CP.jobString>
+  <!-- EN: install cyberliver -->
+  <InstallCyberLiver_CP.label>install cyberliver</InstallCyberLiver_CP.label>
+  <!-- EN: Installs cyberliver. -->
+  <InstallCyberLiver_CP.description>Installs cyberliver.</InstallCyberLiver_CP.description>
+  <!-- EN: Installing cyberliver. -->
+  <InstallCyberLiver_CP.jobString>Installing cyberliver.</InstallCyberLiver_CP.jobString>
+  <!-- EN: install cyberliver II -->
+  <InstallCyberLiver2_CP.label>install cyberliver II</InstallCyberLiver2_CP.label>
+  <!-- EN: Installs cyberliver II. -->
+  <InstallCyberLiver2_CP.description>Installs cyberliver II.</InstallCyberLiver2_CP.description>
+  <!-- EN: Installing cyberliver II. -->
+  <InstallCyberLiver2_CP.jobString>Installing cyberliver II.</InstallCyberLiver2_CP.jobString>
+  <!-- EN: install enhanced lung -->
+  <InstallCyberLung_CP.label>install enhanced lung</InstallCyberLung_CP.label>
+  <!-- EN: Installs enhanced lung. -->
+  <InstallCyberLung_CP.description>Installs enhanced lung.</InstallCyberLung_CP.description>
+  <!-- EN: Installing enhanced lung. -->
+  <InstallCyberLung_CP.jobString>Installing enhanced lung.</InstallCyberLung_CP.jobString>
+  <!-- EN: install enhanced lung series 2 -->
+  <InstallCyberLung2_CP.label>install enhanced lung series 2</InstallCyberLung2_CP.label>
+  <!-- EN: Installs enhanced lung. -->
+  <InstallCyberLung2_CP.description>Installs enhanced lung.</InstallCyberLung2_CP.description>
+  <!-- EN: Installing enhanced lung. -->
+  <InstallCyberLung2_CP.jobString>Installing enhanced lung.</InstallCyberLung2_CP.jobString>
+  <!-- EN: install faceplate -->
+  <InstallFaceplate.label>install faceplate</InstallFaceplate.label>
+  <!-- EN: Installs faceplate. -->
+  <InstallFaceplate.description>Installs faceplate.</InstallFaceplate.description>
+  <!-- EN: Installing faceplate. -->
+  <InstallFaceplate.jobString>Installing faceplate.</InstallFaceplate.jobString>
+  <!-- EN: install optishields -->
+  <InstallOptishields.label>install optishields</InstallOptishields.label>
+  <!-- EN: Installs optishields. -->
+  <InstallOptishields.description>Installs optishields.</InstallOptishields.description>
+  <!-- EN: Installing optishields. -->
+  <InstallOptishields.jobString>Installing optishields.</InstallOptishields.jobString>
+  <!-- EN: install rippers -->
+  <InstallRippers_CP.label>install rippers</InstallRippers_CP.label>
+  <!-- EN: Installs rippers on hands. -->
+  <InstallRippers_CP.description>Installs rippers on hands.</InstallRippers_CP.description>
+  <!-- EN: Installing rippers. -->
+  <InstallRippers_CP.jobString>Installing rippers.</InstallRippers_CP.jobString>
+  <!-- EN: install scratchers -->
+  <InstallScratchers_CP.label>install scratchers</InstallScratchers_CP.label>
+  <!-- EN: Installs scratchers on hands. -->
+  <InstallScratchers_CP.description>Installs scratchers on hands.</InstallScratchers_CP.description>
+  <!-- EN: Installing scratchers. -->
+  <InstallScratchers_CP.jobString>Installing scratchers.</InstallScratchers_CP.jobString>
+  <!-- EN: install subdermal armor -->
+  <InstallSubdermalArmor.label>install subdermal armor</InstallSubdermalArmor.label>
+  <!-- EN: Installs subdermal armor under the skin. -->
+  <InstallSubdermalArmor.description>Installs subdermal armor under the skin.</InstallSubdermalArmor.description>
+  <!-- EN: Installing subdermal armor. -->
+  <InstallSubdermalArmor.jobString>Installing subdermal armor.</InstallSubdermalArmor.jobString>
+  <!-- EN: install torso plate -->
+  <InstallTorsoplate.label>install torso plate</InstallTorsoplate.label>
+  <!-- EN: Installs torso plate. -->
+  <InstallTorsoplate.description>Installs torso plate.</InstallTorsoplate.description>
+  <!-- EN: Installing torso plate. -->
+  <InstallTorsoplate.jobString>Installing torso plate.</InstallTorsoplate.jobString>
+  <!-- EN: install wolvers -->
+  <InstallWolvers_CP.label>install wolvers</InstallWolvers_CP.label>
+  <!-- EN: Installs wolvers on hands. -->
+  <InstallWolvers_CP.description>Installs wolvers on hands.</InstallWolvers_CP.description>
+  <!-- EN: Installing wolvers. -->
+  <InstallWolvers_CP.jobString>Installing wolvers.</InstallWolvers_CP.jobString>
+</LanguageData>
