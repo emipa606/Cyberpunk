@@ -5,8 +5,6 @@ namespace Cyberpunk;
 
 public class StatDrawEntry
 {
-    private readonly string labelInt;
-
     private readonly ToStringNumberSense numberSense;
 
     private readonly StatRequest optionalReq;
@@ -15,15 +13,13 @@ public class StatDrawEntry
 
     private readonly float value;
 
-    private readonly string valueStringInt;
-
     public StatDrawEntry(StatCategoryDef category, StatDef stat, float value, StatRequest optionalReq,
         ToStringNumberSense numberSense = ToStringNumberSense.Undefined)
     {
         this.stat = stat;
-        labelInt = null;
+        LabelCap = null;
         this.value = value;
-        valueStringInt = null;
+        ValueString = null;
         this.optionalReq = optionalReq;
         this.numberSense = numberSense == ToStringNumberSense.Undefined ? stat.toStringNumberSense : numberSense;
     }
@@ -32,9 +28,9 @@ public class StatDrawEntry
         int displayPriorityWithinCategory = 0)
     {
         stat = null;
-        labelInt = label;
+        LabelCap = label;
         value = 0f;
-        valueStringInt = valueString;
+        ValueString = valueString;
         numberSense = ToStringNumberSense.Absolute;
     }
 
@@ -42,9 +38,9 @@ public class StatDrawEntry
     {
         get
         {
-            if (labelInt != null)
+            if (field != null)
             {
-                return labelInt.CapitalizeFirst();
+                return field.CapitalizeFirst();
             }
 
             return stat.LabelCap;
@@ -62,7 +58,7 @@ public class StatDrawEntry
 
             return stat != null
                 ? stat.Worker.GetStatDrawEntryLabel(stat, value, numberSense, optionalReq)
-                : valueStringInt;
+                : field;
         }
     }
 

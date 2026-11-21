@@ -36,9 +36,23 @@ public class StatWorker_Reliability : StatWorker
             stringBuilder.AppendLine();
         }
 
-        var empty = finalVal < 0.25 ? "Extremely Reliable" :
-            finalVal < 0.5 ? "Very Reliable" :
-            !(finalVal < 1f) ? "Unreliable" : "Standard";
+        string empty;
+        if (finalVal < 0.25)
+        {
+            empty = "Extremely Reliable";
+        }
+        else
+        {
+            if (finalVal < 0.5)
+            {
+                empty = "Very Reliable";
+            }
+            else
+            {
+                empty = !(finalVal < 1f) ? "Unreliable" : "Standard";
+            }
+        }
+
         stringBuilder.AppendLine($"Reliability: {empty}\r\n\r\nChance of jam: {finalVal}%");
 
         return stringBuilder.ToString();

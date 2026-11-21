@@ -11,6 +11,7 @@ public class VerbPropertiesCP : VerbProperties
         var text = label.NullOrEmpty()
             ? $"range={range}, projectile={(defaultProjectile == null ? "null" : defaultProjectile.defName)}, reliability={reliability}"
             : label;
+
         return $"VerbProperties({text})";
     }
 }

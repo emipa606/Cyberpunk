@@ -3,4 +3,56 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="Cyberpunk/Cyberpunk.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/BionicPatch.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/TraderKindDefs/">
+    <File Path="../1.7/Defs/TraderKindDefs/CP_TraderKinds_Caravan.xml" />
+    <File Path="../1.7/Defs/TraderKindDefs/CP_TraderKinds_Orbital.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/RecipeDefs/">
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_Production_CP.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_Surgery_Bioware_CP.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_Surgery_CyberLimbs_CP.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_Surgery_Implants_CP.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/HediffDefs/">
+    <File Path="../1.7/Defs/HediffDefs/Hediffs_Local_Bioware_CP.xml" />
+    <File Path="../1.7/Defs/HediffDefs/Hediffs_Local_CyberLimbs_CP.xml" />
+    <File Path="../1.7/Defs/HediffDefs/Hediffs_Local_Implants_CP.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/StatDefs/">
+    <File Path="../1.7/Defs/StatDefs/Stats_Weapons_Ranged.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingCategoryDefs/">
+    <File Path="../1.7/Defs/ThingCategoryDefs/ThingCategories.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Text.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs/">
+    <File Path="../1.7/Defs/ThingDefs/CP_Apparel.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Buildings.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Bullets.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Helmet.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Items_Bioware.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Items_CyberLimbs.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Items_Implants.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Items_Resource.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Weapons_HVY.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Weapons_Melee.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Weapons_Nomad.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Weapons_PIS.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Weapons_RIF.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Weapons_SHT.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Weapons_SMG.xml" />
+    <File Path="../1.7/Defs/ThingDefs/CP_Weapons_SNP.xml" />
+    <File Path="../1.7/Defs/ThingDefs/Weapons_Guns.xml" />
+  </Folder>
 </Solution>

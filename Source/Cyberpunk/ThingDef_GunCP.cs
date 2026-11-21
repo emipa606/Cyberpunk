@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using Verse;
 
 namespace Cyberpunk;
@@ -14,12 +15,9 @@ public class ThingDef_GunCP : ThingWithComps
                 return Reliability.NA;
             }
 
-            foreach (var verb in def.Verbs)
+            foreach (var verb in def.Verbs.Where(v => v.GetType() == Type.GetType("Cyberpunk.VerbPropertiesCP")))
             {
-                if (verb.GetType() == Type.GetType("Cyberpunk.VerbPropertiesCP"))
-                {
-                    return ((VerbPropertiesCP)verb).reliability;
-                }
+                return ((VerbPropertiesCP)verb).reliability;
             }
 
             return Reliability.NA;
